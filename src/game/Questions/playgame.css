@@ -74,3 +74,28 @@ body{
     color: #000000;
 }
 
+.onNext{
+
+
+    margin: 5px;
+    width: 230px;
+    height: 40px;
+    background: rgba(8, 238, 85, 0.85);
+    border-radius: 16px;
+
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;    
+    align-items: center;
+    transition:all ease 0.5s;
+    color: #000000;
+}
+
+:hover.onNext{
+
+   
+    background-color: rgb(58, 184, 53);
+}

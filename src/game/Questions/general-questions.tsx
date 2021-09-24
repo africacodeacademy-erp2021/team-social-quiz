@@ -121,181 +121,179 @@ export default function General_questions(){
     ];
   
   
-    const [currentQuestion, SetCurrentQuestion] = useState(0);
-    const [random, setRandom] = useState(questions);
-    const [showScore, SetShowScore] = useState(false);
-    
-    
-    //shuffle and display randomly
-    function shuffle_questions(array:any){
+  const [currentQuestion, SetCurrentQuestion] = useState(0);
+  const [showScore, SetShowScore] = useState(false);
+  const [count, setCount] = useState(0);
+  const allowedUser = "Host";
+  const userRole = "Guest";
+  
+  const [selected_number, setSelected_number] = useState(10);
+  const [score, SetScore] = useState(0);
+  const space = " . "; 
+
+
+/**
+ * Set number of questions on load
+ * @param {number} selected_number
+*/    
+  window.addEventListener("load", function (){
    
-        var number = array.length,
-        temp,
-        index;
-     while(number > 0){
-    
-        index = Math.floor(Math.random() * number);
-        number--;
-    
-        temp = array[number];
-        array[number] = array[index];
-        array[index] = temp;
-    
-       
-    }
-      
-       return array;
-    } 
-  
-    
-    const [selected_num, setSelected_num] = useState(10);
-    
-   
-   
-   window.addEventListener("load", function (){
+     setSelected_number(5);
      
-       setSelected_num(7);
-       
-       
-         if(selected_num === 5){
+     return selected_number;
+  });
   
-           shuffle_questions(questions);
-           questions.splice(5,5);
-           let temp = questions;
-           setRandom(temp);
-           
+ 
   
-         }else{
-  
-          shuffle_questions(questions);
-          questions.splice(7,3);
-          let temp = questions;
-          setRandom(temp);      
-  
-         }
-  
-          return selected_num;
-    });
-  
-    
-    const [score, SetScore] = useState(0);
-    const space = " . "; 
-    
-    
-    /**
-     * add 1 to score if answer is correct
-     * @param {number} isCorrect 
-     */
-    const handleAnswerButtonClick = (isCorrect:any) => {
-    if (isCorrect === true) {
-  
-     
-      SetScore(score + 1);
-    
-         
-          
-  
-    }else{
-            
-      SetScore(score + 0);
-                
-                
-    }
-    
-  
-    
-    const nextQuetions = currentQuestion + 1;
-    
-        if (nextQuetions < selected_num) {
-    
-            SetCurrentQuestion(nextQuetions);
-        }
-        else {
-            SetShowScore(true)
-        }
-    }
-  
-    
-    const half_selected_num = selected_num / 2;
-    let msg_2 = "";    
-    
-    if(score >= half_selected_num){
-     
-           msg_2 ="Congratulation You Won the Game!!";
-              
-          
-        }
-        else
-        {
-           msg_2 = "Sorry....Try Again";
-               
+/**
+ * add 1 to score if answer is correct 
+ *Set count to 1 to Make sure the user gives an answer once
+ * @param {boolean} isCorrect 
+*/
+  const handleAnswerButtonClick = (isCorrect:boolean) => {
         
-        }
-   
-    return (
-    
-    <div className="question_display">
-     
-       <div className="body">
-           <div><h3 className="space">.</h3></div>
-           
-           <div className="bar"> <h3>Progress Bar</h3> </div>
-           <div><h4>Audio && other's section</h4></div>    
-  
-  
-  
-          <>
-    
-            <div className="answers">
-          
-              {showScore ? (
-    
-                <div className='final_score_section'>      
-                   You scored {score} out of {selected_num}
-    
-                        <br/>
-                        {msg_2}
-                        <br/>
-                        
-  
-                </div>
-              )
-              :
-              (
-              
-              <>
-                  
-                  <div>
-                    <div className='questions-section' >
-                          <span>{currentQuestion + 1 }
-                         
-                            {space}
-  
-                         </span>{random[currentQuestion].questionText}
-                     
-                     </div>
-                  </div>
-     
-               <div className='answer-section'>
-                     { 
-                        random[currentQuestion].answerOptions.map((answerOptions) => (
-    
-                            <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
-                            {answerOptions.answerText}</button>
-                           
-                        ))                     
-                     }
-               </div>
-              
-          </>
-        )}
-     
-    </div>
-    
-    </>
+    if (isCorrect === true) {
+      
+          if(count === 0){
+             setCount(1);
+               SetScore(score + 1);
+                
+                 }else{
+
+                   alert("Your answer was Captured");
+              }
+
+    }else
+          if(isCorrect === false){
+
+               if(count === 0){
+                   setCount(1);
                
-    </div>
-     
-    </div>
-  ); 
+                      }else{
+   
+                      alert("Your answer was Captured");
+                 }          
+          }            
+  }
+
+
+
+/**
+* Move to next question if Player Role Host
+* @param {string} userRole 
+*/
+  const onNextquestion = ()=>{ 
+  const nextQuetions = currentQuestion + 1;
+    
+   if(JSON.stringify(userRole) === JSON.stringify(allowedUser)){
+
+        if (nextQuetions < selected_number) {
+
+            //set count to 0 on next question
+            setCount(0);
+            SetCurrentQuestion(nextQuetions);
+
+            }
+            else {
+                    SetShowScore(true)
+            }
+     }else{
+
+        alert("Sorry...Only The Host Can Move To The Next Question");
+   }
+ }
+
+
+
+/**
+* Show message depending on how well User Played
+* @param {number} score 
+*/
+  const totalScore = selected_number * 1;
+
+  const halfOfScore = totalScore / 2;
+  let message = ""; 
+  
+  if(score >= halfOfScore){
+   
+         message ="Congratulation You Won the Game!!";
+            
+  }
+    else
+       {
+         message = "Sorry....Try Again";             
+      
+       }
+
+       
+
+  return (
+  
+  <div className="question_display">
+    
+     <div className="body">
+         <div><h3>Progress Bar</h3></div>
+         <div><h4>Audio && other's section</h4></div>
+         
+
+        <>
+  
+          <div className="answers">
+        
+            {showScore ? (
+  
+              <div className='final_score_section'>      
+                 You scored {score} out of {selected_number}
+  
+                      <br/>
+                          {message}
+                      <br/>                      
+
+              </div>
+            )
+            :
+            (
+            
+            <>
+                
+                <div>
+                  <div className='questions-section' >
+                        <span>{currentQuestion + 1 }
+                       
+                          {space}
+                       
+                       </span>{questions[currentQuestion].questionText}
+                   
+                   </div>
+                </div>
+   
+             <div className='answer-section'>
+                   { 
+                      questions[currentQuestion].answerOptions.map((answerOptions) => (
+  
+                          <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                          {answerOptions.answerText}</button>
+                         
+                      ))                     
+                   }
+             </div>
+
+             <div >
+             <br/>
+             <br/>    
+             <button className="onNext" onClick={onNextquestion} >Next</button>
+             </div>
+
+        </>
+      )}
+    
+  </div>
+
+  
+  </>
+             
+  </div>
+   
+  </div>
+);
 }
