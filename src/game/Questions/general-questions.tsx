@@ -146,7 +146,7 @@ export default function General_questions(){
     *  @param {boolean} isCorrect 
     */
     const handleAnswerButtonClick = (isCorrect:boolean) => {     
-        if (isCorrect === true) {           
+         if(isCorrect) {           
                  SetScoreStatus(true);    
             } else{
                 SetScoreStatus(false);
@@ -199,72 +199,44 @@ export default function General_questions(){
         
          <div className="body">
              <div><h3>Progress Bar</h3></div>
-             <div><h4>Audio && other's section</h4></div>
-             
-    
-            <>
-      
-              <div className="answers">
-            
-                {showScore ? (
-      
-                  <div className='final_score_section'>      
-                     You scored {score} out of {selected_number}
-      
-                          <br/>
-                              {message}
-                          <br/>                      
-    
-                  </div>
-                )
-                :
-                (
-                
-                <>
-                    
-                    <div>
-                      <div className='questions-section' >
-                            <span>{currentQuestion + 1 }
-                           
-                              {space}
-                           
-                           </span>{questions[currentQuestion].questionText}
-                       
+              <div><h4>Audio && other's section</h4></div>
+               <>      
+                 <div className="answers">            
+                  {showScore ? (      
+                     <div className='final_score_section'>      
+                       You scored {score} out of {selected_number}      
+                          <br/> {message} <br/>                  
+                     </div>
+                  ):(
+               <>                    
+                  <div>
+                     <div className='questions-section' >
+                         <span>{currentQuestion + 1 }
+                              {space}                           
+                           </span>{questions[currentQuestion].questionText}                       
                        </div>
-                    </div>
-       
+                    </div>       
                  <div className='answer-section'>
-                       { 
-                          questions[currentQuestion].answerOptions.map((answerOptions) => (
-      
-                              <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
-                              {answerOptions.answerText}</button>
-                             
+                      { questions[currentQuestion].answerOptions.map((answerOptions) => (      
+                         <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                           {answerOptions.answerText}</button>                             
                           ))                     
                        }
-                 </div>
-    
+                 </div>    
                  <div >
                    <br/>
                    <br/>    
-                       {   
+                       { 
                          showNext ? (                      
-                                       <button className="onNext" onClick={onNextquestion} > Next </button>
-                                     ):( <></>          
-                             )
+                         <button className="onNext" onClick={onNextquestion} > Next </button>
+                         ):( <></> )
                        }
-                 </div>
-    
+                 </div>    
             </>
           )}
-        
-      </div>
-    
-      
-      </>
-                 
-      </div>
-       
-      </div>
+       </div>
+     </>
+   </div>
+  </div>
 );
 }
