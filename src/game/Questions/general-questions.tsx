@@ -1,6 +1,5 @@
 import React, { useEffect,useState } from 'react';
 import { Link } from 'react-router-dom';
-//import { Progress } from 'reactstrap';
 import './playgame.css';
 
 
@@ -250,7 +249,18 @@ export default function General_questions(props:any){
              <div>
              <h4>bbbbbbbbbbb</h4>    
              </div>
-             <div><button className="timer"> {seconds} </button></div>     
+             <div className="audio_time_score-section">
+
+                <div className="audio-section">  <button>audio</button>  </div>
+
+                <div className="timer-section">  <button className="timer"> {seconds} </button> </div>
+
+                <div className="score-section">  
+                      <img className="img" alt="score" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>
+                      <h3 className="score_count">{score} </h3> 
+                </div>
+
+            </div>      
              <>      
               <div className="answers">            
                 {showScore ? (      
