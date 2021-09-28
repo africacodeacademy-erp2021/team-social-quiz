@@ -9,7 +9,7 @@ body{
    margin-bottom: -9px;
 }
 .space{
-    color:  #22285F;;
+    color:  #22285F;
 }
 
 .question_display{
@@ -57,17 +57,15 @@ body{
 
 .answer-button{
    
-    margin: 5px;
-    width: 330px;
-    height: 70px;
+    margin: 4px;
+    width: 320px;
+    height: 60px;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 9px;
-
-
-    font-family: Mulish;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;    
     align-items: center;
     
@@ -75,27 +73,73 @@ body{
 }
 
 .onNext{
-
-
-    margin: 5px;
-    width: 230px;
-    height: 40px;
-    background: rgba(8, 238, 85, 0.85);
-    border-radius: 16px;
-
-
-    font-family: Mulish;
+    margin: 5px;   
+    width: 73px;
+    height: 53px;
+    left: 751px;
+    top: 744px;
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;    
-    align-items: center;
-    transition:all ease 0.5s;
-    color: #000000;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    
+    background: rgba(0, 255, 132, 0.64);
+    border-radius: 0px 9px 9px 0px;
+}
+.onend{
+    width: 63px;
+    height: 53px;
+    left: 677px;
+    top: 744px;
+    background: #975252;
+    border-radius: 9px 0px 0px 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+
 }
 
-:hover.onNext{
 
-   
-    background-color: rgb(58, 184, 53);
+.showMessage{
+
+    color: rgb(39, 189, 59);
+    font-size: 15px;
+    
+}
+
+.showMessage2{
+
+    color: rgb(226, 17, 17);
+    font-size: 15px;
+    
+}
+.timer{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3C437E;
+    font-size: 16px;
+    
+    border-radius: 20px;
+    border: #3C437E;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.link{
+
+    color: white;
+    text-decoration: none;
 }

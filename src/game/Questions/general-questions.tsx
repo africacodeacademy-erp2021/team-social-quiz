@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
+import { Link } from 'react-router-dom';
+//import { Progress } from 'reactstrap';
 import './playgame.css';
 
-export default function General_questions(){
+
+export default function General_questions(props:any){
 
    const questions = [
         {
@@ -123,34 +126,50 @@ export default function General_questions(){
     const [currentQuestion, SetCurrentQuestion] = useState(0);
     const [showScore, SetShowScore] = useState(false);
     const [showNext, SetShowNext] = useState(false);
-    const [scoreStatus, SetScoreStatus] = useState(false);
-    let userRole = 'Host';  
+    const [startTime, SetStartTime] = useState(false);
+    const [scoreStatus, SetScoreStatus] = useState(false); 
+    const [showMessage, SetShowMessage] = useState(false);  
+    const [timeup, SetTimeUp] = useState(false);
     const [selected_number, setSelected_number] = useState(10);
     let [score, SetScore] = useState(0);
+    let userRole = 'Host'; 
     const space = " . "; 
-    
+  
+    const {countMinute = 0,countSeconds = 10} = props;
+    const [minutes, setMinutes ] = useState(countMinute);
+    const [seconds, setSeconds ] =  useState(countSeconds);
+
     /**
      * Set number of questions on load
      * Display Next button if player is Host
      * @param {number} selected_number
     */    
      window.addEventListener("load", function (){  
+        SetStartTime(true); 
           if(userRole === 'Host'){
              SetShowNext(true);
           } 
-          setSelected_number(5);     
+          
+        setSelected_number(5);     
      });
        
     /**
     * Set score status
     *  @param {boolean} isCorrect 
     */
-    const handleAnswerButtonClick = (isCorrect:boolean) => {     
-        if (isCorrect === true) {           
-                 SetScoreStatus(true);    
-            } else{
-                SetScoreStatus(false);
-        }   
+    const handleAnswerButtonClick = (isCorrect:boolean) => {  
+        if(minutes === 0 && seconds === 0) {
+        SetShowMessage(false); 
+        SetTimeUp(true);                 
+      }else{   
+        SetShowMessage(true);     
+          if (isCorrect) {           
+                   SetScoreStatus(true);                
+              } else{
+                  SetScoreStatus(false);
+                
+           }  
+       }   
     }
   
     /**
@@ -169,15 +188,21 @@ export default function General_questions(){
     * @param {number} nextQuetions 
     */
      const onNextquestion = ()=>{ 
+       
           let nextQuetions = currentQuestion + 1;
-          addScoreOnNext();
-    
-          if (nextQuetions < selected_number){                             
+          addScoreOnNext(); 
+          SetStartTime(true);
+            if (nextQuetions < selected_number){ 
+                       SetShowMessage(false);
+                       SetTimeUp(false);
+                       setSeconds(10);                      
                        SetCurrentQuestion(nextQuetions);
-            }else {
+            }else {    
+                       setSeconds(0); 
                        SetShowScore(true)
                   }
-      }
+           
+    }
     
     /**
     * Show message depending on how well User Played
@@ -192,79 +217,95 @@ export default function General_questions(){
       }else{
              message = "Sorry....Try Again";             
       }
-    
-      return (
+
+   /**
+    * Set Timer minutes and seconds
+    * @param {number}  Timer
+    */ 
+     useEffect(()=>{
+       if(startTime === true){
+            let Timer = setInterval(() => {
+                if (seconds > 0) {
+                    setSeconds(seconds - 1);
+                }
+                if (seconds === 0) {
+                    if (minutes === 0) {                        
+                        clearInterval(Timer)                        
+                    } else {
+                        setMinutes(minutes - 1);
+                        setSeconds(59);
+                    }
+                } 
+            }, 1000)
+            return ()=> {
+                    clearInterval(Timer);
+                    
+              };
+       }
+    });
       
-      <div className="question_display">
-        
+      return (      
+      <div className="question_display">        
          <div className="body">
-             <div><h3>Progress Bar</h3></div>
-             <div><h4>Audio && other's section</h4></div>
-             
-    
-            <>
-      
-              <div className="answers">
-            
-                {showScore ? (
-      
+             <div>
+             <h4>bbbbbbbbbbb</h4>    
+             </div>
+             <div><button className="timer"> {seconds} </button></div>     
+             <>      
+              <div className="answers">            
+                {showScore ? (      
                   <div className='final_score_section'>      
-                     You scored {score} out of {selected_number}
-      
+                     You scored {score} out of {selected_number}      
                           <br/>
                               {message}
-                          <br/>                      
-    
-                  </div>
+                          <br/>                   
+                   </div>
                 )
                 :
-                (
-                
-                <>
-                    
+                (                
+                <>                   
                     <div>
                       <div className='questions-section' >
-                            <span>{currentQuestion + 1 }
-                           
-                              {space}
-                           
-                           </span>{questions[currentQuestion].questionText}
-                       
+                            <span>{currentQuestion + 1 }                           
+                              {space}                           
+                           </span>{questions[currentQuestion].questionText}                       
                        </div>
-                    </div>
-       
+                    </div>       
                  <div className='answer-section'>
                        { 
-                          questions[currentQuestion].answerOptions.map((answerOptions) => (
-      
-                              <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
-                              {answerOptions.answerText}</button>
-                             
-                          ))                     
-                       }
-                 </div>
-    
+                        questions[currentQuestion].answerOptions.map((answerOptions) => (      
+                        <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                        {answerOptions.answerText}</button>                               
+                       ))                                          
+                       }                         
+                 </div>    
                  <div >
                    <br/>
-                   <br/>    
-                       {   
-                         showNext ? (                      
-                                       <button className="onNext" onClick={onNextquestion} > Next </button>
-                                     ):( <></>          
-                             )
+                       { 
+                         showMessage ?(                      
+                         <p className="showMessage">Your Answer was Captured </p>
+                         ):( <> </>) 
                        }
-                 </div>
-    
-            </>
-          )}
-        
-      </div>
-    
-      
-      </>
-                 
-      </div>
-       
-      </div>
+                       {   
+                         timeup ?(                      
+                          <p className="showMessage2">Your Time is Up!!</p>
+                           ):( <> </> )
+                       } 
+                    <br/>    
+                       {   
+                         showNext ?( <>  
+                           <button className="onend"><Link className="link" to='/Score'>End</Link></button>               
+                           <button className="onNext" onClick={onNextquestion} > Next </button>
+                          
+                           </>
+                            ):( <></>)
+                      }
+                 </div>    
+               </>
+           )}        
+         </div>
+       </>
+    </div>
+ </div>
 );
 }
