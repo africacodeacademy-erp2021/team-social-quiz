@@ -18,6 +18,7 @@ function Login() {
       <div className="all_sections">
         <div className="display_infor">
           <div className="login">
+           
             <header>
               {" "}
               <h1 className="h1_title">
@@ -34,11 +35,11 @@ function Login() {
             <br />
             <br />
             <div className="buttons_container">
-              <Google/>
+              <Google buttonName="SignIn with Google" />
               <br />
-              <Facebook />
+              <Facebook buttonName="SignIn with Facebook"/>
               <br />
-              <Github />
+              <Github buttonName="SignIn with Github"/>
             </div>
           </div>
 
@@ -51,12 +52,13 @@ function Login() {
               </Link>
             </p>
           </div>
-        </div>
+          </div>
+    
 
         <img
           className="my_display"
           src={Display_img}
-          width="820px"
+          width="850px"
           height="800px"
           alt="logo"
         />

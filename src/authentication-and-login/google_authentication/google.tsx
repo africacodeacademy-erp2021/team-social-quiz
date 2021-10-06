@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, useHistory } from "react-router
 import Landing from "../../dashboard/Landing";
 
 
-export default function Google(){
+export default function Google(props:any){
    
   function Content(){
     dotenv.config();
@@ -14,7 +14,7 @@ export default function Google(){
 
 const loginsuccess = (response: any) => {
     localStorage.setItem("name", response.dt.uU);
-     history.push("./Landing");
+     history.replace("./Landing");
   };
 
   const clientId = JSON.stringify(process.env.REACT_APP_GOOGLE_CLIENT_ID);
@@ -28,7 +28,7 @@ const loginsuccess = (response: any) => {
              
                   className="btn_googleinfo"
                   clientId={Clientid}
-                  buttonText="SignIn with Google"
+                  buttonText={props.buttonName}
                   onSuccess={loginsuccess}
                   onFailure={loginsuccess}
                   cookiePolicy={"single_host_origin"}

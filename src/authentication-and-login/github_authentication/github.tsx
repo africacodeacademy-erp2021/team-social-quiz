@@ -17,7 +17,7 @@ export default function Github(props: any) {
     const onSuccess = (response: any) => {
       console.log(response);
       localStorage.setItem("name", response.code);
-      history.push("./Landing");
+      history.replace("./Landing");
     };
 
     const onFailure = (response: any) => {
@@ -38,7 +38,7 @@ export default function Github(props: any) {
           />
           <LoginGithub
             className="btn_githubinfo"
-            textButton="SignIn with Github"
+            buttonText={props.buttonName}
             clientId={Githubclient}
             autoLoad={false}
             onSuccess={onSuccess}
