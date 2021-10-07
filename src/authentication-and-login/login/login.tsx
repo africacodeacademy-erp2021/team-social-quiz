@@ -1,16 +1,13 @@
 import "../../App.css";
 import Display_img from "../../game/images/Rubix Cube Image.jpg";
-
 import * as dotenv from "dotenv";
-import { BrowserRouter as Router, Route, Switch, Link,  } from "react-router-dom";
-import Registration from "../registration/registration";
-
 import Google from "../google_authentication/google";
 import Facebook from "../facebook_authentication/facebook";
 import Github from "../github_authentication/github";
+import { Link } from "react-router-dom";
 
 function Login() {
-  function Content() {
+  
     dotenv.config();
 
 
@@ -66,18 +63,4 @@ function Login() {
     );
   }
 
-
-return (
-  <div>
-    <Router>
-      <Switch>
-        <Route path="/registration" exact component={Registration} />
-        
-
-        <Route path="/" component={Content} />
-      </Switch>
-    </Router>
-  </div>
-);
-}
 export default Login;
