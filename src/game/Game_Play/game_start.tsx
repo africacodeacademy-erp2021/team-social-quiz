@@ -38,9 +38,9 @@ function Game_Start(props:any){
     return(
      <div className="question_display"> 
      
-         <div className="body">    
-          <p className="audioo"> <My_audio/></p>   
-          <GameContext.Provider value={{gameState, SetGameState,startTime,scoreStatus, SetScoreStatus,selected_number,
+         <div className="body">  
+           <p className="audioo"> <My_audio/></p> 
+             <GameContext.Provider value={{gameState, SetGameState,startTime,scoreStatus, SetScoreStatus,selected_number,
              setSelected_number,showNext, SetShowNext,score, SetScore,lastQuestion, SetLastQuestion,playerName,
              SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
   
