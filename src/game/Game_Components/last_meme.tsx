@@ -10,7 +10,7 @@ function Last_Meme(){
     
 
     let showImg = "https://memegenerator.net/img/instances/69363487/youre-on-fire-keep-up-the-good-work.jpg";
-    let Message = "Not too bad for a beginner.";
+   
         
     return(
         <div className='displayMeme_section'> 
@@ -24,7 +24,7 @@ function Last_Meme(){
             </div>
                 <img className="meme" src={showImg} alt="meme"/> 
                 <br/>        
-                {Message} 
+               
                 <br/>  
                
                 <EndButton/>              

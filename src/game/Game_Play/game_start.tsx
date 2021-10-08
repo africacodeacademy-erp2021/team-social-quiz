@@ -1,10 +1,8 @@
 import React, {useState} from "react";
 import { GameContext } from './game_Context';
 import Last_Meme from "../Game_Components/last_meme";
-import EndButton from "../Game_Components/endButton";
 import Game_Memes from './game_Memes';
 import Game_Play from "./game_Play";
-
 
 function Game_Start(props:any){
   const [selected_number, setSelected_number] = useState(10);
@@ -20,7 +18,7 @@ function Game_Start(props:any){
   const [currentQuestion, SetCurrentQuestion] = useState(0);
   const [lastQuestion, SetLastQuestion] = useState(false);
   let userRole = 'Host'; 
-
+ 
 /**
 * Set number of questions on load
 * Display Next button if player is Host
@@ -30,22 +28,23 @@ function Game_Start(props:any){
     setSelected_number(5);  
     if(userRole === 'Host'){
     SetShowNext(true);
+    
     }      
   });
  
     return(
-     <div className="question_display">        
-        <div className="body">
+     <div className="question_display"> 
+         <div className="body">               
           <GameContext.Provider value={{gameState, SetGameState,startTime,scoreStatus, SetScoreStatus,selected_number,
              setSelected_number,showNext, SetShowNext,score, SetScore,lastQuestion, SetLastQuestion,playerName,
-              SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
-
+             SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
+  
              {gameState === "PlayGame" && <Game_Play/>}
              {gameState === "GameMemes" && <Game_Memes/>}
-             {gameState === "LastMeme" && <Last_Meme/>}
-             
-          </GameContext.Provider>   
-        </div>
+             {gameState === "LastMeme" && <Last_Meme/>}             
+          </GameContext.Provider> 
+         </div>
+      
      </div>
     )
 }

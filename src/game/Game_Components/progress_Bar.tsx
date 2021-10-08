@@ -1,7 +1,5 @@
-import './progressBar.css'
 import { GameContext } from '../Game_Play/game_Context';
 import React, {useContext} from 'react';
-//import { Progress } from 'react';
 
 function Progress_Bar(){
  const {currentQuestion} = useContext(GameContext);
@@ -9,8 +7,10 @@ function Progress_Bar(){
 
     return(
         <div className="bar_Container">
-        {currentQuestion + 1} / {selected_number}
-        </div>
+           <progress id="file" value={currentQuestion + 1} max={selected_number} >
+              {currentQuestion} / {selected_number}          
+           </progress>
+        </div> 
     )
 }
 export default Progress_Bar;

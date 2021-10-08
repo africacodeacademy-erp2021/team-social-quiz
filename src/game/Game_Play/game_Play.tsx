@@ -23,7 +23,6 @@ const {SetStartTime} = useContext(GameContext);
 const {scoreStatus, SetScoreStatus} = useContext(GameContext);
 let {seconds, setSeconds} = useContext(GameContext);
 
-
 /**
 * start Timer
 *check selected number of questions
@@ -32,7 +31,7 @@ let {seconds, setSeconds} = useContext(GameContext);
 */  
 window.addEventListener("load", function (){  
     SetStartTime(true); 
-
+  
     function shuffle_questions(array:any){   
         var number = array.length,
         temp,
@@ -108,13 +107,12 @@ const onNextquestion = ()=>{
     }         
 }
     
-
  return(
   <>
-     <div className="progress_bar"> <h1> <Progress_Bar/></h1> </div>       
+     <div className="progress_bar"> <h1 className="myprogressBar"><Progress_Bar/> </h1> </div>       
         <div className="audio_time_score-section">
-                <div className="audio-section">  <button className="audio"><My_audio/></button>  </div>
-                <div className="timer-section">  <button className="timer"> <Timer/> </button> </div>
+                <div className="audio-section"><p className="audio"> <My_audio/></p> </div>
+                <div className="timer-section"><button className="timer"> <Timer/> </button> </div>
                 <div className="score-section">   
                 <img className="img" alt="score" 
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>                     
