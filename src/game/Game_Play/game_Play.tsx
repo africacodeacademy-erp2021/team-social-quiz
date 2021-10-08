@@ -111,7 +111,7 @@ const onNextquestion = ()=>{
   <>
      <div className="progress_bar"> <h1 className="myprogressBar"><Progress_Bar/> </h1> </div>       
         <div className="audio_time_score-section">
-                <div className="audio-section"><p className="audio"> <My_audio/></p> </div>
+                <div className="audio-section"><p className="audio"> </p> </div>
                 <div className="timer-section"><button className="timer"> <Timer/> </button> </div>
                 <div className="score-section">   
                 <img className="img" alt="score" 

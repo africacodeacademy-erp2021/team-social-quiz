@@ -1,8 +1,11 @@
+import './playgame.css';
 import React, {useState} from "react";
 import { GameContext } from './game_Context';
 import Last_Meme from "../Game_Components/last_meme";
 import Game_Memes from './game_Memes';
 import Game_Play from "./game_Play";
+import My_audio from "../Game_Components/audio";
+
 
 function Game_Start(props:any){
   const [selected_number, setSelected_number] = useState(10);
@@ -34,7 +37,9 @@ function Game_Start(props:any){
  
     return(
      <div className="question_display"> 
-         <div className="body">               
+     
+         <div className="body">    
+          <p className="audioo"> <My_audio/></p>   
           <GameContext.Provider value={{gameState, SetGameState,startTime,scoreStatus, SetScoreStatus,selected_number,
              setSelected_number,showNext, SetShowNext,score, SetScore,lastQuestion, SetLastQuestion,playerName,
              SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
