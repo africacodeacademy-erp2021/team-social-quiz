@@ -1,0 +1,163 @@
+
+.body{
+    position: absolute;
+    width: 1340px;
+    height: 640px;
+    color :white;
+    background: #2E566C;
+    margin-right: 100px;
+   
+}
+
+#quiz{
+  color:blue;
+
+}
+#heading{
+  text-align: center;
+}
+.text{
+  color:white
+}
+#playername{
+    text-align: end;
+}
+.image1{
+    border: solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    display:table-cell;
+    padding: 10px;
+}
+.image2{
+    border: solid white;
+    width: 120px;
+    border-radius: 120px;
+    display: table-cell;
+    padding: 10px;
+    
+  
+
+}
+.image3{
+    border: solid white;
+    width: 120px;
+    border-radius: 120px;
+    display: table-cell;
+    padding: 10px;
+    margin-left: 50%;
+    
+}
+.leaderbord{
+
+    width: 450px;
+    margin-left: 35%;
+}
+.number1{
+    border: solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40% ;
+    text-align:center ;
+    margin-top: 80%;
+    background-color:
+    #3EC6FB;
+
+}
+.number2{
+    border: solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40% ;
+    text-align:center ;
+    margin-top: 80%;
+    background-color: orange;
+    
+
+}
+.number3{
+    border: solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40% ;
+    text-align:center ;
+    margin-top: 80%;
+    background-color:
+    #3AA981;
+
+}
+.leaderboard{
+    border: whitesmoke solid;
+    height: 1000px;
+    width: 150px;
+}
+.board{
+
+    
+    width: 410px;
+    height: 35%;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.position{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#F0A228;
+}
+.position2{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#3EC6FB;
+    margin-top: 20px;
+}
+.position3{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#4DD7B6;
+    margin-top: 20px;
+    
+}
+.position4{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 20px;
+    color: black;
+}
+.position5{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 20px;
+    color: black;
+}
+#number{
+    margin-top: 20px;
+
+}
+#img{
+    border: solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40% ;
+    text-align:center ;
+    margin-top: 80%;
+    background-color:
+    #3AA981;
+
+}
+.score{
+    margin-left: 1200px;
+
+}

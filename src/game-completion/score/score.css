@@ -1,0 +1,51 @@
+.score-board
+{
+    /* desktopDesign */
+
+position: absolute;
+width: 1340px;
+height: 640px;
+color :white;
+background: #2E566C
+
+}
+#quiz{
+    color:blue;
+  
+}
+#player{
+position: absolute;
+left: 0px;
+right: 0%;
+bottom: 35.38%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+.mime{
+    margin-left: 550px;
+}
+.quizapp{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#points{
+    margin-left: 100px;
+    font-size: larger;
+    
+}
+#point{
+    margin-left: 1200px;
+}
+#ponit{
+    margin-left: 10px;
+}
+#username{
+    margin-left: 1140px;
+}
