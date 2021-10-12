@@ -16,7 +16,9 @@
 .display_infor {
   width: 760px;
   height: 900px;
-  background-color: #27307d;
+  background: #22285F;
+ 
+   
 }
 html {
   box-sizing: border-box;
@@ -27,16 +29,14 @@ html {
 }
 
 .h1_title {
+  color: white;
+  margin-left: 35px;
+  margin-top: -2px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.08em;
-  left: -31px;
 }
 
 .h2_title {
@@ -186,4 +186,15 @@ html {
   margin-left: 5px;
   border-radius: 50%;
   margin-top: 2px;
+}
+
+.vector{
+  position: absolute;
+  left: 130px;
+  top: 149px;
+  height: 662.256591796875px;
+  width: 669.755859375px;
+  border-radius: 0px;
+  mix-blend-mode: passthrough;
+  
 }

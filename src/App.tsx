@@ -4,7 +4,7 @@ import Login from "./authentication-and-login/login/login";
 
 import Registration from "./authentication-and-login/registration/registration";
 import Category from "./dashboard/Category";
-import Landing from "./dashboard/Category";
+
 
 function App() {
   return (
@@ -23,6 +23,10 @@ function App() {
           <Login />
         </Route>
       </Switch>
+         
+      
+
+
     </div>
   );
 }
