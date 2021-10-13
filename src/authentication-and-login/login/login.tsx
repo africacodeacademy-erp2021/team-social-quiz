@@ -6,7 +6,6 @@ import Facebook from "../facebook_authentication/facebook";
 import Github from "../github_authentication/github";
 import { Link } from "react-router-dom";
 
-
 function Login() {
   dotenv.config();
 
@@ -14,7 +13,7 @@ function Login() {
     <div className="all_sections">
       <div className="display_infor">
         <div className="login">
-          
+      
           <header>
             {" "}
             <h1 className="h1_title">
@@ -22,7 +21,8 @@ function Login() {
               <span className="designcolor">quiz</span>app
             </h1>{" "}
           </header>
-
+          <br />
+          <br />
           <div>
             <h2 className="h2_title">Sign In</h2>
             <h3 className="h3_title">See your growth and get more quizes</h3>
@@ -37,7 +37,7 @@ function Login() {
             <br />
             <Github buttonName="SignIn with Github" />
           </div>
-        </div>
+        
 
         <br />
         <div className="nav_newAccount">
@@ -47,6 +47,7 @@ function Login() {
               Create an Account
             </Link>
           </p>
+          </div>
         </div>
       </div>
 

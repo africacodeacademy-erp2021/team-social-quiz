@@ -26,6 +26,15 @@ html {
 
 .login {
   margin-top: 5px;
+  background-image: url(blob.svg);
+  height: 800px;
+  width: 900px;
+  left: 100px;
+  top: 0px;
+  border-radius: 0px;
+  
+  
+
 }
 
 .h1_title {
@@ -197,4 +206,8 @@ html {
   border-radius: 0px;
   mix-blend-mode: passthrough;
   
+}
+
+.blob{
+  mix-blend-mode: saturation;
 }
