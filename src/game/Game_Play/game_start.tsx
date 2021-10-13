@@ -7,6 +7,10 @@ import Myaudio from "../Game_Components/audio";
 
 
 function Game_Start(props:any){
+  const data = JSON.stringify(localStorage.getItem("name"));
+  const name = data.replace('"', "");
+  const username = name.replace('"', "");
+
   const [selected_number, setSelected_number] = useState(10);
   const [gameState, SetGameState] = useState("PlayGame"); 
   const [startTime, SetStartTime] = useState(false);
@@ -15,7 +19,7 @@ function Game_Start(props:any){
   const [showNext, SetShowNext] = useState(true);
   let   [minutes, setMinutes ] = useState(countMinute);
   let   [seconds, setSeconds ] =  useState(countSeconds);
-  const [playerName, SetPlayerName] =useState("Molati");
+  const [playerName, SetPlayerName] =useState(username);
   const [scoreStatus, SetScoreStatus] = useState(false);
   const [currentQuestion, SetCurrentQuestion] = useState(0);
   const [lastQuestion, SetLastQuestion] = useState(false);
