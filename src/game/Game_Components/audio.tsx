@@ -1,9 +1,10 @@
 import './audio.css';
-import {useState } from 'react';
+import {useEffect, useState } from 'react';
 
 function My_audio(){
 const [buttonPlayStatus, SetButtonPlayStaton] = useState(true);
 const [buttonMuteStatus, SetbuttonMuteStatus] = useState(true);
+let [count, SetCount] = useState(1);
 
 var playbtn:any, mutebtn:any;
 
@@ -42,13 +43,18 @@ var playbtn:any, mutebtn:any;
         }
     }
 
-    window.addEventListener("load", musicPlayer);
+useEffect(()=>{        
+    if(count === 1){
+       musicPlayer()
+       SetCount(2);  
+    }
+    },[musicPlayer,count]);
     
    return(
         <div className="btn_section"> 
         {buttonPlayStatus ?(
             <button className="btnplay" id="play_And_pause"> 
-              <img className="audioIcon" src="https://cdn.icon-icons.com/icons2/1132/PNG/512/1486348532-music-play-pause-control-go-arrow_80458.png" alt="icon"/>
+              <img className="audioIcon" src="https://cdn4.iconfinder.com/data/icons/media-player-icons/80/Media_player_icons-12-256.png" alt="icon"/>
             </button>
           ):(
             <button className="btnplay" id="play_And_pause">

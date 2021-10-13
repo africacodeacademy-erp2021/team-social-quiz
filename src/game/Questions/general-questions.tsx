@@ -93,7 +93,7 @@ export const General_questions = [
     {
         questionText: 'what does PC stand for?',
         answerOptions: [
-            { answerText: 'person computer', isCorrect: true },
+            { answerText: 'personal computer', isCorrect: true },
             { answerText: 'person computers', isCorrect: false }, 
             { answerText: 'persons computer', isCorrect: false },
             { answerText: 'person choice', isCorrect: false },           

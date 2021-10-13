@@ -2,15 +2,19 @@ import './playgame.css';
 import React, {useContext} from 'react';
 import EndButton from '../Game_Components/endButton';
 import { GameContext } from './game_Context';
+import { useHistory } from 'react-router';
 
 function My_Memes(){
 const {SetGameState} = useContext(GameContext); 
 const {scoreStatus, SetScoreStatus} = useContext(GameContext);
 const {lastQuestion} =  useContext(GameContext);
 const {playerName} =  useContext(GameContext);
+let {score} = useContext(GameContext);
+localStorage.setItem("PlayerScore",score);
 let showImg = "";
 let message = "";
 let pointsMessage = "";
+let history = useHistory();
 
 /**
 * Set gamestate back to Playgame
@@ -22,7 +26,7 @@ function NextQuestion(){
     SetGameState("PlayGame"); 
     SetScoreStatus(false); 
     if(lastQuestion === true){
-    SetGameState("LastMeme"); 
+       history.push("/score");
     }
 }
 
@@ -62,3 +66,4 @@ if(scoreStatus === true){
     )
 }
 export default My_Memes;
+

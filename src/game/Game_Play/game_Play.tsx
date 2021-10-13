@@ -1,16 +1,16 @@
 import './playgame.css';
 import { GameContext } from './game_Context';
 import Timer from '../Game_Components/timer';
-import My_audio from '../Game_Components/audio';
 import EndButton from '../Game_Components/endButton';
-import Progress_Bar from '../Game_Components/progress_Bar';
+import ProgressBar from '../Game_Components/progress_Bar';
 import {General_questions} from '../Questions/general-questions';
-import React, {useState, useContext} from "react";
+import React, {useState, useContext, useEffect} from "react";
 
 function Game_Play(){
 const [showMessage, SetShowMessage] = useState(false); 
 const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
+let [count, SetCount] = useState(2);
 const space = " . "; 
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
@@ -23,41 +23,38 @@ const {SetStartTime} = useContext(GameContext);
 const {scoreStatus, SetScoreStatus} = useContext(GameContext);
 let {seconds, setSeconds} = useContext(GameContext);
 
+function shuffle_questions(array:any){   
+    var number = array.length,
+    temp,
+    index;
+while(number > 0){    
+    index = Math.floor(Math.random() * number);
+    number--;    
+    temp = array[number];
+    array[number] = array[index];
+    array[index] = temp;       
+}  
+   return array;
+} 
 /**
 * start Timer
 *check selected number of questions
 *shuffle,splice and questions display randomly
 * @param {boolean} startTime
 */  
-window.addEventListener("load", function (){  
-    SetStartTime(true); 
-  
-    function shuffle_questions(array:any){   
-        var number = array.length,
-        temp,
-        index;
-    while(number > 0){    
-        index = Math.floor(Math.random() * number);
-        number--;    
-        temp = array[number];
-        array[number] = array[index];
-        array[index] = temp;       
-    }  
-       return array;
-    } 
-
-    if(selected_number === 5){ 
+useEffect(()=>{ 
+    SetStartTime(true);    
+    if(count === 2){
+    window.addEventListener("load", function (){      
     shuffle_questions(General_questions);
-           General_questions.splice(5,5);
+    General_questions.splice(10,0);
            let temp = General_questions;
-           setRandom(temp);
-    }else{
-    shuffle_questions(General_questions);
-           General_questions.splice(7,3);
-           let temp = General_questions;
-           setRandom(temp);      
+           setRandom(temp);   
+           SetCount(4); 
+        })     
     }
-});
+
+},[SetStartTime, SetCount,count]);
 
 /**
 * Set score status
@@ -108,8 +105,9 @@ const onNextquestion = ()=>{
 }
     
  return(
-  <>
-     <div className="progress_bar"> <h1 className="myprogressBar"><Progress_Bar/> </h1> </div>       
+  <div className="question_display">
+    <div className="backgroundImg">
+     <div className="progress_bar"> <h1 className="myprogressBar"><ProgressBar/> </h1> </div>       
         <div className="audio_time_score-section">
                 <div className="audio-section"><p className="audio"> </p> </div>
                 <div className="timer-section"><button className="timer"> <Timer/> </button> </div>
@@ -119,7 +117,7 @@ const onNextquestion = ()=>{
                 <h3 className="score_count">{score} </h3> 
                 </div>
         </div> 
-    <>                   
+    <div>                   
             <div>
                 <div className='questions-section' >
                     <span>{currentQuestion + 1 }                           
@@ -155,8 +153,12 @@ const onNextquestion = ()=>{
                         ):( <></>)
                     }
          </div>    
-    </>
- </>
+    </div>
+  </div>  
+ </div>
+ 
  )
 }
 export default Game_Play;
+
+

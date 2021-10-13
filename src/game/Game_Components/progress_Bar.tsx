@@ -7,8 +7,8 @@ function Progress_Bar(){
 
     return(
         <div className="bar_Container">
-           <progress id="file" value={currentQuestion + 1} max={selected_number} >
-              {currentQuestion} / {selected_number}          
+           <progress id="file" value={currentQuestion + 1} max={selected_number}>
+                 <span> {currentQuestion} / {selected_number} </span>         
            </progress>
         </div> 
     )
