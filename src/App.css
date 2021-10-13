@@ -27,13 +27,13 @@ html {
 .login {
   margin-top: 5px;
   background-image: url(blob.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   height: 800px;
   width: 900px;
   left: 100px;
   top: 0px;
   border-radius: 0px;
-  
-  
 
 }
 
