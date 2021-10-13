@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&dispaly=swap");
+@media (min-width: 468px) {
+  .category-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .Title {
+    color: cornflowerblue;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .Title-2 {
+    font-size: 25px;
+    margin-left: 1px;
+    font-weight: bold;
+  }
+  .img {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .category-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .category-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .category-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .sub-category {
+    display: flex;
+  }
+
+  .img-1 {
+    flex: 1;
+  }
+  .img-2 {
+    flex: 1;
+  }
+  .img-3 {
+    flex: 1;
+  }
+  .img-4 {
+    flex: 1;
+  }
+  .img-5 {
+    flex: 1;
+  }
+  .img-6 {
+    flex: 1;
+  }
+  .img-7 {
+    flex: 1;
+  }
+  .img-8 {
+    flex: 1;
+  }
+  .img-9 {
+    flex: 1;
+  }
+  .img-10 {
+    flex: 1;
+  }
+  .img-11 {
+    flex: 1;
+  }
+  .img-12 {
+    flex: 1;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 235px;
+    top: 370px;
+    color: white;
+    font-size: 25px;
+  }
+  .bottom-left-1 {
+    position: absolute;
+    bottom: 8px;
+    left: 235px;
+    top: 400px;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .Astronomy {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 600px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Origins {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 760px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Big-Bang {
+    position: absolute;
+    bottom: 8px;
+    left: 400px;
+    top: 760px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Planets {
+    position: absolute;
+    bottom: 8px;
+    left: 780px;
+    top: 760px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Polymers {
+    position: absolute;
+    bottom: 8px;
+    left: 400px;
+    top: 930px;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Lab {
+    position: absolute;
+    bottom: 8px;
+    left: 780px;
+    top: 930px;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Moles {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 930px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Mummies {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 1080px;
+    color: #64a93a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Mummies-1 {
+    position: absolute;
+    bottom: 8px;
+    left: 400px;
+    top: 1080px;
+    color: #64a93a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Mummies-2 {
+    position: absolute;
+    bottom: 8px;
+    left: 780px;
+    top: 1080px;
+    color: #64a93a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Chemistry-T {
+    position: absolute;
+    bottom: 8px;
+    left: 400px;
+    top: 600px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .History-T {
+    position: absolute;
+    bottom: 8px;
+    left: 780px;
+    top: 600px;
+    color: #64a93a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .search {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 420px;
+    top: 90px;
+    border-radius: 25px;
+    background: cornflowerblue;
+  }
+  #Play {
+    height: 18px;
+    width: 14px;
+    left: 20px;
+  }
+  #Share {
+    height: 20px;
+    width: 20px;
+    left: 400px;
+    top: 2px;
+    border-radius: 0px;
+  }
+  .game-1 {
+    height: 196px;
+    width: 807px;
+    left: 3px;
+    top: 200px;
+    border-radius: 7px;
+    margin-left: 20px;
+    /* border: 2px solid grey; */
+    display: flex;
+  }
+  .game-2 {
+    height: 196px;
+    width: 807px;
+    left: 3px;
+    top: 573px;
+    border-radius: 7px;
+    margin-left: 20px;
+    /* border: 2px solid grey; */
+    display: flex;
+  }
+  .game-3 {
+    height: 196px;
+    width: 607px;
+    left: 3px;
+    border-radius: 7px;
+    margin-left: 20px;
+    display: flex;
+  }
+  #heading-1 {
+    margin-left: 20px;
+  }
+  #heading-2 {
+    margin-left: 20px;
+  }
+  #heading-3 {
+    margin-left: 20px;
+  }
+  #heading-4 {
+    margin-left: 20px;
+  }
+  #heading-5 {
+    margin-left: 20px;
+  }
+}
