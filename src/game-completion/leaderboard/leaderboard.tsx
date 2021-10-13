@@ -10,36 +10,45 @@ export default function Leaderboard(props:any){
     const score = JSON.stringify(localStorage.getItem("scoreSave"));
     const Scorereplace = score.replace('"', "");
     const scoreReplace = Scorereplace.replace('"', "");
- 
-   /*  let scoreArr:any[] ;
-    scoreArr = localStorage.getItem("scoreSave");
 
+    const scoredata = JSON.stringify(localStorage.getItem("ScoreSave"));
+    const scorename = scoredata.replace('"', "");
+    const Score = scorename.replace('"', "");
+    const scoreNumber = parseInt(Score);
+     console.log(scoreNumber);
     
-    const score= JSON.parse(scoreArr);
-
-    console.log(score)
-     */
     return (
     <div className="body">
         <div className= "text">
     
-            <span id="quiz">quiz</span>app
-            <span id= "username"><img src={profile} alt="win" width="30" height="30" /></span>Relebohile
-            <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/>
-            </span><span>  {scoreReplace} </span></div>
-            
-        
+        <div className="PlayerAndGameName_section">
+          <div className="gameName">
+            <span className="Title">quiz</span>
+            <span className="Title-2">app</span>
+          </div>
+          <div className="playerName">
+           <span> <img
+              className="points_icon"
+              width="50px"
+              height="50px"
+              alt="score"
+              src={profile}
+            /></span>Relebohile
+            </div>
+
+            </div>
             
             <h1 id ="heading">LEADERBOARD</h1>
             <div className="leaderbord">
                 <div className = "image1">
                     <div className= "number1">2
+                    
                     </div>
+                    
                 </div>
 
                 <div className= "image2">
-                    <div className = "number2">1
-                    
+                    <div className = "number2">1  
                     
                     </div>
                 </div>
@@ -49,7 +58,7 @@ export default function Leaderboard(props:any){
                     
                 </div>
                 <div className="board">
-                    <div className ="position"><p id ="number">1</p>
+                    <div className ="position"><span id ="number">1     </span>    Relebohile       <span>{scoreReplace}</span>pts
                         <div className ="img"></div>
                     </div>
                     <div className ="position2"><p id ="number">2</p>

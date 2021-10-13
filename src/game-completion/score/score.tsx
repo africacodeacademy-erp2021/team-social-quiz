@@ -2,7 +2,7 @@
 //import React, { useState }  from 'react';
 import Win from "../leaderboard/images/image.png";
 import image from "../leaderboard/images/images.png";
-import imagep from "../leaderboard/images/ponits.png";
+//import imagep from "../leaderboard/images/ponits.png";
 import profile from "../leaderboard/images/profile.png";
 import Loss from "../leaderboard/images/Emoji.png"
 import { Route, Switch, useHistory} from 'react-router-dom';
@@ -17,9 +17,9 @@ let score:any= [95,19,20,60,90,76];
 
 let Score =score[Math.floor(Math.random()*score.length)];
 
-//let highestToLowest = Score.sort(( a:any, b:any) => b-a);
-    
-      
+  /* get a max number of an arr.
+  *return max nuber and desplay it as max score.
+  */
 
   function arrayMax(arr:any) {
     var len = arr.length, max = -Infinity;
@@ -37,20 +37,25 @@ let Score =score[Math.floor(Math.random()*score.length)];
     if (Score>= displayMeme) {
 
         images = Win;
-        congrats = "You have won... congradulations"
+        congrats = "You have won... congratulations"
 
       } else {
         
         images = Loss;
         congrats= "Try harder next time..."
       }
-    
+       function postScore(score:any){
+      let desc=encodeURIComponent("Hey, i Scored" + {Score} +"in team social qiez");
+      window.open("http://www.facebook.com/sharer.php?u=www.yoursite.com&description="+desc)
+      
+    }
 
       function RouterLeaderboad(){
         let history = useHistory();
         const clickHandlerleaderboard = () => {
        
         localStorage.setItem("scoreSave",Score);
+        localStorage.setItem("ScoreSave",score);
         
           history.push("./leaderboard");
           }
@@ -64,22 +69,34 @@ let Score =score[Math.floor(Math.random()*score.length)];
       }
     return (
         <div className="score-board">
-           <div className= "quizapp">
-                <span id="quiz">quiz</span><span>app</span> <span id= "username">
-                <img src={profile} alt="win" width="30" height="30" /></span>Relebohile
-                <div id ="point">
-                    <span><img src={imagep} alt="win" width="30" height="30" /></span>1st
-                    <span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/></span> {Score}
-                 </div>
-              
-                
+         
+         <div className="PlayerAndGameName_section">
+          <div className="gameName">
+            <span className="Title">quiz</span>
+            <span className="Title-2">app</span>
+          </div>
+          <div className="playerName">
+           <span> <img
+              className="points_icon"
+              width="50px"
+              height="50px"
+              alt="score"
+              src={profile}
+            /></span>Relebohile
             </div>
+
+            </div>
+            <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/>
+            </span>  {Score}
+            </div>
+
              <div className ="mime">
                 <p> <img src={images} alt="win" width="290" height="250" /></p>
                 <p id = "points">+{Score} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
                 <h1>{congrats} Relebohile</h1>
 
-                <p>best Score: {arrayMax(score)}</p>
+                <span><p>best Score: {arrayMax(score)}</p></span>
+                <button onClick={postScore}>Share Score</button>
                 
                 <Route>
                   <Switch>

@@ -1,18 +1,25 @@
 .score-board
 {
-    /* desktopDesign */
-
 position: absolute;
 width: 1340px;
 height: 640px;
 color :white;
-background: #2E566C
+background-color: #22285F;
+background-image: url(blob.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 600px;
+
 
 }
+
 #quiz{
-    color:blue;
-  
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;;
 }
+
+
 #player{
 position: absolute;
 left: 0px;
@@ -48,4 +55,79 @@ color: #FFFFFF;
 }
 #username{
     margin-left: 1140px;
+    margin-bottom: 100%;
+}
+.playerName{
+    width: 50%;
+    height: 60px;
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 1000px;
+}
+.Title{
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;
+}
+.Title-2{
+    font-size: 45px;
+    margin-left: 1px;
+}
+.points_icon{
+    margin-bottom: -10px;
+}
+.PlayerAndGameName_section{
+    width: 100%;
+    display: flex;
+}
+.playerName{
+    width: 50%;
+    height: 60px;
+    margin-top: 18px;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 50px;
+}
+.gameName{
+    margin-top: 18px;
+    width: 50%;
+    height: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.08em;
+}
+.gameh3{
+    margin-left: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+.playerName .playerh3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 50px;  
+}
+.bar_Container{
+   display: flex;
+}
+.Title{
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;
+}
+.Title-2{
+    font-size: 45px;
+    margin-left: 1px;
+}
+
+.points_icon{
+    margin-bottom: -10px;
 }
