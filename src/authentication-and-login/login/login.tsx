@@ -43,9 +43,7 @@ function Login() {
         <div className="nav_newAccount">
           <p className="p_title">Not registered yet ? </p>{" "}
           <p className="p_title">
-            <Link className="link_text" to="/registration">
-              Create an Account
-            </Link>
+         
           </p>
           </div>
         </div>

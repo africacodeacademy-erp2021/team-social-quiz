@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facebook Button renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Github Button renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Google Button renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Login Page renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Registration Page renders correctly 1`] = `ShallowWrapper {}`;
