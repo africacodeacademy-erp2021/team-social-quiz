@@ -1,67 +1,43 @@
 import './playgame.css';
-import React, {useContext, useState} from 'react';
+import React, {useContext} from 'react';
 import EndButton from '../Game_Components/endButton';
 import { GameContext } from './game_Context';
 import { useHistory } from 'react-router';
 import {CongratsMemes} from '.././memeURL/congratsMemes';
 import {TryAgainMemes} from '.././memeURL/tryAgainMeme';
 
-function My_Memes(){
+function MyMemes(){
+const {currentQuestion} = useContext(GameContext);
 const {SetGameState} = useContext(GameContext); 
 const {scoreStatus, SetScoreStatus} = useContext(GameContext);
 const {lastQuestion} =  useContext(GameContext);
 const {playerName} =  useContext(GameContext);
-
-let   [countCongrats, SetCountCongrats] = useState(0);
-let   [countTry, SetTry] = useState(0);
-
 let {score} = useContext(GameContext);
 localStorage.setItem("PlayerScore",score);
+let history = useHistory();
+let pointsMessage = "";
 let showImg = "";
 let message = "";
-let pointsMessage = "";
-let history = useHistory();
-
-//change Memes index value
-function nextMemes(){  
-  if(scoreStatus === true){    
-    SetCountCongrats(countCongrats++); 
-        if(countCongrats === 4){
-            SetCountCongrats(0);
-        }
-        console.log("Congrats = "+countCongrats);
-    }else{
-        SetTry(countTry++); 
-        if(countTry === 4){
-            SetCountCongrats(0);
-        }
-        console.log("Try = "+countTry);
-    }
-} 
 
 /**
-* call function nextMemes
 * Set gamestate back to Playgame
 * set ScoreStatus to false before moving to the next question
-* set gamestate to lastmeme if this is the last question
 * @param {boolean} GameState
 */  
 function NextQuestion(){
-       nextMemes();
-        SetGameState("PlayGame"); 
         SetScoreStatus(false); 
+        SetGameState("PlayGame"); 
         if(lastQuestion === true){
         history.push("/score");
         }
 }
-
 // Meme is displayed depanding on the answer
-if(scoreStatus === true){
-    showImg =  CongratsMemes[countCongrats].memeURL
+if(scoreStatus === true){   
+    showImg =  CongratsMemes[currentQuestion - 1].memeURL
     message = 'Quizapp stans!!';
     pointsMessage ="+50 points";
 }else{
-    showImg =  TryAgainMemes[countTry].memeURL
+    showImg =  TryAgainMemes[currentQuestion - 1].memeURL
     message = 'Dont worry you can still get it right.';
     pointsMessage ="0 points";
 }
@@ -89,5 +65,5 @@ if(scoreStatus === true){
     
     )
 }
-export default My_Memes;
+export default MyMemes;
 

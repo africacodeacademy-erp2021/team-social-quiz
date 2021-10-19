@@ -14,7 +14,7 @@ let [count, SetCount] = useState(2);
 const space = " . "; 
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
-const {selected_number} = useContext(GameContext);
+const {selectedNumber} = useContext(GameContext);
 const {SetLastQuestion} =  useContext(GameContext);
 const {SetGameState} = useContext(GameContext);
 const {showNext} = useContext(GameContext);
@@ -93,7 +93,7 @@ const onNextquestion = ()=>{
     addScoreOnNext(); 
     SetGameState("GameMemes"); 
 
-    if (nextQuetions < selected_number){ 
+    if (nextQuetions < selectedNumber){ 
         SetShowMessage(false);
         SetTimeUp(false);
         setSeconds(10);                       
@@ -105,20 +105,20 @@ const onNextquestion = ()=>{
 }
     
  return(
-  <div className="question_display">
-    <div className="backgroundImg">
-     <div className="progress_bar"> <h1 className="myprogressBar"><ProgressBar/> </h1> </div>       
-        <div className="audio_time_score-section">
-                <div className="audio-section"><p className="audio"> </p> </div>
-                <div className="timer-section"><button className="timer"> <Timer/> </button> </div>
-                <div className="score-section">   
-                <img className="img" alt="score" 
+  <div className="question_display" key={"questions"}>
+    <div className="backgroundImg" key={"img"}>
+     <div className="progress_bar" key={"bar"}> <h1 className="myprogressBar"><ProgressBar/> </h1> </div>       
+        <div className="audio_time_score-section" key={"row-section"}>
+                <div className="audio-section" key={"audio"}><p className="audio"> </p> </div>
+                <div className="timer-section" key={"timer"}><button className="timer"> <Timer/> </button> </div>
+                <div className="score-section" key={"score"}>   
+                <img className="img" alt="score" key={score.toString}
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>                     
                 <h3 className="score_count">{score} </h3> 
                 </div>
         </div> 
     <div>                   
-            <div>
+            <div key="questions">
                 <div className='questions-section' >
                     <span>{currentQuestion + 1 }                           
                     {space}                           
@@ -128,7 +128,7 @@ const onNextquestion = ()=>{
                  <div className='answer-section'>
                     { 
                       random[currentQuestion].answerOptions.map((answerOptions) => (      
-                      <button className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                      <button  className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
                       {answerOptions.answerText}</button> ))                                          
                     }                         
                  </div>    
@@ -136,19 +136,19 @@ const onNextquestion = ()=>{
                 <br/>
                     { 
                         showMessage ?(                      
-                        <p className="showMessage">Your Answer was Captured </p>
+                        <p className="showMessage" key={"msg"}>Your Answer was Captured </p>
                         ):( <> </>) 
                     }
                     {   
                         timeup ?(                      
-                        <p className="showMessage2">Your Time is Up!!</p>
+                        <p className="showMessage2" key={"msg2"}>Your Time is Up!!</p>
                         ):( <> </> )
                     } 
                     <br/>    
                     {   
                         showNext ?( <>  
-                        <EndButton/>             
-                        <button className="onNext" onClick={onNextquestion} > Next </button>
+                        <EndButton key={"end_button"}/>             
+                        <button className="onNext" onClick={onNextquestion} key={"next_button"}> Next </button>
                         </>
                         ):( <></>)
                     }
