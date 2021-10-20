@@ -9,7 +9,8 @@ import Github from "./authentication-and-login/github_authentication/github";
 import Google from "./authentication-and-login/google_authentication/google";
 import Login from "./authentication-and-login/login/login";
 import Registration from "./authentication-and-login/registration/registration";
-import { render, screen } from "@testing-library/react";
+import {  render, screen } from "@testing-library/react";
+
 
 
 
@@ -59,20 +60,21 @@ describe("Registration Page", () => {
     expect(login.find('button')).toHaveLength(1);
 });
 
+
 test('Authentication button exists', async () => {
     render(<Facebook />);
  
     const button = screen.getByRole('button', { name: 'Login with Facebook' });
     expect(button).toBeInTheDocument();
-
 })
 
 test('Props values are passed correctly', async () => {
     render(<Facebook buttonName="SignIn with Facebook"/>);
  
-    const vanillaInput = screen.getByRole('button', { name: 'SignIn with Facebook' });
-    expect(vanillaInput).toBeInTheDocument();
+    const signIn = screen.getByRole('button', { name: 'SignIn with Facebook' });
+    expect(signIn).toBeInTheDocument();
 })
+
 
 
 
