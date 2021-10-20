@@ -1,29 +1,19 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import Game_Play from '../src/game/Game_Play/game_Play';
-import EndButton from '../src/game/Game_Components/endButton';
+import MyAudio from '../src/game/Game_Components/audio';
+import Game_Play from './game/Game_Play/game_Play';
+//import Game_Play from '../src/game/Game_Play/game_Play';
+//import EndButton from '../src/game/Game_Components/endButton';
 
-test('game Next buttons can be clicked', () => {
-  render(<Game_Play/>);
-  //button role text
-  const btnNext:any = screen.getAllByRole('button', {name: 'Next'});
-  //expect the button text to be 'next'
-  expect(btnNext.textContent).toBe('Next');
-  //click button, use object fireEvent to interact with elements
-  fireEvent.click(btnNext);
-  
-});
-test('End button can be clicked', () => {
-  render(<EndButton/>);
-  //button role and text
-  const btnEnd:any = screen.getAllByRole('button', {name: 'End'});
-  //expect the button text to be 'End'
-  expect(btnEnd.textContent).toBe('End');
-  //click button, use object fireEvent to interact with elements
-  fireEvent.click(btnEnd);  
-});
+test('game Audio buttons can be clicked', () => {
+    render(<MyAudio/>);
+    //click audio button 
+    const muteBtn:any = screen.getAllByRole('button', {pressed: true});
+    expect(muteBtn); 
+  });
 
+  /*test('questions can be displayed', () => {
+    render(<Game_Play/>);
 
-
-
-
+    
+  });*/
 

@@ -55,7 +55,7 @@ if(scoreStatus === true){
                 <img className="meme" src={showImg} alt="meme"/> 
                 <br/>        
                 {pointsMessage+" "}
-                <img className="points_icon" width="50px" height="50px" alt="score"
+                <img className="points_icon" width="50px" height="50px" alt="score" key={"meme"}
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>
                 <br/>{message}<br/>            
                 <EndButton/>              

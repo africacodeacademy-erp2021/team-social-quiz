@@ -12,6 +12,7 @@ const [random, setRandom] = useState(General_questions);
 const [timeup, SetTimeUp] = useState(false);
 let [count, SetCount] = useState(2);
 const space = " . "; 
+let counterKey = 0;
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
 const {selectedNumber} = useContext(GameContext);
@@ -107,32 +108,32 @@ const onNextquestion = ()=>{
  return(
   <div className="question_display" key={"questions"}>
     <div className="backgroundImg" key={"img"}>
-     <div className="progress_bar" key={"bar"}> <h1 className="myprogressBar"><ProgressBar/> </h1> </div>       
+     <div className="progress_bar" key={"bar"}> <h1 className="myprogressBar"><ProgressBar key={"progressBar"}/> </h1> </div>       
         <div className="audio_time_score-section" key={"row-section"}>
                 <div className="audio-section" key={"audio"}><p className="audio"> </p> </div>
-                <div className="timer-section" key={"timer"}><button className="timer"> <Timer/> </button> </div>
+                <div className="timer-section" key={"timer"}><button className="timer" key={"timerBtn"}> <Timer key={"time"}/> </button> </div>
                 <div className="score-section" key={"score"}>   
-                <img className="img" alt="score" key={score.toString}
+                <img className="img" alt="score"  key={"scoreImg"}
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>                     
                 <h3 className="score_count">{score} </h3> 
                 </div>
         </div> 
-    <div>                   
-            <div key="questions">
-                <div className='questions-section' >
+    <div key={"text_Section"}>                    
+            <div key={"questions"}>
+                <div className='questions-section' key={"question_text"}>
                     <span>{currentQuestion + 1 }                           
                     {space}                           
                     </span>{random[currentQuestion].questionText}                       
                 </div>
             </div>       
-                 <div className='answer-section'>
+                 <div className='answer-section' key={"answer_button"}>
                     { 
                       random[currentQuestion].answerOptions.map((answerOptions) => (      
-                      <button  className='answer-button' onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                      <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
                       {answerOptions.answerText}</button> ))                                          
                     }                         
                  </div>    
-           <div >
+           <div key={"buttons"}>
                 <br/>
                     { 
                         showMessage ?(                      

@@ -1,6 +1,6 @@
 import { useContext} from 'react';
-import { Link } from 'react-router-dom';
-import { GameContext } from '../Game_Play/game_Context';
+import { Link }  from 'react-router-dom';
+import  {GameContext}  from '../Game_Play/game_Context';
 import '../Game_Play/playgame.css';
 
 

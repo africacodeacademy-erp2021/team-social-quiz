@@ -1,7 +1,7 @@
 import './audio.css';
 import {useEffect, useState } from 'react';
 
-function My_audio(){
+function Myaudio(){
 const [buttonMuteStatus, SetbuttonMuteStatus] = useState(true);
 let   [count, SetCount] = useState(1);
    
@@ -40,16 +40,16 @@ let   [count, SetCount] = useState(1);
         <div className="btn_section"> 
  
         {buttonMuteStatus ?(
-            <button className="btnmute" id="muteAndUnmute">
-              <img className="audioIcon" src="https://cdn2.iconfinder.com/data/icons/ui-minimalist-0-1-1/16/UI_Web_Sound_Tone_Music_Volume-512.png" alt="icon"/>
+            <button className="btnmute" id="muteAndUnmute" aria-pressed="true">
+              <img className="audioIcon" src="https://cdn2.iconfinder.com/data/icons/ui-minimalist-0-1-1/16/UI_Web_Sound_Tone_Music_Volume-512.png" alt="muteIcon"/>
             </button>
         ):(
-            <button className="btnmute" id="muteAndUnmute">
-              <img className="audioIcon" src="https://cdn2.iconfinder.com/data/icons/picons-essentials/57/music_off-512.png" alt="icon"/>
+            <button className="btnmute" id="muteAndUnmute" aria-pressed="false">
+              <img className="audioIcon" src="https://cdn2.iconfinder.com/data/icons/picons-essentials/57/music_off-512.png" alt="unmuteIcon"/>
             </button>
           )
         }   
    </div>
  )
 }
-export default My_audio;
+export default Myaudio;
