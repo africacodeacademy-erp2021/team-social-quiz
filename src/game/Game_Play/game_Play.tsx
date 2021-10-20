@@ -115,15 +115,18 @@ const onNextquestion = ()=>{
                 <div className="score-section" key={"score"}>   
                 <img className="img" alt="score"  key={"scoreImg"}
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>                     
-                <h3 className="score_count">{score} </h3> 
+                <h3 className="score_count" id="score" >{score} </h3> 
                 </div>
         </div> 
     <div key={"text_Section"}>                    
             <div key={"questions"}>
                 <div className='questions-section' key={"question_text"}>
-                    <span>{currentQuestion + 1 }                           
-                    {space}                           
-                    </span>{random[currentQuestion].questionText}                       
+                   <p data-testid="display_questions"> 
+                        <span>{currentQuestion + 1 }                           
+                          {space}                           
+                         </span>
+                        {random[currentQuestion].questionText} 
+                    </p>                       
                 </div>
             </div>       
                  <div className='answer-section' key={"answer_button"}>

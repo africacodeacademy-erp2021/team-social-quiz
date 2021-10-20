@@ -10,7 +10,9 @@ function EndButton(){
 
      return(
         
-           <button className="onend"><Link className="link" to='/Score'>End</Link></button> 
+       <button className="onend">
+           <Link className="link" to='/Score'> End</Link> 
+       </button>
         
     )
 }
