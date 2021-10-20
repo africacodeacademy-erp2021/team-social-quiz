@@ -11,7 +11,7 @@ export default function Github(props: any) {
 
   const onSuccess = (response: any) => {
     localStorage.setItem("name", response.code);
-    history.replace("./Category");
+    history.replace(props.path);
   };
 
   const onFailure = (response: any) => {
