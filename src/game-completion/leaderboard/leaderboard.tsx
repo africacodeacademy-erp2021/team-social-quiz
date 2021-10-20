@@ -1,6 +1,10 @@
+import { Route, Switch, useHistory } from "react-router-dom";
 import profile from "../leaderboard/images/profile.png";
-import image from "../leaderboard/images/images.png";
-//import winer from "../leaderboard/images/winer.png";
+import ScoreBoard from "../score/score";
+import image from "../leaderboard/images/winer.png";
+import winer2 from "../leaderboard/images/winer2.png";
+import winer3 from "../leaderboard/images/winer3.png";
+
 
 import './leaderboard.css'
 
@@ -11,12 +15,22 @@ export default function Leaderboard(props:any){
     const Scorereplace = score.replace('"', "");
     const scoreReplace = Scorereplace.replace('"', "");
 
-    const scoredata = JSON.stringify(localStorage.getItem("ScoreSave"));
-    const scorename = scoredata.replace('"', "");
-    const Score = scorename.replace('"', "");
-    const scoreNumber = parseInt(Score);
-     console.log(scoreNumber);
+    function Retry(){
+        let history = useHistory();
+        const clickHandlerRetry = () => {
+ 
+        
+          history.push("./score");
+          }
     
+        return(
+          <div>
+            <button className="Retry" onClick={clickHandlerRetry}>Retry</button>
+          </div>
+        )
+
+      }
+
     return (
     <div className="body">
         <div className= "text">
@@ -41,25 +55,40 @@ export default function Leaderboard(props:any){
             <h1 id ="heading">LEADERBOARD</h1>
             <div className="leaderbord">
                 <div className = "image1">
-                    <div className= "number1">2
-                    
-                    </div>
-                    
-                </div>
+                    <div >
+                   <img className="points_icon2"
+                      width="90px"
+                      height="90px"
+                      alt="score"
+                      src={winer2}/>
+                    <span className = "number2">2</span>
+                     <img className="points_icon1"
+                       width="120px"
+                       height="120px"
+                       alt="score"
+                       src={image}/>
+                    <span className = "number1">1</span>
 
-                <div className= "image2">
-                    <div className = "number2">1  
-                    
+                    <img
+                      className="points_icon3"
+                      width="90px"
+                      height="90px"
+                      alt="score"
+                      src={winer3}></img>
+                    <span className = "number3">3</span> 
                     </div>
-                </div>
-                <div className= "image3">
-                    <div className = "number3">3
                     </div>
-                    
-                </div>
+
                 <div className="board">
-                    <div className ="position"><span id ="number">1     </span>    Relebohile       <span>{scoreReplace}</span>pts
-                        <div className ="img"></div>
+                    <div className ="position"><span id ="winNumber">1</span>
+                    <img className="win"
+                       width="40px"
+                       height="40px"
+                       alt="score"
+                       src={image}/> 
+                    <span className ="username">Relebohile</span>
+                    <span className ="score1">{scoreReplace}<span>pts</span></span>
+                    
                     </div>
                     <div className ="position2"><p id ="number">2</p>
                         <div className ="img"></div>
@@ -75,6 +104,12 @@ export default function Leaderboard(props:any){
                     </div>
                     
                 </div>
+                <Route>
+                  <Switch>
+                   <Route path="../score/score" exact component={ScoreBoard}/>
+                   <Route path= "/"  component = {Retry}/>
+                 </Switch>
+               </Route>  
                 </div>
                 
                 </div>

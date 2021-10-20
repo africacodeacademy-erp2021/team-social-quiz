@@ -9,8 +9,6 @@
     background-position:top;
     background-repeat: no-repeat;
     background-size: 1400px;
-    
-   
 }
 
 #quiz{
@@ -31,71 +29,85 @@
     text-align: end;
 }
 .image1{
-    border: solid white;
-    width: 120px;
+    width: 520px;
     height: 120px;
-    border-radius: 120px;
-    display:table-cell;
     padding: 10px;
 }
-.image2{
-    border: solid white;
-    width: 120px;
-    border-radius: 120px;
-    display: table-cell;
-    padding: 10px;
-    
-  
 
-}
-.image3{
-    border: solid white;
-    width: 120px;
-    border-radius: 120px;
-    display: table-cell;
-    padding: 10px;
-    margin-left: 50%;
-    
-}
+
 .leaderbord{
 
     width: 450px;
     margin-left: 35%;
 }
-.number1{
-    border: solid white;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    margin-left: 40% ;
-    text-align:center ;
-    margin-top: 80%;
-    background-color:
-    #3EC6FB;
+.number2{
+   /* 2 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 510px;
+top: 270px;
+
+text-align:center;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+text-align:center ;
+background-color:#3EC6FB;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
 
 }
-.number2{
-    border: solid white;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    margin-left: 40% ;
-    text-align:center ;
-    margin-top: 80%;
-    background-color: orange;
-    
+.number1{
+    /* 1 */
 
+position: absolute;
+width: 30px;
+height: 30px;
+left: 651px;
+top: 270px;
+
+text-align:center ;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+background-color: orange;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
 }
 .number3{
-    border: solid white;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    margin-left: 40% ;
-    text-align:center ;
-    margin-top: 80%;
-    background-color:
-    #3AA981;
+    /* 3 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 816px;
+top: 270px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+text-align:center ;
+background-color:#4DD7B6;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
 
 }
 .leaderboard{
@@ -167,5 +179,98 @@
 }
 .score{
     margin-left: 1200px;
+}
+.points_icon1{
+    /* position1Photo */
 
+position: absolute;
+left: 45%;
+right: 0%;
+top: 20%;
+bottom: 0%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.points_icon2{
+    /* position2Photo */
+
+position: absolute;
+left: 35%;
+right: 0%;
+top: 22%;
+bottom: 0%;
+}
+.points_icon3{
+    /* position3Photo */
+
+position: absolute;
+left: 58%;
+right: 0%;
+top: 22%;
+bottom: 0%;
+
+}
+.score1{
+/* 100 pts */
+
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.username{
+    /* Amogelang starlord */
+
+position: absolute;
+left: 45.35%;
+right: 22.34%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.win{
+
+    /* Ellipse 9 */
+
+position: absolute;
+left: 40.46%;
+right: 84.6%;
+top: 36.57%;
+bottom: 28.57%;
+}
+#winNumber{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
 }
