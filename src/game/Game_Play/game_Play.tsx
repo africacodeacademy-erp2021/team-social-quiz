@@ -10,9 +10,10 @@ function Game_Play(){
 const [showMessage, SetShowMessage] = useState(false); 
 const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
-let [count, SetCount] = useState(2);
+let   [count, SetCount] = useState(2);
 const space = " . "; 
 let counterKey = 0;
+const addingScore = 50;
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
 const {selectedNumber} = useContext(GameContext);
@@ -62,7 +63,7 @@ useEffect(()=>{
 *  @param {boolean} isCorrect 
 */
  const handleAnswerButtonClick = (isCorrect:boolean) => {  
-    if(seconds === 0){
+    if(seconds === 0){ 
         SetShowMessage(false); 
         SetTimeUp(true);                 
     }else{   
@@ -81,7 +82,7 @@ useEffect(()=>{
 */
 function addScoreOnNext(){       
     if(scoreStatus === true){
-        SetScore(score +=50);
+        SetScore(score +=addingScore);
     }
  } 
  
@@ -126,11 +127,11 @@ const onNextquestion = ()=>{
                           {space}                           
                          </span>
                         {random[currentQuestion].questionText} 
-                    </p>                       
+                    </p>                        
                 </div>
             </div>       
                  <div className='answer-section' key={"answer_button"}>
-                    { 
+                    {
                       random[currentQuestion].answerOptions.map((answerOptions) => (      
                       <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
                       {answerOptions.answerText}</button> ))                                          
@@ -138,7 +139,7 @@ const onNextquestion = ()=>{
                  </div>    
            <div key={"buttons"}>
                 <br/>
-                    { 
+                    {
                         showMessage ?(                      
                         <p className="showMessage" key={"msg"}>Your Answer was Captured </p>
                         ):( <> </>) 

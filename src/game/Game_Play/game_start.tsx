@@ -6,7 +6,7 @@ import GamePlay from "./game_Play";
 import Myaudio from "../Game_Components/audio";
 
 
-function Game_Start(props:any){
+function GameStart(props:any){
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
   const username = name.replace('"', "");
@@ -59,4 +59,4 @@ function Game_Start(props:any){
      </div>
     )
 }
-export default Game_Start;
+export default GameStart;

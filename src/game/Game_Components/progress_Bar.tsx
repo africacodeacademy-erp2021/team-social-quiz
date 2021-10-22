@@ -1,7 +1,7 @@
 import { GameContext } from '../Game_Play/game_Context';
 import React, {useContext} from 'react';
 
-function Progress_Bar(){
+function ProgressBar(){
  const {currentQuestion} = useContext(GameContext);
  const {selected_number} = useContext(GameContext);
 
@@ -13,4 +13,4 @@ function Progress_Bar(){
         </div> 
     )
 }
-export default Progress_Bar;
+export default ProgressBar;

@@ -13,7 +13,7 @@ let   [count, SetCount] = useState(1);
         audio.src = "https://cdn.pixabay.com/download/audio/2020/10/26/audio_b63a8987c5.mp3?filename=upright-piano-arcade-instrumental-mix-1342.mp3";
         audio.loop = true;
         audio.play();
-              
+                     
        //reference objects
        mutebtn = document.getElementById("muteAndUnmute");
        //Handle event
@@ -33,9 +33,9 @@ let   [count, SetCount] = useState(1);
        musicPlayer();       
        SetCount(2);  
    
-    }  
+    }
 },[count]);
-
+    
    return(
         <div className="btn_section"> 
  
