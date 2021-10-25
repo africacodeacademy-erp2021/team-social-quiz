@@ -6,8 +6,14 @@ import Loss from "../leaderboard/images/Emoji.png"
 import { Route, Switch, useHistory} from 'react-router-dom';
 import './score.css';
 import Leaderboard from '../leaderboard/leaderboard';
-import { FacebookButton } from "react-social";
-import { FacebookIcon} from "react-share";
+import { FacebookIcon,
+  FacebookShareButton,
+  TelegramShareButton, 
+  TelegramIcon,
+  WhatsappShareButton,
+  WhatsappIcon, 
+  TwitterShareButton, 
+  TwitterIcon} from "react-share";
 
 export default function ScoreBoard() {
 
@@ -17,8 +23,7 @@ let score:any= [95,19,20,60,90,76];
 let Score =score[Math.floor(Math.random()*score.length)];
 let url = "http://172.25.33.20:3000";
 
-const message = ("Player Score from react App Game : "+ Score);
-console.log(message)
+const message = ("Player Score from react App Game : "+ Score)
 
   /* get a max number of an arr.
   *return max nuber and desplay it as max score.
@@ -68,7 +73,7 @@ console.log(message)
   )
 
 }
-console.log(message)
+
 
   return (
     <div className="score-board">       
@@ -90,7 +95,7 @@ console.log(message)
 
             </div>
             <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/>
-            </span>  {Score}
+            </span> <span>{Score}</span> 
             </div>
 
              <div className ="mime">
@@ -100,22 +105,36 @@ console.log(message)
 
                 <span><p>best Score: {arrayMax(score)}</p></span>
 
-                <FacebookButton 
-                  url= {url}
-                  title= ' ACA Team social Quiz'
-                  hashtag="#Team Social quiz"
-                  quote={message}
-                  appId={286997919766668}
-                 >
-                  <FacebookIcon size="40" round ={true} />
-                  </FacebookButton>
 
-                <Route>
                   <Switch>
                    <Route path="../leaderboard/leaderboard" exact component={Leaderboard}/>
                    <Route path= "/"  component = {RouterLeaderboad}/>
                  </Switch>
-               </Route>   
+                
+                  <FacebookShareButton 
+                  url= {url}
+                  hashtag="#Team Social quiz (TSQ)"
+                  quote={message}
+                 >
+                  <FacebookIcon size="40" round ={true} />
+                  </FacebookShareButton>
+
+                  <TwitterShareButton url={url}
+                    title = {message}
+                    >
+                    <TwitterIcon size = "40" round= {true}/>
+                  </TwitterShareButton>
+
+                  <TelegramShareButton  url={url}
+                    title= {message}>
+                    <TelegramIcon round ={true} size = "40"/>
+                  </TelegramShareButton>
+
+                  <WhatsappShareButton  
+                    title={message}
+                    url={url}>
+                    <WhatsappIcon round ={true} size = "40"/>
+                  </WhatsappShareButton>
              </div>
             </div>
           

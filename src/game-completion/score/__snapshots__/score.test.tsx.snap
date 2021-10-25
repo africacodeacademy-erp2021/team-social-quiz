@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Score component renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Score component renders correctly 2`] = `ShallowWrapper {}`;
+
+exports[`Score renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ScoreBored   renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ScoreBored c renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ScoreBored comporn  renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ScoreBored compornent  renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ScoreBored compornent renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`c renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`le component renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`leaderboa component renders correctly 1`] = `ShallowWrapper {}`;
