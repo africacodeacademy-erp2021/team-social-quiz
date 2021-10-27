@@ -5,7 +5,6 @@ import GameMemes from './game_Memes';
 import GamePlay from "./game_Play";
 import Myaudio from "../Game_Components/audio";
 
-
 function GameStart(props:any){
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
@@ -52,7 +51,8 @@ function GameStart(props:any){
              SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
   
              {gameState === "PlayGame" && <GamePlay/>}
-             {gameState === "GameMemes" && <GameMemes/>}         
+             {gameState === "GameMemes" && <GameMemes/>} 
+            
           </GameContext.Provider> 
          </div>
       

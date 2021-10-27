@@ -3,41 +3,31 @@ import { GameContext } from './game_Context';
 import Timer from '../Game_Components/timer';
 import EndButton from '../Game_Components/endButton';
 import ProgressBar from '../Game_Components/progress_Bar';
-import {General_questions} from '../Questions/general-questions';
-import React, {useState, useContext, useEffect} from "react";
+import {useState, useContext, useEffect} from "react";
+import  GameScoreFunction from '../gameFunctions/gameScoreFunction';
+import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
+import { General_questions } from '../Questions/general-questions';
 
 function Game_Play(){
+let {score,addScoreOnNext} = GameScoreFunction();
+Shuffle_questions(Array);
 const [showMessage, SetShowMessage] = useState(false); 
 const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
-const space = " . "; 
+const space = " . ";
 let counterKey = 0;
-const addingScore = 50;
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
 const {selectedNumber} = useContext(GameContext);
+const {scoreStatus} = useContext(GameContext);
 const {SetLastQuestion} =  useContext(GameContext);
 const {SetGameState} = useContext(GameContext);
 const {showNext} = useContext(GameContext);
-let   {score, SetScore} = useContext(GameContext);
 const {SetStartTime} = useContext(GameContext);
-const {scoreStatus, SetScoreStatus} = useContext(GameContext);
+const {SetScoreStatus} = useContext(GameContext);
 let {seconds, setSeconds} = useContext(GameContext);
 
-function shuffle_questions(array:any){   
-    var number = array.length,
-    temp,
-    index;
-while(number > 0){    
-    index = Math.floor(Math.random() * number);
-    number--;    
-    temp = array[number];
-    array[number] = array[index];
-    array[index] = temp;       
-}  
-   return array;
-} 
 /**
 * start Timer
 *check selected number of questions
@@ -48,7 +38,7 @@ useEffect(()=>{
     SetStartTime(true);    
     if(count === 2){
     window.addEventListener("load", function (){      
-    shuffle_questions(General_questions);
+    Shuffle_questions(General_questions);
     General_questions.splice(10,0);
            let temp = General_questions;
            setRandom(temp);   
@@ -75,24 +65,17 @@ useEffect(()=>{
     }  
    } 
  }  
-
-/**
-* add 50 to score if answer is correct 
-*  @param {number} score
-*/
-function addScoreOnNext(){       
-    if(scoreStatus === true){
-        SetScore(score +=addingScore);
-    }
- } 
  
 /**
 * Move to next question
 * @param {number} nextQuetions 
 */
 const onNextquestion = ()=>{ 
+    if(scoreStatus === true){
+      addScoreOnNext();
+    };
+
     let nextQuetions = currentQuestion + 1;
-    addScoreOnNext(); 
     SetGameState("GameMemes"); 
 
     if (nextQuetions < selectedNumber){ 
@@ -165,5 +148,4 @@ const onNextquestion = ()=>{
  )
 }
 export default Game_Play;
-
 
