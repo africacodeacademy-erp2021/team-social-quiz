@@ -4,17 +4,31 @@ import ScoreBoard from "../score/score";
 import image from "../leaderboard/images/winer.png";
 import winer2 from "../leaderboard/images/winer2.png";
 import winer3 from "../leaderboard/images/winer3.png";
-
-
+import winer4 from "../leaderboard/images/win4.png";
+import winer5 from "../leaderboard/images/win5.png";
 import './leaderboard.css'
-
 
 export default function Leaderboard(props:any){
 
     const score = JSON.stringify(localStorage.getItem("scoreSave"));
     const Scorereplace = score.replace('"', "");
     const scoreReplace = Scorereplace.replace('"', "");
+    const getScore= parseInt(scoreReplace);
 
+    const playerName = JSON.stringify(localStorage.getItem("playerName"));
+    const PlayerNamereplace = playerName.replace('"', "");
+    const player =  PlayerNamereplace.replace('"', "");
+
+
+    const players: any = [{name:"Molati",playerScore:75},
+                          {name:"Lyon",playerScore:50},
+                          {name:"Paballo",playerScore:90},
+                          {name:"Motlatsi",playerScore:30}];
+                          players.push({
+                            "name":player,"playerScore":getScore
+                          })
+    players.sort((a:any, b:any) => b.playerScore - a.playerScore);   
+  
     function Retry(){
         let history = useHistory();
         const clickHandlerRetry = () => {
@@ -47,7 +61,7 @@ export default function Leaderboard(props:any){
               height="50px"
               alt="score"
               src={profile}
-            /></span>Relebohile
+            /></span>{player}
             </div>
 
             </div>
@@ -86,20 +100,49 @@ export default function Leaderboard(props:any){
                        height="40px"
                        alt="score"
                        src={image}/> 
-                    <span className ="username">Relebohile</span>
-                    <span className ="score1">{scoreReplace}<span>pts</span></span>
+                    <span className ="username">{players[0].name}</span>
+                    <span className ="score1">{players[0].playerScore}<span>pts</span></span>
                     
                     </div>
-                    <div className ="position2"><p id ="number">2</p>
+                    <div className ="position2"><p id ="winNumber2">2</p>
+                    <img className="win2"
+                       width="40px"
+                       height="40px"
+                       alt="score"
+                       src={winer2}/> 
+                  <span className ="username2"> {players[1].name} </span>
+                  <span className ="score2">{players[1].playerScore}<span>pts</span></span>
+                        <div className ="img">
+                        </div>
+                    </div>
+                    <div className ="position3"><p id ="winNumber3">3</p>
+                    <img className="win3"
+                       width="40px"
+                       height="40px"
+                       alt="score"
+                       src={winer3}/> 
+                    <span className ="username3"> {players[2].name} </span>
+                   <span className ="score3">{players[2].playerScore}<span>pts</span></span>
+                    </div>
+
+                    <div className ="position4"><p id ="winNumber4">4</p>
+                    <img className="win4"
+                       width="40px"
+                       height="40px"
+                       alt="score"
+                       src={winer4}/>
+                    <span className ="username4"> {players[3].name} </span>
+                  <span className ="score4">{players[3].playerScore}<span>pts</span></span>
                         <div className ="img"></div>
                     </div>
-                    <div className ="position3"><p id ="number">3</p>
-                         <div className ="img"></div>
-                    </div>
-                    <div className ="position4"><p id ="number">4</p>
-                        <div className ="img"></div>
-                    </div>
-                    <div className ="position5"><p id ="number">5</p>
+                    <div className ="position5"><p id ="winNumber5">5</p>
+                    <img className="win5"
+                       width="40px"
+                       height="40px"
+                       alt="score"
+                       src={winer5}/>
+                    <span className ="username5"> {players[4].name} </span>
+                    <span className ="score5">{players[4].playerScore}<span>pts</span></span>
                          <div className ="img"></div>
                     </div>
                     

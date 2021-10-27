@@ -229,7 +229,6 @@ line-height: 33px;
 color: #FFFFFF;
 }
 .username{
-    /* Amogelang starlord */
 
 position: absolute;
 left: 45.35%;
@@ -257,6 +256,28 @@ right: 84.6%;
 top: 36.57%;
 bottom: 28.57%;
 }
+.win2{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 43.57%;
+    bottom: 28.57%;}
+.win3{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 50.57%;
+    bottom: 28.57%;}
+.win4{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 57.57%;
+    bottom: 28.57%;
+}
+.win5{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 64.57%;
+    bottom: 28.57%;
+}
 #winNumber{
     /* 1 */
 position: absolute;
@@ -273,4 +294,180 @@ line-height: 33px;
 /* identical to box height */
 
 color: #FFFFFF;
+}
+.username2{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 43.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    }
+.score2{
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 43.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.username3{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 50.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+.username4{
+    position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 57.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.username5{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 64.56%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.score3{
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 50.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.score4{
+    position: absolute;
+    left: 60.66%;
+    right: 2.82%;
+    top: 57.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;    
+}
+.score5{
+    position: absolute;
+    left: 60.66%;
+    right: 2.82%;
+    top: 64.56%;
+    bottom: 28.57%;
+        
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+#winNumber2{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 40.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+#winNumber3{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 47.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+#winNumber4{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 54.56%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+}
+#winNumber5{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 62.56%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
 }

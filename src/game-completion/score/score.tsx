@@ -18,12 +18,17 @@ import { FacebookIcon,
 export default function ScoreBoard() {
 
 const total = 100;
-let score:any= [95,19,20,60,90,76]; 
-
+let score:any= [95,19,20,60,90,10];
 let Score =score[Math.floor(Math.random()*score.length)];
+
+let playerName:any =["Malepa", "Relebohile","Mokokoane"];
+let player = playerName[Math.floor(Math.random()*playerName.length)]
+
+
 let url = "http://172.25.33.20:3000";
 
 const message = ("Player Score from react App Game : "+ Score)
+;
 
   /* get a max number of an arr.
   *return max nuber and desplay it as max score.
@@ -64,6 +69,7 @@ const message = ("Player Score from react App Game : "+ Score)
    const clickHandlerleaderboard = () => {
       //store Score in local sever.
    localStorage.setItem("scoreSave",Score);
+   localStorage.setItem("playerName",player);
    history.push("./leaderboard");
   }
    return(
@@ -89,7 +95,7 @@ const message = ("Player Score from react App Game : "+ Score)
               height="50px"
               alt="score"
               src={profile}
-            /></span>Relebohile
+            /></span>{player}
             </div>
 
 
@@ -101,7 +107,7 @@ const message = ("Player Score from react App Game : "+ Score)
              <div className ="mime">
                 <p> <img src={images} alt="win" width="290" height="250" /></p>
                 <p id ="points">+{Score} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
-                <h1>{congrats} Relebohile</h1>
+                <h1>{congrats} {player}</h1>
 
                 <span><p>best Score: {arrayMax(score)}</p></span>
 
