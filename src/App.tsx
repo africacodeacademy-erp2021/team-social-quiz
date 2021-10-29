@@ -26,7 +26,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <switch>
+        <Switch>
           <Route path="/" exact component={Category}/>
           <Route path="/CreateGame" component={CreateGame}/>
           <Route path="/History" component={History} />
@@ -45,7 +45,7 @@ function App() {
           <Route path="/mummiesone" component={MummiesOne}/>
           <Route path="/mummiestwo" component={MummiesTwo}/>
           <Route path="/mummiesthree" component={MummiesThree}/>
-        </switch>
+        </Switch>
       </Router>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-import Pop from "../Images/Pop.png";
-import history from "../Images/history.png";
+import PopC from "../Images/PopC.jpg";
+import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
 import Star from "../Images/Star.png";
@@ -17,7 +17,7 @@ function PopCulture() {
     <>
       <div className="Big-Container">
         <div className="Select">
-          <img src={Pop} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" width="100%;" height="200px" />
         </div>
         <div className="Numplays" style={{marginLeft:'22%',width:'50%'}}>
           <span><img id="Num" src={Num} alt="Num" /></span>
@@ -30,7 +30,7 @@ function PopCulture() {
         
 
         <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
-          <span id="Hiphop-img"><img src={history} alt="history" width="100px" height="100px" /></span>
+          <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
           <span id="Hiphop">American Hip Hop</span>
@@ -38,12 +38,12 @@ function PopCulture() {
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
           <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span>
+          <span id="Share-btn"><Share/></span> 
         </div>
         
 
         <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
-          <span id="Jazz-img"><img src={history} alt="history" width="100px" height="100px" /></span>
+          <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
           <span id="Jazz">Old school Jazz</span>
@@ -54,7 +54,7 @@ function PopCulture() {
           <span id="Share-btn"><Share/></span>
         </div>
         <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
-          <span id="Jackson-img"><img src={history} alt="history" width="100px" height="100px" /></span>
+          <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
           <span id="Jackson">Michael Jackson</span>

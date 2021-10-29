@@ -1,7 +1,6 @@
 import React from "react";
-import Profile from "../Images/Profile.png";
 import Pop from "../Images/Pop.png";
-import Astronomy from "../Images/Astronomy.png";
+import astronomy from "../Images/astronomy.png";
 import chemistry from "../Images/chemistry.png";
 import history from "../Images/history.png";
 import "./Category.css";
@@ -10,16 +9,18 @@ import { Link } from "react-router-dom";
 function Category() {
   return (
     <>
+      
       <span className="Title">quiz</span>
       <span className="Title-2">app</span>
+      <span id="Most-Popular">Popular Now</span>
       <div className="img">
         <Link to="/popculture">
           <img src={Pop} alt="Pop" width="100%;" height="300px" />
         </Link>
-        <span className="bottom-left">Test Your Knowledge of </span>
+        
         <span className="bottom-left-1">Pop Culture</span>
         <span className="Astronomy">ASTRONOMY</span>
-        <span className="Origins">Origins</span>
+        <span className="Origins-T">Origins</span>
         <span className="Big-Bang">The Big Bang</span>
         <span className="Planets">PLANETS</span>
         <span className="Polymers">Polymers</span>
@@ -31,6 +32,7 @@ function Category() {
         <span className="Chemistry-T">CHEMISTRY</span>
         <span className="History-T">HISTORY</span>
       </div>
+      
       <div id="heading-1">
         <h1>Popular Quizes and Categories</h1>
       </div>
@@ -40,14 +42,20 @@ function Category() {
         </div>
 
         <div className="img-1">
-          <img src={Astronomy} alt="Astronomy" width="345px" height="120px" />
+        <Link to="/astronomy">
+          <img src={astronomy} alt="Astronomy" width="345px" height="120px" />
+        </Link>
         </div>
 
         <div className="img-2">
+        <Link to="/chemistry">
           <img src={chemistry} alt="chemistry" width="345px" height="120px" />
+        </Link>
         </div>
         <div className="img-3">
+        <Link to="/historycategory">
           <img src={history} alt="history" width="345px" height="120px" />
+        </Link>
         </div>
       </div>
       <div id="heading-2">
@@ -56,15 +64,21 @@ function Category() {
 
       <div className="category-2">
         <div className="img-4">
-          <img src={Astronomy} alt="Astronomy" width="345px" height="120px" />
+        <Link to="/origins">
+          <img src={astronomy} alt="Astronomy" width="345px" height="120px" />
+        </Link>
         </div>
 
         <div className="img-5">
-          <img src={Astronomy} alt="Astronomy" width="345px" height="120px" />
+        <Link to="/bigbang">
+          <img src={astronomy} alt="Astronomy" width="345px" height="120px" />
+        </Link>
         </div>
-
+     
         <div className="img-6">
-          <img src={Astronomy} alt="Astronomy" width="345px" height="120px" />
+        <Link to="/planets">
+            <img src={astronomy} alt="Astronomy" width="345px" height="120px" />
+        </Link>
         </div>
       </div>
       <div id="heading-3">
@@ -73,15 +87,21 @@ function Category() {
 
       <div className="category-3">
         <div className="img-7">
-          <img src={chemistry} alt="chemistry" width="345px" height="120px" />
+        <Link to="/molesandbonds">
+          <img src={chemistry} alt="chemistry" width="345px" height="120px"/>
+        </Link>
         </div>
 
         <div className="img-8">
-          <img src={chemistry} alt="chemistry" width="345px" height="120px" />
+        <Link to="/polymers">
+          <img src={chemistry} alt="chemistry" width="345px" height="120px"/>
+        </Link>
         </div>
 
         <div className="img-9">
-          <img src={chemistry} alt="chemistry" width="345px" height="120px" />
+        <Link to="/labtechniques">
+          <img src={chemistry} alt="chemistry" width="345px" height="120px"/>
+        </Link>
         </div>
       </div>
 
@@ -91,15 +111,21 @@ function Category() {
 
       <div className="category-4">
         <div className="img-10">
-          <img src={history} alt="history" width="345px" height="120px" />
+        <Link to="/mummiesone">
+          <img src={history} alt="history" width="345px" height="120px"/>
+        </Link>
         </div>
 
         <div className="img-11">
-          <img src={history} alt="history" width="345px" height="120px" />
+        <Link to="/mummiestwo">
+          <img src={history} alt="history" width="345px" height="120px"/>
+        </Link>
         </div>
 
         <div className="img-12">
-          <img src={history} alt="history" width="345px" height="120px" />
+        <Link to="/mummiesthree">
+          <img src={history} alt="history" width="345px" height="120px"/>
+        </Link>
         </div>
       </div>
       <div id="heading-5">
