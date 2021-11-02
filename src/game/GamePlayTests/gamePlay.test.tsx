@@ -1,5 +1,4 @@
 import  GameScoreFunction  from '../gameFunctions/gameScoreFunction';
-import  AddScoreOnNext from '../gameFunctions/gameScoreFunction';
 import { render, screen} from '@testing-library/react';
 import MyAudio from '../Game_Components/audio';
 import Timer from '../Game_Components/timer';
