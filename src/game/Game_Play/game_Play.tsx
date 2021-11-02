@@ -9,8 +9,7 @@ import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
 import { General_questions } from '../Questions/general-questions';
 
 function Game_Play(){
-let {score,addScoreOnNext} = GameScoreFunction();
-Shuffle_questions(Array);
+let {addScoreOnNext} = GameScoreFunction();
 const [showMessage, SetShowMessage] = useState(false); 
 const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
@@ -20,6 +19,7 @@ let counterKey = 0;
 
 const {currentQuestion, SetCurrentQuestion} = useContext(GameContext);
 const {selectedNumber} = useContext(GameContext);
+let   {score} = useContext(GameContext);
 const {scoreStatus} = useContext(GameContext);
 const {SetLastQuestion} =  useContext(GameContext);
 const {SetGameState} = useContext(GameContext);
@@ -77,7 +77,6 @@ const onNextquestion = ()=>{
 
     let nextQuetions = currentQuestion + 1;
     SetGameState("GameMemes"); 
-
     if (nextQuetions < selectedNumber){ 
         SetShowMessage(false);
         SetTimeUp(false);

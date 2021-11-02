@@ -39,14 +39,13 @@ function GameStart(props:any){
     SetCount(3);
     }
   },[gameMode, playerRole, count]);
-
-
+ 
     return(
      <div className="body" key={"bodyone"}> 
      
          <div className="body" key={"body"}>  
            <div className="audioo"><Myaudio/></div> 
-             <GameContext.Provider value={{gameState, SetGameState,startTime,scoreStatus, SetScoreStatus,selectedNumber,
+             <GameContext.Provider value={{gameState,SetGameState,startTime,scoreStatus, SetScoreStatus,selectedNumber,
              setSelectedNumber,showNext, SetShowNext,score, SetScore,lastQuestion, SetLastQuestion,playerName,
              SetPlayerName,SetStartTime,seconds,setSeconds,minutes, setMinutes,currentQuestion, SetCurrentQuestion}}> 
   

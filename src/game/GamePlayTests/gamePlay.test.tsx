@@ -20,10 +20,9 @@ test('game Audio buttons can be clicked', () => {
 describe("add Score", () => {
   it("it adds score by 50", () => {    
     const { result } = renderHook(GameScoreFunction); 
-    act(()=>{
-        result.current.addScoreOnNext();
-    })    
-        expect(result.current.score).toEqual(50); 
+     
+    expect(result.current.addScoreOnNext).toBeCalled;
+
      })
 }) 
  
