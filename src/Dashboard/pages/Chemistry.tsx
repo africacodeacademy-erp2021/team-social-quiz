@@ -49,8 +49,7 @@ function Chemistry() {
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
-          <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> 
+          <span id="Play-btn"><Playandshare/> <Share/></span>  
         </div>
         <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
@@ -60,8 +59,7 @@ function Chemistry() {
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> 
+          <span id="Play-btn"><Playandshare/> <Share/></span>  
         </div>
         <div id="Ranks">
           <span id="Ranks-header">Category Ranks</span>

@@ -23,7 +23,7 @@ return (
        
         <button className='btn-play' onClick={deleteHandler}>
          <img className="playIcon" src={playIcon} alt="play"/>
-         Play
+         PLAY
         </button>   
 
         {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />}

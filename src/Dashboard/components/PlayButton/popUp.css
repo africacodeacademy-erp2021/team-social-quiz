@@ -86,7 +86,8 @@ h1 , h2 { color: #333333;}
         left: 1010px;
         top: 865px;
         background: #34A853;
-        border-radius: 7px;
+        border-radius: 9px;
+        border-color: #34A853;
     
 }
 .actions { text-align: right;}
