@@ -5,6 +5,7 @@ import {Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
 import './Navbar.css';
 import {IconContext} from 'react-icons';
+import "../../App"
 
 function Navbar() {
 
@@ -32,6 +33,7 @@ function Navbar() {
                            <li key={index} className={item.cName}>
                                <Link to={item.path}>
                                    {item.icon}
+                                   
                                    <span>
                                        {item.title}
                                    </span>
