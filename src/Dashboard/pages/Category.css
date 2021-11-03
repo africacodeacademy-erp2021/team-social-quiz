@@ -500,7 +500,7 @@
     height: 20px;
     left: 0px;
     top: 0px;
-    background: rgba(22, 19, 19, 0.32);
+    
     border-radius: 13px;
     flex: none;
     order: 0;
@@ -508,6 +508,8 @@
     margin: 0px 23px;
     margin-top: 135px;
     margin-left: 300px;
+    
+    
   }
   
   .Share-btn{
@@ -522,7 +524,7 @@
     height: 20px;
     left: 111px;
     top: 0px;
-    background: rgba(189, 189, 189, 0.32);
+   
     border-radius: 13px;
     flex: none;
     order: 1;
@@ -774,7 +776,7 @@
     position: absolute;
     width: 320px;
     height: 504px;
-    left: 823px;
+    left: 960px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);

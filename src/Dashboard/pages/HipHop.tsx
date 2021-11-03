@@ -8,11 +8,10 @@ import Points from "../Images/Points.png";
 import Hand from "../Images/Hand.png";
 import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
-import { useHistory } from 'react-router-dom';
+import PlayButton from '../components/PlayButton/PlayButton';
 
 
 function HipHop() {
-  const history = useHistory();
     return (
         <div>
         <div className="Select">
@@ -54,7 +53,8 @@ function HipHop() {
           {/* <span id="Line"></span> */} 
         </div>
         
-        <button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>
+        {/*<button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>*/}
+        <PlayButton />
         <span id="HipHopText">@quizapp</span>
         <div id="Description">
             <h3>Description</h3>

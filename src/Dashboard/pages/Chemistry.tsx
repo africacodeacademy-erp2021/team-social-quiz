@@ -37,8 +37,7 @@ function Chemistry() {
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
-          <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> 
+          <span id="Play-btn"><Playandshare/> <Share/></span> 
         </div>
         
 
