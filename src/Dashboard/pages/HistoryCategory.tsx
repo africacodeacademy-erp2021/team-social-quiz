@@ -15,8 +15,8 @@ function HistoryCategory() {
     return (
         <>
       <div>
-        <div className="Select">
-          <img src={HistoryC} alt="Pop" width="100%;" height="200px" />
+        <div className="Select-2">
+          <img src={HistoryC} alt="Pop"  />
         </div>
         <div className="Numplays" style={{marginLeft:'22%',width:'48%'}}>
           <span><img id="Num" src={Num} alt="Num"  /></span>

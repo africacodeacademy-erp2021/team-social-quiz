@@ -15,10 +15,10 @@ function MummiesTwo() {
     return (
         <>
       <div>
-        <div className="Select">
-          <img src={HistoryC} alt="Pop" width="100%;" height="200px" />
+      <div className="Select-2">
+          <img src={HistoryC} alt="Pop"  />
         </div>
-        <div className="Numplays">
+        <div className="Numplays" style={{marginLeft:'22%',width:'48%'}}>
           <span><img id="Num" src={Num} alt="Num"  /></span>
           <span><img id="Quizes" src={Quizes} alt="Quizes"  /></span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
@@ -28,7 +28,7 @@ function MummiesTwo() {
         </div>
         
 
-        <div className="game-1">
+        <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
@@ -41,7 +41,7 @@ function MummiesTwo() {
         </div>
         
 
-        <div className="game-2">
+        <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
@@ -52,7 +52,7 @@ function MummiesTwo() {
           <span id="Play-btn"><Playandshare /></span>
           <span id="Share-btn"><Share/></span> 
         </div>
-        <div className="game-3">
+        <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
@@ -86,11 +86,7 @@ function MummiesTwo() {
           <img id="Points-5" src={Points} alt="Points"/>
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
-
-          {/* <span id="Line"></span> */}
-
-          
-          
+ 
         </div>
         </div>
     </>
