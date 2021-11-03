@@ -16,11 +16,12 @@ import Share from './Share';
 function LabTechniques() {
     return (
         <>
+         <div className="sidebar">
       <div>
-        <div className="Select">
-        <img src={ChemistryC} alt="Pop" width="100%;" height="200px" />
+      <div className="Select-1">
+          <img src={ChemistryC} alt="Pop" width="100%" />
         </div>
-        <div className="Numplays">
+        <div className="Numplays" style={{marginLeft:'22%',width:'48%'}}>
           <span><img id="Num" src={Num} alt="Num"  /></span>
           <span><img id="Quizes" src={Quizes} alt="Quizes"  /></span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
@@ -30,7 +31,7 @@ function LabTechniques() {
         </div>
         
 
-        <div className="game-1">
+        <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
@@ -39,11 +40,11 @@ function LabTechniques() {
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
           <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> v
+          <span id="Share-btn"><Share/></span> 
         </div>
         
 
-        <div className="game-2">
+        <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
@@ -54,7 +55,7 @@ function LabTechniques() {
           <span id="Play-btn"><Playandshare /></span>
           <span id="Share-btn"><Share/></span> 
         </div>
-        <div className="game-3">
+        <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
@@ -95,7 +96,9 @@ function LabTechniques() {
           
         </div>
         </div>
+        </div>
     </>
+        
     )
 }
 
