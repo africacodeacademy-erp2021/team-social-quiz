@@ -5,32 +5,22 @@ import chemistry from "../Images/chemistry.png";
 import history from "../Images/history.png";
 import "./Category.css";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function Category() {
   return (
-    <>
-      
+    <div className="screen">
+     
+      <div className="sidebar">
       <span className="Title">quiz</span>
       <span className="Title-2">app</span>
-      <span id="Most-Popular">Popular Now</span>
+      <span id="Most-Popular">Popular Now</span>s
       <div className="img">
         <Link to="/popculture">
           <img src={Pop} alt="Pop" width="100%;" height="300px" />
         </Link>
         
-        <span className="bottom-left-1">Pop Culture</span>
-        <span className="Astronomy">ASTRONOMY</span>
-        <span className="Origins-T">Origins</span>
-        <span className="Big-Bang">The Big Bang</span>
-        <span className="Planets">PLANETS</span>
-        <span className="Polymers">Polymers</span>
-        <span className="Lab">Lab Techniques</span>
-        <span className="Moles">Moles and Bonds</span>
-        <span className="Mummies">Mummies</span>
-        <span className="Mummies-1">Mummies</span>
-        <span className="Mummies-2">Mummies</span>
-        <span className="Chemistry-T">CHEMISTRY</span>
-        <span className="History-T">HISTORY</span>
+  
       </div>
       
       <div id="heading-1">
@@ -131,7 +121,9 @@ function Category() {
       <div id="heading-5">
         <h2>Ice Breakers and Bell Ringers</h2>
       </div>
-    </>
+      </div>
+      </div>
+    
   );
 }
 

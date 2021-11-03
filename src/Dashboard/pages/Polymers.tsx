@@ -15,6 +15,7 @@ import Share from './Share';
 function Polymers() {
     return (
         <>
+        <div className="sidebar">
       <div>
         <div className="Select">
           <img src={ChemistryC} alt="Pop" width="100%;" height="200px" />
@@ -92,6 +93,7 @@ function Polymers() {
 
           
           
+        </div>
         </div>
         </div>
     </>

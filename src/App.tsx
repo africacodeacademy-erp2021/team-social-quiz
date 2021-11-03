@@ -1,15 +1,15 @@
 import "./App.css";
-import Navbar from "./Dashboard/components/Navbar";
+
 import { Route } from "react-router";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import Category from "./Dashboard/pages/Category";
+
 import CreateGame from "./Dashboard/pages/CreateGame";
-import History from "./Dashboard/pages/History";
 import Leaderboard from "./Dashboard/pages/Leaderboard";
 import Help from "./Dashboard/pages/Help";
 import PopCulture from "./Dashboard/pages/PopCulture";
 import Astronomy from "./Dashboard/pages/Astronomy";
 import Chemistry from "./Dashboard/pages/Chemistry";
+import History from "./Dashboard/pages/History";
 import HistoryCategory from "./Dashboard/pages/HistoryCategory";
 import Origins from "./Dashboard/pages/Origins";
 import BigBang from "./Dashboard/pages/BigBang";
@@ -20,12 +20,15 @@ import LabTechniques from "./Dashboard/pages/LabTechniques";
 import MummiesOne from "./Dashboard/pages/MummiesOne";
 import MummiesTwo from "./Dashboard/pages/MummiesTwo";
 import MummiesThree from "./Dashboard/pages/MummiesThree";
+import Navbar from "./Dashboard/components/Navbar";
+import Category from "./Dashboard/pages/Category";
+
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
+      <Navbar />
         <Switch>
           <Route path="/" exact component={Category}/>
           <Route path="/CreateGame" component={CreateGame}/>

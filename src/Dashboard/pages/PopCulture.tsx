@@ -15,6 +15,7 @@ import Share from './Share';
 function PopCulture() {
   return (
     <>
+    <div className="sidebar">
       <div className="Big-Container">
         <div className="Select">
           <img src={PopC} alt="Pop" width="100%;" height="200px" />
@@ -92,6 +93,7 @@ function PopCulture() {
 
           
           
+        </div>
         </div>
         </div>
     </>
