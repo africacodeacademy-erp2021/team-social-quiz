@@ -1,5 +1,5 @@
 import React from "react";
-import PopC from "../Images/PopC.jpg";
+import PopC from "../Images/PopC.png";
 import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -18,7 +18,7 @@ function PopCulture() {
     <div className="sidebar">
       <div className="Big-Container">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+         <img src={PopC} alt="popculture" /> 
         </div>
         <div className="Numplays" style={{marginLeft:'22%',width:'50%'}}>
           <span><img id="Num" src={Num} alt="Num" /></span>
@@ -65,6 +65,8 @@ function PopCulture() {
           <span id="Play-btn"><Playandshare /></span>
           <span id="Share-btn"><Share/></span>
         </div>
+        </div>
+        <div className="rightbar">
         <div id="Ranks">
           <span id="Ranks-header">Category Ranks</span>
           <div id="One">1</div>
