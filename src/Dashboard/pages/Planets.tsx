@@ -15,14 +15,15 @@ import Share from './Share';
 function Planets() {
     return (
         <>
+        <div className="sidebar">
       <div>
-        <div className="Select">
-          <img src={AstronomyC} alt="Pop" width="100%;" height="200px" />
+        <div className="Select-3">
+          <img src={AstronomyC} alt="Pop" width="100%" />
         </div>
-        <div className="Numplays" style={{marginLeft:'22%',width:'48%'}}>
-          <span><img id="Num" src={Num} alt="Num"  /></span>
-          <span><img id="Quizes" src={Quizes} alt="Quizes"  /></span>
-          <span><img id="Star" src={Star} alt="Star"  /></span>
+        <div className="Numplays" style={{marginLeft:'22%',width:'50%'}}>
+          <span><img id="Num" src={Num} alt="Num" /></span>
+          <span><img id="Quizes" src={Quizes} alt="Quizes" /></span>
+          <span><img id="Star" src={Star} alt="Star" /></span>
           <span id="PlaysText">Plays</span>
           <span id="QuizesText">Quizes 15</span>
           
@@ -51,7 +52,7 @@ function Planets() {
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
           <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> 
+          <span id="Share-btn"><Share/></span>
         </div>
         <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
@@ -62,8 +63,10 @@ function Planets() {
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
           <span id="Play-btn"><Playandshare /></span>
-          <span id="Share-btn"><Share/></span> 
+          <span id="Share-btn"><Share/></span>
         </div>
+        </div>
+        <div className="rightbar">
         <div id="Ranks">
           <span id="Ranks-header">Category Ranks</span>
           <div id="One">1</div>
@@ -94,9 +97,9 @@ function Planets() {
           
         </div>
         </div>
+        </div>
     </>
-        
-    )
+  );
 }
 
 export default Planets
