@@ -89,9 +89,7 @@ function Chemistry() {
           <img id="Points-7" src={Points} alt="Points"/>
 
           {/* <span id="Line"></span> */}
-
-          
-          
+ 
         </div>
         </div>
     </>

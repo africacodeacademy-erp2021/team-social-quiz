@@ -27,7 +27,6 @@ function Polymers() {
           <span id="QuizesText">Quizes 15</span>
           
         </div>
-        
 
         <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
@@ -89,14 +88,11 @@ function Polymers() {
           <img id="Points-7" src={Points} alt="Points"/>
 
           {/* <span id="Line"></span> */}
-
-          
-          
+  
         </div>
         </div>
     </>
-        
+      
     )
 }
-
-export default Polymers
+export default Polymers;

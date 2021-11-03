@@ -12,7 +12,6 @@ import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from './Share';
 
-
 function MolesAndBonds() {
     return (
         <>
@@ -28,8 +27,6 @@ function MolesAndBonds() {
           <span id="QuizesText">Quizes 15</span>
           
         </div>
-        
-
         <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
@@ -42,7 +39,6 @@ function MolesAndBonds() {
           <span id="Share-btn"><Share/></span> 
         </div>
         
-
         <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
@@ -89,14 +85,11 @@ function MolesAndBonds() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-          {/* <span id="Line"></span> */}
-
-          
-          
+          {/* <span id="Line"></span> */} 
         </div>
         </div>
     </>
     )
 }
 
-export default MolesAndBonds
+export default MolesAndBonds;

@@ -94,4 +94,4 @@ function HistoryCategory() {
     )
 }
 
-export default HistoryCategory
+export default HistoryCategory;

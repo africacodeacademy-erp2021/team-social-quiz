@@ -1,21 +1,13 @@
 import { useState } from "react"
 import "./Category.css";
 
-
-
-
-
 function Playandshare() {
 
   const [modalState, setModalState] = useState(false)
 
   const toggleModalState = () => {
-    setModalState(!modalState) 
-
-    
+    setModalState(!modalState)  
   } 
-  
-  
   return (
     
      <div className="Playandshare">
@@ -39,13 +31,7 @@ function Playandshare() {
       </div>
       <button className="Play-btn" onClick={() => toggleModalState()}>Play</button>
     </div>
-    
-    
-  
-    
       
-   
   );
 }
-
 export default Playandshare;

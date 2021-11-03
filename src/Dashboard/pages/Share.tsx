@@ -5,7 +5,7 @@ import "./Category.css";
 
 function Share() {
 
- const url= "http://localhost:3000/chemistry"
+ const url= "http://172.25.32.212:3000"
     const [modalState, setModalState] = useState(false)
 
   const toggleModalState = () => {
@@ -25,14 +25,10 @@ function Share() {
             <WhatsappShareButton url={url}> 
             <WhatsappIcon size = "40" round= {true}/>
             </WhatsappShareButton>
-            
-
-
+          
             <TelegramShareButton url={url}>
             <TelegramIcon size= "40" round={true}/>
             </TelegramShareButton>
-
-
 
             </div>
             <button className="exitButton" onClick={() => toggleModalState()}>
@@ -40,13 +36,9 @@ function Share() {
             </button>
             
           </div>
-          {/* <button className="exitButton" onClick={() => toggleModalState()}>
-              exit
-            </button> */}
-          
+         
         </div>
         
-      
       <button className="Share-btn" onClick={() => toggleModalState()}>Share</button>
 
 
@@ -55,5 +47,3 @@ function Share() {
 }
 
 export default Share;
-
-

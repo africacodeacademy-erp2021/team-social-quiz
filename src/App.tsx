@@ -20,6 +20,8 @@ import LabTechniques from "./Dashboard/pages/LabTechniques";
 import MummiesOne from "./Dashboard/pages/MummiesOne";
 import MummiesTwo from "./Dashboard/pages/MummiesTwo";
 import MummiesThree from "./Dashboard/pages/MummiesThree";
+import HipHop from "./Dashboard/pages/HipHop";
+import GameStart from "./Dashboard/pages/GameStart";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
           <Route path="/mummiesone" component={MummiesOne}/>
           <Route path="/mummiestwo" component={MummiesTwo}/>
           <Route path="/mummiesthree" component={MummiesThree}/>
+          <Route path="/hiphop" component={HipHop}/>
+          <Route path="/gamestart" component={GameStart}/>
         </Switch>
       </Router>
     </>

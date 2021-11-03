@@ -26,8 +26,6 @@ function MummiesOne() {
           <span id="QuizesText">Quizes 15</span>
           
         </div>
-        
-
         <div className="game-1">
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
@@ -40,7 +38,6 @@ function MummiesOne() {
           <span id="Share-btn"><Share/></span> 
         </div>
         
-
         <div className="game-2">
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
@@ -87,15 +84,11 @@ function MummiesOne() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-          {/* <span id="Line"></span> */}
-
-          
-          
-        </div>
+          {/* <span id="Line"></span> */} 
+          </div>
         </div>
     </>
 
     )
 }
-
 export default MummiesOne;

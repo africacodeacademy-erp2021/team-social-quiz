@@ -12,7 +12,6 @@ import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from './Share';
 
-
 function LabTechniques() {
     return (
         <>
@@ -29,7 +28,6 @@ function LabTechniques() {
           
         </div>
         
-
         <div className="game-1">
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
@@ -90,13 +88,11 @@ function LabTechniques() {
           <img id="Points-7" src={Points} alt="Points"/>
 
           {/* <span id="Line"></span> */}
-
-          
-          
+ 
         </div>
         </div>
     </>
     )
 }
 
-export default LabTechniques
+export default LabTechniques;

@@ -89,10 +89,7 @@ function BigBang() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-          {/* <span id="Line"></span> */}
-
-          
-          
+          {/* <span id="Line"></span> */} 
         </div>
         </div>
     </>

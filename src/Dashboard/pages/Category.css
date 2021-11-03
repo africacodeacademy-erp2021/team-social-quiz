@@ -19,9 +19,7 @@
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
-    /* display:block; 
-	  width:90%; 
-	  margin:auto; */
+  
 
   }
 
@@ -511,6 +509,7 @@
     margin-top: 135px;
     margin-left: 300px;
   }
+  
   .Share-btn{
    
     display: flex;
@@ -533,10 +532,248 @@
     margin-left: 410px;
  
   }
+  #HipHopPlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    position: absolute;
+    width: 96.67px;
+    height: 39px;
+    left: 1010px;
+    top: 865px;
+    background: #34A853;
+    border-radius: 7px;
+  }
+  #Description{
+    position: absolute;
+    width: 104px;
+    height: 25px;
+    left: 70px;
+    top: 431px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+
+  }
+  #DescriptionContainer{
+    position: absolute;
+    width: 750px;
+    height: 89px;
+    left: 70px;
+    top: 456px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+
+  }
+  #SampleQuestions{
+    position: absolute;
+    width: 162px;
+    height: 25px;
+    left: 70px;
+    top: 606px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+
+  }
+  .HandImage{
+    position: absolute;
+    width: 82px;
+    height: 46px;
+    left: 5px;
+    top: 80px;
+  }
+  .RecordImage{
+    position: absolute;
+    width: 82px;
+    height: 46px;
+    left: 75px;
+    top: 750px;
+
+  }
+  .FlagImage{
+    position: absolute;
+    width: 82px;
+    height: 46px;
+    left: 75px;
+    top: 810px;
+
+  }
+  #Tupac{
+    position: absolute;
+    left: 150px;
+    right: 0%;
+    top: 700px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    
+  }
+  #Records{
+    position: absolute;
+    left: 150px;
+    right: 0%;
+    top: 760px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .GameStart{
+    background: #2E566C;
+    
+  }
+  .PinContainer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #27307D;
+  }
+  #PinHeader{
+    position: absolute;
+    left: 500px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 49px;
+    color: #FFFFFF;
+    
+    
+  }
+  .LangaugeContainer{
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 0px;
+    top: 36px;
+    background: #CABDBD;
+    border-radius: 50px;
+
+  }
+  #LangaugeText{
+    position: absolute;
+    left: 15px;
+    right: 9.8%;
+    top: 24%;
+    bottom: 16%;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+#StartButton{
+  position: absolute;
+  left: 27.78%;
+  right: 21.11%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(275.76deg, #6AB04C 44.33%, #BADC58 98.56%);
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  margin-top: 250px;
+  margin-left: 700px;
+}
+.LockContainer{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 990px;
+  top: 255px;
+  background: #CABDBD;
+  border-radius: 8px;
+}
+#PlayersIcon{
+
+}
+#StartText{
+  position: absolute;
+  left: 46.25%;
+  right: 42.15%;
+  top: 26.37%;
+  bottom: 67.29%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 65px;
+  letter-spacing: -0.08em;
+  color: #FFFFFF;
+  margin-top: 10px;
+
+}
+  .PinInput{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 420px;
+    top: 50px;
+    border-radius: 25px;
+    background: #22285F;
+    text-align: center;
+    
+  }
+  #FlagText{
+    position: absolute;
+    left: 150px;
+    right: 0%;
+    top: 820px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+
+  }
+  #HipHopText{
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 53px;
+    top: 350px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(34, 40, 95, 0.91);
+    
+  }
   #Ranks{
     position: absolute;
     width: 320px;
-    height: 499px;
+    height: 504px;
     left: 823px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
@@ -1029,7 +1266,6 @@
 #Team{
   margin-left: 10px;
 }
-
 .exitButton {
   padding: 15px;
   display: block;
@@ -1037,8 +1273,5 @@
   background-color: transparent;
   border: 0;
   color: white;
-}
-
-
-  
+} 
 }
