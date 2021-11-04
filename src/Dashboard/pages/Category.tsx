@@ -22,7 +22,7 @@ function Category() {
 
       <div className="img">
         <Link to="/popculture">
-          <img src={Pop} alt="Pop" width="1050px" height="300px" />
+          <img src={Pop} alt="Pop" width="1080px" height="300px" />
          <div className="bottom-left-1">Pop Culture</div>
 
         </Link>
