@@ -12,7 +12,12 @@ function App() {
           <Route path='/leaderboard'>
               <Leaderboard/>
           </Route>
+          <Route path='/score'>
+              <ScoreBoard/>
+          </Route>
       </Switch>
+      
+      
      
     </div>
   );

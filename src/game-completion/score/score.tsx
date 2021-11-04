@@ -74,7 +74,7 @@ const message = ("Player Score from react App Game : "+ Score)
   }
    return(
       <div>
-        <button onClick={clickHandlerleaderboard}>Leaderboard</button>
+        <button id="renck" onClick={clickHandlerleaderboard}>Leaderboard</button>
       </div>
   )
 
@@ -116,8 +116,9 @@ const message = ("Player Score from react App Game : "+ Score)
                    <Route path="../leaderboard/leaderboard" exact component={Leaderboard}/>
                    <Route path= "/"  component = {RouterLeaderboad}/>
                  </Switch>
-                
-                  <FacebookShareButton 
+
+                <div className="Icons">
+                  <FacebookShareButton id ="FB"
                   url= {url}
                   hashtag="#Team Social quiz (TSQ)"
                   quote={message}
@@ -125,22 +126,25 @@ const message = ("Player Score from react App Game : "+ Score)
                   <FacebookIcon size="40" round ={true} />
                   </FacebookShareButton>
 
-                  <TwitterShareButton url={url}
+                  <TwitterShareButton id ="twitter"
+                   url={url}
                     title = {message}
                     >
                     <TwitterIcon size = "40" round= {true}/>
                   </TwitterShareButton>
 
-                  <TelegramShareButton  url={url}
+                  <TelegramShareButton id ="telegram"
+                   url={url}
                     title= {message}>
                     <TelegramIcon round ={true} size = "40"/>
                   </TelegramShareButton>
 
-                  <WhatsappShareButton  
+                  <WhatsappShareButton  id ="whatsapp"
                     title={message}
                     url={url}>
                     <WhatsappIcon round ={true} size = "40"/>
                   </WhatsappShareButton>
+                  </div>
              </div>
             </div>
           

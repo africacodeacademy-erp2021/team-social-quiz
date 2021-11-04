@@ -180,6 +180,54 @@ color: #FFFFFF;
 .score{
     margin-left: 1200px;
 }
+.Retry{
+    /* Position Bar */
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 559px;
+top: 899px;
+
+background: rgba(60, 67, 126, 0.81);
+border-radius: 9px;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.69%;
+right: 76.92%;
+top: 25%;
+bottom: 25%;
+
+background: #FFFFFF;
+
+
+/* Try again */
+
+position: absolute;
+width: 83px;
+height: 25px;
+left: 610px;
+top: 600px;
+text-align: center;
+background-color: darkblue;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
 .points_icon1{
     /* position1Photo */
 

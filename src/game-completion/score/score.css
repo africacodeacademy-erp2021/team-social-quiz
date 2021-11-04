@@ -131,3 +131,88 @@ color: #FFFFFF;
 .points_icon{
     margin-bottom: -10px;
 }
+#renck{
+    /* Position Bar */
+
+position: absolute;
+width: 169px;
+height: 44px;
+left: 700px;
+top: 866px;
+
+background: rgba(60, 67, 126, 0.81);
+border-radius: 9px;
+
+
+/* medal-outline */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 7px;
+top: 6px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 37.5%;
+top: 21.88%;
+bottom: 18.75%;
+
+background: #FFFA79;
+
+
+/* 1st */
+
+position: absolute;
+width: 125px;
+height: 30px;
+left: 610px;
+top: 540px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3c09f7;
+
+
+}
+.Icons{
+    /* Vector */
+
+position: absolute;
+left: 45%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}
+#twitter{
+position: absolute;
+left: 103%;
+top: 90%;
+
+}
+#whatsapp{
+position: absolute;
+left: 200%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}
+#telegram{
+    position: absolute;
+left: 300%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}

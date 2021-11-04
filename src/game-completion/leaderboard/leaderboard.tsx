@@ -6,6 +6,7 @@ import winer2 from "../leaderboard/images/winer2.png";
 import winer3 from "../leaderboard/images/winer3.png";
 import winer4 from "../leaderboard/images/win4.png";
 import winer5 from "../leaderboard/images/win5.png";
+import retry from "../leaderboard/images/retry.png";
 import './leaderboard.css'
 
 export default function Leaderboard(props:any){
@@ -34,12 +35,17 @@ export default function Leaderboard(props:any){
         const clickHandlerRetry = () => {
  
         
-          history.push("./score");
+          history.push("../score/score");
           }
     
         return(
           <div>
-            <button className="Retry" onClick={clickHandlerRetry}>Retry</button>
+            <button className="Retry" onClick={clickHandlerRetry}><img
+              className="retry"
+              width="15px"
+              height="15px"
+              alt="score"
+              src={retry}/> <span>Retry</span></button>
           </div>
         )
 
