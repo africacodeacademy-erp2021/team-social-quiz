@@ -20,9 +20,6 @@
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
-   
-   
-
   }
 
   .category-2 {
@@ -50,6 +47,7 @@
     flex: 1;
     margin-right: 10px;
     position: relative;
+    
   }
   .img-2 {
     flex: 1;
@@ -102,7 +100,7 @@
     flex: 1;
     position: relative;
   }
-  
+
   .bottom-left-1 {
     position: absolute;
     width: 485px;
@@ -114,136 +112,129 @@
     font-weight: bold;
     font-size: 64px;
     line-height: 87px;
-    color: #FF5C00;
-
+    color: #ff5c00;
   }
   .Astronomy {
-    
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: white;
     font-size: 25px;
     font-weight: bold;
   }
-  .Origins-T{
-    position:absolute;
+  .Origins-T {
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: white;
     font-size: 25px;
     font-weight: bold;
-    
-    
   }
   .Big-Bang {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: white;
     font-size: 25px;
     font-weight: bold;
   }
   .Planets {
-
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: white;
     font-size: 25px;
     font-weight: bold;
   }
   .Polymers {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: red;
     font-size: 25px;
     font-weight: bold;
   }
   .Lab {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: red;
     font-size: 25px;
     font-weight: bold;
   }
   .Moles {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: red;
     font-size: 25px;
     font-weight: bold;
   }
   .Mummies {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: #64a93a;
     font-size: 25px;
     font-weight: bold;
   }
   .Mummies-1 {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: #64a93a;
     font-size: 25px;
     font-weight: bold;
   }
   .Mummies-2 {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: #64a93a;
     font-size: 25px;
     font-weight: bold;
   }
   .Chemistry-T {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: red;
     font-size: 25px;
     font-weight: bold;
   }
   .History-T {
-    position:absolute;
+    position: absolute;
     bottom: 8px;
     left: 50px;
-    top:87px;
+    top: 87px;
     color: #64a93a;
     font-size: 25px;
     font-weight: bold;
   }
-  ::placeholder { 
+  ::placeholder {
     color: white;
-    opacity: 1; 
+    opacity: 1;
   }
-  .Select{
+  .Select {
     position: absolute;
     width: 1256px;
     height: 397px;
     left: 250px;
     top: 0px;
-    
-    
   }
 
-  .Select-1{
+  .Select-1 {
     position: absolute;
     width: 1256px;
     height: 397px;
@@ -251,7 +242,7 @@
     top: -688px;
   }
 
-  .Select-2{
+  .Select-2 {
     position: absolute;
     width: 1256px;
     height: 397px;
@@ -259,7 +250,7 @@
     top: -3038px;
   }
 
-  .Select-3{
+  .Select-3 {
     position: absolute;
     width: 1256px;
     height: 397px;
@@ -276,10 +267,8 @@
     border-radius: 25px;
     background: cornflowerblue;
     text-align: center;
-    
   }
-  .Numplays{
-    
+  .Numplays {
     display: flex;
     flex-direction: row;
     display: block;
@@ -287,16 +276,14 @@
     align-items: center;
     padding: 6px 57px;
     position: absolute;
-    width: 80%; 
+    width: 80%;
     height: 48px;
     left: 250px;
     top: 289px;
-    background: #FFFFFF;
+    background: #ffffff;
     float: right;
-
   }
-  #PlaysText{
-    
+  #PlaysText {
     position: static;
     width: 83px;
     height: 25px;
@@ -310,9 +297,9 @@
     color: #050505;
     flex: none;
     flex-grow: 0;
-    margin: 0px 11px
+    margin: 0px 11px;
   }
-  #QuizesText{
+  #QuizesText {
     position: static;
     width: 95px;
     height: 25px;
@@ -329,37 +316,30 @@
     flex-grow: 0;
     margin: 0px 11px;
   }
-  
-  #Num{
-   
+
+  #Num {
     position: absolute;
     left: 5%;
     right: 8.33%;
     top: 12.5%;
     bottom: 29.17%;
-    
-
   }
-  #Star{
+  #Star {
     position: absolute;
     left: 75%;
     right: 8.33%;
     top: 8.33%;
     bottom: 12.5%;
-    
   }
-  #Quizes{
+  #Quizes {
     position: absolute;
     left: 48%;
     right: 8.33%;
     top: 12.5%;
     bottom: 29.17%;
-    
-
   }
-  
-  
-   /* #Play {
+
+  /* #Play {
     height: 18px;
     width: 14px;
     left: 20px;
@@ -370,26 +350,8 @@
     left: 400px;
     top: 2px;
     border-radius: 0px;
-  } */ 
-  #Hiphop-img{
-    position: absolute;
-    width: 136px;
-    height: 101px;
-    left: 15px;
-    top: 16px;
-   /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
-    mix-blend-mode: darken; 
-    
-  }
-  #Jazz-img{
-    position: absolute;
-    width: 136px;
-    height: 101px;
-    left: 15px;
-    top: 16px;
-    mix-blend-mode: darken;
-  }
-  #Jackson-img{
+  } */
+  #Hiphop-img {
     position: absolute;
     width: 136px;
     height: 101px;
@@ -398,53 +360,66 @@
     /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
     mix-blend-mode: darken;
   }
-  .Big-Container{
+  #Jazz-img {
+    position: absolute;
+    width: 136px;
+    height: 101px;
+    left: 15px;
+    top: 16px;
+    mix-blend-mode: darken;
+  }
+  #Jackson-img {
+    position: absolute;
+    width: 136px;
+    height: 101px;
+    left: 15px;
+    top: 16px;
+    /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
+    mix-blend-mode: darken;
+  }
+  .Big-Container {
     display: block;
-    
-
   }
   .game-1 {
-    
-
     border: 1px solid #fccccc30;
     position: absolute;
     width: 807px;
     height: 196px;
     left: 70px;
     top: 357px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
   .game-2 {
-    display:block;
+    display: block;
     border: 1px solid #00000030;
     position: absolute;
     width: 807px;
     height: 196px;
     left: 70px;
     top: 573px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
   .game-3 {
-    display:block;
+    display: block;
     border: 1px solid #00000030;
     position: absolute;
     width: 807px;
     height: 196px;
     left: 70px;
     top: 789px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
-  #Most-Popular{
-    display:block;
+  #Most-Popular {
+    display: block;
     /* position: absolute; */
     width: 371px;
     height: 33px;
@@ -458,8 +433,7 @@
     line-height: 33px;
     color: #000000;
   }
-  #Quiz-1{
-    
+  #Quiz-1 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -470,11 +444,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
-
+    color: #9e9898;
   }
-  #Hiphop{
-    
+  #Hiphop {
     position: absolute;
     width: 123px;
     height: 19px;
@@ -485,10 +457,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.69); 
-
+    color: rgba(0, 0, 0, 0.69);
   }
-  #Quiz-2{
+  #Quiz-2 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -499,9 +470,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898;
+    color: #9e9898;
   }
-  #Jazz{
+  #Jazz {
     position: absolute;
     width: 102px;
     height: 19px;
@@ -514,7 +485,7 @@
     line-height: 19px;
     color: rgba(0, 0, 0, 0.69);
   }
-  #Quiz-3{
+  #Quiz-3 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -525,10 +496,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898;
-
+    color: #9e9898;
   }
-  #Jackson{
+  #Jackson {
     position: absolute;
     width: 108px;
     height: 19px;
@@ -540,9 +510,8 @@
     font-size: 14px;
     line-height: 19px;
     color: rgba(0, 0, 0, 0.69);
-
   }
-  #Play-btn{
+  #Play-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -562,8 +531,7 @@
     margin-top: 135px;
     margin-left: 300px;
   }
-  .Share-btn{
-   
+  .Share-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -582,9 +550,8 @@
     margin: 0px 23px;
     margin-top: -45px;
     margin-left: 410px;
- 
   }
-  #Ranks{
+  #Ranks {
     position: absolute;
     width: 320px;
     height: 499px;
@@ -595,7 +562,7 @@
     box-sizing: border-box;
     border-radius: 7px;
   }
-  #Ranks-header{
+  #Ranks-header {
     position: absolute;
     width: 135px;
     height: 25px;
@@ -608,7 +575,7 @@
     line-height: 25px;
     color: #000000;
   }
-  #One{
+  #One {
     position: static;
     width: 8px;
     height: 18px;
@@ -625,7 +592,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Two{
+  #Two {
     font-family: Open Sans;
     font-size: 13px;
     font-style: normal;
@@ -635,7 +602,7 @@
     text-align: left;
     top: 20px;
   }
-  #Three{
+  #Three {
     position: static;
     width: 8px;
     height: 18px;
@@ -652,7 +619,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Four{
+  #Four {
     position: static;
     width: 8px;
     height: 18px;
@@ -669,7 +636,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Five{
+  #Five {
     position: static;
     width: 8px;
     height: 18px;
@@ -686,7 +653,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Six{
+  #Six {
     position: static;
     width: 8px;
     height: 18px;
@@ -703,7 +670,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Seven{
+  #Seven {
     position: static;
     width: 8px;
     height: 18px;
@@ -720,7 +687,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Medal{
+  #Medal {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -729,7 +696,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-1{
+  #Medal-1 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -738,7 +705,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-2{
+  #Medal-2 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -747,7 +714,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-3{
+  #Medal-3 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -756,7 +723,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-4{
+  #Medal-4 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -765,7 +732,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-5{
+  #Medal-5 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -774,7 +741,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-6{
+  #Medal-6 {
     position: absolute;
     left: 5%;
     right: 16.67%;
@@ -783,7 +750,7 @@
     width: 15px;
     height: 15px;
   }
-  #Points-1{
+  #Points-1 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -791,10 +758,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-2{
-
+  #Points-2 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -802,10 +767,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-3{
-
+  #Points-3 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -813,10 +776,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-4{
-
+  #Points-4 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -824,10 +785,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-5{
-
+  #Points-5 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -835,10 +794,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-6{
-
+  #Points-6 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -846,10 +803,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-7{
-
+  #Points-7 {
     position: absolute;
     left: 70%;
     right: 4.17%;
@@ -857,34 +812,29 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  .Play-1{
+  .Play-1 {
     position: absolute;
     left: 195px;
     top: 58px;
     width: 20px;
     height: 20px;
-   
-
   }
-  .Play-2{
+  .Play-2 {
     position: absolute;
     left: 195px;
     top: 58px;
     width: 20px;
     height: 20px;
-
   }
-  .Play-3{
+  .Play-3 {
     position: absolute;
     left: 195px;
     top: 60px;
     width: 20px;
     height: 20px;
-
   }
-  #QuizText-1{
+  #QuizText-1 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -895,9 +845,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color: #5b5b5b;
   }
-  #QuizText-2{
+  #QuizText-2 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -908,9 +858,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color: #5b5b5b;
   }
-  #QuizText-3{
+  #QuizText-3 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -921,30 +871,30 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color: #5b5b5b;
   }
-  .Vector-1{
+  .Vector-1 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   .Vector-2{
+  }
+  .Vector-2 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   .Vector-3{
+  }
+  .Vector-3 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   #History-1{
+  }
+  #History-1 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -955,9 +905,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
-   }
-   #History-2{
+    color: #9e9898;
+  }
+  #History-2 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -968,9 +918,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
-   }
-   #History-3{
+    color: #9e9898;
+  }
+  #History-3 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -981,8 +931,8 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
-   }
+    color: #9e9898;
+  }
   /* #Line{
     position: absolute;
     width: 200px;
@@ -991,8 +941,7 @@
     top: 20px;
     border: 4px solid rgba(34, 40, 95, 0.06);
   } */
-  
-  
+
   #heading-1 {
     margin-left: 20px;
     width: 500px;
@@ -1010,116 +959,103 @@
     margin-left: 20px;
     width: 500px;
   }
- 
- .App button:not(.exitButton) {
-  padding: 13px 35px;
-  background: #22c39f;
-  border-radius: 30px;
-  font-size: 18px;
-  color: white;
-  border: none;
-}
 
-.modalBackground {
-   opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease-in-out;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex; 
-
-  
-}
-
-.modalShowing-true {
-  opacity: 1;
-  pointer-events: visible;
-  
-}
-
-.modalInner {
-  background: #1e2939;
-  width: 1000px;
-  max-width: calc(100% - 60px);
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  color: white;
-  text-align: left; 
-
-  
-} 
-
-.modalText {
-  padding: 15px;
-  
-}
-
-.modalText p {
-  line-height: 130%;
-}
-
-.modalText button {
-  display: block;
-  width: 100%;
-  text-align: center;
-} 
-#buttons{
-  display: flex;
-  
-}
-
-#Single{
-  margin-left: 280px;
-  
-}
-#Team{
-  margin-left: 10px;
-}
-
-.exitButton {
-  padding: 15px;
-  display: block;
-  width: 100%;
-  background-color: transparent;
-  border: 0;
-  color: white;
-}
-
-
-  
-}
-
-.sidebar{
-
- width: 120px;
-  right: 0px;
- height: 1000px;
- margin-left: 300px;
-  
-}
-
-@media (max-width:990px){
-  .sidebar{
-    margin-left: 10px;
-    
+  .App button:not(.exitButton) {
+    padding: 13px 35px;
+    background: #22c39f;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
   }
 
-  .search{
+  .modalBackground {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+  }
+
+  .modalShowing-true {
+    opacity: 1;
+    pointer-events: visible;
+  }
+
+  .modalInner {
+    background: #1e2939;
+    width: 1000px;
+    max-width: calc(100% - 60px);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: left;
+  }
+
+  .modalText {
+    padding: 15px;
+  }
+
+  .modalText p {
+    line-height: 130%;
+  }
+
+  .modalText button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #buttons {
+    display: flex;
+  }
+
+  #Single {
+    margin-left: 280px;
+  }
+  #Team {
+    margin-left: 10px;
+  }
+
+  .exitButton {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+}
+
+.sidebar {
+  width: 120px;
+  right: 0px;
+  height: 1000px;
+  margin-left: 300px;
+}
+
+@media (max-width: 990px) {
+  .sidebar {
+    margin-left: 10px;
+  }
+
+  .search {
     left: 350px;
   }
 
-  .bottom-left-1{
+  .bottom-left-1 {
     left: 403px;
   }
+
+  .img-1{
+    position:sticky;
+  }
+  
 }
-
-
-
-
