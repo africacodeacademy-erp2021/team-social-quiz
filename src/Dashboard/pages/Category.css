@@ -491,18 +491,19 @@
     color: rgba(0, 0, 0, 0.69);
 
   }
-  #Play-btn{
+  .Play-btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 9.5px 27px;
     position: static;
-    width: 24px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     left: 0px;
-    top: 0px;
-    background: rgba(22, 19, 19, 0.32);
+    top: 2px;
+    color: cornsilk;
+    background:rgb(4, 4, 77);
     border-radius: 13px;
     flex: none;
     order: 0;
@@ -512,18 +513,18 @@
     margin-left: 300px;
   }
   .Share-btn{
-   
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 9.5px 27px;
     position: static;
-    width: 24px;
-    height: 20px;
-    left: 111px;
+    width: 30px;
+    height: 30px;
+    left: 120px;
     top: 0px;
-    background: rgba(189, 189, 189, 0.32);
+    color: cornsilk;
+    background:rgb(4, 4, 77);
     border-radius: 13px;
     flex: none;
     order: 1;
@@ -531,13 +532,13 @@
     margin: 0px 23px;
     margin-top: -45px;
     margin-left: 410px;
- 
   }
+
   #Ranks{
     position: absolute;
     width: 320px;
     height: 499px;
-    left: 823px;
+    left: 960px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -558,101 +559,112 @@
     color: #000000;
   }
   #One{
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 16%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #One{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 16%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Two{
-    font-family: Open Sans;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    top: 20px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 22%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Three{
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 28%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Four{
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 34%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Five{
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 40%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Six{
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 46%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Seven{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 52%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  .One{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .Two{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .Three{
     position: static;
     width: 8px;
     height: 18px;
@@ -669,74 +681,264 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
+  .Four{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .Five{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .Six{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .Seven{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  
   #Medal{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 2.4%;
+    left: 10%;
+    right: 4%;
+    top: 52%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-1{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 7%;
+    left: 10%;
+    right: 4%;
+    top: 16%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-2{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 13%;
+    left: 10%;
+    right: 4%;
+    top: 22%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-3{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 18%;
+    left: 10%;
+    right: 4%;
+    top: 28%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-4{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 24%;
+    left: 10%;
+    right: 4%;
+    top: 34%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-5{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 30%;
+    left: 10%;
+    right: 4%;
+    top: 40%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-6{
     position: absolute;
-    left: 5%;
-    right: 16.67%;
-    top: 36%;
+    left: 10%;
+    right: 4%;
+    top: 46%;
     bottom: 4.17%;
+    width: 15px;
+    height: 15px;
+  }
+  #score1{
+    position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 16%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score2{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 22%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score3{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 28%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score4{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 34%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score5{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 40%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score6{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 46%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score7{
+    position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 52%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName1{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 16%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName2{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 22%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName3{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 28%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName4{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 34%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName5{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 40%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName6{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 46%; 
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName7{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 52%;
+    bottom: 8.33%;
     width: 15px;
     height: 15px;
   }
   #Points-1{
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 2%;
+    left: 94%;
+    right: 4%;
+    top: 16%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -745,9 +947,9 @@
   #Points-2{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 8%;
+    left: 94%;
+    right: 4%;
+    top: 22%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -756,9 +958,9 @@
   #Points-3{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 13%;
+    left: 94%;
+    right: 4%;
+    top: 28%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -767,9 +969,9 @@
   #Points-4{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 19%;
+    left: 94%;
+    right: 4%;
+    top: 34%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -778,9 +980,9 @@
   #Points-5{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 25%;
+    left: 94%;
+    right: 4%;
+    top: 40%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -789,9 +991,9 @@
   #Points-6{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 31%;
+    left: 94%;
+    right: 4%;
+    top: 46%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -800,9 +1002,9 @@
   #Points-7{
 
     position: absolute;
-    left: 70%;
-    right: 4.17%;
-    top: 36%;
+    left: 94%;
+    right: 4%;
+    top: 52%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
