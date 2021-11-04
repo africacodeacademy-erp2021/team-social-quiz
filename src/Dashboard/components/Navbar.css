@@ -1,9 +1,11 @@
 .navbar {
-    background-color:#fafafa; 
-    height: 20px;
+    background-color:#22285F; 
+    height: 40px;
+    width: 100px;
     display: flex;
-    justify-content: start;
+    justify-content:center;
     align-items: center;
+    
   }
   
   .menu-bars {
@@ -69,4 +71,18 @@
   
   span {
     margin-left: 16px;
+  }
+
+  
+  .MobileNav{
+display: none;
+  }
+
+  @media (max-width:990px){
+    .Navigation{
+      display: none;
+    }
+    .MobileNav{
+      display: flex;
+    }
   }
