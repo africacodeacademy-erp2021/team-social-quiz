@@ -1105,7 +1105,20 @@
   
 }
 
+@media (max-width:990px){
+  .sidebar{
+    margin-left: 10px;
+    
+  }
 
+  .search{
+    left: 350px;
+  }
+
+  .bottom-left-1{
+    left: 403px;
+  }
+}
 
 
 
