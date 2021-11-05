@@ -32,7 +32,7 @@ function PopCulture() {
     name: "motlatsi",
     score: 45,
   },{
-    name:"Nthaka",
+    name:"Nthako",
     score: 32,
 },{
   name: "win",
@@ -69,6 +69,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="History-1">History</span>
           <span id="Play-btn"><Playandshare/></span>
           <span id="Share-btn"><Share/></span> 
+          
         </div>
         
 
@@ -80,7 +81,8 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
-          <span id="Play-btn"><Playandshare /></span>
+          
+          <span id="Play-btn"><Playandshare/></span>
           <span id="Share-btn"><Share/></span>
         </div>
         <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
@@ -91,8 +93,9 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare /></span>
+          <span id="Play-btn"><Playandshare/></span>
           <span id="Share-btn"><Share/></span>
+          
         </div>
         <div id="Ranks">
           <span id="Ranks-header">Category Ranks</span>
@@ -128,7 +131,7 @@ players.sort((a:any, b:any) => b.score - a.score);
             <span id  ="playerName6">{players[5].name}</span>
             <span id ="score6">{players[5].score}</span>
           </div>
-          <div className="Eight">
+          <div className="Seven">
             <span id ="Seven">7</span> 
             <span id  ="playerName7">{players[6].name}</span>
             <span id ="score7">{players[6].score}</span>
