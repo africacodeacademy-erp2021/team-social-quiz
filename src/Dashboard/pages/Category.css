@@ -1516,3 +1516,28 @@
     height: 300px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023) {
+  #Ranks {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+  }
+
+  .game-1 {
+    width: 257px;
+    height: 406px;
+    justify-content: center;
+  }
+
+  .game-2 {
+    width: 227px;
+    height: 406px;
+  }
+
+  .game-3 {
+    width: 257px;
+    height: 406px;
+  }
+}
+
