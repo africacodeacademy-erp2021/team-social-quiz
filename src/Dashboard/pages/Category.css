@@ -1300,3 +1300,111 @@
     height: 300px;
   }
 }
+
+@media (min-width: 370px) and (max-width: 412px) {
+  .sidebar {
+    margin-left: 30px;
+  }
+
+  .popc {
+    width: 290px;
+    height: 100px;
+  }
+
+  #Star {
+    display: none;
+  }
+
+  .search {
+    left: 450px;
+  }
+
+  .bottom-left-1 {
+    left: 403px;
+  }
+
+  .img-1 {
+    position: sticky;
+  }
+
+  .hamburger {
+    width: 10%;
+    z-index: 999;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+  }
+
+  .Select {
+    width: 20px;
+    right: -100px;
+  }
+  .game-1 {
+    width: 257px;
+    height: 406px;
+    justify-content: center;
+  }
+
+  .game-2 {
+    width: 227px;
+    height: 406px;
+  }
+
+  .game-3 {
+    width: 257px;
+    height: 406px;
+  }
+
+  .Vector-1 {
+    display: none;
+  }
+  .Vector-2 {
+    display: none;
+  }
+  .Vector-3 {
+    display: none;
+  }
+  .Playicon {
+    width: 20px;
+    height: 20px;
+  }
+  .Play-1 {
+    display: none;
+  }
+
+  .Play-2 {
+    display: none;
+  }
+
+  .Play-3 {
+    display: none;
+  }
+
+  #History-1 {
+    display: none;
+  }
+  #History-2 {
+    display: none;
+  }
+  #History-3 {
+    display: none;
+  }
+  .exitButton {
+    display: none;
+  }
+  #Quiz-1 {
+    display: none;
+  }
+  #Quiz-2 {
+    display: none;
+  }
+  #Quiz-3 {
+    display: none;
+  }
+  #Ranks {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+  }
+}
