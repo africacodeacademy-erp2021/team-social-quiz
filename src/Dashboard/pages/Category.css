@@ -1540,4 +1540,17 @@
     height: 406px;
   }
 }
+@media (min-width: 1024px) and (max-width: 1050px) {
+  .sidebar {
+    margin-left: 150px;
+  }
 
+  .Select {
+    margin-left: 120px;
+    width: 78%;
+  }
+  .Select-1 {
+    width: 78%;
+    margin-left: 120px;
+  }
+}
