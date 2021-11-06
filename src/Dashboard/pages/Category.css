@@ -18,6 +18,7 @@
   .img {
     margin-top: 60px;
     margin-left: 20px;
+    position: relative;
     margin-right: 20px;
   
 
@@ -46,6 +47,8 @@
 
   .img-1 {
     flex: 1;
+    margin-right: 10px;
+    position: relative;
   }
   .img-2 {
     flex: 1;
@@ -86,7 +89,7 @@
     width: 485px;
     height: 87px;
     left: 403px;
-    top: 287px;
+    top: 87px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -210,45 +213,77 @@
     color: white;
     opacity: 1; 
   }
-  .Select{
-    border-radius: 0px;
+  .Select {
+    position: fixed;
+    width: 85%;
+    height: 30%;
+    right: 0.3%;
+    top: 0px;
+    z-index: 15;
+  }
+
+  .Frame {
+    width: 85%;
+    height: 5%;
+    z-index: 15;
+    top: 0%;
+  }
+
+  .Select-1 {
+    position: fixed;
+    width: 85%;
+    height: 30%;
+    right: 0.3%;
+    top: -850px;
+    z-index: 15;
+  }
+
+  .Select-2 {
+    position: fixed;
+    width: 85%;
+    height: 30%;
+    right: 0.3%;
+
+    z-index: 15;
+    top: -3038px;
+  }
+
+  .Select-3 {
+    position: fixed;
+    width: 85%;
+    height: 30%;
+    right: 0.3%;
+    z-index: 15;
+    top: -685px;
   }
 
   .search {
     position: absolute;
     width: 300px;
     height: 40px;
-    left: 420px;
+    left: 450px;
     top: 90px;
     border-radius: 25px;
     background: cornflowerblue;
     text-align: center;
     
   }
-  .Numplays{
-    
-    display: flex;
-    flex-direction: row;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 6px 57px;
-    position: absolute;
-    width: 80%; 
-    height: 48px;
-    left: 0px;
-    top: 289px;
-    background: #FFFFFF;
-    float: right;
+  .Numplays {
+    background: #ffffff;
 
+    position: fixed;
+    width: 85%;
+    height: 8%;
+    right: 0.3%;
+    top: 250px;
+    z-index: 15;
   }
-  #PlaysText{
-    
-    position: static;
-    width: 83px;
-    height: 25px;
-    left: 23.67px;
-    top: 0px;
+  #PlaysText {
+    position: absolute;
+    left: 15%;
+    right: 28.33%;
+    top: 12.5%;
+    bottom: 29.17%;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -263,8 +298,7 @@
     position: static;
     width: 95px;
     height: 25px;
-    left: 35px;
-    top: 0px;
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -275,13 +309,18 @@
     order: 1;
     flex-grow: 0;
     margin: 0px 11px;
+    position: absolute;
+    left: 43%;
+    right: 8.33%;
+    top: 12.5%;
+    bottom: 29.17%;
   }
   
   #Num{
    
     position: absolute;
-    left: 5%;
-    right: 8.33%;
+    left: 13%;
+    right: 28.33%;
     top: 12.5%;
     bottom: 29.17%;
     
@@ -291,13 +330,35 @@
     position: absolute;
     left: 75%;
     right: 8.33%;
-    top: 8.33%;
+    top: 2.33%;
+    bottom: 12.5%;
+  }
+
+  .starText {
+    position: static;
+    width: 95px;
+    height: 25px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 11px;
+    position: absolute;
+    left: 75%;
+    right: 8.33%;
+    top: 2.33%;
     bottom: 12.5%;
     
   }
   #Quizes{
     position: absolute;
-    left: 48%;
+    left: 38%;
     right: 8.33%;
     top: 12.5%;
     bottom: 29.17%;
@@ -357,7 +418,6 @@
     position: absolute;
     width: 807px;
     height: 196px;
-    left: 3px;
     top: 357px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
@@ -370,7 +430,6 @@
     position: absolute;
     width: 807px;
     height: 196px;
-    left: 3px;
     top: 573px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
@@ -383,7 +442,6 @@
     position: absolute;
     width: 807px;
     height: 196px;
-    left: 3px;
     top: 789px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
@@ -638,148 +696,18 @@
     line-height: 19px;
     color: #000000;
   }
-  .GameStart{
-    background: #2E566C;
-    
-  }
-  .PinContainer{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: #27307D;
-  }
-  #PinHeader{
-    position: absolute;
-    left: 500px;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 49px;
-    color: #FFFFFF;
-    
-    
-  }
-  .LangaugeContainer{
-    position: absolute;
-    width: 70px;
-    height: 23px;
-    left: 0px;
-    top: 36px;
-    background: #CABDBD;
-    border-radius: 50px;
-
-  }
-  #LangaugeText{
-    position: absolute;
-    left: 15px;
-    right: 9.8%;
-    top: 24%;
-    bottom: 16%;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-#StartButton{
-  position: absolute;
-  left: 27.78%;
-  right: 21.11%;
-  top: 0%;
-  bottom: 0%;
-  background: linear-gradient(275.76deg, #6AB04C 44.33%, #BADC58 98.56%);
-  border-radius: 10px;
-  width: 80px;
-  height: 30px;
-  margin-top: 250px;
-  margin-left: 700px;
-}
-.LockContainer{
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  left: 990px;
-  top: 255px;
-  background: #CABDBD;
-  border-radius: 8px;
-}
-#PlayersIcon{
-
-}
-#StartText{
-  position: absolute;
-  left: 46.25%;
-  right: 42.15%;
-  top: 26.37%;
-  bottom: 67.29%;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 65px;
-  letter-spacing: -0.08em;
-  color: #FFFFFF;
-  margin-top: 10px;
-
-}
-  .PinInput{
-    position: absolute;
+  #Ranks {
+    position: fixed;
     width: 300px;
-    height: 40px;
-    left: 420px;
-    top: 50px;
-    border-radius: 25px;
-    background: #22285F;
-    text-align: center;
-    
-  }
-  #FlagText{
-    position: absolute;
-    left: 150px;
-    right: 0%;
-    top: 820px;
-    bottom: 52.38%;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-
-  }
-  #HipHopText{
-    position: absolute;
-    width: 67px;
-    height: 19px;
-    left: 53px;
-    top: 350px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    color: rgba(34, 40, 95, 0.91);
-    
-  }
-  #Ranks{
-    position: absolute;
-    width: 320px;
-    height: 504px;
-    left: 823px;
+    height: 400px;
+    left: 1183px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
     border-radius: 7px;
+
+    z-index: 14;
   }
   #Ranks-header{
     position: absolute;
@@ -1167,18 +1095,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
-   }
-  /* #Line{
-    position: absolute;
-    width: 200px;
-    height: 0px;
-    left: 1px;
-    top: 20px;
-    border: 4px solid rgba(34, 40, 95, 0.06);
-  } */
-  
-  
+    color: #9e9898;
+  }
+
   #heading-1 {
     margin-left: 20px;
   }
@@ -1244,25 +1163,6 @@
   padding: 15px;
   
 }
-
-.modalText p {
-  line-height: 130%;
-}
-
-.modalText button {
-  display: block;
-  width: 100%;
-  text-align: center;
-} 
-#buttons{
-  display: flex;
-  
-}
-
-#Single{
-  margin-left: 280px;
-  
-}
 #Team{
   margin-left: 10px;
 }
@@ -1274,4 +1174,129 @@
   border: 0;
   color: white;
 } 
+}
+
+.screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  width: 12%;
+}
+.sidebar {
+  width: 80%;
+  padding: 15px;
+  height: 1000px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 320px) {
+  .sidebar {
+    margin-left: 30px;
+  }
+
+  .popc {
+    width: 290px;
+    height: 100px;
+  }
+
+  #Star {
+    display: none;
+  }
+
+  .search {
+    left: 450px;
+  }
+
+  .bottom-left-1 {
+    left: 403px;
+  }
+
+  .img-1 {
+    position: sticky;
+  }
+
+  .hamburger {
+    width: 10%;
+    z-index: 999;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+  }
+
+  .Select {
+    width: 20px;
+    right: -100px;
+  }
+  .game-1 {
+    width: 257px;
+    height: 406px;
+    justify-content: center;
+  }
+
+  .game-2 {
+    width: 227px;
+    height: 406px;
+  }
+
+  .game-3 {
+    width: 257px;
+    height: 406px;
+  }
+
+  .Vector-1 {
+    display: none;
+  }
+  .Vector-2 {
+    display: none;
+  }
+  .Vector-3 {
+    display: none;
+  }
+  .Playicon {
+    width: 20px;
+    height: 20px;
+  }
+  .Play-1 {
+    display: none;
+  }
+
+  .Play-2 {
+    display: none;
+  }
+
+  .Play-3 {
+    display: none;
+  }
+
+  #History-1 {
+    display: none;
+  }
+  #History-2 {
+    display: none;
+  }
+  #History-3 {
+    display: none;
+  }
+  .exitButton {
+    display: none;
+  }
+  #Quiz-1 {
+    display: none;
+  }
+  #Quiz-2 {
+    display: none;
+  }
+  #Quiz-3 {
+    display: none;
+  }
+  #Ranks {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+  }
 }
