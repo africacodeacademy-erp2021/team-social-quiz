@@ -1,6 +1,5 @@
 import React from 'react'
 import './CategoryMedia.css';
-import './CategoryMediaTwo.css';
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";

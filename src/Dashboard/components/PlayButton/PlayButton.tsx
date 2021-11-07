@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Modal from './Modal';
 import './popUp.css';
+import '../../pages/Category.css';
+import '../../pages/CategoryMedia.css';
 import Backdrop from './Backdrop';
 import playIcon from './img_background/Play.png';
 
@@ -21,7 +23,7 @@ function closeModalHandler(){
 return (
       <div className="card">   
        
-        <button className='btn-play' onClick={deleteHandler}>
+        <button id="HipHopPlay" onClick={deleteHandler}>
          <img className="playIcon" src={playIcon} alt="play"/>
          PLAY
         </button>   
