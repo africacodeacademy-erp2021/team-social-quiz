@@ -321,3 +321,868 @@ progress {
     z-index: 1000;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:414px) and (max-width:736px){
+    .body{
+
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+   
+       background-color: #22285F;
+       background-image: url(backGroundImg.svg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100%;
+    
+    }
+    
+    .question_display{  
+        height: 667px;   
+        width: 100%;    
+    }
+    
+    .displayMeme_section{
+        
+        text-align: center;
+        color: white;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 65px;   
+        height: 680px;   
+        width: 100%;
+    
+    }
+    
+    .questions-section{
+      
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 69px;
+        color: white;
+    
+    }
+    
+    
+    .answer-section{
+    
+        text-align: center;
+        display:inline-block;
+        width: 60%;
+       
+    }
+    
+    .answer-button{
+       
+        margin: 4px;
+        width: 250px;
+        height: 65px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 9px;
+        font-family: Mulish;;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 25px;    
+        align-items: center;        
+        color: #000000;
+    }
+    
+    .onNext{
+        margin: 5px;   
+        width: 63px;
+        height: 43px;
+        left: 751px;
+        top: 744px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;        
+        background: rgba(0, 255, 132, 0.64);
+        border-radius: 0px 9px 9px 0px;
+    }
+    .onend{
+        width: 63px;
+        height: 43px;
+        left: 677px;
+        top: 744px;
+        background: #975252;
+        border-radius: 9px 0px 0px 9px;    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+        color: white;    
+    }
+    
+    
+    .showMessage{
+    
+        color: rgb(9, 145, 32);
+        font-size: 12px;
+        
+    }
+    
+    .showMessage2{
+    
+        color: rgb(226, 17, 17);
+        font-size: 12px;
+        
+    }
+    
+    .link{
+    
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    .score_count{
+        
+        text-align: right;
+        align-items: flex-end;
+      
+      
+    }
+    
+    .audio_time_score-section{
+    
+        max-width: 100%;
+        min-width: 60%;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .audio-section{
+      width: 33.3%;
+    }
+    .audio-section .audio{
+        margin-left: -35%;
+        margin-right: 0%;
+        margin-top: 5.10%;
+        margin-bottom:  0%;
+        
+    
+    }
+    .timer-section{
+      width: 33.3%; 
+    }
+    .timer-section .timer{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 17.10%;
+        margin-bottom:  0%;
+        
+        background: #3C437E;
+        font-size: 16px;
+        
+        border-radius: 20px;
+        border: #3C437E;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .score-section{
+      
+      width: 33.4%;
+      display: flex;
+      margin-top: 15px;
+    }
+    .score-section .score_count{
+    
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 23px;
+        align-items: center;
+        text-align: center;
+        width: 33px;
+        height: 23px;
+        left: 37px;
+        margin-top: 61px;
+        color: #FFFFFF;
+        margin-left: 50px;
+        margin-top: 37.10%;
+    }
+    .score-section .img{
+        
+    margin-left: 29.17%;
+    margin-right: 1.17%;
+    margin-top: 2.58%;
+    margin-bottom: -9.33%;
+    display: none;
+    
+    }
+    
+    
+    .progress_bar{
+        width: 100%;
+        align-items: center;
+        text-align: right;
+    }
+    
+    .myprogressBar{
+        text-align: right;
+        color: #000000;
+    }
+    progress {
+        border-radius: 19px; 
+        width: 70%;
+        height: 28px;
+        align-items: center;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 72px;
+       /* text-align: center;*/
+    
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+      }
+      progress::-webkit-progress-bar {
+        background-color: rgb(218, 218, 218);
+        border-radius: 19px;
+        width: 100%;
+      }
+      progress::-webkit-progress-value {
+        background-color: rgb(91, 91, 243);
+        border-radius: 19px;
+        color: #000000; 
+        text-align: end;
+        font-size: 20px;
+        color: brown;
+      }
+      .audioo{
+        left: 8%;
+        right: 40;
+        top: 70;
+        bottom:83%;
+        position: absolute;
+        z-index: 1000;
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:736px) and (max-width:1200px){
+    .body{
+
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+   
+       background-color: #22285F;
+       background-image: url(backGroundImg.svg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100%;
+    
+    }
+    
+    .question_display{  
+        height: 667px;   
+        width: 100%;    
+    }
+    
+    .displayMeme_section{
+        
+        text-align: center;
+        color: white;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 65px;   
+        height: 680px;   
+        width: 100%;
+    
+    }
+    
+    .questions-section{
+      
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 40px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 99px;
+        color: white;
+
+    
+    }
+    
+    
+    .answer-section{
+    
+        text-align: center;
+        display:inline-block;
+        width: 60%;
+       
+    }
+    
+    .answer-button{
+       
+        margin: 4px;
+        width: 250px;
+        height: 65px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 9px;
+        font-family: Mulish;;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25x;
+        line-height: 25px;    
+        align-items: center;        
+        color: #000000;
+    }
+    
+    .onNext{
+        margin: 5px;   
+        width: 93px;
+        height: 43px;
+        left: 751px;
+        top: 744px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 33px;
+        color: #FFFFFF;        
+        background: rgba(0, 255, 132, 0.64);
+        border-radius: 0px 9px 9px 0px;
+    }
+    .onend{
+        width: 93px;
+        height: 43px;
+        left: 677px;
+        top: 744px;
+        background: #975252;
+        border-radius: 9px 0px 0px 9px;    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 33px;
+        color: white;    
+    }
+    
+    
+    .showMessage{
+    
+        color: rgb(9, 145, 32);
+        font-size: 16px;
+        
+    }
+    
+    .showMessage2{
+    
+        color: rgb(226, 17, 17);
+        font-size: 16px;
+        
+    }
+    
+    .link{
+    
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    .score_count{
+        
+        text-align: right;
+        align-items: flex-end;
+      
+      
+    }
+    
+    .audio_time_score-section{
+    
+        max-width: 100%;
+        min-width: 60%;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .audio-section{
+      width: 33.3%;
+    }
+    .audio-section .audio{
+        margin-left: -35%;
+        margin-right: 0%;
+        margin-top: 5.10%;
+        margin-bottom:  0%;
+        
+    
+    }
+    .timer-section{
+      width: 33.3%; 
+    }
+    .timer-section .timer{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 17.10%;
+        margin-bottom:  0%;
+        
+        background: #3C437E;
+        font-size: 16px;
+        
+        border-radius: 20px;
+        border: #3C437E;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .score-section{
+      
+      width: 33.4%;
+      display: flex;
+      margin-top: 15px;
+    }
+    .score-section .score_count{
+    
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 23px;
+        align-items: center;
+        text-align: center;
+        width: 33px;
+        height: 23px;
+        left: 37px;
+        margin-top: 61px;
+        color: #FFFFFF;
+        margin-left: 50px;
+        margin-top: 42.10%;
+    }
+    .score-section .img{
+        
+    margin-left: 29.17%;
+    margin-right: 1.17%;
+    margin-top: 2.58%;
+    margin-bottom: -9.33%;
+    display: none;
+    
+    }
+    
+    
+    .progress_bar{
+        width: 100%;
+        align-items: center;
+        text-align: right;
+    }
+    
+    .myprogressBar{
+        text-align: right;
+        color: #000000;
+    }
+    progress {
+        border-radius: 19px; 
+        width: 80%;
+        height: 28px;
+        align-items: center;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 72px;
+       /* text-align: center;*/
+    
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+      }
+      progress::-webkit-progress-bar {
+        background-color: rgb(218, 218, 218);
+        border-radius: 19px;
+        width: 100%;
+      }
+      progress::-webkit-progress-value {
+        background-color: rgb(91, 91, 243);
+        border-radius: 19px;
+        color: #000000; 
+        text-align: end;
+        font-size: 20px;
+        color: brown;
+      }
+      .audioo{
+        left: 8%;
+        right: 40;
+        top: 70;
+        bottom:83%;
+        position: absolute;
+        z-index: 1000;
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/**Iphne 5 */
+
+@media only screen and (min-width:320px) and (max-width:413px){
+    .body{
+
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+   
+       background-color: #22285F;
+       background-image: url(backGroundImg.svg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100%;
+    
+    }
+    
+    .question_display{  
+        height: 667px;   
+        width: 100%;    
+    }
+    
+    .displayMeme_section{
+        
+        text-align: center;
+        color: white;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 65px;   
+        height: 680px;   
+        width: 100%;
+    
+    }
+    
+    .questions-section{
+      
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 22px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 49px;
+        color: white;
+            
+    }
+    
+    
+    .answer-section{
+    
+        text-align: center;
+        display:inline-block;
+        width: 60%;
+       
+    }
+    
+    .answer-button{
+       
+        margin: 4px;
+        width: 150px;
+        height: 45px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 9px;
+        font-family: Mulish;;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;    
+        align-items: center;        
+        color: #000000;
+    }
+    
+    .onNext{
+        margin: 5px;   
+        width: 93px;
+        height: 37px;
+        left: 751px;
+        top: 744px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;        
+        background: rgba(0, 255, 132, 0.64);
+        border-radius: 0px 9px 9px 0px;
+    }
+    .onend{
+        width: 93px;
+        height: 37px;
+        left: 677px;
+        top: 744px;
+        background: #975252;
+        border-radius: 9px 0px 0px 9px;    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+        color: white;    
+    }
+    
+    
+    .showMessage{
+    
+        color: rgb(9, 145, 32);
+        font-size: 10px;
+        
+    }
+    
+    .showMessage2{
+    
+        color: rgb(226, 17, 17);
+        font-size: 10px;
+        
+    }
+    
+    .link{
+    
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    .score_count{
+        
+        text-align: right;
+        align-items: flex-end;
+      
+      
+    }
+    
+    .audio_time_score-section{
+    
+        max-width: 100%;
+        min-width: 60%;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .audio-section{
+      width: 33.3%;
+    }
+    .audio-section .audio{
+        margin-left: -35%;
+        margin-right: 0%;
+        margin-top: 3.10%;
+        margin-bottom:  0%;
+        
+    
+    }
+    .timer-section{
+      width: 33.3%; 
+    }
+    .timer-section .timer{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 17.10%;
+        margin-bottom:  0%;
+        
+        background: #3C437E;
+        font-size: 16px;
+        
+        border-radius: 20px;
+        border: #3C437E;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .score-section{
+      
+      width: 33.4%;
+      display: flex;
+      margin-top: 15px;
+    }
+    .score-section .score_count{
+    
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 23px;
+        align-items: center;
+        text-align: center;
+        width: 33px;
+        height: 23px;
+        left: 37px;
+        margin-top: 61px;
+        color: #FFFFFF;
+        margin-left: 50px;
+        margin-top: 23.50%;
+    }
+    .score-section .img{
+        
+    margin-left: 29.17%;
+    margin-right: 1.17%;
+    margin-top: 2.58%;
+    margin-bottom: -9.33%;
+    display: none;
+    
+    }
+    
+    
+    .progress_bar{
+        width: 100%;
+        align-items: center;
+        text-align: right;
+    }
+    
+    .myprogressBar{
+        text-align: right;
+        color: #000000;
+    }
+    progress {
+        border-radius: 19px; 
+        width: 80%;
+        height: 28px;
+        align-items: center;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 22px;
+       /* text-align: center;*/
+    
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+      }
+      progress::-webkit-progress-bar {
+        background-color: rgb(218, 218, 218);
+        border-radius: 19px;
+        width: 100%;
+      }
+      progress::-webkit-progress-value {
+        background-color: rgb(91, 91, 243);
+        border-radius: 19px;
+        color: #000000; 
+        text-align: end;
+        font-size: 20px;
+        color: brown;
+      }
+      .audioo{
+        left: 8%;
+        right: 40;
+        top: 70;
+        bottom:83%;
+        position: absolute;
+        z-index: 1000;
+    
+    }
+
+    .playerName{
+        width: 50%;
+        height: 60px;
+        margin-top: 70px;
+              
+        font-size: 16px;
+        text-align: right;
+        margin-right: 20px;
+      
+    }
+    .gameName{
+        margin-top: 18px;
+        width: 50%;
+        height: 60px;
+       
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.08em;
+          
+    }
+
+    
+    .meme{
+        margin-top: 59px;
+        Width: 130px;
+        Height: 130px;
+    }
+
+}
+
+
+
+

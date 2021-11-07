@@ -9,12 +9,6 @@ import { renderHook, act} from '@testing-library/react-hooks'
 import { configure, shallow } from "enzyme";
 configure({ adapter: new Adapter() });
 
-test('game Audio buttons can be clicked', () => {
-  render(<MyAudio/>);
-  //click audio button 
-  const muteBtn:any = screen.getAllByRole('button', {pressed: true});
-  expect(muteBtn).toBeTruthy;
-});
 
 describe("add Score", () => {
   it("it adds score by 50", () => {    

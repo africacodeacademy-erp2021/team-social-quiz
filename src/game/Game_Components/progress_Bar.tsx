@@ -3,12 +3,12 @@ import React, {useContext} from 'react';
 
 function ProgressBar(){
  const {currentQuestion} = useContext(GameContext);
- const {selected_number} = useContext(GameContext);
+const numberQuestion = 10;
 
     return(
         <div className="bar_Container">
-           <progress id="file" value={currentQuestion + 1} max={selected_number}>
-                 <span> {currentQuestion} / {selected_number} </span>         
+           <progress id="file" value={currentQuestion + 1} max={numberQuestion}>
+                 <span> {currentQuestion} / {numberQuestion} </span>         
            </progress>
         </div> 
     )
