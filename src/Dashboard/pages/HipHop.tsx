@@ -1,4 +1,6 @@
 import React from 'react'
+import './CategoryMedia.css';
+import './CategoryMediaTwo.css';
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -20,15 +22,23 @@ function HipHop() {
         </div>
 
         <div className="Numplays">
-          <span><img id="Num" src={Num} alt="Num"  /></span>
-          <span><img id="Quizes" src={Quizes} alt="Quizes"  /></span>
-          <span><img id="Star" src={Star} alt="Star"  /></span>
-          <span id="PlaysText">Plays</span>
+          <span><img id="Num" src={Num} alt="Num"  />
+             <span id="PlaysText"> 100 Plays</span>
+           </span>
+          <span><img id="Quizes" src={Quizes} alt="Quizes"  /> 
           <span id="QuizesText">Quizes 15</span>
+          </span>
+          <span><img id="Star" src={Star} alt="Star"  /></span>
+          
+          
           
         </div>
+
         <div id="Ranks">
-          <span id="Ranks-header">Leaderboard</span>
+
+         <span id="Ranks-header">Leaderboard</span> 
+
+    <div className="ranks-data"> 
           <div id="One">1</div>
           <div id="Two">2</div>
           <div id="Three">3</div>
@@ -36,13 +46,21 @@ function HipHop() {
           <div id="Five">5</div>
           <div id="Six">6</div>
           <div id="Eight">7</div>
-          <img id="Medal" src={Medal} alt="Medal" />
+    </div> 
+    
+
+    <div className="medals-Icons">
+      
+     <img id="Medal" src={Medal} alt="Medal" />
           <img id="Medal-1" src={Medal} alt="Medal" />
           <img id="Medal-2" src={Medal} alt="Medal" />
           <img id="Medal-3" src={Medal} alt="Medal" />
           <img id="Medal-4" src={Medal} alt="Medal" />
           <img id="Medal-5" src={Medal} alt="Medal" />
           <img id="Medal-6" src={Medal} alt="Medal" />
+
+    </div> 
+
           <img id="Points-1" src={Points} alt="Points"/>
           <img id="Points-2" src={Points} alt="Points"/>
           <img id="Points-3" src={Points} alt="Points"/>
@@ -50,7 +68,7 @@ function HipHop() {
           <img id="Points-5" src={Points} alt="Points"/>
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
-
+     
           {/* <span id="Line"></span> */} 
         </div>
         
