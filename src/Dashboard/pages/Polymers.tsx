@@ -1,5 +1,5 @@
 import React from "react";
-import ChemistryC from "../Images/ChemistryC.jpg";
+import ChemistryC2 from "../Images/ChemistryC2.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
 import HistoryC from "../Images/HistoryC.jpg";
@@ -23,8 +23,8 @@ function Polymers() {
         <div className="sidebar">
           <div className="Big-Container">
             <div>
-              <div className="Select-1">
-                <img src={ChemistryC} alt="Pop" width="100%" />
+              <div className="Select">
+                <img className="popc" src={ChemistryC2} alt="Pop"/>
               </div>
               <div className="Numplays">
                 <span>

@@ -9,7 +9,7 @@ import Medal from "../Images/Medal.png";
 import Points from "../Images/Points.png";
 import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
-import AstronomyC from "../Images/AstronomyC.jpg";
+import AstronomyC from "../Images/AstronomyC2.jpg";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
 
@@ -21,8 +21,8 @@ function Astronomy() {
           <Navbar />
         </div>
         <div className="sidebar">
-          <div className="Select-3">
-            <img src={AstronomyC} alt="Pop" width="100%" />
+          <div className="Select">
+            <img className="popc" src={AstronomyC} alt="Pop" width="100%" />
           </div>
           <div className="Numplays">
             <span>

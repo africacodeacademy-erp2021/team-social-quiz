@@ -11,7 +11,7 @@ import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
-import AstronomyC from "../Images/AstronomyC.jpg";
+import HistoryC2 from "../Images/HistoryC3.jpg";
 
 function HistoryCategory() {
   return (
@@ -21,8 +21,8 @@ function HistoryCategory() {
           <Navbar />
         </div>
         <div className="sidebar">
-          <div className="Select-3">
-            <img src={AstronomyC} alt="Pop" width="100%" />
+          <div className="Select">
+            <img className="popc" src={HistoryC2} alt="Pop" />
           </div>
           <div className="Numplays">
             <span>
