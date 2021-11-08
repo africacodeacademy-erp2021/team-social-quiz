@@ -7,7 +7,6 @@ import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-
 function Category() {
   return (
     <div className="screen">
@@ -161,7 +160,7 @@ function Category() {
           </div>
 
           <div className="img-11">
-            <Link to="/mummiestwo">
+            <Link to="/mummiestwo">z
               <img src={history} alt="history" width="345px" height="120px" />
               <div className="Mummies-1">Mummies</div>
             </Link>

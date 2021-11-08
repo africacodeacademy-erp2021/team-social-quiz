@@ -45,7 +45,23 @@
   .sub-category {
     display: flex;
   }
+  
+    .PopMobile{
+      width: 1080px; 
+      height:300px;
+  } 
+  @media screen and (min-width: 375px) and (max-width:400px){
+    .PopMobile{
+      width:340px;
+      height: 180px;
+    }
+    .img{
+      width: 340px;
+      height:180px;
+    }
 
+    
+  }
   .img-1 {
     flex: 1;
     margin-right: 10px;
@@ -374,19 +390,8 @@
     bottom: 29.17%;
   }
 
-  /* #Play {
-    height: 18px;
-    width: 14px;
-    left: 20px;
-  }
-  #Share {
-    height: 20px;
-    width: 20px;
-    left: 400px;
-    top: 2px;
-    border-radius: 0px;
-  } */
-  #Hiphop-img {
+  
+  #Hiphop-img{
     position: absolute;
     width: 136px;
     height: 101px;
@@ -409,7 +414,6 @@
     height: 101px;
     left: 15px;
     top: 16px;
-    /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
     mix-blend-mode: darken;
   }
   .Big-Container {
@@ -1140,6 +1144,31 @@
 
 .modalText {
   padding: 15px;
+  
+}
+
+.modalText p {
+  line-height: 130%;
+}
+@media screen and (min-width:1024px) and (max-width:1400px) {
+  .sidebar{
+    margin-left: -1%;
+
+  }
+}
+
+.modalText button {
+  display: block;
+  width: 100%;
+  text-align: center;
+} 
+#buttons{
+  display: flex;
+  
+}
+
+#Single{
+  margin-left: 280px;
   
 }
 #Team{
