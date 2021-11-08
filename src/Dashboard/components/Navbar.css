@@ -90,8 +90,7 @@
       width: 100%;
       height: auto;
       position: relative;
-      display: flex;
-      
+      display: flex;  
     }
     .Navigation{
       display: none;
