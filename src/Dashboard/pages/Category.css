@@ -416,7 +416,7 @@
 
     border: 1px solid #fccccc30;
     position: absolute;
-    width: 807px;
+    width: 607px;
     height: 196px;
     top: 357px;
     background: #FFFFFF;
@@ -428,7 +428,7 @@
     display:block;
     border: 1px solid #00000030;
     position: absolute;
-    width: 807px;
+    width: 607px;
     height: 196px;
     top: 573px;
     background: #FFFFFF;
@@ -440,7 +440,7 @@
     display:block;
     border: 1px solid #00000030;
     position: absolute;
-    width: 807px;
+    width: 607px;
     height: 196px;
     top: 789px;
     background: #FFFFFF;
@@ -697,10 +697,10 @@
     color: #000000;
   }
   #Ranks {
-    position: fixed;
+    position: absolute;
     width: 300px;
     height: 400px;
-    left: 1183px;
+    left: 703px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -713,7 +713,7 @@
     position: absolute;
     width: 135px;
     height: 25px;
-    left: 80px;
+    left: 50px;
     top: 0px;
     font-family: Open Sans;
     font-style: normal;
@@ -847,7 +847,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 7%;
+    top: 40px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -856,7 +856,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 13%;
+    top: 67px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -865,7 +865,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 18%;
+    top: 97px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -874,7 +874,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 24%;
+    top: 124px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -883,7 +883,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 30%;
+    top: 154px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -892,7 +892,7 @@
     position: absolute;
     left: 5%;
     right: 16.67%;
-    top: 36%;
+    top: 182px;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -912,7 +912,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 8%;
+    top: 40px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -923,7 +923,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 13%;
+    top: 67px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -934,7 +934,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 19%;
+    top: 97px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -945,7 +945,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 25%;
+    top: 124px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -956,7 +956,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 31%;
+    top: 154px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -967,7 +967,7 @@
     position: absolute;
     left: 70%;
     right: 4.17%;
-    top: 36%;
+    top: 184px;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1202,7 +1202,281 @@
     width: 290px;
     height: 100px;
   }
+  #Ranks{
+    position: absolute;
+    width: 85%;
+    height: 504px;
+    left: 5%;
+    top: 1287px;
+    background:rgba(230, 222, 222, 0.637);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  #Ranks-header{
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    left: 20px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+  }
+#One{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 15px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Two{
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+top: 20px;
+}
+#Three{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Four{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Five{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Six{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Seven{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Medal{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 2.4%;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-1{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 40px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-2{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 67px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-3{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 97px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-4{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 125px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-5{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 154px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-6{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top:184px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Points-1{
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 2%;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
 
+}
+#Points-2{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 40px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-3{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 67px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-4{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 97px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-5{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 127px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-6{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 155px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-7{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 184px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
   #Star {
     display: none;
   }
@@ -1310,6 +1584,281 @@
     width: 290px;
     height: 100px;
   }
+  #Ranks{
+    position: absolute;
+    width: 85%;
+    height: 504px;
+    left: 5%;
+    top: 1287px;
+    background:rgba(230, 222, 222, 0.637);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  #Ranks-header{
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    left: 20px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+  }
+#One{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 15px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Two{
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+top: 20px;
+}
+#Three{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Four{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Five{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Six{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Seven{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Medal{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 2.4%;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-1{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 40px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-2{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 67px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-3{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 97px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-4{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 125px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-5{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 154px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-6{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top:184px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Points-1{
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 2%;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-2{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 40px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-3{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 67px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-4{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 97px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-5{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 127px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-6{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 155px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-7{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 184px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
 
   #Star {
     display: none;
@@ -1418,6 +1967,281 @@
     width: 350px;
     height: 120px;
   }
+  #Ranks{
+    position: absolute;
+    width: 85%;
+    height: 504px;
+    left: 5%;
+    top: 1287px;
+    background:rgba(230, 222, 222, 0.637);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  #Ranks-header{
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    left: 20px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+  }
+#One{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 15px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Two{
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+top: 20px;
+}
+#Three{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Four{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Five{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Six{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Seven{
+position: static;
+width: 8px;
+height: 18px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#Medal{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 2.4%;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-1{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 40px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-2{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 67px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-3{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 97px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-4{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 125px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-5{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top: 154px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Medal-6{
+position: absolute;
+left: 5%;
+right: 16.67%;
+top:184px;
+bottom: 4.17%;
+width: 15px;
+height: 15px;
+}
+#Points-1{
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 2%;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-2{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 40px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-3{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 67px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-4{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 97px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-5{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 127px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-6{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 155px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
+#Points-7{
+
+position: absolute;
+left: 80%;
+right: 2.17%;
+top: 184px;
+bottom: 8.33%;
+width: 15px;
+height: 15px;
+
+}
 
   #Star {
     display: none;
@@ -1522,12 +2346,26 @@
     position: absolute;
     width: 200px;
     height: 300px;
+    left: 650px;
   }
+  .sidebar {
+    margin-left: 50px;
+  }
+
+  .hamburger{
+    width: 5%;
+    z-index: 999;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+  }
+ 
 
   .game-1 {
     width: 257px;
-    height: 406px;
-    justify-content: center;
+    height: 206px;
+  
   }
 
   .game-2 {
@@ -1539,18 +2377,18 @@
     width: 257px;
     height: 406px;
   }
+  .Select {
+    margin-left: 90px;
+    width: 78%;
+  }
+
+  
 }
 @media (min-width: 1024px) and (max-width: 1050px) {
   .sidebar {
     margin-left: 150px;
   }
 
-  .Select {
-    margin-left: 120px;
-    width: 78%;
-  }
-  .Select-1 {
-    width: 78%;
-    margin-left: 120px;
-  }
+  
+
 }

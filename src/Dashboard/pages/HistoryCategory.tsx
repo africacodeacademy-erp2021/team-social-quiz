@@ -95,41 +95,36 @@ function HistoryCategory() {
           <div className="rightbar">
             <div id="Ranks">
               <span id="Ranks-header">Category Ranks</span>
-              <div id="One">
-                1 <img id="Medal" src={Medal} alt="Medal" />
-                <span>{"              "}</span>
-                <img id="Points-1" src={Points} alt="Points" />{" "}
+
+              <div className="ranks-data">
+                <div id="One">1</div>
+                <div id="Two">2</div>
+                <div id="Three">3</div>
+                <div id="Four">4</div>
+                <div id="Five">5</div>
+                <div id="Six">6</div>
+                <div id="Eight">7</div>
               </div>
-              <div id="Two">
-                2 <img id="Medal-1" src={Medal} alt="Medal" />
-                <span>{"             "}</span>
-                <img id="Points-2" src={Points} alt="Points" />
+
+              <div className="medals-Icons">
+                <img id="Medal" src={Medal} alt="Medal" />
+                <img id="Medal-1" src={Medal} alt="Medal" />
+                <img id="Medal-2" src={Medal} alt="Medal" />
+                <img id="Medal-3" src={Medal} alt="Medal" />
+                <img id="Medal-4" src={Medal} alt="Medal" />
+                <img id="Medal-5" src={Medal} alt="Medal" />
+                <img id="Medal-6" src={Medal} alt="Medal" />
               </div>
-              <div id="Three">
-                3 <img id="Medal-2" src={Medal} alt="Medal" />{" "}
-                <span>{"            "}</span>
-                <img id="Points-3" src={Points} alt="Points" />
-              </div>
-              <div id="Four">
-                4 <img id="Medal-3" src={Medal} alt="Medal" />
-                <span>{"            "}</span>
-                <img id="Points-4" src={Points} alt="Points" />
-              </div>
-              <div id="Five">
-                5 <img id="Medal-4" src={Medal} alt="Medal" />
-                <span>{"              "}</span>
-                <img id="Points-5" src={Points} alt="Points" />
-              </div>
-              <div id="Six">
-                6 <img id="Medal-5" src={Medal} alt="Medal" />
-                <span>{"                  "}</span>
-                <img id="Points-6" src={Points} alt="Points" />
-              </div>
-              <div id="Eight">
-                7<img id="Medal-6" src={Medal} alt="Medal" />
-                <span>{"                "}</span>
-                <img id="Points-7" src={Points} alt="Points" />
-              </div>
+
+              <img id="Points-1" src={Points} alt="Points" />
+              <img id="Points-2" src={Points} alt="Points" />
+              <img id="Points-3" src={Points} alt="Points" />
+              <img id="Points-4" src={Points} alt="Points" />
+              <img id="Points-5" src={Points} alt="Points" />
+              <img id="Points-6" src={Points} alt="Points" />
+              <img id="Points-7" src={Points} alt="Points" />
+
+              {/* <span id="Line"></span> */}
             </div>
           </div>
         </div>
