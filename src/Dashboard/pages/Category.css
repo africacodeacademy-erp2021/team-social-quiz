@@ -43,7 +43,23 @@
   .sub-category {
     display: flex;
   }
+  
+    .PopMobile{
+      width: 1080px; 
+      height:300px;
+  } 
+  @media screen and (min-width: 375px) and (max-width:400px){
+    .PopMobile{
+      width:340px;
+      height: 180px;
+    }
+    .img{
+      width: 340px;
+      height:180px;
+    }
 
+    
+  }
   .img-1 {
     flex: 1;
   }
@@ -303,30 +319,24 @@
     bottom: 29.17%;
     
 
+
   }
   
   
-   /* #Play {
-    height: 18px;
-    width: 14px;
-    left: 20px;
-  }
-  #Share {
-    height: 20px;
-    width: 20px;
-    left: 400px;
-    top: 2px;
-    border-radius: 0px;
-  } */ 
+    
   #Hiphop-img{
     position: absolute;
     width: 136px;
     height: 101px;
     left: 15px;
     top: 16px;
+
    /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
     mix-blend-mode: darken; 
     
+
+    mix-blend-mode: darken;
+
   }
   #Jazz-img{
     position: absolute;
@@ -342,7 +352,6 @@
     height: 101px;
     left: 15px;
     top: 16px;
-    /* background: url(daniel-tong-xBeid9r1paU-unsplash.jpg); */
     mix-blend-mode: darken;
   }
   .Big-Container{
@@ -390,9 +399,14 @@
     box-sizing: border-box;
     border-radius: 7px;
   }
+
   #Most-Popular{
     display:block;
-    /* position: absolute; */
+    
+  }
+
+  #Most-Popular {
+    display: block;
     width: 371px;
     height: 33px;
     left: 27px;
@@ -1247,6 +1261,12 @@
 
 .modalText p {
   line-height: 130%;
+}
+@media screen and (min-width:1024px) and (max-width:1400px) {
+  .sidebar{
+    margin-left: -1%;
+
+  }
 }
 
 .modalText button {

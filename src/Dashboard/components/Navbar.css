@@ -69,4 +69,162 @@
   
   span {
     margin-left: 16px;
+
   }
+
+  .MobileNav{
+    display: none;
+  }
+
+  @media (min-width:990px) and (max-width:1020px){
+    .Navigation{
+      display: none;
+    }
+    .MobileNav{
+      display: flex;
+    }
+  }
+/* Iphone 6/7/8*/
+  @media screen and (min-width: 375px) and (max-width:400px) {
+    .MobileNav{
+      width: 100%;
+      height: auto;
+      position: relative;
+      display: flex;
+      
+    }
+    .Navigation{
+      display: none;
+    }
+   .PopMobile{
+    width: 340px;
+    height:180px;
+    
+  }
+  .bottom-left-1{
+    margin-top: -50px;
+  }
+  .AstronomyMobile{
+    width: 340px;
+    height: 130px;
+  }
+  .ChemistryMobile{
+    width: 340px;
+    height: 130px;
+  }
+  .HistoryMobile{
+    width: 340px;
+    height: 130px;
+  }
+
+}
+ 
+/* Second iphone Plus*/
+@media screen and (min-width: 414px) and (max-width:736px) {
+  .MobileNav{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    
+  }
+  .Navigation{
+    display: none;
+  }
+ .PopMobile{
+  width: 340px;
+  height:180px;
+  
+}
+.bottom-left-1{
+  margin-top: -50px;
+}
+.AstronomyMobile{
+  width: 340px;
+  height: 130px;
+}
+.ChemistryMobile{
+  width: 340px;
+  height: 130px;
+}
+.HistoryMobile{
+  width: 340px;
+  height: 130px;
+}
+
+}
+
+/* Ipad */
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .MobileNav{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    
+  }
+  .Navigation{
+    display: none;
+  }
+ .PopMobile{
+  width: 710px;
+  height:180px;
+  
+}
+.bottom-left-1{
+  margin-top: -50px;
+  margin-left: -150px;
+}
+.AstronomyMobile{
+  width: 230px;
+  height: 130px;
+}
+.ChemistryMobile{
+  width: 230px;
+  height: 130px;
+}
+.HistoryMobile{
+  width: 230px;
+  height: 130px;
+}
+.search{
+  margin-left: -100px;
+}
+
+}
+
+/* Ipad Pro */
+
+@media screen and (min-width: 1024px) and (max-width:1400px) {
+  .MobileNav{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    
+  }
+  .Navigation{
+    display: none;
+  }
+ .PopMobile{
+  width: 990px;
+  height:180px;
+}
+.bottom-left-1{
+  margin-top: -50px;
+}
+.AstronomyMobile{
+  width: 340px;
+  height: 130px;
+}
+.ChemistryMobile{
+  width: 340px;
+  height: 130px;
+}
+.HistoryMobile{
+  width: 340px;
+  height: 130px;
+}
+
+}
+
