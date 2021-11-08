@@ -9,3 +9,9 @@ exports[`Google Button renders correctly 1`] = `ShallowWrapper {}`;
 exports[`Login Page renders correctly 1`] = `ShallowWrapper {}`;
 
 exports[`Registration Page renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`GameStart renders GameStart correctly 1`] = `ShallowWrapper {}`;
+
+exports[`ProgressBar renders ProgressBar correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Timer renders Timer correctly 1`] = `ShallowWrapper {}`;

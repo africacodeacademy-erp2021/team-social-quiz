@@ -4,7 +4,6 @@ import Login from "./authentication-and-login/login/login";
 
 import Registration from "./authentication-and-login/registration/registration";
 import { BrowserRouter as Router} from "react-router-dom";
-
 import CreateGame from "./Dashboard/pages/CreateGame";
 import Leaderboard from "./Dashboard/pages/Leaderboard";
 import Help from "./Dashboard/pages/Help";
@@ -23,9 +22,10 @@ import MummiesOne from "./Dashboard/pages/MummiesOne";
 import MummiesTwo from "./Dashboard/pages/MummiesTwo";
 import MummiesThree from "./Dashboard/pages/MummiesThree";
 import Category from "./Dashboard/pages/Category";
-
 import GameStart from "./Dashboard/pages/GameStart";
 import HipHop from "./Dashboard/pages/HipHop";
+
+
 
 function App() {
   return (
