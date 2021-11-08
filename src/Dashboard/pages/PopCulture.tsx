@@ -1,5 +1,5 @@
 import React from "react";
-import PopC from "../Images/PopC.jpg";
+import PopC from "../Images/PopC.png";
 import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";

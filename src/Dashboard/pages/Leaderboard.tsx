@@ -9,8 +9,9 @@ function Leaderboard() {
         </div>
         <div className="sidebar">
             <h1>Leaderboard</h1>
+            </div>
         </div>
-        </div>
+      
     )
 }
 export default Leaderboard;
