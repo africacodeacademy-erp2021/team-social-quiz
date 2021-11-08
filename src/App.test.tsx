@@ -10,8 +10,7 @@ import Google from "./authentication-and-login/google_authentication/google";
 import Login from "./authentication-and-login/login/login";
 import Registration from "./authentication-and-login/registration/registration";
 import {  render, screen } from "@testing-library/react";
-
-
+import PopCulture from "./Dashboard/pages/PopCulture";
 
 
 configure({ adapter: new Adapter() });
@@ -44,11 +43,13 @@ describe("Login Page", () => {
   });
 });
 
-describe("Registration Page", () => {
-  it("renders correctly", () => {
-    const wrapper = shallow(<Registration />);
-    expect(wrapper).toMatchSnapshot();
-  });
+
+
+
+test('renders learn react link', () => {
+  render(<PopCulture/>);
+  const linkElement = screen.getByText(/Plays/i);
+  expect(linkElement).toBeInTheDocument();
 });
 
 
@@ -73,10 +74,7 @@ test('Props values are passed correctly', async () => {
  
     const signIn = screen.getByRole('button', { name: 'SignIn with Facebook' });
     expect(signIn).toBeInTheDocument();
-})
-
-
-
+});
 
 
 
