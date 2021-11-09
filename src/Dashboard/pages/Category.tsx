@@ -25,7 +25,7 @@ function Category() {
 
         <div className="img">
           <Link to="/popculture">
-            <img src={Pop} alt="Pop" width="1130px" height="300px" />
+            <img className="PopMobile" src={Pop} alt="Pop" width="1130px" height="300px" />
             <div className="bottom-left-1">Pop Culture</div>
           </Link>
         </div>
