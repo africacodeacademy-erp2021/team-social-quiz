@@ -187,6 +187,7 @@
     font-size: 18px;
     font-weight: bold;
   }
+  
   .Chemistry-T {
     position: absolute;
     bottom: 8px;
@@ -2302,11 +2303,4 @@
   
     }
 }
-
-
-
-
-
-
-
-
+}
