@@ -8,7 +8,7 @@ import Facebook from "./authentication-and-login/facebook_authentication/faceboo
 import Github from "./authentication-and-login/github_authentication/github";
 import Google from "./authentication-and-login/google_authentication/google";
 import Login from "./authentication-and-login/login/login";
-import Registration from "./authentication-and-login/registration/registration";
+
 import {  render, screen } from "@testing-library/react";
 import PopCulture from "./Dashboard/pages/PopCulture";
 

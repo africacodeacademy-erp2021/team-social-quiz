@@ -26,6 +26,9 @@ import GameStart from "./Dashboard/pages/GameStart";
 import HipHop from "./Dashboard/pages/HipHop";
 
 
+import ScoreBoard  from './game-completion/score/score';
+
+
 
 function App() {
   return (
@@ -64,8 +67,18 @@ function App() {
           <Route path="/mummiesthree" component={MummiesThree} />
           <Route path="/hiphop" component={HipHop} />
           <Route path="/gamestart" component={GameStart} />
+    
+          
+          <Route path='/leaderboard'>
+              <Leaderboard/>
+          </Route>
+          <Route path='/score'>
+              <ScoreBoard/>
+          </Route>
       </Switch>
-         
+      
+      
+     
     </div>
   );
 }

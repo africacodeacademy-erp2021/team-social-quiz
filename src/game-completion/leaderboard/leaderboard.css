@@ -1,0 +1,521 @@
+
+.body{
+    position: absolute;
+    width: 1340px;
+    height: 850px;
+    color :white;
+    background-color: #22285F;
+    background-image: url(blob.svg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+#quiz{
+  color:blue;
+
+}
+#app{
+    font-size: 45px;
+    margin-left: 6px;
+}
+#heading{
+  text-align: center;
+}
+.text{
+  color:white
+}
+#playername{
+    text-align: end;
+}
+.image1{
+    width: 520px;
+    height: 120px;
+    padding: 10px;
+}
+
+
+.leaderbord{
+
+    width: 450px;
+    margin-left: 35%;
+}
+.number2{
+   /* 2 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 510px;
+top: 270px;
+
+text-align:center;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+text-align:center ;
+background-color:#3EC6FB;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+}
+.number1{
+    /* 1 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 651px;
+top: 270px;
+
+text-align:center ;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+background-color: orange;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.number3{
+    /* 3 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 816px;
+top: 270px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+text-align:center ;
+background-color:#4DD7B6;
+border-radius: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+}
+.leaderboard{
+    border: whitesmoke solid;
+    height: 1000px;
+    width: 150px;
+}
+.board{
+
+    
+    width: 410px;
+    height: 35%;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.position{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#F0A228;
+}
+.position2{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#3EC6FB;
+    margin-top: 20px;
+}
+.position3{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#4DD7B6;
+    margin-top: 20px;
+    
+}
+.position4{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 20px;
+    color: black;
+}
+.position5{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 20px;
+    color: black;
+}
+#number{
+    margin-top: 20px;
+
+}
+#img{
+    border: solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40% ;
+    text-align:center ;
+    margin-top: 80%;
+    background-color:
+    #3AA981;
+
+}
+.score{
+    margin-left: 1200px;
+}
+.Retry{
+    /* Position Bar */
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 559px;
+top: 899px;
+
+background: rgba(60, 67, 126, 0.81);
+border-radius: 9px;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.69%;
+right: 76.92%;
+top: 25%;
+bottom: 25%;
+
+background: #FFFFFF;
+
+
+/* Try again */
+
+position: absolute;
+width: 83px;
+height: 25px;
+left: 610px;
+top: 600px;
+text-align: center;
+background-color: darkblue;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
+.points_icon1{
+    /* position1Photo */
+
+position: absolute;
+left: 45%;
+right: 0%;
+top: 20%;
+bottom: 0%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.points_icon2{
+    /* position2Photo */
+
+position: absolute;
+left: 35%;
+right: 0%;
+top: 22%;
+bottom: 0%;
+}
+.points_icon3{
+    /* position3Photo */
+
+position: absolute;
+left: 58%;
+right: 0%;
+top: 22%;
+bottom: 0%;
+
+}
+.score1{
+/* 100 pts */
+
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.username{
+
+position: absolute;
+left: 45.35%;
+right: 22.34%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.win{
+
+    /* Ellipse 9 */
+
+position: absolute;
+left: 40.46%;
+right: 84.6%;
+top: 36.57%;
+bottom: 28.57%;
+}
+.win2{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 43.57%;
+    bottom: 28.57%;}
+.win3{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 50.57%;
+    bottom: 28.57%;}
+.win4{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 57.57%;
+    bottom: 28.57%;
+}
+.win5{position: absolute;
+    left: 40.46%;
+    right: 84.6%;
+    top: 64.57%;
+    bottom: 28.57%;
+}
+#winNumber{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 36.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.username2{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 43.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    }
+.score2{
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 43.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.username3{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 50.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+.username4{
+    position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 57.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.username5{position: absolute;
+    left: 45.35%;
+    right: 22.34%;
+    top: 64.56%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.score3{
+position: absolute;
+left: 60.66%;
+right: 2.82%;
+top: 50.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.score4{
+    position: absolute;
+    left: 60.66%;
+    right: 2.82%;
+    top: 57.57%;
+    bottom: 28.57%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;    
+}
+.score5{
+    position: absolute;
+    left: 60.66%;
+    right: 2.82%;
+    top: 64.56%;
+    bottom: 28.57%;
+        
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+#winNumber2{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 40.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+#winNumber3{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 47.57%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+#winNumber4{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 54.56%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+}
+#winNumber5{
+    /* 1 */
+position: absolute;
+left: 36.39%;
+right: 93.49%;
+top: 62.56%;
+bottom: 28.57%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+}
