@@ -26,7 +26,6 @@ function MobileNav() {
                   <AiIcons.AiOutlineClose />
                 </Link>
               </li>
-
               {SideBarData.map((item, index) => {
                 return (
                   <li key={index} className={item.cName}>
