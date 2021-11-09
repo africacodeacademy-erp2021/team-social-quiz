@@ -23,7 +23,7 @@ function HipHop() {
         </div>
         <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">

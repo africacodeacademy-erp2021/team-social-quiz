@@ -164,10 +164,8 @@ span {
 /* Ipad */
 @media only screen and (min-width:768px) and (max-width:989px){
   .MobileNav{
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: flex;
+      display: flex;
+      z-index: 16;
     
   }
   .Navigation{

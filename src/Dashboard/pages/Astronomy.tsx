@@ -9,7 +9,7 @@ import Medal from "../Images/Medal.png";
 import Points from "../Images/Points.png";
 import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
-import AstronomyC from "../Images/AstronomyC2.jpg";
+import AstronomyC from "../Images/HistoryC3.jpg";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
 
@@ -56,6 +56,7 @@ players.sort((a:any, b:any) => b.score - a.score);
             <div className="Select">
               <img className="popc" src={AstronomyC} alt="popculture" />
             </div>
+            </div>
             <div className="Frame">
               <div className="Numplays">
                 <span>
@@ -86,7 +87,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
-          <span id="Play-btn"><Playandshare/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/Hiphop"/><Share/></span>
           
           
         </div>
@@ -101,7 +102,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
           
-          <span id="Play-btn"><Playandshare/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/OldSchool" /><Share/></span>
          
         </div>
         <div className="game-3" >
@@ -112,7 +113,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/MichaelJackson"/><Share/></span>
          
           
         </div>
@@ -177,7 +178,7 @@ players.sort((a:any, b:any) => b.score - a.score);
 
           
   
-        </div>
+        
         </div>
         </div>
         </div>

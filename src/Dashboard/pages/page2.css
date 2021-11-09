@@ -285,11 +285,11 @@
   .Numplays {
     background: #ffffff;
 
-    position: fixed;
-    width: 85%;
+    position: absolute;
+    width: 75%;
     height: 7%;
     right: 0.3%;
-    top: 250px;
+    top: 200px;
     z-index: 14;
   }
   #PlaysText {
@@ -709,7 +709,7 @@
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 923px;
+    left: 900px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -1917,7 +1917,7 @@ height: 15px;
     width: 85%;
     height: 504px;
     left: 5%;
-    top: 1287px;
+    top: 1087px;
     background:rgba(230, 222, 222, 0.637);
     border: 1px solid rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
