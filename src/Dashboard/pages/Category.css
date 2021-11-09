@@ -85,125 +85,120 @@
     width: 485px;
     height: 87px;
     left: 403px;
-    top: 287px;
+    top: 87px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
     line-height: 87px;
-    color: #FF5C00;
+    color: #ff5c00;
   }
   .Astronomy {
-    display:block;
-    position:absolute;
-    bottom: 8px;
-    left: 16px;
-    top: 660px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .Origins-T{
     position: absolute;
     bottom: 8px;
-    left: 16px;
-    top: 860px;
+    left: 50px;
+    top: 87px;
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
-    
-    
+  }
+  .Origins-T {
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    top: 87px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
   }
   .Big-Bang {
     position: absolute;
     bottom: 8px;
-    left: 400px;
-    top: 860px;
+    left: 50px;
+    top: 87px;
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Planets {
-
     position: absolute;
     bottom: 8px;
-    left: 780px;
-    top: 860px;
+    left: 50px;
+    top: 87px;
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Polymers {
     position: absolute;
     bottom: 8px;
-    left: 400px;
-    top: 1060px;
+    left: 50px;
+    top: 87px;
     color: red;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Lab {
     position: absolute;
     bottom: 8px;
-    left: 780px;
-    top: 1060px;
+    left: 50px;
+    top: 87px;
     color: red;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Moles {
     position: absolute;
     bottom: 8px;
-    left: 16px;
-    top: 1060px;
+    left: 50px;
+    top: 87px;
     color: red;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Mummies {
     position: absolute;
     bottom: 8px;
-    left: 16px;
-    top: 1260px;
+    left: 50px;
+    top: 87px;
     color: #64a93a;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Mummies-1 {
     position: absolute;
     bottom: 8px;
-    left: 400px;
-    top: 1260px;
+    left: 50px;
+    top: 87px;
     color: #64a93a;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
   .Mummies-2 {
     position: absolute;
     bottom: 8px;
-    left: 780px;
-    top: 1260px;
+    left: 50px;
+    top: 87px;
     color: #64a93a;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
-  
   .Chemistry-T {
     position: absolute;
     bottom: 8px;
-    left: 400px;
-    top: 660px;
+    left: 50px;
+    top: 87px;
     color: red;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
   .History-T {
     position: absolute;
     bottom: 8px;
-    left: 780px;
-    top: 660px;
+    left: 50px;
+    top: 87px;
     color: #64a93a;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
   }
   ::placeholder { 
@@ -340,7 +335,7 @@
     
     border: 1px solid #fccccc30;
     position: absolute;
-    width: 907px;
+    width: 607px;
     height: 196px;
     left: 3px;
     top: 357px;
@@ -353,7 +348,7 @@
     display:block;
     border: 1px solid #00000030;
     position: absolute;
-    width: 807px;
+    width: 607px;
     height: 196px;
     left: 3px;
     top: 573px;
@@ -366,7 +361,7 @@
     display:block;
     border: 1px solid #00000030;
     position: absolute;
-    width: 807px;
+    width: 607px;
     height: 196px;
     left: 3px;
     top: 789px;
@@ -783,7 +778,7 @@
     position: absolute;
     width: 320px;
     height: 504px;
-    left: 960px;
+    left: 760px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -815,69 +810,7 @@
     width: 15px;
     height: 15px;
   }
-  #One{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 6%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Two{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 12%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Three{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 18%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Four{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 24%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Five{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 30%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Six{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 36%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Seven{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 42%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
+ 
   .One{
     position: static;
     width: 8px;
@@ -2220,9 +2153,12 @@
     }
  
     .Select{
-      border-radius: 0px;
-      width: 100%;
-      height: 190% ;
+      position: fixed;
+    width: 85%;
+    height: 30%;
+    right: 0.3%;
+    top: 0px;
+    z-index: 15;
     }
 
     #Ranks{

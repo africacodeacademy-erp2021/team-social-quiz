@@ -1,5 +1,6 @@
 import React from 'react'
 import './CategoryMedia.css';
+import './page2.css'
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -10,13 +11,19 @@ import Hand from "../Images/Hand.png";
 import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
+import Navbar from '../components/Navbar';
 
 
 function HipHop() {
     return (
-        <div>
+      <div className="screen">
+      <div className="hamburger">
+        <Navbar />
+       
+        </div>
+        <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">
@@ -32,7 +39,7 @@ function HipHop() {
           
         </div>
 
-        <div id="Ranks">
+        <div id="Ranks1">
 
          <span id="Ranks-header">Leaderboard</span> 
 
@@ -100,6 +107,7 @@ function HipHop() {
         </div>
         <span id="FlagText"><p>Who are these people?</p></span>
             
+        </div>
         </div>
     )
 }

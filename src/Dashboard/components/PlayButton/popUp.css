@@ -104,6 +104,7 @@ h1 , h2 { color: #333333;}
           height: 304px;
           text-align: center;
           width: 337px;
+          z-index:16;
 }
 .close-popUp{
         float: right; 
