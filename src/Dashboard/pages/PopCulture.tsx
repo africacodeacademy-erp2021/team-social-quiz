@@ -4,7 +4,7 @@ import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
 import Star from "../Images/Star.png";
-import "./Category.css";
+
 import Playandshare from "./play";
 import Medal from "../Images/Medal.png";
 import Points from "../Images/Points.png";
@@ -12,6 +12,7 @@ import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
+import "./page2.css";
 
 function PopCulture() {
   return (
