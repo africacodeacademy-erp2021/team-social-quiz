@@ -3,7 +3,7 @@ import "./App.css";
 import Login from "./authentication-and-login/login/login";
 
 import Registration from "./authentication-and-login/registration/registration";
-import { BrowserRouter as Router} from "react-router-dom";
+
 import CreateGame from "./Dashboard/pages/CreateGame";
 import Leaderboard from "./Dashboard/pages/Leaderboard";
 import Help from "./Dashboard/pages/Help";

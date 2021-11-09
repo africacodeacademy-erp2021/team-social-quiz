@@ -1,0 +1,209 @@
+
+  .designcolor {
+    color: #61a0d2;
+  }
+  
+  .all_sections {
+    display: flex;
+    width: 1590px;
+    height: 900px;
+    position: absolute;
+  }
+  
+  .display_infor {
+    width: 760px;
+    height: 900px;
+    background: #22285F;
+   
+     
+  }
+ 
+  
+  .login {
+    margin-top: 5px;
+    background-image: url(blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 900px;
+    left: 100px;
+    top: 0px;
+    border-radius: 0px;
+  
+  }
+  
+  .h1_title {
+    color: white;
+    margin-left: 35px;
+    margin-top: -2px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+  }
+  
+  .h2_title {
+    color: white;
+    margin-left: 35px;
+    margin-top: -2px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+  }
+  .h3_title {
+    color: white;
+    margin-left: 35px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .p_title {
+    color: white;
+    display: inline-block;
+    margin: 3px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .nav_newAccount {
+    margin-left: 35px;
+    padding: 2px;
+  }
+  
+  .buttons_container {
+    margin-left: 65px;
+  }
+  
+  .link_text {
+    color: #61d7f1;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .btn_google {
+    border: 0px;
+    width: 300px;
+    height: 33px;
+    text-align: left;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+  
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 33px;
+  }
+  
+  .btn_github {
+    border: 0px;
+    width: 300px;
+    height: 33px;
+    text-align: left;
+    border-radius: 20px;
+    color: rgb(20, 81, 173);
+    background-color: black;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 33px;
+  }
+  
+  .mylogo {
+    margin-right: 2px;
+    margin-left: 5px;
+    border-radius: 50%;
+    margin-top: 2px;
+  }
+  
+  .btn_githubinfo {
+    background-color: black;
+    color: white;
+    height: 34px;
+    border: 0px;
+    font-size: 21px;
+    left: 21.59%;
+    right: 22.37%;
+    top: 13.73%;
+    bottom: 21.57%;
+    line-height: 33px;
+    float: center;
+    text-align: right;
+  }
+  
+  .btn_googleinfo {
+    height: 34px;
+    border: 0px;
+    font-size: 21px;
+    left: 21.59%;
+    right: 22.37%;
+    top: 13.73%;
+    bottom: 21.57%;
+    line-height: 33px;
+  }
+  
+  .btn_facebook {
+    border: 0px;
+    width: 300px;
+    height: 33px;
+    text-align: left;
+    border-radius: 20px;
+  
+    background-color: #3c5a9a;
+  
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 33px;
+  }
+  
+  .my-facebook-button-class {
+    height: 34px;
+    border: 0px;
+    font-size: 21px;
+    left: 21.59%;
+    right: 22.37%;
+    top: 13.73%;
+    bottom: 21.57%;
+    line-height: 33px;
+    background-color: #3c5a9a;
+    color: white;
+  }
+  
+  .myfacebooklogo {
+    margin-right: 2px;
+    margin-left: 5px;
+    border-radius: 50%;
+    margin-top: 2px;
+  }
+  
+  .vector{
+    position: absolute;
+    left: 130px;
+    top: 149px;
+    height: 662.256591796875px;
+    width: 669.755859375px;
+    border-radius: 0px;
+    mix-blend-mode: passthrough;
+    
+  }
+  
+  .blob{
+    mix-blend-mode: saturation;
+  }
+  

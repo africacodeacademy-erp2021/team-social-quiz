@@ -1,4 +1,4 @@
-import "../../App.css";
+import "../../Login.css";
 import Display_img from "../../game/images/Rubix Cube Image.jpg";
 import * as dotenv from "dotenv";
 import Google from "../google_authentication/google";
