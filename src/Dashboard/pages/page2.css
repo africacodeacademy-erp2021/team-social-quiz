@@ -287,15 +287,15 @@
 
     position: fixed;
     width: 85%;
-    height: 8%;
+    height: 7%;
     right: 0.3%;
     top: 250px;
-    z-index: 15;
+    z-index: 14;
   }
   #PlaysText {
     position: absolute;
-    left: 15%;
-    right: 28.33%;
+    left: 28%;
+    right: 8.33%;
     top: 12.5%;
     bottom: 29.17%;
     font-family: Open Sans;
@@ -332,7 +332,7 @@
 
   #Num {
     position: absolute;
-    left: 13%;
+    left: 23%;
     right: 28.33%;
     top: 12.5%;
     bottom: 29.17%;
@@ -695,7 +695,7 @@
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 703px;
+    left: 503px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -703,6 +703,21 @@
     border-radius: 7px;
 
     z-index: 14;
+  }
+
+  #Ranks1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 923px;
+    top: 357px;
+    background: rgba(144, 152, 223, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    z-index: 14;
+
   }
   #Ranks-header {
     position: absolute;
@@ -717,117 +732,68 @@
     line-height: 25px;
     color: #000000;
   }
-  #One {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #One{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 6%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Two {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    top: 20px;
+  #Two{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 12%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Three {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #Three{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 18%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Four {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #Four{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 24%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Five {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #Five{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 30%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Six {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #Six{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 36%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
-  #Seven {
-    position: static;
-    width: 8px;
-    height: 18px;
-    left: 10px;
-    top: 10px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+  #Seven{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 42%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
   }
   #Medal {
     position: absolute;

@@ -34,7 +34,7 @@ function Astronomy() {
     name: "motlatsi",
     score: 45,
   },{
-    name:"Nthaka",
+    name:"Nthako",
     score: 32,
 },{
   name: "win",
@@ -43,45 +43,42 @@ function Astronomy() {
 ];
 
 players.sort((a:any, b:any) => b.score - a.score); 
-   
-      return (
-        <>
-          <div className="screen">
-            <div className="hamburger">
-              <Navbar />
-        
-      <div>
-        <div className="Select">
-          <img src={AstronomyC} alt="Pop" width="100%;" height="200px" />
-        </div>
-        <div className="Numplays" style={{marginLeft:'22%',width:'48%'}}>
-          <span><img id="Num" src={Num} alt="Num"  /></span>
-          <span><img id="Quizes" src={Quizes} alt="Quizes"  /></span>
-          <span><img id="Star" src={Star} alt="Star"  /></span>
-          <span id="PlaysText">Plays</span>
-          <span id="QuizesText">Quizes 15</span>
-          
+
+ 
+  return (
+    <>
+      <div className="screen">
+        <div className="hamburger">
+          <Navbar />
         </div>
         <div className="sidebar">
-          <div className="Select">
-            <img className="popc" src={AstronomyC} alt="Pop" width="100%" />
-          </div>
-          <div className="Numplays">
-            <span>
-              <img className="Playicon" id="Num" src={Num} alt="Num" />
-              <span id="PlaysText"> 300 Plays</span>
-            </span>
-            <span>
-              <img className="Playicon" id="Quizes" src={Quizes} alt="Quizes" />
-              <span id="QuizesText">15 Quizes </span>
-            </span>
-            <span>
-              <img className="Playicon" id="Star" src={Star} alt="Star" />
-              <span id="starText"></span>
-            </span>
-          </div>
+          <div className="Big-Container">
+            <div className="Select">
+              <img className="popc" src={AstronomyC} alt="popculture" />
+            </div>
+            <div className="Frame">
+              <div className="Numplays">
+                <span>
+                  <img className="Playicon" id="Num" src={Num} alt="Num" />
+                  <span id="PlaysText"> 300 Plays</span>
+                </span>
+                <span>
+                  <img
+                    className="Playicon"
+                    id="Quizes"
+                    src={Quizes}
+                    alt="Quizes"
+                  />
+                  <span id="QuizesText">15 Quizes </span>
+                </span>
+                <span>
+                  <img className="Playicon" id="Star" src={Star} alt="Star" />
+                  <span id="starText"></span>
+                </span>
+              </div>
+            </div>
 
-        <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-1" >
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
@@ -89,11 +86,13 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
-          <span id="Play-btn"><Playandshare/> <Share/></span> 
+          <span id="Play-btn"><Playandshare/><Share/></span>
+          
+          
         </div>
         
 
-        <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-2" >
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
@@ -101,10 +100,11 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
-          <span id="Play-btn"><Playandshare/> <Share/></span>           
+          
+          <span id="Play-btn"><Playandshare/><Share/></span>
+         
         </div>
-
-        <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-3" >
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
@@ -112,9 +112,10 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare/> <Share/></span>  
+          <span id="Play-btn"><Playandshare/><Share/></span>
+         
+          
         </div>
-
         <div id="Ranks">
           <span id="Ranks-header">Category Ranks</span>
 
@@ -149,7 +150,7 @@ players.sort((a:any, b:any) => b.score - a.score);
             <span id  ="playerName6">{players[5].name}</span>
             <span id ="score6">{players[5].score}</span>
           </div>
-          <div className="Eight">
+          <div className="Seven">
             <span id ="Seven">7</span> 
             <span id  ="playerName7">{players[6].name}</span>
             <span id ="score7">{players[6].score}</span>
@@ -170,15 +171,19 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-          {/* <span id="Line"></span> */}
+            <div className="rightbar">
+              <div id="Ranks">
+                <span id="Ranks-header">Category Ranks</span>
 
-        
-          </div>
+          
+  
         </div>
-      </div>
-      </div>
-      </div>
-    </>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+  </>
   );
 }
 

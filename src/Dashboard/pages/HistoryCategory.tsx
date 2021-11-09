@@ -48,8 +48,7 @@ return (
     <div className="screen">
       <div className="hamburger">
         <Navbar />
-        <div className="Select">
-          <img src={HistoryC} alt="Pop" width="100%;" height="200px" />
+       
         </div>
         <div className="sidebar">
           <div className="Select">
@@ -70,7 +69,7 @@ return (
             </span>
           </div>
 
-        <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-1" >
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
@@ -82,7 +81,7 @@ return (
         </div>
         
 
-        <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-2" >
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
@@ -92,7 +91,7 @@ return (
           <span id="History-2">History</span>
           <span id="Play-btn"><Playandshare/> <Share/></span> 
         </div>
-        <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-3">
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
@@ -160,7 +159,7 @@ return (
         </div>
         </div>
       </div>
-      </div>
+      
     </>
   );
 }
