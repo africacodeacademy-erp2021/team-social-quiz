@@ -1,34 +1,34 @@
-import { useState } from "react";
-import "./Category.css";
+import React from 'react';
+import { useState } from 'react';
+import Modal from '../components/PlayButton/Modal';
+import Backdrop from '../components/PlayButton/Backdrop';
+import '../components/PlayButton/popUp.css';
+
+
 
 function Playandshare() {
-  const [modalState, setModalState] = useState(false);
-
-  const toggleModalState = () => {
-    setModalState(!modalState);
-  };
-
-  return (
-    <div className="Playandshare">
-      <div className={`modalBackground modalShowing-${modalState}`}>
-        <div className="modalInner">
-          <div className="modalText">
-            <p>SELECTION MODE</p>
-
-            <form id="buttons" action="">
-              <button id="Single">Single-Mode</button>
-              <button id="Team">Team-Mode</button>
-            </form>
-            <button className="exitButton" onClick={() => toggleModalState()}>
-              exit
-            </button>
-          </div>
-        </div>
+  const [modalIsOpen, setModalIsOpen] =  useState(false);
+  
+  function deleteHandler(){  
+  
+    setModalIsOpen(true);
+    }
+    
+    function closeModalHandler(){
+    
+        setModalIsOpen(false);
+    }
+  
+      return (
+      <div>  
+        
+        <button className="blue-btn"  onClick={deleteHandler}>
+             Play
+        </button>      
+        {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />}
+        {modalIsOpen && <Backdrop onCancel={closeModalHandler}/>}  
+  
       </div>
-      <button className="Play-btn" onClick={() => toggleModalState()}>
-        Play
-      </button>
-    </div>
-  );
+      )
 }
 export default Playandshare;
