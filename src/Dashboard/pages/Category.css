@@ -815,69 +815,7 @@
     width: 15px;
     height: 15px;
   }
-  #One{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 6%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Two{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 12%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Three{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 18%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Four{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 24%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Five{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 30%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Six{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 36%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
-  #Seven{
-    position: absolute;
-    left: 0%;
-    right: 4%;
-    top: 42%;
-    bottom: 8.33%;
-    width: 15px;
-    height: 15px;
-  }
+ 
   .One{
     position: static;
     width: 8px;

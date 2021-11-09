@@ -4,14 +4,15 @@ import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
 import Star from "../Images/Star.png";
-import "./Category.css";
+
+import Playandshare from "./play";
 import Medal from "../Images/Medal.png";
 import Points from "../Images/Points.png";
 import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
-import Playandshare from "./play";
+import "./page2.css";
 
 function PopCulture() {
   const players:any = [{
@@ -77,7 +78,7 @@ players.sort((a:any, b:any) => b.score - a.score);
               </div>
             </div>
 
-        <div className="game-1" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-1" >
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
@@ -91,7 +92,7 @@ players.sort((a:any, b:any) => b.score - a.score);
         </div>
         
 
-        <div className="game-2" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-2" >
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
@@ -103,7 +104,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="Play-btn"><Playandshare/></span>
           <span id="Share-btn"><Share/></span>
         </div>
-        <div className="game-3" style={{marginLeft:'22%',width:'48%'}}>
+        <div className="game-3" >
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
