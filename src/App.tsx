@@ -27,6 +27,7 @@ import HipHop from "./Dashboard/pages/HipHop";
 
 
 import ScoreBoard  from './game-completion/score/score';
+import QuizStart from "./game/Game_Play/game_start";
 
 
 
@@ -67,6 +68,7 @@ function App() {
           <Route path="/mummiesthree" component={MummiesThree} />
           <Route path="/hiphop" component={HipHop} />
           <Route path="/gamestart" component={GameStart} />
+          <Route path="/game_start" component={QuizStart} />
     
           
           <Route path='/leaderboard'>

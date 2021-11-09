@@ -13,7 +13,7 @@ function cancelHandler(){
     props.onCancel();
 }
 function singlePlayer(){
-    history.push("/gamestart");
+    history.push("/game_start");
 }
 function teamPlayer(){
     history.push("/gamestart");

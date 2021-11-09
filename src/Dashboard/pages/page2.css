@@ -1060,14 +1060,7 @@
     width: 500px;
   }
 
-  .App button:not(.exitButton) {
-    padding: 13px 35px;
-    background: #22c39f;
-    border-radius: 30px;
-    font-size: 18px;
-    color: white;
-    border: none;
-  }
+ 
 
   .modalBackground {
     opacity: 0;

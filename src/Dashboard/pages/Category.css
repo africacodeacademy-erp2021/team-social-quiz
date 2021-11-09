@@ -1342,14 +1342,6 @@
     margin-left: 20px;
   }
  
- .App button:not(.exitButton) {
-  padding: 13px 35px;
-  background: #22c39f;
-  border-radius: 30px;
-  font-size: 18px;
-  color: white;
-  border: none;
-}
 
 .modalBackground {
    opacity: 0;
@@ -1421,6 +1413,17 @@
   border: 0;
   color: white;
 } 
+}
+
+.playerName{
+  width: 50%;
+  height: 60px;
+  top: 0px;
+ margin-left: 600px;
+  font-size: 36px;
+  text-align: right;
+  margin-right: 50px;
+
 }
 
  /*****media Queries******/

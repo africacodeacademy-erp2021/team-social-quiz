@@ -5,7 +5,7 @@ import GameMemes from './game_Memes';
 import GamePlay from "./game_Play";
 import Myaudio from "../Game_Components/audio";
 
-function GameStart(props:any){
+function QuizStart(props:any){
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
   const username = name.replace('"', "");
@@ -58,4 +58,4 @@ function GameStart(props:any){
      </div>
     )
 }
-export default GameStart;
+export default QuizStart;

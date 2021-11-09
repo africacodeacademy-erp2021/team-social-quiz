@@ -24,8 +24,10 @@ const total = 100;
 let score:any= [95,19,20,60,90,10];
 let Score =score[Math.floor(Math.random()*score.length)];
 
-let playerName:any =["Malepa", "Relebohile","Mokokoane"];
-let player = playerName[Math.floor(Math.random()*playerName.length)]
+ const data = JSON.stringify(localStorage.getItem("name"));
+  const name = data.replace('"', "");
+  const playerName = name.replace('"', "");
+
 
 
 let url = "http://172.25.33.20:3000";
@@ -71,8 +73,8 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
   let history = useHistory();
    const clickHandlerleaderboard = () => {
       //store Score in local sever.
-   localStorage.setItem("scoreSave",Score);
-   localStorage.setItem("playerName",player);
+   localStorage.setItem("scoreSave",PlayerScore);
+  ;
    history.push("./leaderboard");
   }
    return(
@@ -98,19 +100,19 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
               height="50px"
               alt="score"
               src={profile}
-            /></span>{player}
+            /></span>{playerName}
             </div>
 
 
             </div>
             <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/>
-            </span> <span>{Score}</span> 
+            </span> <span>{PlayerScore}</span> 
             </div>
 
              <div className ="mime">
                 <p> <img src={images} alt="win" width="290" height="250" /></p>
-                <p id ="points">+{Score} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
-                <h1>{congrats} {player}</h1>
+                <p id ="points">+{PlayerScore} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
+                <h1>{congrats} {playerName}</h1>
 
                 <span><p>best Score: {arrayMax(score)}</p></span>
 

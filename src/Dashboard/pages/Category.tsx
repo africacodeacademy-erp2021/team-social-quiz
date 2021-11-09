@@ -7,7 +7,11 @@ import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
+
 function Category() {
+  const data = JSON.stringify(localStorage.getItem("name"));
+  const name = data.replace('"', "");
+  const playerName = name.replace('"', "");
   return (
     <div className="screen">
       <div className="hamburger">
@@ -17,7 +21,12 @@ function Category() {
         <br />
         <span className="Title">quiz</span>
         <span className="Title-2">app</span>
+        <div className="playerName"><img className="points_icon" width="50px"height="50px"
+                alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
+                {playerName}</div>
         <div>
+        
+           
           <input className="search" type="text" placeholder="Search Quizzes" />
         </div>
         <br />
