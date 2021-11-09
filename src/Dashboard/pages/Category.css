@@ -274,7 +274,7 @@
     font-weight: bold;
     font-size: 23px;
     line-height: 25px;
-    color: #000000;
+    color: #050505; 
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -335,15 +335,12 @@
   }
   .Big-Container{
     display: block;
-    
-
   }
   .game-1 {
     
-
     border: 1px solid #fccccc30;
     position: absolute;
-    width: 807px;
+    width: 907px;
     height: 196px;
     left: 3px;
     top: 357px;
@@ -405,7 +402,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
+    color: #1511d4; 
 
   }
   #Hiphop{
@@ -420,7 +417,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.69); 
+    color:  #1511d4;  
 
   }
   #Quiz-2{
@@ -434,7 +431,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898;
+    color: #1511d4; ;
   }
   #Jazz{
     position: absolute;
@@ -447,7 +444,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.69);
+    color: #1511d4; 
   }
   #Quiz-3{
     position: absolute;
@@ -460,7 +457,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898;
+    color: #1511d4; ;
 
   }
   #Jackson{
@@ -474,10 +471,12 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.69);
+    color: #1511d4; 
 
   }
-  #Play-btn{
+ 
+  
+  .Play-btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -488,7 +487,8 @@
     height: 20px;
     left: 0px;
     top: 0px;
-    
+    background: rgba(16, 4, 128, 0.836);
+    color: cornsilk;
     border-radius: 13px;
     flex: none;
     order: 0;
@@ -501,7 +501,6 @@
   }
   
   .Share-btn{
-   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -512,15 +511,15 @@
     height: 20px;
     left: 111px;
     top: 0px;
-   
+    background: rgba(16, 4, 128, 0.836);
+    color: cornsilk;
     border-radius: 13px;
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 23px;
-    margin-top: -45px;
+    margin-top: -40px;
     margin-left: 410px;
- 
   }
   #HipHopPlay{
     display: flex;
@@ -808,11 +807,83 @@
   }
   
   #One{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 1%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #One{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 6%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Two{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 12%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Three{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 18%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Four{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 24%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Five{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 30%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Six{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 36%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #Seven{
+    position: absolute;
+    left: 0%;
+    right: 4%;
+    top: 42%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  .One{
     position: static;
     width: 8px;
     height: 18px;
     left: 10px;
-    top: 10px;
+    top: 100px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -825,17 +896,24 @@
     margin: 10px 0px;
     
   }
-  #Two{
+  .Two{
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 30px;
     font-family: Open Sans;
-    font-size: 13px;
     font-style: normal;
     font-weight: 600;
+    font-size: 13px;
     line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    top: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
   }
-  #Three{
+  .Three{
     position: static;
     width: 8px;
     height: 18px;
@@ -852,7 +930,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Four{
+  .Four{
     position: static;
     width: 8px;
     height: 18px;
@@ -869,7 +947,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Five{
+  .Five{
     position: static;
     width: 8px;
     height: 18px;
@@ -886,7 +964,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Six{
+  .Six{
     position: static;
     width: 8px;
     height: 18px;
@@ -903,7 +981,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  #Seven{
+  .Seven{
     position: static;
     width: 8px;
     height: 18px;
@@ -920,74 +998,196 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
+  
   #Medal{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 10%;
+    left: 10%;
+    right: 4%;
+    top: 42%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-1{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 15.5%;
+    left: 10%;
+    right: 4%;
+    top: 6%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-2{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 22%;
+    left: 10%;
+    right: 4%;
+    top: 12%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-3{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 27%;
+    left: 10%;
+    right: 4%;
+    top: 18%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-4{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 33%;
+    left: 10%;
+    right: 4%;
+    top: 24%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-5{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 38%;
+    left: 10%;
+    right: 4%;
+    top: 30%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
   }
   #Medal-6{
     position: absolute;
-    left: 8%;
-    right: 16.67%;
-    top: 44%;
+    left: 10%;
+    right: 4%;
+    top: 36%;
     bottom: 4.17%;
+    width: 15px;
+    height: 15px;
+  }
+  #score1{
+    position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 6%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score2{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 12%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score3{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 18%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score4{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 24%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score5{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 30%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score6{position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 36%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #score7{
+    position: absolute;
+    left: 80%;
+    right: 4%;
+    top: 42%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName1{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 6%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName2{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 12%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName3{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 18%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName4{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 24%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName5{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 30%;
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName6{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 36%; 
+    bottom: 8.33%;
+    width: 15px;
+    height: 15px;
+  }
+  #playerName7{
+    position: absolute;
+    left: 15%;
+    right: 4%;
+    top: 42%;
+    bottom: 8.33%;
     width: 15px;
     height: 15px;
   }
   #Points-1{
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 9%;
+    left: 94%;
+    right: 4%;
+    top: 6%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -996,9 +1196,9 @@
   #Points-2{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 14%;
+    left: 94%;
+    right: 4%;
+    top: 12%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1007,9 +1207,9 @@
   #Points-3{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 20%;
+    left: 94%;
+    right: 4%;
+    top: 18%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1018,9 +1218,9 @@
   #Points-4{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 26%;
+    left: 94%;
+    right: 4%;
+    top: 24%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1029,9 +1229,9 @@
   #Points-5{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 32%;
+    left: 94%;
+    right: 4%;
+    top: 30%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1040,9 +1240,9 @@
   #Points-6{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 37%;
+    left: 94%;
+    right: 4%;
+    top: 36%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1051,9 +1251,9 @@
   #Points-7{
 
     position: absolute;
-    left: 90%;
-    right: 4.17%;
-    top: 42.5%;
+    left: 94%;
+    right: 4%;
+    top: 42%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1095,7 +1295,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color: #1511d4; 
   }
   #QuizText-2{
     position: absolute;
@@ -1108,7 +1308,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color:  #1511d4; 
   }
   #QuizText-3{
     position: absolute;
@@ -1121,7 +1321,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #5B5B5B;
+    color:  #1511d4; 
   }
   .Vector-1{
     position: absolute;
@@ -1155,7 +1355,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
+    color: #1511d4;  
    }
    #History-2{
     position: absolute;
@@ -1168,7 +1368,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
+    color:  #1511d4;  
    }
    #History-3{
     position: absolute;
@@ -1181,7 +1381,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #9E9898; 
+    color:  #1511d4; 
    }
   /* #Line{
     position: absolute;
@@ -1288,6 +1488,7 @@
   border: 0;
   color: white;
 } 
+}
 
  /*****media Queries******/
  
