@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 import Google from "../google_authentication/google";
 import Facebook from "../facebook_authentication/facebook";
 import Github from "../github_authentication/github";
-import { Link } from "react-router-dom";
+
 
 function Login() {
   dotenv.config();
@@ -39,12 +39,7 @@ function Login() {
 
           <br />
           <div className="nav_newAccount">
-            <p className="p_title">Not registered yet ? </p>{" "}
-            <p className="p_title">
-              <Link className="link_text" to="/registration">
-                Create an Account
-              </Link>
-            </p>
+         
           </div>
         </div>
       </div>

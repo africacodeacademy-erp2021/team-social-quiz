@@ -1,4 +1,5 @@
 
+ 
   .designcolor {
     color: #61a0d2;
   }
@@ -8,11 +9,13 @@
     width: 1590px;
     height: 900px;
     position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
   }
   
   .display_infor {
     width: 760px;
-    height: 900px;
+    height: 1000px;
     background: #22285F;
    
      
@@ -99,7 +102,7 @@
     border-radius: 20px;
     color: black;
     background-color: white;
-  
+    overflow: hidden;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -146,7 +149,7 @@
   }
   
   .btn_googleinfo {
-    height: 24px;
+    height: 34px;
     border: 0px;
     font-size: 21px;
     left: 21.59%;
@@ -154,6 +157,7 @@
     top: 13.73%;
     bottom: 21.57%;
     line-height: 33px;
+    overflow: hidden;
   }
   
   .btn_facebook {
