@@ -56,7 +56,7 @@
 }
 
 .answer-button{
-   
+    cursor: pointer;
     margin: 4px;
     width: 350px;
     height: 80px;
@@ -67,9 +67,12 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;    
-    align-items: center;
-    
+    align-items: center;    
     color: #000000;
+}
+.answer-button:focus {
+    background: rgba(0, 255, 132, 0.64);
+    transition: all 1.6s ease;
 }
 
 .onNext{
