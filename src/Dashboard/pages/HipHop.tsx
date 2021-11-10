@@ -73,11 +73,8 @@ function HipHop() {
           <img id="Points-5" src={Points} alt="Points"/>
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
-     
-          {/* <span id="Line"></span> */} 
+      
         </div>
-        
-        {/*<button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>*/}
         <PlayButton />
         <span id="HipHopText">@quizapp</span>
         <div id="Description">
