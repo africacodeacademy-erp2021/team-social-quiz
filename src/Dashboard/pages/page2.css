@@ -709,7 +709,7 @@
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 900px;
+    left: 740px;
     top: 357px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -1470,8 +1470,8 @@ height: 15px;
     display: none;
   }
   .Playicon {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
   .Play-1 {
     display: none;

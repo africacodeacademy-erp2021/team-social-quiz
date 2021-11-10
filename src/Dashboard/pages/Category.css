@@ -84,7 +84,7 @@
     position: absolute;
     width: 485px;
     height: 87px;
-    left: 403px;
+    left: 393px;
     top: 87px;
     font-family: Open Sans;
     font-style: normal;
@@ -232,7 +232,7 @@
     width: 80%; 
     height: 48px;
     left: 0px;
-    top: 289px;
+    top: 259px;
     background: #FFFFFF;
     float: right;
 
@@ -247,12 +247,12 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 16px;
     line-height: 25px;
     color: #050505;
     flex: none;
     flex-grow: 0;
-    margin: 0px 11px;
+    margin: 0px 08px;
     margin-left: 0%;
     margin-right: 15%;
    
@@ -267,19 +267,19 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 16px;
     line-height: 25px;
     color: #050505; 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 11px;
+    margin: 0px 179px;
   }
   
   #Num{
    
     
-    left: 1%;
+    left: 2.2%;
     right: 30.33%;
     top: 0.4%;
     bottom: 29.17%;
@@ -288,15 +288,15 @@
   }
   #Star{
     position: absolute;
-    left: 78.5%;
+    left: 74.5%;
     right: 8.33%;
-    top: 8.33%;
+    top: 0.33%;
     bottom: 12.5%;
     
   }
   #Quizes{
     
-    left: 25%;
+    left: 39%;
     right: 8.33%;
     top: 0.4%;
     bottom: 29.17%;
@@ -549,7 +549,7 @@
   }
   #DescriptionContainer{
     position: absolute;
-    width: 750px;
+    width: 650px;
     height: 89px;
     left: 70px;
     top: 456px;
@@ -790,7 +790,7 @@
     width: 135px;
     height: 25px;
     left: 80px;
-    top: 10px;
+    top: 02px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -1926,7 +1926,7 @@
 }
 /*I-Pad Pro*/
 
-@media only screen and (min-width:1025px) and (max-width:1200px){
+@media only screen and (min-width:1025px) and (max-width:1030px){
   .Numplays{
   
       display: flex;

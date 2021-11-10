@@ -71,7 +71,7 @@ color: #FFFFFF;
 position: absolute;
 width: 30px;
 height: 30px;
-left: 686px;
+left: 676px;
 top: 270px;
 
 text-align:center ;
@@ -300,29 +300,29 @@ color: #FFFFFF;
     /* Ellipse 9 */
 
 position: absolute;
-left: 38.46%;
+left: 40.46%;
 right: 84.6%;
 top: 38.57%;
 bottom: 28.57%;
 }
 .win2{position: absolute;
-    left: 38.46%;
+    left: 40.46%;
     right: 84.6%;
     top: 45.57%;
     bottom: 28.57%;}
 .win3{position: absolute;
-    left: 38.46%;
+    left: 40.46%;
     right: 84.6%;
     top: 52.57%;
     bottom: 28.57%;}
 .win4{position: absolute;
-    left: 38.46%;
+    left: 40.46%;
     right: 84.6%;
     top: 59.67%;
     bottom: 28.57%;
 }
 .win5{position: absolute;
-    left: 38.46%;
+    left: 40.46%;
     right: 84.6%;
     top: 66.97%;
     bottom: 28.57%;
@@ -330,7 +330,7 @@ bottom: 28.57%;
 #winNumber{
     /* 1 */
 position: absolute;
-left: 36.09%;
+left: 35.09%;
 right: 93.49%;
 top: 38.57%;
 bottom: 28.57%;
@@ -519,9 +519,4 @@ font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 33px;
-}
-
-.retrtext{
-
-   right:120px; 
 }

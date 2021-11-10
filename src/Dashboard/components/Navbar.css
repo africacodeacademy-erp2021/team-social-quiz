@@ -14,7 +14,7 @@
 
 .nav-menu {
   background-color: #22285f;
-  width: 250px;
+  width: 230px;
   height: 160vh;
   display: flex;
   justify-content: center;
@@ -37,6 +37,7 @@
   padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
+  top: 10%;
 }
 
 .nav-text a {
@@ -47,7 +48,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  top: 10%;
   border-radius: 4px;
 }
 
@@ -68,7 +69,9 @@
   align-items: center;
 }*/
 
-
+span {
+  margin-left: 16px;
+}
 
 .MobileNav {
   display: none;
@@ -198,7 +201,7 @@
 
 /* Ipad Pro */
 
-@media screen and (min-width: 1024px) and (max-width:1400px) {
+@media screen and (min-width: 1024px) and (max-width:1030px) {
  
  .PopMobile{
   width: 990px;
