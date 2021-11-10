@@ -25,6 +25,8 @@ import Category from "./Dashboard/pages/Category";
 
 import GameStart from "./Dashboard/pages/GameStart";
 import HipHop from "./Dashboard/pages/HipHop";
+import OldSchool from "./Dashboard/pages/OldSchool";
+import MichaelJackson from "./Dashboard/pages/MichaelJackson";
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
           <Route path="/mummiesthree" component={MummiesThree} />
           <Route path="/hiphop" component={HipHop} />
           <Route path="/gamestart" component={GameStart} />
+          <Route path="/oldschool" component={OldSchool} />
+          <Route path="/michaeljackson" component={MichaelJackson} />
         </Switch>
       </Router>
     </>
