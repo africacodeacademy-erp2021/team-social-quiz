@@ -8,7 +8,7 @@ import "../../App";
 export const SideBarData = [
   {
     title: "Category",
-    path: "/",
+    path: "/Category",
     icon: <BiIcons.BiVector />,
     cName: "nav-text",
   },

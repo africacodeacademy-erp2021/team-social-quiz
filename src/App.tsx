@@ -5,7 +5,7 @@ import Login from "./authentication-and-login/login/login";
 import Registration from "./authentication-and-login/registration/registration";
 
 import CreateGame from "./Dashboard/pages/CreateGame";
-import Leaderboard from "./Dashboard/pages/Leaderboard";
+
 import Help from "./Dashboard/pages/Help";
 import PopCulture from "./Dashboard/pages/PopCulture";
 import Astronomy from "./Dashboard/pages/Astronomy";
@@ -28,6 +28,7 @@ import HipHop from "./Dashboard/pages/HipHop";
 
 import ScoreBoard  from './game-completion/score/score';
 import QuizStart from "./game/Game_Play/game_start";
+import Leaderboards from "./game-completion/leaderboard/leaderboard";
 
 
 
@@ -51,7 +52,7 @@ function App() {
         <Route path="/" exact component={Category} />
           <Route path="/CreateGame" component={CreateGame} />
           <Route path="/History" component={History} />
-          <Route path="/Leaderboard" component={Leaderboard} />
+          
           <Route path="/Help" component={Help} />
           <Route path="/popculture" component={PopCulture} />
           <Route path="/astronomy" component={Astronomy} />
@@ -72,7 +73,7 @@ function App() {
     
           
           <Route path='/leaderboard'>
-              <Leaderboard/>
+              <Leaderboards/>
           </Route>
           <Route path='/score'>
               <ScoreBoard/>

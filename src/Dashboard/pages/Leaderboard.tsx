@@ -1,4 +1,5 @@
 import React from 'react'
+import Leaderboards from '../../game-completion/leaderboard/leaderboard';
 import Navbar from '../components/Navbar';
 
 function Leaderboard() {
@@ -8,7 +9,7 @@ function Leaderboard() {
           <Navbar />
         </div>
         <div className="sidebar">
-            <h1>Leaderboard</h1>
+            <Leaderboards/>
             </div>
         </div>
       

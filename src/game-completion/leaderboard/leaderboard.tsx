@@ -9,16 +9,16 @@ import winer5 from "../leaderboard/images/win5.png";
 import retry from "../leaderboard/images/retry.png";
 import './leaderboard.css'
 
-export default function Leaderboard(props:any){
+export default function Leaderboards(props:any){
 
     const score = JSON.stringify(localStorage.getItem("scoreSave"));
     const Scorereplace = score.replace('"', "");
     const scoreReplace = Scorereplace.replace('"', "");
     const getScore= parseInt(scoreReplace);
 
-    const playerName = JSON.stringify(localStorage.getItem("playerName"));
-    const PlayerNamereplace = playerName.replace('"', "");
-    const player =  PlayerNamereplace.replace('"', "");
+    const data = JSON.stringify(localStorage.getItem("name"));
+    const name = data.replace('"', "");
+    const playerName = name.replace('"', "");
 
 
     const players: any = [{name:"Molati",playerScore:75},
@@ -26,7 +26,7 @@ export default function Leaderboard(props:any){
                           {name:"Paballo",playerScore:90},
                           {name:"Motlatsi",playerScore:30}];
                           players.push({
-                            "name":player,"playerScore":getScore
+                            "name":playerName,"playerScore":getScore
                           })
     players.sort((a:any, b:any) => b.playerScore - a.playerScore);   
   
@@ -67,7 +67,7 @@ export default function Leaderboard(props:any){
               height="50px"
               alt="score"
               src={profile}
-            /></span>{player}
+            /></span>{playerName}
             </div>
 
             </div>

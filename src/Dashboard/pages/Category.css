@@ -243,7 +243,7 @@
     position: static;
     width: 83px;
     height: 25px;
-    margin-left: 23.67px;    
+    margin-left: 40.67px;    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -262,7 +262,7 @@
     position: static;
     width: 95px;
     height: 25px;
-    margin-left: 0%;
+    margin-left: 10%;
     top: 0px;
     font-family: Open Sans;
     font-style: normal;
@@ -279,9 +279,9 @@
   #Num{
    
     
-    left: 5%;
-    right: 8.33%;
-    top: 12.5%;
+    left: 1%;
+    right: 30.33%;
+    top: 0.4%;
     bottom: 29.17%;
     
 
@@ -296,12 +296,13 @@
   }
   #Quizes{
     
-    left: 30%;
+    left: 25%;
     right: 8.33%;
-    top: 12.5%;
+    top: 0.4%;
     bottom: 29.17%;
     
   }
+
 
   #Hiphop-img{
     position: absolute;
@@ -773,7 +774,6 @@
     margin-top: 50px;
     margin-left: 10px;
   }
-
   #Ranks{
     position: absolute;
     width: 320px;
@@ -805,7 +805,7 @@
     position: absolute;
     left: 0%;
     right: 4%;
-    top: 1%;
+    top: 6%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1192,6 +1192,7 @@
     height: 15px;
 
   }
+ 
   .Play-1{
     position: absolute;
     left: 195px;
@@ -1734,17 +1735,7 @@
       margin: 0px 11px;
     }
     
-    #Num{
-     
-      position: absolute;
-      left: 2%;
-      right: 5.33%;
-      top: 10.5%;
-      bottom: 25.17%;
-      width: 29px;
-      
-  
-    }
+   
     #Star{
       position: absolute;
       left: 60%;
