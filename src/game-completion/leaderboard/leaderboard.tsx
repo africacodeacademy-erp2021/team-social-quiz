@@ -35,7 +35,7 @@ export default function Leaderboards(props:any){
         const clickHandlerRetry = () => {
  
         
-          history.push("../score/score");
+          history.push("/Category");
           }
     
         return(
