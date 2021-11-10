@@ -91,7 +91,6 @@ players.sort((a:any, b:any) => b.score - a.score);
           
         </div>
         
-
         <div className="game-2" >
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
