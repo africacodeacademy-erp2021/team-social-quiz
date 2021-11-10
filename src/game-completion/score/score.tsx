@@ -65,7 +65,7 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
         images = Loss;
         congrats= "Try harder next time..."
       }
-  
+      let history = useHistory();
 /*
 *Routting to leaderboad component
 */ 
@@ -76,6 +76,7 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
    localStorage.setItem("scoreSave",PlayerScore);
   ;
    history.push("./leaderboard");
+
   }
    return(
       <div>
@@ -83,21 +84,24 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
       </div>
   )
 
+ 
 }
-
+const click=()=>{
+  history.push("./Category");
+}
 
   return (
     <div className="score-board">       
          <div className="PlayerAndGameName_section">
           <div className="gameName">
-            <span className="Title">quiz</span>
-            <span className="Title-2">app</span>
+            <span className="Title" onClick={click}>quiz</span>
+            <span className="Title-2"onClick={click}>app</span>
           </div>
           <div className="playerName">
            <span> <img
               className="points_icon"
-              width="50px"
-              height="50px"
+              width="30px"
+              height="30px"
               alt="score"
               src={profile}
             /></span>{playerName}

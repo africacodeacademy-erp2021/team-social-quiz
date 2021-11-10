@@ -1,7 +1,7 @@
 .score-board
 {
 position: absolute;
-width: 1540px;
+width: 1360px;
 height: 740px;
 color :white;
 background-color: #22285F;
@@ -69,10 +69,13 @@ color: #FFFFFF;
     color: cornflowerblue;
     font-size: 45px;
     margin-left: 60px;
+    cursor:pointer;
 }
 .Title-2{
+    color:black;
     font-size: 45px;
     margin-left: 1px;
+    cursor:pointer;
 }
 .points_icon{
     margin-bottom: -10px;
@@ -137,7 +140,7 @@ color: #FFFFFF;
 position: absolute;
 width: 169px;
 height: 44px;
-left: 700px;
+left: 710px;
 top: 866px;
 
 background: rgba(60, 67, 126, 0.81);
@@ -170,8 +173,8 @@ background: #FFFA79;
 position: absolute;
 width: 125px;
 height: 30px;
-left: 610px;
-top: 540px;
+left: 721px;
+top: 607px;
 
 font-family: Mulish;
 font-style: normal;

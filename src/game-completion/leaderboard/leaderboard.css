@@ -1,5 +1,5 @@
 
-.body{
+.body2{
     position: absolute;
     width: 1340px;
     height: 850px;
@@ -8,7 +8,7 @@
     background-image: url(blob.svg);
     background-position:top;
     background-repeat: no-repeat;
-    background-size: 1400px;
+    
 }
 
 #quiz{
@@ -46,7 +46,7 @@
 position: absolute;
 width: 30px;
 height: 30px;
-left: 510px;
+left: 490px;
 top: 270px;
 
 text-align:center;
@@ -92,7 +92,7 @@ color: #FFFFFF;
 position: absolute;
 width: 30px;
 height: 30px;
-left: 816px;
+left: 806px;
 top: 270px;
 
 font-family: Open Sans;
@@ -125,20 +125,21 @@ color: #FFFFFF;
 
 }
 .position{
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
     background-color:#F0A228;
+    
 }
 .position2{
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
     background-color:#3EC6FB;
     margin-top: 20px;
 }
 .position3{
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
     background-color:#4DD7B6;
@@ -146,7 +147,7 @@ color: #FFFFFF;
     
 }
 .position4{
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
     background-color:white;
@@ -154,7 +155,7 @@ color: #FFFFFF;
     color: black;
 }
 .position5{
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
     background-color:white;
@@ -231,8 +232,8 @@ color: #FFFFFF;
 .points_icon1{
     /* position1Photo */
 
-position: absolute;
-left: 45%;
+position: relative;
+left: 08%;
 right: 0%;
 top: 20%;
 bottom: 0%;
@@ -242,8 +243,8 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .points_icon2{
     /* position2Photo */
 
-position: absolute;
-left: 35%;
+position: relative;
+left: 0%;
 right: 0%;
 top: 22%;
 bottom: 0%;
@@ -251,8 +252,8 @@ bottom: 0%;
 .points_icon3{
     /* position3Photo */
 
-position: absolute;
-left: 58%;
+position: relative;
+left: 16%;
 right: 0%;
 top: 22%;
 bottom: 0%;
@@ -262,9 +263,9 @@ bottom: 0%;
 /* 100 pts */
 
 position: absolute;
-left: 60.66%;
+left: 64.66%;
 right: 2.82%;
-top: 36.57%;
+top: 38.57%;
 bottom: 28.57%;
 
 font-family: Open Sans;
@@ -281,13 +282,13 @@ color: #FFFFFF;
 position: absolute;
 left: 45.35%;
 right: 22.34%;
-top: 36.57%;
+top: 38.57%;
 bottom: 28.57%;
 
 font-family: Open Sans;
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 33px;
 /* identical to box height */
 
@@ -329,7 +330,7 @@ bottom: 28.57%;
 #winNumber{
     /* 1 */
 position: absolute;
-left: 36.39%;
+left: 35.09%;
 right: 93.49%;
 top: 36.57%;
 bottom: 28.57%;
@@ -352,7 +353,7 @@ color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
     /* identical to box height */
     
@@ -360,7 +361,7 @@ color: #FFFFFF;
     }
 .score2{
 position: absolute;
-left: 60.66%;
+left: 64.66%;
 right: 2.82%;
 top: 43.57%;
 bottom: 28.57%;
@@ -384,7 +385,7 @@ color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
     /* identical to box height */
     
@@ -400,7 +401,7 @@ color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
 }
 .username5{position: absolute;
@@ -412,12 +413,12 @@ color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
 }
 .score3{
 position: absolute;
-left: 60.66%;
+left: 64.66%;
 right: 2.82%;
 top: 50.57%;
 bottom: 28.57%;
@@ -433,7 +434,7 @@ color: #FFFFFF;
 }
 .score4{
     position: absolute;
-    left: 60.66%;
+    left: 64.66%;
     right: 2.82%;
     top: 57.57%;
     bottom: 28.57%;
@@ -446,7 +447,7 @@ color: #FFFFFF;
 }
 .score5{
     position: absolute;
-    left: 60.66%;
+    left: 64.66%;
     right: 2.82%;
     top: 64.56%;
     bottom: 28.57%;

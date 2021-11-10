@@ -41,9 +41,9 @@ function QuizStart(props:any){
   },[gameMode, playerRole, count]);
  
     return(
-     <div className="body" key={"bodyone"}> 
+     <div className="body1" key={"bodyone"}> 
      
-         <div className="body" key={"body"}>  
+         <div className="body1" key={"body"}>  
            <div className="audioo"><Myaudio/></div> 
              <GameContext.Provider value={{gameState,SetGameState,startTime,scoreStatus, SetScoreStatus,selectedNumber,
              setSelectedNumber,showNext, SetShowNext,score, SetScore,lastQuestion, SetLastQuestion,playerName,

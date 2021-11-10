@@ -5,6 +5,7 @@ import { GameContext } from './game_Context';
 import {CongratsMemes} from '.././memeURL/congratsMemes';
 import {TryAgainMemes} from '.././memeURL/tryAgainMeme';
 import { useHistory } from 'react-router';
+import profile from "../../game-completion/leaderboard/images/profile.png"
 
 function MyMemes(){
 const {currentQuestion} = useContext(GameContext);
@@ -48,9 +49,15 @@ if(scoreStatus === true){
                <div className="gameName">
                 <span className="Title">quiz</span><span className="Title-2">app</span>    
                 </div>
-               <div className="playerName"><img className="points_icon" width="50px"height="50px"
-                alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
-                {playerName}</div>
+                <div className="playerName">
+           <span> <img
+              className="points_icon"
+              width="30px"
+              height="30px"
+              alt="score"
+              src={profile}
+            /></span>{playerName}
+            </div>
             </div>
                 <img className="meme" src={showImg} alt="meme"/> 
                 <br/>        

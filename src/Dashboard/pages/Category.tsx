@@ -19,9 +19,10 @@ function Category() {
       </div>
       <div className="sidebar">
         <br />
+     
         <span className="Title">quiz</span>
         <span className="Title-2">app</span>
-        <div className="playerName"><img className="points_icon" width="50px"height="50px"
+        <div className="PlayerName"><img className="points_icon" width="30px"height="30px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
                 {playerName}</div>
         <div>
