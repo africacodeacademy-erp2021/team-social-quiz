@@ -170,18 +170,12 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-            <div className="rightbar">
-              <div id="Ranks">
-                <span id="Ranks-header">Category Ranks</span>
-
-          
-  
+           
         </div>
         </div>
         </div>
         </div>
-        </div>
-        </div>
+        
   </>
   );
 }

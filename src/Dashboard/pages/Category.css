@@ -243,7 +243,7 @@
     position: static;
     width: 83px;
     height: 25px;
-    margin-left: 23.67px;    
+    margin-left: 40.67px;    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -262,7 +262,7 @@
     position: static;
     width: 95px;
     height: 25px;
-    margin-left: 0%;
+    margin-left: 10%;
     top: 0px;
     font-family: Open Sans;
     font-style: normal;
@@ -279,9 +279,9 @@
   #Num{
    
     
-    left: 5%;
-    right: 8.33%;
-    top: 12.5%;
+    left: 3%;
+    right: 30.33%;
+    top: 0.4%;
     bottom: 29.17%;
     
 
@@ -296,9 +296,9 @@
   }
   #Quizes{
     
-    left: 30%;
+    left: 25%;
     right: 8.33%;
-    top: 12.5%;
+    top: 0.4%;
     bottom: 29.17%;
     
   }
@@ -805,7 +805,7 @@
     position: absolute;
     left: 0%;
     right: 4%;
-    top: 1%;
+    top: 6%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1446,7 +1446,7 @@
    
     width: 83px;
     height: 25px;
-    left: 23.67px;
+    left: 25px;
     top: 0px;
     font-family: Open Sans;
     font-style: normal;

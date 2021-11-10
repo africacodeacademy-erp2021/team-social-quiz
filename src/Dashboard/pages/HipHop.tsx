@@ -50,7 +50,7 @@ function HipHop() {
           <div id="Four">4</div>
           <div id="Five">5</div>
           <div id="Six">6</div>
-          <div id="Eight">7</div>
+          <div id="Seven">7</div>
     </div> 
     
 
