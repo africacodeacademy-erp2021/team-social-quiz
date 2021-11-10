@@ -34,7 +34,7 @@ export default function Leaderboards(props: any) {
   function Retry() {
     let history = useHistory();
     const clickHandlerRetry = () => {
-      history.push("/Category");
+      history.push("/game_start");
     };
    
 
@@ -48,7 +48,7 @@ export default function Leaderboards(props: any) {
             alt="score"
             src={retry}
           />{" "}
-          <span>Retry</span>
+          <span className="retrtext">Retry</span>
         </button>
       </div>
     );
@@ -74,8 +74,8 @@ export default function Leaderboards(props: any) {
               {" "}
               <img
                 className="points_icon"
-                width="50px"
-                height="50px"
+                width="30px"
+                height="30px"
                 alt="score"
                 src={profile}
               />
