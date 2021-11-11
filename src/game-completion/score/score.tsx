@@ -18,11 +18,13 @@ export default function ScoreBoard() {
 
   const score1 = JSON.stringify(localStorage.getItem("PlayerScore"));
   const ScoreOne = score1.replace('"', "");
-  const PlayerScore = ScoreOne.replace('"', "");
+  const scorevalue = ScoreOne.replace('"', ""); 
+  const PlayerScore =  parseInt(scorevalue, 10);
+  
 
-const total = 100;
-let score:any= [95,19,20,60,90,10];
-let Score =score[Math.floor(Math.random()*score.length)];
+const total = 500;
+
+
 
  const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
@@ -39,15 +41,7 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
   *return max nuber and desplay it as max score.
   */
 
-  function arrayMax(arr:any) {
-    var len = arr.length, max = -Infinity;
-    while (len--) {
-      if (Number(arr[len]) > max) {
-        max = Number(arr[len]);
-      }
-    }
-    return max;
-  }; 
+
    /*
    *get the half of the total
    *Display a meme and congrats message if the score is grater than half of the total.
@@ -55,7 +49,7 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
    const displayMeme = total /2;
     let images =""; 
     let congrats="";
-    if (Score>= displayMeme) {
+    if (PlayerScore>= displayMeme) {
 
         images = Win;
         congrats = "You have won... congratulations"
@@ -73,7 +67,8 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
   let history = useHistory();
    const clickHandlerleaderboard = () => {
       //store Score in local sever.
-   localStorage.setItem("scoreSave",PlayerScore);
+
+   localStorage.setItem("scoreSave",scorevalue);
   ;
    history.push("./leaderboard");
 
@@ -118,7 +113,7 @@ const click=()=>{
                 <p id ="points">+{PlayerScore} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
                 <h1>{congrats} {playerName}</h1>
 
-                <span><p>best Score: {arrayMax(score)}</p></span>
+                <span><p>best Score: {PlayerScore}</p></span>
 
 
                   <Switch>
