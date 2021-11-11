@@ -1,5 +1,6 @@
 import React from 'react'
 import './CategoryMedia.css';
+import './page2.css'
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -10,13 +11,20 @@ import Hand from "../Images/Hand.png";
 import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
+import Navbar from '../components/Navbar';
+
 
 
 function MichaelJackson() {
     return (
-        <div>
+      <div className="screen">
+      <div className="hamburger">
+        <Navbar />
+       
+        </div>
+        <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">
@@ -27,12 +35,10 @@ function MichaelJackson() {
           <span id="QuizesText">Quizes 15</span>
           </span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
-          
-          
-          
+         
         </div>
 
-        <div id="Ranks">
+        <div id="Ranks1">
 
          <span id="Ranks-header">Leaderboard</span> 
 
@@ -43,7 +49,7 @@ function MichaelJackson() {
           <div id="Four">4</div>
           <div id="Five">5</div>
           <div id="Six">6</div>
-          <div id="Eight">7</div>
+          <div id="Seven">7</div>
     </div> 
     
 
@@ -67,10 +73,8 @@ function MichaelJackson() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
      
-          {/* <span id="Line"></span> */} 
         </div>
         
-        {/*<button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>*/}
         <PlayButton />
         <span id="HipHopText">@quizapp</span>
         <div id="Description">
@@ -90,17 +94,19 @@ function MichaelJackson() {
             
             
         </div>
-        <span id="Tupac"><p>How many albums did Michael Jackson had?</p></span>
+        <span id="Tupac"><p>Michael Jackson was known as the "King of ____"?</p></span>
         <div>
         <img  className="RecordImage" src={Record} alt="Hand"/>
         </div>
-        <span id="Records"><p>Which country was Michael Jackson from?</p></span>
+        <span id="Records"><p>What dance craze did Michael popularize in 1983?</p></span>
         <div>
         <img  className="FlagImage" src={Flag} alt="Flag"/>
         </div>
-        <span id="FlagText"><p>How old was Michael Jackson when he die?</p></span>
+        <span id="FlagText"><p> In which song does Michael Jackson sing: "She says I am the one, but the kid is not my son"?</p></span>
             
+        </div>
         </div>
     )
 }
+
 export default MichaelJackson;
