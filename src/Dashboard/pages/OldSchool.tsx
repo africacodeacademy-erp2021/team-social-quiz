@@ -23,7 +23,7 @@ function OldSchool() {
         </div>
         <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" />
+          <img className="popc" src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">
