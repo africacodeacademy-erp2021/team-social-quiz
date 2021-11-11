@@ -164,8 +164,8 @@ top: 6px;
 /* Vector */
 
 position: absolute;
-left: -5%;
-margin-right: 39.5%;
+margin-left: -1.1%;
+margin-right: 42.5%;
 margin-top: -65px;
 bottom: 18.75%;
 
@@ -200,7 +200,8 @@ color: #3c09f7;
     /* Vector */
 
 position: absolute;
-left: 45%;
+text-align: center;
+margin-left: 27.4%;
 top: 90%;
 bottom: 20%;
 padding-right: 10px;
