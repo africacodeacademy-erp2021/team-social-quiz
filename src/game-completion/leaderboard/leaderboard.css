@@ -185,7 +185,7 @@ color: #FFFFFF;
     /* Position Bar */
 
 position: absolute;
-width: 170px;
+width: 190px;
 height: 50px;
 left: 559px;
 top: 899px;
@@ -208,12 +208,12 @@ background: #FFFFFF;
 /* Try again */
 
 position: absolute;
-width: 83px;
+width: 103px;
 height: 25px;
 left: 670px;
 top: 650px;
 text-align: center;
-background-color:  #F0A228;
+background-color: rgb(173, 122, 12);
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -229,7 +229,6 @@ color: #FFFFFF;
 
 
 }
-
 .points_icon1{
     /* position1Photo */
 
