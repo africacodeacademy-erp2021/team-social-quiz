@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 function History() {
   return (
     <div className="screen">
+
       <div className="hamburger">
         <Navbar />
       </div>

@@ -68,6 +68,7 @@ players.sort((a:any, b:any) => b.score - a.score);
                     id="Quizes"
                     src={Quizes}
                     alt="Quizes"
+                    
                   />
                   <span id="QuizesText">15 Quizes </span>
                 </span>
