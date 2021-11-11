@@ -11,15 +11,19 @@ export default function Github(props: any) {
 
   const onSuccess = (response: any) => {
     localStorage.setItem("name", response.code);
-    history.replace("./Category");
+    history.replace(props.path);
   };
 
   const onFailure = (response: any) => {
     console.error(response);
   };
+
   const gitClientId = JSON.stringify(process.env.REACT_APP_GITHUB_AUTH_TOKEN);
   const client = gitClientId.replace('"', "");
   const Githubclient = client.replace('"', "");
+
+  let scopeAccess = "read:user%20user:email";
+
   return (
     <div>
       <div className="btn_github">
@@ -37,6 +41,7 @@ export default function Github(props: any) {
           autoLoad={false}
           onSuccess={onSuccess}
           onFailure={onFailure}
+          scope={scopeAccess}
         />
       </div>
     </div>

@@ -7,10 +7,11 @@ import "../../App";
 export default function Facebook(props: any) {
   dotenv.config();
   let history = useHistory();
+  
 
   const responseFacebook = (response: any) => {
     localStorage.setItem("name", response.name);
-    history.replace("/Category");
+    history.replace(props.path);
   };
 
   const facebookid = JSON.stringify(process.env.REACT_APP_ID);

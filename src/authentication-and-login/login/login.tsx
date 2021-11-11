@@ -1,10 +1,10 @@
-import "../../App.css";
+import "../../Login.css";
 import Display_img from "../../game/images/Rubix Cube Image.jpg";
 import * as dotenv from "dotenv";
 import Google from "../google_authentication/google";
 import Facebook from "../facebook_authentication/facebook";
 import Github from "../github_authentication/github";
-import { Link } from "react-router-dom";
+
 
 function Login() {
   dotenv.config();
@@ -13,7 +13,6 @@ function Login() {
     <div className="all_sections">
       <div className="display_infor">
         <div className="login">
-      
           <header>
             {" "}
             <h1 className="h1_title">
@@ -31,22 +30,16 @@ function Login() {
           <br />
           <br />
           <div className="buttons_container">
-            <Google buttonName="SignIn with Google" />
+            <Google buttonName="SignIn with Google" path="/Category"/>
             <br />
-            <Facebook buttonName="SignIn with Facebook" />
+            <Facebook buttonName="SignIn with Facebook" path="/Category"/>
             <br />
-            <Github buttonName="SignIn with Github" />
+            <Github buttonName="SignIn with Github" path="/Category" />
           </div>
-        
 
-        <br />
-        <div className="nav_newAccount">
-          <p className="p_title">Not registered yet ? </p>{" "}
-          <p className="p_title">
-            <Link className="link_text" to="/registration">
-              Create an Account
-            </Link>
-          </p>
+          <br />
+          <div className="nav_newAccount">
+         
           </div>
         </div>
       </div>

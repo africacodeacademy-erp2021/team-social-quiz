@@ -16,15 +16,20 @@ export default function Logout() {
   const clientId = JSON.stringify(process.env.REACT_APP_GOOGLE_CLIENT_ID);
   const name = clientId.replace('"', "");
   const Clientid = name.replace('"', "");
+
+  let isShown:boolean = false;
+
   return (
     <div>
       <div className="btn_google">
         {" "}
         <GoogleLogout
-          className="btn_google"
+          className="btn_googlelogout"
           clientId={Clientid}
           buttonText="Logout"
           onLogoutSuccess={signOutSuccess}
+          icon={isShown}
+          
         ></GoogleLogout>
       </div>
     </div>

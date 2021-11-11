@@ -8,9 +8,11 @@ export default function Google(props: any) {
   let history = useHistory();
 
   const loginsuccess = (response: any) => {
-    localStorage.setItem("name", response.dt.uU);
-    history.replace("./Category");
+   localStorage.setItem("name", response.it.Se);
+    history.replace(props.path);
   };
+
+  const loginfailure =(error:any) =>{};
 
   const clientId = JSON.stringify(process.env.REACT_APP_GOOGLE_CLIENT_ID);
   const name = clientId.replace('"', "");
@@ -24,7 +26,7 @@ export default function Google(props: any) {
           clientId={Clientid}
           buttonText={props.buttonName}
           onSuccess={loginsuccess}
-          onFailure={loginsuccess}
+          onFailure={loginfailure}
           cookiePolicy={"single_host_origin"}
         />
       </div>
