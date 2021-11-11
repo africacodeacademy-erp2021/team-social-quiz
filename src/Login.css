@@ -6,15 +6,15 @@
   
   .all_sections {
     display: flex;
-    width: 1590px;
+    width: 1540px;
     height: 900px;
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     overflow: hidden;
   }
   
   .display_infor {
-    width: 760px;
+    width: 690px;
     height: 1000px;
     background: #22285F;
    
