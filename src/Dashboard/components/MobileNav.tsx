@@ -30,9 +30,8 @@ function MobileNav() {
                 return (
                   <li key={index} className={item.cName}>
                     <Link to={item.path}>
-                      {item.icon}
-                    
-                      <span>{item.title}</span>
+                      <span className="iconSideBar">{item.icon}</span>
+                      <span className= "categorySideBar">{item.title}</span>
                     </Link>
                   </li>
                   

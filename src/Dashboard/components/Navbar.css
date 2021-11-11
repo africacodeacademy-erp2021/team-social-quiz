@@ -38,6 +38,8 @@
   list-style: none;
   height: 60px;
   top: 10%;
+  left: -10px;
+  
 }
 
 .nav-text a {
