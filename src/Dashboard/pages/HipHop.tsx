@@ -15,6 +15,34 @@ import Navbar from '../components/Navbar';
 
 
 function HipHop() {
+  const players:any = [{
+    name: "Mokokoane",
+    score: 21
+  },{
+    name: "Relebohile",
+     score: 50,
+  },{
+    name: "malepa",
+    score: 89,
+  },{
+    name:"LyonmkMokokoaneRelebohile",
+    score: 90,
+  },{
+    name: "MK",
+    score: 10,
+  },{
+    name: "motlatsi",
+    score: 45,
+  },{
+    name:"Nthako",
+    score: 32,
+},{
+  name: "win",
+  score: 87,
+},
+];
+
+players.sort((a:any, b:any) => b.score - a.score); 
     return (
       <div className="screen">
       <div className="hamburger">
@@ -41,15 +69,43 @@ function HipHop() {
 
          <span id="Ranks-header">Leaderboard</span> 
 
-    <div className="ranks-data"> 
-          <div id="One">1</div>
-          <div id="Two">2</div>
-          <div id="Three">3</div>
-          <div id="Four">4</div>
-          <div id="Five">5</div>
-          <div id="Six">6</div>
-          <div id="Seven">7</div>
-    </div> 
+          <div className="One"><span id ="One">1</span>
+            <span id  ="playerName1">{players[0].name}</span>
+            <span id ="score1">{players[0].score}</span>
+          </div>
+
+          <div className="Two">
+            <span id ="Two">2</span> 
+            <span id  ="playerName2">{players[1].name}</span>
+            <span id ="score2">{players[1].score}</span>
+          </div>
+
+          <div className="Three">
+            <span id ="Three">3</span> 
+            <span id  ="playerName3">{players[2].name}</span>
+            <span id ="score3">{players[2].score}</span>
+          </div>
+          <div className="Four">
+            <span id ="Four">4</span> 
+            <span id  ="playerName4">{players[3].name}</span>
+            <span id ="score4">{players[3].score}</span>
+          </div>
+          <div className="Five">
+            <span id ="Five">5</span> 
+            <span id  ="playerName5">{players[4].name}</span>
+            <span id ="score5">{players[4].score}</span>
+          </div>
+          <div className="Six">
+            <span id ="Six">6</span> 
+            <span id  ="playerName6">{players[5].name}</span>
+            <span id ="score6">{players[5].score}</span>
+          </div>
+          <div className="Seven">
+            <span id ="Seven">7</span> 
+            <span id  ="playerName7">{players[6].name}</span>
+            <span id ="score7">{players[6].score}</span>
+          </div>
+
     
 
     <div className="medals-Icons">
