@@ -38,7 +38,7 @@
 .leaderbord{
 
     width: 450px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 .number2{
    /* 2 */
@@ -46,8 +46,8 @@
 position: absolute;
 width: 30px;
 height: 30px;
-left: 490px;
-top: 270px;
+left: 430px;
+top: 290px;
 
 text-align:center;
 font-family: Open Sans;
@@ -71,8 +71,8 @@ color: #FFFFFF;
 position: absolute;
 width: 30px;
 height: 30px;
-left: 676px;
-top: 270px;
+left: 620px;
+top: 290px;
 
 text-align:center ;
 font-family: Open Sans;
@@ -92,8 +92,8 @@ color: #FFFFFF;
 position: absolute;
 width: 30px;
 height: 30px;
-left: 876px;
-top: 270px;
+left: 798px;
+top: 290px;
 
 font-family: Open Sans;
 font-style: normal;
@@ -210,7 +210,7 @@ background: #FFFFFF;
 position: absolute;
 width: 103px;
 height: 25px;
-left: 670px;
+left: 630px;
 top: 650px;
 text-align: center;
 background-color: rgb(173, 122, 12);
@@ -263,7 +263,7 @@ bottom: 0%;
 /* 100 pts */
 
 position: absolute;
-left: 65.66%;
+left: 59.66%;
 right: 2.82%;
 top: 38.57%;
 bottom: 28.57%;
@@ -280,7 +280,7 @@ color: #FFFFFF;
 .username{
 
 position: absolute;
-left: 43.35%;
+left: 36.35%;
 right: 22.34%;
 top: 38.57%;
 bottom: 28.57%;
@@ -300,29 +300,29 @@ color: #FFFFFF;
     /* Ellipse 9 */
 
 position: absolute;
-left: 40.46%;
+left: 33.46%;
 right: 84.6%;
 top: 38.57%;
 bottom: 28.57%;
 }
 .win2{position: absolute;
-    left: 40.46%;
+    left: 33.46%;
     right: 84.6%;
-    top: 45.57%;
+    top: 45.67%;
     bottom: 28.57%;}
 .win3{position: absolute;
-    left: 40.46%;
+    left: 33.46%;
     right: 84.6%;
     top: 52.57%;
     bottom: 28.57%;}
 .win4{position: absolute;
-    left: 40.46%;
+    left: 33.46%;
     right: 84.6%;
     top: 59.67%;
     bottom: 28.57%;
 }
 .win5{position: absolute;
-    left: 40.46%;
+    left: 33.46%;
     right: 84.6%;
     top: 66.97%;
     bottom: 28.57%;
@@ -330,7 +330,7 @@ bottom: 28.57%;
 #winNumber{
     /* 1 */
 position: absolute;
-left: 35.09%;
+left: 30.09%;
 right: 93.49%;
 top: 38.57%;
 bottom: 28.57%;
@@ -345,7 +345,7 @@ line-height: 33px;
 color: #FFFFFF;
 }
 .username2{position: absolute;
-    left: 43.35%;
+    left: 36.35%;
     right: 22.34%;
     top:  45.57%;
     bottom: 28.57%;
@@ -361,7 +361,7 @@ color: #FFFFFF;
     }
 .score2{
 position: absolute;
-left: 65.66%;
+left: 59.66%;
 right: 2.82%;
 top:  45.57%;
 bottom: 28.57%;
@@ -377,7 +377,7 @@ color: #FFFFFF;
 }
 
 .username3{position: absolute;
-    left: 43.35%;;
+    left: 36.35%;;
     right: 22.34%;
     top: 52.57%;
     bottom: 28.57%;
@@ -393,7 +393,7 @@ color: #FFFFFF;
 }
 .username4{
     position: absolute;
-    left: 43.35%;
+    left: 36.35%;
     right: 22.34%;
     top: 59.67%;
     bottom: 28.57%;
@@ -405,7 +405,7 @@ color: #FFFFFF;
     line-height: 33px;
 }
 .username5{position: absolute;
-    left: 43.35%;
+    left: 36.35%;
     right: 22.34%;
     top: 66.97%;
     bottom: 28.57%;
@@ -418,7 +418,7 @@ color: #FFFFFF;
 }
 .score3{
 position: absolute;
-left: 65.66%;
+left: 59.66%;
 right: 2.82%;
 top: 52.57%;
 bottom: 28.57%;
@@ -434,7 +434,7 @@ color: #FFFFFF;
 }
 .score4{
     position: absolute;
-    left: 65.66%;
+    left: 59.66%;
     right: 2.82%;
     top: 59.67%;
     bottom: 28.57%;
@@ -447,7 +447,7 @@ color: #FFFFFF;
 }
 .score5{
     position: absolute;
-    left: 65.66%;
+    left: 59.66%;
     right: 2.82%;
     top: 66.97%;
     bottom: 28.57%;
@@ -461,7 +461,7 @@ color: #FFFFFF;
 #winNumber2{
     /* 1 */
 position: absolute;
-left: 36.39%;
+left: 31.39%;
 right: 93.49%;
 top: 43.57%;
 bottom: 28.57%;
@@ -478,7 +478,7 @@ color: #FFFFFF;
 #winNumber3{
     /* 1 */
 position: absolute;
-left: 36.39%;
+left: 31.39%;
 right: 93.49%;
 top: 50.57%;
 bottom: 28.57%;
@@ -495,7 +495,7 @@ color: #FFFFFF;
 #winNumber4{
     /* 1 */
 position: absolute;
-left: 36.39%;
+left: 31.39%;
 right: 93.49%;
 top: 56.96%;
 bottom: 28.57%;
@@ -509,7 +509,7 @@ line-height: 33px;
 #winNumber5{
     /* 1 */
 position: absolute;
-left: 36.39%;
+left: 31.39%;
 right: 93.49%;
 top: 65.06%;
 bottom: 28.57%;
