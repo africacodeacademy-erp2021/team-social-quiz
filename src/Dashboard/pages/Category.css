@@ -89,7 +89,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 87px;
     color: #ff5c00;
   }
@@ -99,7 +99,7 @@
     left: 50px;
     top: 87px;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
   }
   .Origins-T {
@@ -108,7 +108,7 @@
     left: 50px;
     top: 87px;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
   }
   .Big-Bang {
@@ -117,7 +117,7 @@
     left: 50px;
     top: 87px;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
   }
   .Planets {
@@ -126,7 +126,7 @@
     left: 50px;
     top: 87px;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
   }
   .Polymers {
@@ -134,8 +134,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: red;
-    font-size: 25px;
+    color:black;
+    font-size: 18px;
     font-weight: bold;
   }
   .Lab {
@@ -143,8 +143,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: red;
-    font-size: 25px;
+    color:black;
+    font-size: 18px;
     font-weight: bold;
   }
   .Moles {
@@ -152,8 +152,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: red;
-    font-size: 25px;
+    color: black;
+    font-size: 18px;
     font-weight: bold;
   }
   .Mummies {
@@ -161,8 +161,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: #64a93a;
-    font-size: 25px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
   }
   .Mummies-1 {
@@ -170,8 +170,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: #64a93a;
-    font-size: 25px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
   }
   .Mummies-2 {
@@ -179,8 +179,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: #64a93a;
-    font-size: 25px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
   }
   .Chemistry-T {
@@ -188,8 +188,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: red;
-    font-size: 25px;
+    color: black;
+    font-size: 18px;
     font-weight: bold;
   }
   .History-T {
@@ -197,8 +197,8 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: #64a93a;
-    font-size: 25px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
   }
   ::placeholder { 
@@ -374,7 +374,6 @@
   }
   #Most-Popular{
     display:block;
-    /* position: absolute; */
     width: 371px;
     height: 33px;
     left: 27px;
@@ -386,6 +385,7 @@
     font-size: 24px;
     line-height: 33px;
     color: #000000;
+    font-size: 20px;
   }
   #Quiz-1{
     
@@ -532,6 +532,7 @@
     top: 355px;
     background: #34A853;
     border-radius: 7px;
+    cursor:pointer;
     
   }
   #Description{
@@ -1321,18 +1322,23 @@
 
   #heading-1 {
     margin-left: 20px;
+    font-size: 10px;
   }
   #heading-2 {
     margin-left: 20px;
+    font-size: 10px;
   }
   #heading-3 {
     margin-left: 20px;
+    font-size: 10px;
   }
   #heading-4 {
     margin-left: 20px;
+    font-size: 10px;
   }
   #heading-5 {
     margin-left: 20px;
+    font-size: 10px;
   }
  
 
