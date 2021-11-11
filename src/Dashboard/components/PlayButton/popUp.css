@@ -218,6 +218,7 @@
         margin-left: 110px;      
         border-radius: 13px;    
         border:#EAEAEA; 
+        cursor: pointer;
 }
 .share-btn{
         width: 95px;  
@@ -235,5 +236,5 @@
         margin-top: 0px;
         border-radius: 13px;    
         border:#EAEAEA; 
-  
+        cursor: pointer;
 }
