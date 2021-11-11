@@ -1,5 +1,6 @@
 import React from 'react'
 import './CategoryMedia.css';
+import './page2.css'
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -10,13 +11,19 @@ import Hand from "../Images/Hand.png";
 import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
+import Navbar from '../components/Navbar';
 
 
 function OldSchool() {
     return (
-        <div>
+      <div className="screen">
+      <div className="hamburger">
+        <Navbar />
+       
+        </div>
+        <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">
@@ -27,12 +34,10 @@ function OldSchool() {
           <span id="QuizesText">Quizes 15</span>
           </span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
-          
-          
-          
+         
         </div>
 
-        <div id="Ranks">
+        <div id="Ranks1">
 
          <span id="Ranks-header">Leaderboard</span> 
 
@@ -43,7 +48,7 @@ function OldSchool() {
           <div id="Four">4</div>
           <div id="Five">5</div>
           <div id="Six">6</div>
-          <div id="Eight">7</div>
+          <div id="Seven">7</div>
     </div> 
     
 
@@ -67,10 +72,8 @@ function OldSchool() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
      
-          {/* <span id="Line"></span> */} 
         </div>
         
-        {/*<button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>*/}
         <PlayButton />
         <span id="HipHopText">@quizapp</span>
         <div id="Description">
@@ -90,16 +93,17 @@ function OldSchool() {
             
             
         </div>
-        <span id="Tupac"><p>Which country Mandoza come from?</p></span>
+        <span id="Tupac"><p>What band topped the best bands' list in the 90s?</p></span>
         <div>
         <img  className="RecordImage" src={Record} alt="Hand"/>
         </div>
-        <span id="Records"><p>When did Brenda Fassie die?</p></span>
+        <span id="Records"><p>When did Hip Hop come around?</p></span>
         <div>
         <img  className="FlagImage" src={Flag} alt="Flag"/>
         </div>
-        <span id="FlagText"><p>How old is Lionel Richie?</p></span>
+        <span id="FlagText"><p>To which place did the Jackson family move after getting success in the 70s?</p></span>
             
+        </div>
         </div>
     )
 }
