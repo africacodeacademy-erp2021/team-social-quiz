@@ -11,7 +11,7 @@ export const General_questions = [
         ],
     },
     {
-        questionText: 'what is the Name of the first King of Lesotho',
+        questionText: 'What is the Name of the first King of Lesotho',
         answerOptions: [
             { answerText: 'Moshoeshoe', isCorrect: true },
             { answerText: 'Molati', isCorrect: false },
@@ -39,7 +39,7 @@ export const General_questions = [
         ],
     },
     {
-        questionText: 'where is lesotho on the map',
+        questionText: 'Where is lesotho on the map',
         answerOptions: [
             { answerText: 'inside south', isCorrect: false },
             { answerText: 'outside south africa', isCorrect: false },
@@ -59,7 +59,7 @@ export const General_questions = [
         ],
     },
     {
-        questionText: 'how many does it take to get Bsc',
+        questionText: 'How many does it take to get Bsc',
         answerOptions: [
           
             { answerText: '4', isCorrect: true },
@@ -70,7 +70,7 @@ export const General_questions = [
         ],
     }  ,
     {
-        questionText: 'what does MGC stand for?',
+        questionText: 'What does MGC stand for?',
         answerOptions: [
             { answerText: 'Matekane group of companies', isCorrect: true },
             { answerText: 'Matekane companies', isCorrect: false },
@@ -81,7 +81,7 @@ export const General_questions = [
         ],
     },
     {
-        questionText: 'what does RAM stand for?',
+        questionText: 'What does RAM stand for?',
         answerOptions: [
             { answerText: 'random', isCorrect: false },
             { answerText: 'random memory', isCorrect: false },
@@ -91,7 +91,7 @@ export const General_questions = [
         ],
     },
     {
-        questionText: 'what does PC stand for?',
+        questionText: 'What does PC stand for?',
         answerOptions: [
             { answerText: 'personal computer', isCorrect: true },
             { answerText: 'person computers', isCorrect: false }, 

@@ -10,7 +10,7 @@ import { General_questions } from '../Questions/general-questions';
 
 function Game_Play(){
 let {addScoreOnNext} = GameScoreFunction();
-const [showMessage, SetShowMessage] = useState(false); 
+
 const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
@@ -54,10 +54,10 @@ useEffect(()=>{
 */
  const handleAnswerButtonClick = (isCorrect:boolean) => {  
     if(seconds === 0){ 
-        SetShowMessage(false); 
+        
         SetTimeUp(true);                 
-    }else{   
-        SetShowMessage(true);     
+    }else{  
+            
     if(isCorrect){           
         SetScoreStatus(true);                
     } else{
@@ -78,7 +78,6 @@ const onNextquestion = ()=>{
     let nextQuetions = currentQuestion + 1;
     SetGameState("GameMemes"); 
     if (nextQuetions < selectedNumber){ 
-        SetShowMessage(false);
         SetTimeUp(false);
         setSeconds(10);                       
         SetCurrentQuestion(nextQuetions);
@@ -120,12 +119,7 @@ const onNextquestion = ()=>{
                     }                         
                  </div>    
            <div key={"buttons"}>
-                <br/>
-                    {
-                        showMessage ?(                      
-                        <p className="showMessage" key={"msg"}>Your Answer was Captured </p>
-                        ):( <> </>) 
-                    }
+                
                     {   
                         timeup ?(                      
                         <p className="showMessage2" key={"msg2"}>Your Time is Up!!</p>
