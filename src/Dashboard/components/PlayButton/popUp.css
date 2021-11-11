@@ -220,6 +220,9 @@
         border:#EAEAEA; 
         cursor: pointer;
 }
+.blue-btn:hover{
+        background: green;
+}
 .share-btn{
         width: 95px;  
         height: 40px;      
@@ -237,4 +240,7 @@
         border-radius: 13px;    
         border:#EAEAEA; 
         cursor: pointer;
+}
+.share-btn:hover{
+        background: green;
 }
