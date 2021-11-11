@@ -207,6 +207,7 @@
   }
   .Select{
     border-radius: 0px;
+    cursor:pointer;
   }
 
   .search {
@@ -492,7 +493,7 @@
     margin: 0px 23px;
     margin-top: 135px;
     margin-left: 300px;
-    
+    cursor:pointer;
     
   }
   
@@ -532,6 +533,7 @@
     top: 355px;
     background: #34A853;
     border-radius: 7px;
+    
   }
   #Description{
     position: absolute;

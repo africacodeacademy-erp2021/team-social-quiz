@@ -217,7 +217,8 @@
         font-size: 18px;  
         margin-left: 110px;      
         border-radius: 13px;    
-        border:#EAEAEA; 
+        border:#EAEAEA;
+        cursor:pointer; 
 }
 .share-btn{
         width: 95px;  
@@ -234,6 +235,7 @@
         margin-left: 20px;
         margin-top: 0px;
         border-radius: 13px;    
-        border:#EAEAEA; 
+        border:#EAEAEA;
+        cursor:pointer; 
   
 }
