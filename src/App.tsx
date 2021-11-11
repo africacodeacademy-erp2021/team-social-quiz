@@ -32,6 +32,7 @@ import Leaderboards from "./game-completion/leaderboard/leaderboard";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -54,7 +55,7 @@ function App() {
           <Route path="/History" component={History} />
           
           <Route path="/Help" component={Help} />
-          <Route path="/popculture" component={PopCulture} />
+          <Route path="/popculture" component={PopCulture}/>
           <Route path="/astronomy" component={Astronomy} />
           <Route path="/chemistry" component={Chemistry} />
           <Route path="/historycategory" component={HistoryCategory} />
@@ -79,9 +80,6 @@ function App() {
               <ScoreBoard/>
           </Route>
       </Switch>
-      
-      
-     
     </div>
   );
 }
