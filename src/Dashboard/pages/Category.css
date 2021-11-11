@@ -535,6 +535,9 @@
     cursor:pointer;
     
   }
+  #HipHopPlay:hover{
+    background: rgba(16, 4, 128, 0.836);
+}
   #Description{
     position: absolute;
     width: 104px;
