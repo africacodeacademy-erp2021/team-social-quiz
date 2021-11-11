@@ -93,13 +93,15 @@ const click=()=>{
             <span className="Title-2"onClick={click}>app</span>
           </div>
           <div className="playerName">
-           <span> <img
+           <span>
+              <img
               className="points_icon"
               width="30px"
               height="30px"
               alt="score"
               src={profile}
-            /></span>{playerName}
+              />
+            </span>{playerName}
             </div>
 
 
@@ -110,7 +112,8 @@ const click=()=>{
 
              <div className ="mime">
                 <p> <img src={images} alt="win" width="290" height="250" /></p>
-                <p id ="points">+{PlayerScore} points {"  "}<img className="goldpoints" src ={image} alt ="gold" width ="30" height ="30"/></p>
+                <p id ="points">+{PlayerScore} points {"  "}
+                <img src ={image} alt ="gold" width ="30" height ="30"/></p>
                 <h1>{congrats} {playerName}</h1>
 
                
