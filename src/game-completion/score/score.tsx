@@ -110,10 +110,10 @@ const click=()=>{
 
              <div className ="mime">
                 <p> <img src={images} alt="win" width="290" height="250" /></p>
-                <p id ="points">+{PlayerScore} points<img src ={image} alt ="gold" width ="30" height ="30"/></p>
+                <p id ="points">+{PlayerScore} points {"  "}<img className="goldpoints" src ={image} alt ="gold" width ="30" height ="30"/></p>
                 <h1>{congrats} {playerName}</h1>
 
-                <span><p>best Score: {PlayerScore}</p></span>
+               
 
 
                   <Switch>

@@ -61,7 +61,7 @@ color: #FFFFFF;
     width: 50%;
     height: 60px;
     margin-top: 0px;
-    font-size: 36px;
+    font-size: 18px;
     text-align: right;
     margin-right: 1000px;
 }
@@ -164,8 +164,8 @@ left: 0%;
 right: 37.5%;
 top: 21.88%;
 bottom: 18.75%;
-margin-left: -110px;
-background:  #C29B0C;
+
+background: #beb80a;
 
 
 /* 1st */
@@ -185,7 +185,7 @@ line-height: 23px;
 display: flex;
 align-items: center;
 text-align: center;
-left: 645px;
+left: 646px;
 top: 607px;
 color: #3c09f7;
 
@@ -219,4 +219,8 @@ left: 300%;
 top: 90%;
 bottom: 20%;
 padding-right: 10px;
+}
+
+.goldpoints{
+    left: 120px;
 }

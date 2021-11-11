@@ -226,13 +226,13 @@ margin-bottom: -9.33%;
    
 }
 .playerName{
-    width: 50%;
+    width: 100%;
     height: 60px;
     margin-top: 38px;
    
     font-size: 18px;
     text-align: right;
-    margin-right: 110px;
+    margin-right: 50px;
   
 }
 .gameName{
