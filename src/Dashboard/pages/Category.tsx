@@ -6,8 +6,7 @@ import history from "../Images/history.png";
 import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Banner from "../Images/Banner.svg";
-import HistoryCard from "../Images/HistoryCard.svg";
+
 
 
 function Category() {
@@ -37,7 +36,8 @@ function Category() {
 
         <div className="img">
           <Link to="/popculture">
-            <img className="PopMobile" src={Pop} alt="Pop" width="1060px" height="300px" />
+           <img className="PopMobile" src={Pop} alt="Pop" width="1060px" height="300px" />
+           
             <div className="bottom-left-1">Pop Culture</div>
           </Link>
         </div>
