@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 
-
 function Category() {
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
@@ -21,11 +20,19 @@ function Category() {
       <div className="sidebar">
         <br />
      
-        <span className="Title">quiz</span>
-        <span className="Title-2">app</span>
+        <header>
+            {" "}
+            <h1 className="b1_title">
+              {" "}
+              <span className="designcolor">quiz</span>app
+            </h1>{" "}
+          </header>
+
         <div className="PlayerName"><img className="points_icon" width="30px"height="30px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
                 {playerName}</div>
+              
+              
         <div>
         
            

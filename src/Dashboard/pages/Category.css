@@ -9,7 +9,8 @@
     color: cornflowerblue;
     font-size: 25px;
     font-weight: bold;
-    top: -5px;
+    top: 6%;
+    
   }
   .Title-2 {
     font-size: 25px;
@@ -218,16 +219,18 @@
     border-radius: 0px;
     cursor:pointer;
   }
+ 
 
   .search {
     position: absolute;
-    width: 300px;
-    height: 40px;
+    width: 200px;
+    height: 25px;
     left: 420px;
-    top: 10px;
+    top: 6px;
     border-radius: 25px;
     background: #22285F;
     text-align: center;
+  
     
   }
   .Numplays{
