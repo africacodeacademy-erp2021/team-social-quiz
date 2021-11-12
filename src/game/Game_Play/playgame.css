@@ -275,11 +275,13 @@ margin-bottom: -9.33%;
     color: hsl(219, 79%, 66%);
     font-size: 25px;
     margin-left: 0px;
-    top: 2px;
+    top: 10px;
+    
 }
 .Title-2{
     font-size: 25px;
     margin-left: 1px;
+    
 }
 .progress_bar{
     width: 100%;
