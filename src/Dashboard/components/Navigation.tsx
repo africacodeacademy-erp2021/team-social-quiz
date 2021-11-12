@@ -45,7 +45,7 @@ function Navigation() {
               <img className="CategoryImage" src={Category} onClick={handleCategory} alt="CategoryIcon"/>
               </ul>
               <ul className="CategoryList">
-                Category
+                Categories
               </ul>
               </span> 
               <ul className="CreateGameIcons" >
