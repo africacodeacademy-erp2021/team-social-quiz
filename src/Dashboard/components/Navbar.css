@@ -78,8 +78,7 @@ span {
   .Navigation{
     display: none;
   }
-  
-  
+   
 } 
 
   .MobileNav{
@@ -220,8 +219,101 @@ span {
 
 
 
- 
+.HelpImage{
+  margin-top: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.LeaderboardImage{
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 28px;
+  cursor: pointer;
+}
+.HistoryImage{
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+.CreateGameImage{
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 25px;
+  cursor: pointer;
+}
+.CategoryImage{
+  margin-top: 20;
+  margin-left: 15px;
+  width: 25px;
+  cursor: pointer;
+}
+.CategoryList{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: -2px;
+  color: #FFFFFF;
+}
+.CreatGameList{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: -2px;
+  color: #FFFFFF;
 
+}
+.HistoryList{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: -2px;
+  color: #FFFFFF;
+
+}
+.LeaderboardList{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: -2px;
+  color: #FFFFFF;
+
+}
+.HelpList{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: 30px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  
+  
+
+}
+.HelpBackgound{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5px 18px;
+  position: absolute;
+  background: #2836B8;
+  border-radius: 16px;
+  width: 60px;
+  height: 8px;
+  margin-top: 90px;
+  margin-left: -3px;
+}
 
 
 
