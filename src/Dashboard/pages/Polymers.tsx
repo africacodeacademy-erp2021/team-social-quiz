@@ -72,7 +72,7 @@ players.sort((a:any, b:any) => b.score - a.score);
                   <span id="QuizesText">15 Quizes </span>
                 </span>
                 <span>
-                  <img className="Playicon" id="Star" src={Star} alt="Star" />
+                  <img className="Playicon" id="Star" src={Star} alt="Star" width="26px" height="26px" />
                   <span id="starText"></span>
                 </span>
               </div>

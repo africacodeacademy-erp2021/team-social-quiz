@@ -52,12 +52,12 @@ const message = ("Player Score from react App Game : "+ PlayerScore)
     if (PlayerScore>= displayMeme) {
 
         images = Win;
-        congrats = "You have won... congratulations"
+        congrats = "You did great "
 
       } else {
         
         images = Loss;
-        congrats= "Try harder next time..."
+        congrats= "Try harder next time "
       }
       let history = useHistory();
 /*

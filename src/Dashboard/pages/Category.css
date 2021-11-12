@@ -242,7 +242,7 @@
     width: 80%; 
     height: 48px;
     left: 0px;
-    top: 259px;
+    top: 229px;
     background: #FFFFFF;
     float: right;
 
@@ -349,7 +349,7 @@
     width: 607px;
     height: 196px;
     left: 3px;
-    top: 357px;
+    top: 297px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
@@ -362,7 +362,7 @@
     width: 607px;
     height: 196px;
     left: 3px;
-    top: 573px;
+    top: 509px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
@@ -375,7 +375,7 @@
     width: 607px;
     height: 196px;
     left: 3px;
-    top: 789px;
+    top: 719px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
@@ -538,7 +538,7 @@
     width: 96.67px;
     height: 39px;
     left: 520px;
-    top: 355px;
+    top: 320px;
     background: #34A853;
     border-radius: 7px;
     cursor:pointer;
@@ -552,7 +552,7 @@
     width: 104px;
     height: 25px;
     left: 70px;
-    top: 431px;
+    top: 381px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -566,7 +566,7 @@
     width: 650px;
     height: 89px;
     left: 70px;
-    top: 456px;
+    top: 416px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -580,7 +580,7 @@
     width: 162px;
     height: 25px;
     left: 70px;
-    top: 606px;
+    top: 560px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -601,7 +601,7 @@
     width: 82px;
     height: 46px;
     left: 75px;
-    top: 750px;
+    top: 703px;
 
   }
   .FlagImage{
@@ -609,7 +609,7 @@
     width: 82px;
     height: 46px;
     left: 75px;
-    top: 810px;
+    top: 764px;
 
   }
   #FlagText{
@@ -630,7 +630,7 @@
     position: absolute;
     left: 150px;
     right: 0%;
-    top: 700px;
+    top: 651px;
     bottom: 52.38%;
     font-family: Open Sans;
     font-style: normal;
@@ -644,7 +644,7 @@
     position: absolute;
     left: 150px;
     right: 0%;
-    top: 760px;
+    top: 719px;
     bottom: 52.38%;
     font-family: Open Sans;
     font-style: normal;
@@ -759,7 +759,7 @@
     position: absolute;
     left: 150px;
     right: 0%;
-    top: 820px;
+    top: 779px;
     bottom: 52.38%;
     font-family: Open Sans;
     font-style: normal;
@@ -774,7 +774,7 @@
     width: 67px;
     height: 19px;
     left: 53px;
-    top: 370px;
+    top: 320px;
     font-weight: bold;
     font-family: Open Sans;
     font-style: normal;
@@ -793,7 +793,7 @@
     width: 320px;
     height: 504px;
     left: 760px;
-    top: 357px;
+    top: 298px;
     background: rgba(144, 152, 223, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
