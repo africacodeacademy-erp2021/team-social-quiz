@@ -9,6 +9,7 @@
     color: cornflowerblue;
     font-size: 25px;
     font-weight: bold;
+    top: -5px;
   }
   .Title-2 {
     font-size: 25px;
@@ -89,7 +90,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 87px;
     color: #ff5c00;
   }
@@ -134,7 +135,7 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color:black;
+    color:blue;
     font-size: 18px;
     font-weight: bold;
   }
@@ -143,7 +144,7 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color:black;
+    color:blue;
     font-size: 18px;
     font-weight: bold;
   }
@@ -152,7 +153,7 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: black;
+    color: blue;
     font-size: 18px;
     font-weight: bold;
   }
@@ -196,7 +197,7 @@
     bottom: 8px;
     left: 50px;
     top: 87px;
-    color: black;
+    color: blue;
     font-size: 18px;
     font-weight: bold;
   }
@@ -223,9 +224,9 @@
     width: 300px;
     height: 40px;
     left: 420px;
-    top: 90px;
+    top: 10px;
     border-radius: 25px;
-    background: cornflowerblue;
+    background: #22285F;
     text-align: center;
     
   }

@@ -272,12 +272,13 @@ margin-bottom: -9.33%;
 }
 
 .Title{
-    color: cornflowerblue;
-    font-size: 45px;
-    margin-left: 60px;
+    color: hsl(219, 79%, 66%);
+    font-size: 25px;
+    margin-left: 0px;
+    top: 2px;
 }
 .Title-2{
-    font-size: 45px;
+    font-size: 25px;
     margin-left: 1px;
 }
 .progress_bar{
