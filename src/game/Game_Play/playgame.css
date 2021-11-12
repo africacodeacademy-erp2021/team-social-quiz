@@ -98,15 +98,14 @@
     top: 744px;
     background: #975252;
     border-radius: 9px 0px 0px 9px;
-
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 33px;
     color: white;
-
 }
+
 
 
 .showMessage{
@@ -389,7 +388,8 @@ progress {
         width: 100%;
     
     }
-    
+
+ 
     .questions-section{
       
         font-family: Open Sans;

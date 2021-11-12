@@ -1,4 +1,4 @@
-.title{
+.Social-title{
       
         color: #22285F;
        font-weight: bold;
@@ -9,7 +9,43 @@
         font-weight: 700;
         line-height: 25px;
         letter-spacing: 0em;
+        margin-top: 90px;
        
+}
+.title{      
+        color: #22285F;
+        font-weight: bold;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;     
+}
+.title-two{
+        color: #22285F;
+        font-weight: bold;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em; 
+        margin-top: 32px;   
+}
+.title-three{
+        color: #22285F;
+        font-weight: bold;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em; 
+        
 }
 .btn-modesone{
     background: linear-gradient(to right, #cfd1d8 64%,  #00FF84 64% 36%);   
@@ -103,13 +139,58 @@
           width: 337px;
           z-index:16;
 }
+.model-two{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 9px;
+        background-color: #FFFFFF;
+        padding: 1rem;    
+        z-index: 10;
+        position: fixed;
+        top: 20vh;
+        left: calc(50% - 11.5rem);
+        
+        text-align: center;
+        width: 337px;
+        z-index:16;     
+}
+.close-popUp-two{
+        float: right; 
+        background-color: rgb(13, 13, 114);
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        
+       
+}
+.close-popUp-two:hover{
+        background-color: #0084ff; 
+ }
 .close-popUp{
         float: right; 
         background-color: rgb(13, 13, 114);
         color: white;
         font-weight: bold;
         border-radius: 20px;
-        cursor: pointer;
+       
+}
+.close-popUp:hover{
+       background-color: #0084ff; 
+}
+.onYes{
+       background-color: #22285F;
+       color: white;
+       text-align: center;
+       font-weight: bold;
+       font-size: 15px;
+       width: 90px;
+       height: 35px;
+       border-radius: 8px;
+       border-color: #22285F;
+       
+}
+.onYes:hover{
+        background-color: #0084ff;
+        border-color: #0084ff;
 }
 
 
