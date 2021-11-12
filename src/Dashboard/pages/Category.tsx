@@ -3,6 +3,12 @@ import Pop from "../Images/Pop.png";
 import astronomy from "../Images/astronomy.png";
 import chemistry from "../Images/chemistry.png";
 import history from "../Images/history.png";
+import Moles from '../Images/mo.jpg';
+import poly from "../Images/poly-2.jpg";
+import Lab from "../Images/che-2.jpg";
+import Bang from "../Images/big-bang.jpg";
+import Planent from "../Images/NASA.jpg";
+import Myori from "../Images/oris-two.jpg"
 import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -60,6 +66,7 @@ function Category() {
                 alt="Astronomy"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Astronomy">Astronomy</div>
             </Link>
@@ -72,13 +79,15 @@ function Category() {
                 alt="chemistry"
                 width="345px"
                 height="120px"
+                className="darker-img"
+                
               />
               <div className="Chemistry-T">Chemistry</div>
             </Link>
           </div>
           <div className="img-3">
             <Link to="/historycategory">
-              <img src={history} alt="history" width="345px" height="120px" />
+              <img src={history} alt="history" width="345px" height="120px"  className="darker-img"/>
               <div className="History-T">History</div>
             </Link>
           </div>
@@ -91,10 +100,11 @@ function Category() {
           <div className="img-4">
             <Link to="/origins">
               <img
-                src={astronomy}
+                src={Myori}
                 alt="Astronomy"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Origins-T">Origins</div>
             </Link>
@@ -103,10 +113,11 @@ function Category() {
           <div className="img-5">
             <Link to="/bigbang">
               <img
-                src={astronomy}
+                src={Bang}
                 alt="Astronomy"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Big-Bang">Big Bang</div>
             </Link>
@@ -115,10 +126,11 @@ function Category() {
           <div className="img-6">
             <Link to="/planets">
               <img
-                src={astronomy}
+                src={Planent}
                 alt="Astronomy"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Planets">Planets</div>
             </Link>
@@ -132,10 +144,11 @@ function Category() {
           <div className="img-7">
             <Link to="/molesandbonds">
               <img
-                src={chemistry}
+                src={Moles}
                 alt="chemistry"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Moles">Moles and Bonds</div>
             </Link>
@@ -144,10 +157,11 @@ function Category() {
           <div className="img-8">
             <Link to="/polymers">
               <img
-                src={chemistry}
+                src={poly}
                 alt="chemistry"
                 width="345px"
                 height="120px"
+                className="darker-img"
               />
               <div className="Polymers">Polymers</div>
             </Link>
@@ -156,10 +170,12 @@ function Category() {
           <div className="img-9">
             <Link to="/labtechniques">
               <img
-                src={chemistry}
+                src={Lab}
                 alt="chemistry"
                 width="345px"
                 height="120px"
+                className="darker-img"
+
               />
               <div className="Lab">Lab Techniques</div>
             </Link>
@@ -173,21 +189,21 @@ function Category() {
         <div className="category-4">
           <div className="img-10">
             <Link to="/mummiesone">
-              <img src={history} alt="history" width="345px" height="120px" />
+              <img src={history} alt="history" width="345px" height="120px"  className="darker-img" />
               <div className="Mummies">Mummies</div>
             </Link>
           </div>
 
           <div className="img-11">
-            <Link to="/mummiestwo">z
-              <img src={history} alt="history" width="345px" height="120px" />
+            <Link to="/mummiestwo">
+              <img src={history} alt="history" width="345px" height="120px"  className="darker-img"/>
               <div className="Mummies-1">Mummies</div>
             </Link>
           </div>
 
           <div className="img-12">
             <Link to="/mummiesthree">
-              <img src={history} alt="history" width="345px" height="120px" />
+              <img src={history} alt="history" width="345px" height="120px" className="darker-img" />
               <div className="Mummies-2">Mummies</div>
             </Link>
           </div>
