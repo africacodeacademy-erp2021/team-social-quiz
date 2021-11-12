@@ -220,31 +220,32 @@ span {
 
 
 .HelpImage{
-  margin-top: 4px;
-  margin-left: 5px;
+  margin-top: 1px;
+  margin-left: -35px;
   cursor: pointer;
 }
 .LeaderboardImage{
-  margin-top: 50px;
-  margin-left: 15px;
+  margin-top: 45px;
+  margin-left: -35px;
   width: 28px;
   cursor: pointer;
 }
 .HistoryImage{
-  margin-top: 50px;
-  margin-left: 10px;
+  margin-top: 45px;
+  margin-left: -35px;
   width: 25px;
   cursor: pointer;
 }
 .CreateGameImage{
-  margin-top: 30px;
-  margin-left: 15px;
+ 
+  margin-left: -35px;
   width: 25px;
   cursor: pointer;
+  margin-top: 45px;
 }
 .CategoryImage{
-  margin-top: 20;
-  margin-left: 15px;
+  margin-top: 116px;
+  margin-left: -35px;
   width: 25px;
   cursor: pointer;
 }
@@ -252,18 +253,19 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  
+  font-size: 16px;
   line-height: 25px;
-  margin-left: -2px;
+  margin-left: -58px;
   color: #FFFFFF;
 }
 .CreatGameList{
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
-  margin-left: -2px;
+  margin-left: -64px;
   color: #FFFFFF;
 
 }
@@ -271,9 +273,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
-  margin-left: -2px;
+  margin-left: -44px;
   color: #FFFFFF;
 
 }
@@ -281,9 +283,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
-  margin-left: -2px;
+  margin-left: -63px;
   color: #FFFFFF;
 
 }
@@ -291,9 +293,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
-  margin-left: 30px;
+  margin-left: 5px;
   color: #FFFFFF;
   margin-top: 15px;
   
@@ -310,11 +312,18 @@ span {
   background: #2836B8;
   border-radius: 16px;
   width: 60px;
-  height: 8px;
-  margin-top: 90px;
-  margin-left: -3px;
+  height: 12px;
+  margin-top: 116px;
+  margin-left: -70px;
 }
 
+
+.HelpBackgound:hover {
+  background-color: #7397c0;
+  width: 60px;
+  height: 12px;
+
+}
 
 
 
