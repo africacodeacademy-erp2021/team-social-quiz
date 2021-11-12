@@ -22,7 +22,7 @@ export const SideBarData = [
   {
     title: "History",
     path: "/history",
-    icon: <FaIcons.FaHistory />,
+    img: "HistoryImage", 
     cName: "nav-text",
   },
   {
