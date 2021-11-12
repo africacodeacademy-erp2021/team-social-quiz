@@ -1,37 +1,87 @@
 import React, { useState } from "react";
-import * as FaIcons from "react-icons/fa";
-
-import { Link } from "react-router-dom";
-import { SideBarData } from "./SideBarData";
+import { Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
 import "../../App";
 
+import LeaderboardIcon from "../Images/LeaderboardIcon.png";
+import GreateGame from "../Images/GreateGame.png";
+import Help from "../Images/Help.png";
+import HistoryIcon from "../Images/HistoryIcon.png";
+import Category from "../Images/Category.png";
+
+
 function Navigation() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(sidebar);
+  let history = useHistory();
+
+  function handleCategory(){
+    history.push("/Category");
+  }
+
+  function handleCreateGame(){
+    history.push("/CreateGame");
+  }
+  function handleHistory(){
+    history.push("/History");
+  }
+  function handleLeaderboard(){
+    history.push("/Leaderboard");
+  }
   return (
     <>
       <div className="Navigation">
         <IconContext.Provider value={{ color: "#fff" }}>
           <div className="navbar">
             <Link to="#" className="menu-bars">
-              <FaIcons.FaBars onClick={showSidebar} />
+              
             </Link>
           </div>
           <nav className={sidebar ? "nav-menu" : "nav-menu active"}>
-            <ul className="nav-menu-items" onClick={showSidebar}>
-              {SideBarData.map((item, index) => {
-                return (
-                  <li key={index} className={item.cName}>
-                    <Link to={item.path}>
-                     <span className="iconSideBar"> {item.icon} </span>
+            <ul>
+            <span>
+            <ul className="CategoryIcons">
+              <img className="CategoryImage" src={Category} onClick={handleCategory} alt="CategoryIcon"/>
+              </ul>
+              <ul className="CategoryList">
+                Category
+              </ul>
+              </span> 
+              <ul className="CreateGameIcons" >
+              <img className="CreateGameImage" src={GreateGame} onClick={handleCreateGame} alt="GreateGame"/>
+              </ul>
+              <ul className="CreatGameList">
+                Create Game
+              </ul>
+              
 
-                      <span className="categorySideBar">{item.title}</span>
-                    </Link>
-                  </li>
-                );
-              })}
+              <ul className="HistoryIcons">
+              <img className="HistoryImage" onClick={handleHistory} src={HistoryIcon} alt="HistoryIcon"/>
+              </ul>
+              <ul className="HistoryList">
+                History
+              </ul>
+              
+              <ul className="LeaderboardListIcon">
+              <img className="LeaderboardImage" src={LeaderboardIcon} onClick={handleLeaderboard} alt="LeaderboardIcon"/>
+              </ul>
+              <ul className="LeaderboardList">
+                Leaderboard
+              </ul>
+              
+
+              <ul className="HelpListIcon">
+              <span className="HelpBackgound">
+                <img className="HelpImage" onClick={handleHistory} src={Help} alt="HelpIcon"/>
+                <h3 className="HelpList">Help</h3>
+              </span>
+              
+              </ul>
+              {/* <ul className="HelpList">
+                Help
+              </ul> */}
+              
             </ul>
           </nav>
         </IconContext.Provider>
