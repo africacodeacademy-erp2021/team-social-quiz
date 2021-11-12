@@ -37,12 +37,12 @@
   
   .h1_title {
     color: white;
-    margin-left: 35px;
+    margin-left: 15px;
     margin-top: -2px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 49px;
   }
   
@@ -53,7 +53,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 31px;
     line-height: 49px;
   }
   .h3_title {
@@ -61,7 +61,7 @@
     margin-left: 35px;
     font-family: Open Sans;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
   }
   .p_title {
@@ -124,6 +124,7 @@
     font-weight: normal;
     font-size: 21px;
     line-height: 33px;
+    overflow:hidden;
   }
   
   .mylogo {
@@ -138,8 +139,8 @@
     color: white;
     height: 34px;
     border: 0px;
-    font-size: 21px;
-    left: 21.59%;
+    font-size: 15px;
+    left: 201px;
     right: 22.37%;
     top: 13.73%;
     bottom: 21.57%;
@@ -151,7 +152,7 @@
   .btn_googleinfo {
     height: 34px;
     border: 0px;
-    font-size: 21px;
+    font-size: 18px;
     left: 21.59%;
     right: 22.37%;
     top: 13.73%;
@@ -174,12 +175,13 @@
     font-weight: normal;
     font-size: 21px;
     line-height: 33px;
+    overflow:hidden;
   }
   
   .my-facebook-button-class {
     height: 34px;
     border: 0px;
-    font-size: 21px;
+    font-size: 15px;
     left: 21.59%;
     right: 22.37%;
     top: 13.73%;

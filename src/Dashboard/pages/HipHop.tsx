@@ -61,13 +61,17 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span><img id="Quizes" src={Quizes} alt="Quizes"  /> 
           <span id="QuizesText">Quizes 15</span>
           </span>
-          <span><img id="Star" src={Star} alt="Star"  /></span>
+          <span><img id="Star" src={Star} alt="Star" width="26px" height="26px" /></span>
          
         </div>
 
         <div id="Ranks1">
+          <span id="Ranks-header">Category Ranks</span>
 
-         <span id="Ranks-header">Leaderboard</span> 
+          <div className="One"><span id ="One">1</span>
+            <span id  ="playerName1">{players[0].name}</span>
+            <span id ="score1">{players[0].score}</span>
+          </div>
 
           <div className="One"><span id ="One">1</span>
             <span id  ="playerName1">{players[0].name}</span>
@@ -108,18 +112,39 @@ players.sort((a:any, b:any) => b.score - a.score);
 
     
 
-    <div className="medals-Icons">
-      
-     <img id="Medal" src={Medal} alt="Medal" />
+          <div className="Three">
+            <span id ="Three">3</span> 
+            <span id  ="playerName3">{players[2].name}</span>
+            <span id ="score3">{players[2].score}</span>
+          </div>
+          <div className="Four">
+            <span id ="Four">4</span> 
+            <span id  ="playerName4">{players[3].name}</span>
+            <span id ="score4">{players[3].score}</span>
+          </div>
+          <div className="Five">
+            <span id ="Five">5</span> 
+            <span id  ="playerName5">{players[4].name}</span>
+            <span id ="score5">{players[4].score}</span>
+          </div>
+          <div className="Six">
+            <span id ="Six">6</span> 
+            <span id  ="playerName6">{players[5].name}</span>
+            <span id ="score6">{players[5].score}</span>
+          </div>
+          <div className="Seven">
+            <span id ="Seven">7</span> 
+            <span id  ="playerName7">{players[6].name}</span>
+            <span id ="score7">{players[6].score}</span>
+          </div>
+
+          <img id="Medal" src={Medal} alt="Medal" />
           <img id="Medal-1" src={Medal} alt="Medal" />
           <img id="Medal-2" src={Medal} alt="Medal" />
           <img id="Medal-3" src={Medal} alt="Medal" />
           <img id="Medal-4" src={Medal} alt="Medal" />
           <img id="Medal-5" src={Medal} alt="Medal" />
           <img id="Medal-6" src={Medal} alt="Medal" />
-
-    </div> 
-
           <img id="Points-1" src={Points} alt="Points"/>
           <img id="Points-2" src={Points} alt="Points"/>
           <img id="Points-3" src={Points} alt="Points"/>
@@ -127,8 +152,10 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img id="Points-5" src={Points} alt="Points"/>
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
-     
+
+           
         </div>
+       
         
         <PlayButton />
         <span id="HipHopText">@quizapp</span>
