@@ -41,12 +41,14 @@ function Navigation() {
           <nav className={sidebar ? "nav-menu" : "nav-menu active"}>
             <ul>
             <span>
+              <div className="Categorybar">
             <ul className="CategoryIcons">
               <img className="CategoryImage" src={Category} onClick={handleCategory} alt="CategoryIcon"/>
               </ul>
               <ul className="CategoryList">
                 Categories
               </ul>
+              </div>
               </span> 
               <ul className="CreateGameIcons" >
               <img className="CreateGameImage" src={GreateGame} onClick={handleCreateGame} alt="GreateGame"/>
@@ -62,14 +64,14 @@ function Navigation() {
               <ul className="HistoryList">
                 History
               </ul>
-              
+               
               <ul className="LeaderboardListIcon">
               <img className="LeaderboardImage" src={LeaderboardIcon} onClick={handleLeaderboard} alt="LeaderboardIcon"/>
               </ul>
               <ul className="LeaderboardList">
                 Leaderboard
               </ul>
-              
+            
 
               <ul className="HelpListIcon">
               <span className="HelpBackgound">

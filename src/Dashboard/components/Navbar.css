@@ -224,7 +224,7 @@ span {
 }
 .LeaderboardImage{
   margin-top: 50px;
-  margin-left: -30px;
+  margin-left: -35px;
   width: 28px;
   cursor: pointer;
 }
@@ -233,7 +233,7 @@ span {
   margin-left: -35px;
   width: 25px;
   cursor: pointer;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 .CreateGameImage{
  
@@ -244,10 +244,10 @@ span {
 }
 .CategoryImage{
   margin-top: 116px;
-  margin-left: -35px;
+  
   width: 25px;
   cursor: pointer;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 .CategoryList{
   font-family: Open Sans;
@@ -285,7 +285,7 @@ span {
   font-weight: 300;
   font-size: 16px;
   line-height: 25px;
-  margin-left: -63px;
+  margin-left: -60px;
   color: #FFFFFF;
   align-items: center;
 
@@ -325,3 +325,4 @@ span {
   height: 12px;
 
 }
+
