@@ -819,7 +819,7 @@
     position: absolute;
     left: 0%;
     right: 4%;
-    top: 6%;
+    top: 8%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -950,7 +950,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 42%;
+    top: 56%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -959,7 +959,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 6%;
+    top: 8%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -968,7 +968,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 12%;
+    top: 16%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -977,7 +977,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 18%;
+    top: 24%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -986,7 +986,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 24%;
+    top: 32%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -995,7 +995,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 30%;
+    top: 40%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -1004,7 +1004,7 @@
     position: absolute;
     left: 10%;
     right: 4%;
-    top: 36%;
+    top: 48%;
     bottom: 4.17%;
     width: 15px;
     height: 15px;
@@ -1013,7 +1013,7 @@
     position: absolute;
     left: 80%;
     right: 4%;
-    top: 6%;
+    top: 8%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1021,7 +1021,7 @@
   #score2{position: absolute;
     left: 80%;
     right: 4%;
-    top: 12%;
+    top: 16%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1029,7 +1029,7 @@
   #score3{position: absolute;
     left: 80%;
     right: 4%;
-    top: 18%;
+    top: 24%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1037,7 +1037,7 @@
   #score4{position: absolute;
     left: 80%;
     right: 4%;
-    top: 24%;
+    top: 32%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1045,7 +1045,7 @@
   #score5{position: absolute;
     left: 80%;
     right: 4%;
-    top: 30%;
+    top: 40%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1053,7 +1053,7 @@
   #score6{position: absolute;
     left: 80%;
     right: 4%;
-    top: 36%;
+    top: 48%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1062,7 +1062,7 @@
     position: absolute;
     left: 80%;
     right: 4%;
-    top: 42%;
+    top: 56%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1071,7 +1071,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 6%;
+    top: 8%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1080,7 +1080,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 12%;
+    top: 16%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1089,7 +1089,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 18%;
+    top: 24%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1098,7 +1098,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 24%;
+    top: 32%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1107,7 +1107,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 30%;
+    top: 40%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1116,7 +1116,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 36%; 
+    top: 48%; 
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1125,7 +1125,7 @@
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 42%;
+    top: 56%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1134,7 +1134,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 6%;
+    top: 8%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1145,7 +1145,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 12%;
+    top: 16%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1156,7 +1156,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 18%;
+    top: 24%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1167,7 +1167,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 24%;
+    top: 32%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1178,7 +1178,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 30%;
+    top: 40%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1189,7 +1189,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 36%;
+    top: 48%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
@@ -1200,7 +1200,7 @@
     position: absolute;
     left: 94%;
     right: 4%;
-    top: 42%;
+    top: 56%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
