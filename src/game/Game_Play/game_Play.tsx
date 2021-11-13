@@ -96,8 +96,8 @@ const onNextquestion = ()=>{
                 <div className="timer-section" key={"timer"}><button className="timer" key={"timerBtn"}> <Timer key={"time"}/> </button> </div>
                 <div className="score-section" key={"score"}>   
                 <img className="img" alt="score"  key={"scoreImg"}
-                src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>                     
-                <h3 className="score_count" id="score" >{score} </h3> 
+                src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"  height="20.9px" width="22px"/>                     
+                <h3 className="score_count" id="score">{score} </h3> 
                 </div>
         </div> 
     <div key={"text_Section"}>                    

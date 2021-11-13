@@ -14,8 +14,8 @@
 
 .nav-menu {
   background-color: #22285f;
-  width: 230px;
-  height: 160vh;
+  width: 199px;
+  height: 1041px;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -254,7 +254,7 @@ span {
   font-style: normal;
   font-weight: 300;
   
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   margin-left: -58px;
   color: #FFFFFF;
@@ -263,9 +263,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -64px;
+  margin-left: -70px;
   color: #FFFFFF;
 
 }
@@ -273,9 +273,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -44px;
+  margin-left: -49px;
   color: #FFFFFF;
 
 }
@@ -283,9 +283,9 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -60px;
+  margin-left: -68px;
   color: #FFFFFF;
   align-items: center;
 
@@ -294,7 +294,7 @@ span {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   margin-left: 5px;
   color: #FFFFFF;

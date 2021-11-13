@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&dispaly=swap");
-.darker-img{
+.darker-img {
   filter: brightness(50%);
   border-radius: 10%;
 }
@@ -14,7 +14,6 @@
     font-size: 25px;
     font-weight: bold;
     top: 6%;
-    
   }
   .Title-2 {
     font-size: 25px;
@@ -25,8 +24,6 @@
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
-  
-
   }
 
   .category-2 {
@@ -75,8 +72,6 @@
   }
   .img-9 {
     flex: 1;
-  
-   
   }
   .img-10 {
     flex: 1;
@@ -87,7 +82,7 @@
   .img-12 {
     flex: 1;
   }
-  
+
   .bottom-left-1 {
     position: absolute;
     width: 485px;
@@ -97,150 +92,147 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 64px;
     line-height: 87px;
     color: #ff5c00;
   }
   .Astronomy {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .Origins-T {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .Big-Bang {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .Planets {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .Polymers {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
-    color:rgb(255, 255, 255); 
-    font-size: 18px;
+    left: 23px;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
     font-weight: bold;
   }
   .Lab {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
-    color:rgb(255, 255, 255); 
-    font-size: 18px;
+    left: 23px;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
     font-weight: bold;
   }
   .Moles {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
-    color:rgb(255, 255, 255); 
-    font-size: 18px;
+    left: 23px;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
     font-weight: bold;
   }
   .Mummies {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .Mummies-1 {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
-  .categorySideBar{
+  .categorySideBar {
     margin-top: 40px;
     margin-left: -30px;
   }
-.iconSideBar{
-  margin-left: 50px;
-}
-  
+  .iconSideBar {
+    margin-left: 50px;
+  }
+
   .Mummies-2 {
     position: absolute;
     bottom: 8px;
     left: 50px;
     top: 87px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;;
     font-weight: bold;
   }
   .Chemistry-T {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
   .History-T {
     position: absolute;
     bottom: 8px;
-    left: 50px;
-    top: 87px;
+    left: 23px;
+    top: 80px;
     color: white;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
   }
-  ::placeholder { 
+  ::placeholder {
     color: white;
-    opacity: 1; 
+    opacity: 1;
   }
-  .Select{
+  .Select {
     border-radius: 0px;
-    cursor:pointer;
+    cursor: pointer;
   }
- 
 
   .search {
     position: absolute;
-    width: 200px;
-    height: 25px;
-    left: 420px;
+    width: 398px;
+    height: 57px;
+    left: 320px;
     top: 6px;
     border-radius: 25px;
-    background: #22285F;
+    background: #22285f;
     text-align: center;
-  
-    
+    font-size: 24px;
   }
-  .Numplays{
-    
+  .Numplays {
     display: flex;
     flex-direction: row;
     display: block;
@@ -248,25 +240,23 @@
     align-items: center;
     padding: 6px 57px;
     position: absolute;
-    width: 80%; 
+    width: 1256px;
     height: 48px;
     left: 0px;
     top: 229px;
-    background: #FFFFFF;
+    background: #ffffff;
     float: right;
-
   }
- 
-  #PlaysText{
-    
+
+  #PlaysText {
     position: static;
     width: 83px;
     height: 25px;
-    margin-left: 40.67px;    
+    margin-left: 40.67px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     color: #050505;
     flex: none;
@@ -274,10 +264,8 @@
     margin: 0px 08px;
     margin-left: 0%;
     margin-right: 15%;
-   
-    
   }
-  #QuizesText{
+  #QuizesText {
     position: static;
     width: 95px;
     height: 25px;
@@ -286,53 +274,36 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
-    color: #050505; 
+    color: #050505;
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 179px;
   }
-  
-  #Num{
-   
-    
+
+  #Num {
     left: 2.2%;
     right: 30.33%;
     top: 0.4%;
     bottom: 29.17%;
-    
-
   }
-  #Star{
+  #Star {
     position: absolute;
     left: 74.5%;
     right: 8.33%;
     top: 0.33%;
     bottom: 12.5%;
-    
   }
-  #Quizes{
-    
-    left: 39%;
+  #Quizes {
+    left: 35%;
     right: 8.33%;
     top: 0.4%;
     bottom: 29.17%;
-    
   }
 
-
-  #Hiphop-img{
-    position: absolute;
-    width: 136px;
-    height: 101px;
-    left: 15px;
-    top: 16px;
-    mix-blend-mode: darken;   
-  }
- 
-  #Jazz-img{
+  #Hiphop-img {
     position: absolute;
     width: 136px;
     height: 101px;
@@ -340,7 +311,8 @@
     top: 16px;
     mix-blend-mode: darken;
   }
-  #Jackson-img{
+
+  #Jazz-img {
     position: absolute;
     width: 136px;
     height: 101px;
@@ -348,50 +320,57 @@
     top: 16px;
     mix-blend-mode: darken;
   }
-  .Big-Container{
+  #Jackson-img {
+    position: absolute;
+    width: 136px;
+    height: 101px;
+    left: 15px;
+    top: 16px;
+    mix-blend-mode: darken;
+  }
+  .Big-Container {
     display: block;
   }
   .game-1 {
-    
     border: 1px solid #fccccc30;
     position: absolute;
     width: 607px;
     height: 196px;
     left: 3px;
     top: 297px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
   .game-2 {
-    display:block;
+    display: block;
     border: 1px solid #00000030;
     position: absolute;
     width: 607px;
     height: 196px;
     left: 3px;
     top: 509px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
   .game-3 {
-    display:block;
+    display: block;
     border: 1px solid #00000030;
     position: absolute;
     width: 607px;
     height: 196px;
     left: 3px;
     top: 719px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 7px;
   }
-  #Most-Popular{
-    display:block;
+  #Most-Popular {
+    display: block;
     width: 371px;
     height: 33px;
     left: 27px;
@@ -400,13 +379,12 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+
     line-height: 33px;
     color: #000000;
-    font-size: 20px;
+    font-size: 24px;
   }
-  #Quiz-1{
-    
+  #Quiz-1 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -417,11 +395,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; 
-
+    color: #1511d4;
   }
-  #Hiphop{
-    
+  #Hiphop {
     position: absolute;
     width: 123px;
     height: 19px;
@@ -432,10 +408,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color:  #1511d4;  
-
+    color: #1511d4;
   }
-  #Quiz-2{
+  #Quiz-2 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -446,9 +421,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; ;
+    color: #1511d4;
   }
-  #Jazz{
+  #Jazz {
     position: absolute;
     width: 102px;
     height: 19px;
@@ -459,9 +434,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; 
+    color: #1511d4;
   }
-  #Quiz-3{
+  #Quiz-3 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -472,10 +447,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; ;
-
+    color: #1511d4;
   }
-  #Jackson{
+  #Jackson {
     position: absolute;
     width: 108px;
     height: 19px;
@@ -486,12 +460,10 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; 
-
+    color: #1511d4;
   }
- 
-  
-  .Play-btn{
+
+  .Play-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -511,10 +483,9 @@
     margin: 0px 23px;
     margin-top: 135px;
     margin-left: 300px;
-    
   }
-  
-  .Share-btn{
+
+  .Share-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -535,7 +506,7 @@
     margin-top: -40px;
     margin-left: 410px;
   }
-  #HipHopPlay{
+  #HipHopPlay {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -543,20 +514,19 @@
     padding: 7px 12px;
     position: absolute;
     color: white;
-    font-weight: bold; 
+    font-weight: bold;
     width: 96.67px;
     height: 39px;
     left: 520px;
     top: 320px;
-    background: #34A853;
+    background: #34a853;
     border-radius: 7px;
-    cursor:pointer;
-    
+    cursor: pointer;
   }
-  #HipHopPlay:hover{
+  #HipHopPlay:hover {
     background: rgba(16, 4, 128, 0.836);
-}
-  #Description{
+  }
+  #Description {
     position: absolute;
     width: 104px;
     height: 25px;
@@ -568,9 +538,8 @@
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-
   }
-  #DescriptionContainer{
+  #DescriptionContainer {
     position: absolute;
     width: 650px;
     height: 89px;
@@ -582,9 +551,8 @@
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-
   }
-  #SampleQuestions{
+  #SampleQuestions {
     position: absolute;
     width: 162px;
     height: 25px;
@@ -596,32 +564,29 @@
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-
   }
-  .HandImage{
+  .HandImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 5px;
     top: 80px;
   }
-  .RecordImage{
+  .RecordImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 75px;
     top: 703px;
-
   }
-  .FlagImage{
+  .FlagImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 75px;
     top: 764px;
-
   }
-  #FlagText{
+  #FlagText {
     position: absolute;
     left: 150px;
     right: 0%;
@@ -633,9 +598,8 @@
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-
   }
-  #Tupac{
+  #Tupac {
     position: absolute;
     left: 150px;
     right: 0%;
@@ -647,9 +611,8 @@
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-    
   }
-  #Records{
+  #Records {
     position: absolute;
     left: 150px;
     right: 0%;
@@ -662,19 +625,18 @@
     line-height: 19px;
     color: #000000;
   }
-  .GameStart{
-    background: #2E566C;
-    
+  .GameStart {
+    background: #2e566c;
   }
-  .PinContainer{
+  .PinContainer {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background: #27307D;
+    background: #27307d;
   }
-  #PinHeader{
+  #PinHeader {
     position: absolute;
     left: 500px;
     right: 0%;
@@ -685,21 +647,18 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 49px;
-    color: #FFFFFF;
-    
-    
+    color: #ffffff;
   }
-  .LangaugeContainer{
+  .LangaugeContainer {
     position: absolute;
     width: 70px;
     height: 23px;
     left: 0px;
     top: 36px;
-    background: #CABDBD;
+    background: #cabdbd;
     border-radius: 50px;
-
   }
-  #LangaugeText{
+  #LangaugeText {
     position: absolute;
     left: 15px;
     right: 9.8%;
@@ -714,57 +673,55 @@
     align-items: center;
     text-align: center;
   }
-#StartButton{
-  position: absolute;
-  left: 27.78%;
-  right: 21.11%;
-  top: 0%;
-  bottom: 0%;
-  background: linear-gradient(275.76deg, #6AB04C 44.33%, #BADC58 98.56%);
-  border-radius: 10px;
-  width: 80px;
-  height: 30px;
-  margin-top: 250px;
-  margin-left: 700px;
-}
-.LockContainer{
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  left: 990px;
-  top: 255px;
-  background: #CABDBD;
-  border-radius: 8px;
-}
+  #StartButton {
+    position: absolute;
+    left: 27.78%;
+    right: 21.11%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(275.76deg, #6ab04c 44.33%, #badc58 98.56%);
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin-top: 250px;
+    margin-left: 700px;
+  }
+  .LockContainer {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 990px;
+    top: 255px;
+    background: #cabdbd;
+    border-radius: 8px;
+  }
 
-#StartText{
-  position: absolute;
-  left: 46.25%;
-  right: 42.15%;
-  top: 26.37%;
-  bottom: 67.29%;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 65px;
-  letter-spacing: -0.08em;
-  color: #FFFFFF;
-  margin-top: 10px;
-
-}
-  .PinInput{
+  #StartText {
+    position: absolute;
+    left: 46.25%;
+    right: 42.15%;
+    top: 26.37%;
+    bottom: 67.29%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 65px;
+    letter-spacing: -0.08em;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .PinInput {
     position: absolute;
     width: 300px;
     height: 40px;
     left: 420px;
     top: 50px;
     border-radius: 25px;
-    background: #22285F;
+    background: #22285f;
     text-align: center;
-    
   }
-  #FlagText{
+  #FlagText {
     position: absolute;
     left: 150px;
     right: 0%;
@@ -776,9 +733,8 @@
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-
   }
-  #HipHopText{
+  #HipHopText {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -791,13 +747,12 @@
     font-size: 18px;
     line-height: 19px;
     color: rgba(34, 40, 95, 0.91);
-    
   }
-  .ranks-data{
+  .ranks-data {
     margin-top: 50px;
     margin-left: 10px;
   }
-  #Ranks{
+  #Ranks {
     position: absolute;
     width: 320px;
     height: 504px;
@@ -808,23 +763,22 @@
     box-sizing: border-box;
     border-radius: 7px;
   }
-  #Ranks-header{
+  #Ranks-header {
     position: absolute;
     width: 135px;
     height: 25px;
     left: 80px;
     top: 02px;
-    
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-    
   }
-  
-  #One{
+
+  #One {
     position: absolute;
     left: 0%;
     right: 4%;
@@ -833,8 +787,8 @@
     width: 15px;
     height: 15px;
   }
- 
-  .One{
+
+  .One {
     position: static;
     width: 8px;
     height: 18px;
@@ -850,9 +804,8 @@
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
-    
   }
-  .Two{
+  .Two {
     position: static;
     width: 8px;
     height: 18px;
@@ -869,7 +822,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  .Three{
+  .Three {
     position: static;
     width: 8px;
     height: 18px;
@@ -886,7 +839,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  .Four{
+  .Four {
     position: static;
     width: 8px;
     height: 18px;
@@ -903,7 +856,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  .Five{
+  .Five {
     position: static;
     width: 8px;
     height: 18px;
@@ -920,7 +873,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  .Six{
+  .Six {
     position: static;
     width: 8px;
     height: 18px;
@@ -937,7 +890,7 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  .Seven{
+  .Seven {
     position: static;
     width: 8px;
     height: 18px;
@@ -954,8 +907,8 @@
     flex-grow: 0;
     margin: 10px 0px;
   }
-  
-  #Medal{
+
+  #Medal {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -964,7 +917,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-1{
+  #Medal-1 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -973,7 +926,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-2{
+  #Medal-2 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -982,7 +935,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-3{
+  #Medal-3 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -991,7 +944,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-4{
+  #Medal-4 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -1000,7 +953,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-5{
+  #Medal-5 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -1009,7 +962,7 @@
     width: 15px;
     height: 15px;
   }
-  #Medal-6{
+  #Medal-6 {
     position: absolute;
     left: 10%;
     right: 4%;
@@ -1018,7 +971,7 @@
     width: 15px;
     height: 15px;
   }
-  #score1{
+  #score1 {
     position: absolute;
     left: 80%;
     right: 4%;
@@ -1027,7 +980,8 @@
     width: 15px;
     height: 15px;
   }
-  #score2{position: absolute;
+  #score2 {
+    position: absolute;
     left: 80%;
     right: 4%;
     top: 16%;
@@ -1035,7 +989,8 @@
     width: 15px;
     height: 15px;
   }
-  #score3{position: absolute;
+  #score3 {
+    position: absolute;
     left: 80%;
     right: 4%;
     top: 24%;
@@ -1043,7 +998,8 @@
     width: 15px;
     height: 15px;
   }
-  #score4{position: absolute;
+  #score4 {
+    position: absolute;
     left: 80%;
     right: 4%;
     top: 32%;
@@ -1051,7 +1007,8 @@
     width: 15px;
     height: 15px;
   }
-  #score5{position: absolute;
+  #score5 {
+    position: absolute;
     left: 80%;
     right: 4%;
     top: 40%;
@@ -1059,7 +1016,8 @@
     width: 15px;
     height: 15px;
   }
-  #score6{position: absolute;
+  #score6 {
+    position: absolute;
     left: 80%;
     right: 4%;
     top: 48%;
@@ -1067,7 +1025,7 @@
     width: 15px;
     height: 15px;
   }
-  #score7{
+  #score7 {
     position: absolute;
     left: 80%;
     right: 4%;
@@ -1076,7 +1034,7 @@
     width: 15px;
     height: 15px;
   }
-  #playerName1{
+  #playerName1 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1084,8 +1042,9 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName2{
+  #playerName2 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1093,8 +1052,9 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName3{
+  #playerName3 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1102,8 +1062,9 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName4{
+  #playerName4 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1111,8 +1072,9 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName5{
+  #playerName5 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1120,17 +1082,19 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName6{
+  #playerName6 {
     position: absolute;
     left: 15%;
     right: 4%;
-    top: 48%; 
+    top: 48%;
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #playerName7{
+  #playerName7 {
     position: absolute;
     left: 15%;
     right: 4%;
@@ -1138,8 +1102,9 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-size: 13px;
   }
-  #Points-1{
+  #Points-1 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1147,10 +1112,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-2{
-
+  #Points-2 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1158,10 +1121,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-3{
-
+  #Points-3 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1169,10 +1130,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-4{
-
+  #Points-4 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1180,10 +1139,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-5{
-
+  #Points-5 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1191,10 +1148,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-6{
-
+  #Points-6 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1202,10 +1157,8 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
-  #Points-7{
-
+  #Points-7 {
     position: absolute;
     left: 94%;
     right: 4%;
@@ -1213,35 +1166,30 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
-
   }
- 
-  .Play-1{
+
+  .Play-1 {
     position: absolute;
     left: 195px;
     top: 58px;
     width: 20px;
     height: 20px;
-   
-
   }
-  .Play-2{
+  .Play-2 {
     position: absolute;
     left: 195px;
     top: 58px;
     width: 20px;
     height: 20px;
-
   }
-  .Play-3{
+  .Play-3 {
     position: absolute;
     left: 195px;
     top: 60px;
     width: 20px;
     height: 20px;
-
   }
-  #QuizText-1{
+  #QuizText-1 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -1252,9 +1200,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4; 
+    color: #1511d4;
   }
-  #QuizText-2{
+  #QuizText-2 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -1265,9 +1213,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color:  #1511d4; 
+    color: #1511d4;
   }
-  #QuizText-3{
+  #QuizText-3 {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -1278,30 +1226,30 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color:  #1511d4; 
+    color: #1511d4;
   }
-  .Vector-1{
+  .Vector-1 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   .Vector-2{
+  }
+  .Vector-2 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   .Vector-3{
+  }
+  .Vector-3 {
     position: absolute;
     left: 195px;
     top: 90px;
     width: 20px;
     height: 20px;
-   }
-   #History-1{
+  }
+  #History-1 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -1312,9 +1260,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: #1511d4;  
-   }
-   #History-2{
+    color: #1511d4;
+  }
+  #History-2 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -1325,9 +1273,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color:  #1511d4;  
-   }
-   #History-3{
+    color: #1511d4;
+  }
+  #History-3 {
     position: absolute;
     width: 34px;
     height: 19px;
@@ -1338,12 +1286,12 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color:  #1511d4; 
-   }
+    color: #1511d4;
+  }
 
   #heading-1 {
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 11px;
   }
   #heading-2 {
     margin-left: 20px;
@@ -1361,96 +1309,85 @@
     margin-left: 20px;
     font-size: 10px;
   }
- 
 
-.modalBackground {
-   opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease-in-out;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex; 
+  .modalBackground {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+  }
 
-  
+  .modalShowing-true {
+    opacity: 1;
+    pointer-events: visible;
+  }
+
+  .modalInner {
+    background: #1e2939;
+    width: 1000px;
+    max-width: calc(100% - 60px);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: left;
+  }
+
+  .modalText {
+    padding: 15px;
+  }
+
+  .modalText p {
+    line-height: 130%;
+  }
+
+  .modalText button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #buttons {
+    display: flex;
+  }
+
+  #Single {
+    margin-left: 280px;
+  }
+  #Team {
+    margin-left: 10px;
+  }
+  .exitButton {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
 }
 
-.modalShowing-true {
-  opacity: 1;
-  pointer-events: visible;
-  
-}
-
-.modalInner {
-  background: #1e2939;
-  width: 1000px;
-  max-width: calc(100% - 60px);
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  color: white;
-  text-align: left; 
-
-  
-} 
-
-.modalText {
-  padding: 15px;
-  
-}
-
-.modalText p {
-  line-height: 130%;
-}
-
-.modalText button {
-  display: block;
-  width: 100%;
-  text-align: center;
-} 
-#buttons{
-  display: flex;
-  
-}
-
-#Single{
-  margin-left: 280px;
-  
-}
-#Team{
-  margin-left: 10px;
-}
-.exitButton {
-  padding: 15px;
-  display: block;
-  width: 100%;
-  background-color: transparent;
-  border: 0;
-  color: white;
-} 
-}
-
-.PlayerName{
+.PlayerName {
   width: 100%;
   height: 60px;
   margin-top: -50px;
- 
-  font-size: 18px;
+
+  font-size: 36px;
   text-align: right;
   margin-right: 0px;
-
 }
 
- /*****media Queries******/
- 
- @media (max-width:577px){
-  .Numplays{
-    
+/*****media Queries******/
+
+@media (max-width: 577px) {
+  .Numplays {
     display: flex;
     flex-direction: row;
     display: block;
@@ -1458,15 +1395,14 @@
     align-items: center;
     padding: 3px 37px;
     position: absolute;
-    width: 100%; 
+    width: 100%;
     height: 28px;
     left: 0px;
     top: 289px;
-    background: #FFFFFF;
+    background: #ffffff;
     float: right;
   }
-  #PlaysText{
-   
+  #PlaysText {
     width: 83px;
     height: 25px;
     left: 23.67px;
@@ -1479,9 +1415,9 @@
     color: #050505;
     flex: none;
     flex-grow: 0;
-    margin: 0px 11px
+    margin: 0px 11px;
   }
-  #QuizesText{
+  #QuizesText {
     position: static;
     width: 95px;
     height: 25px;
@@ -1498,36 +1434,28 @@
     flex-grow: 0;
     margin: 0px 11px;
   }
-  
-  #Num{
-   
+
+  #Num {
     position: absolute;
     left: 2%;
     right: 5.33%;
     top: 10.5%;
     bottom: 25.17%;
-    
-    
-
   }
-  #Star{
+  #Star {
     position: absolute;
     left: 65%;
     right: 8%;
     top: 8.33%;
     bottom: 12.5%;
-    
   }
-  #Quizes{
-   
+  #Quizes {
     left: 48%;
     right: 8.33%;
     top: 12.5%;
     bottom: 29.17%;
-    
-
   }
-  #HipHopText{
+  #HipHopText {
     position: absolute;
     width: 67px;
     height: 19px;
@@ -1540,9 +1468,8 @@
     font-size: 16px;
     line-height: 19px;
     color: rgba(34, 40, 95, 0.91);
-    
   }
-  #Description{
+  #Description {
     position: absolute;
     width: 104px;
     height: 25px;
@@ -1554,9 +1481,8 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
-
   }
-  #DescriptionContainer{
+  #DescriptionContainer {
     position: absolute;
     width: 90%;
     height: 89px;
@@ -1568,9 +1494,8 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
-
   }
-  #SampleQuestions{
+  #SampleQuestions {
     position: absolute;
     width: 162px;
     height: 25px;
@@ -1582,32 +1507,29 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
-
   }
-  .HandImage{
+  .HandImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 5px;
     top: 60px;
   }
-  .RecordImage{
+  .RecordImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 18px;
     top: 690px;
-
   }
-  .FlagImage{
+  .FlagImage {
     position: absolute;
     width: 82px;
     height: 46px;
     left: 18px;
     top: 755px;
-
   }
-  #Tupac{
+  #Tupac {
     position: absolute;
     left: 89px;
     right: 0%;
@@ -1619,9 +1541,8 @@
     font-size: 13px;
     line-height: 19px;
     color: #000000;
-    
   }
-  #Records{
+  #Records {
     position: absolute;
     left: 89px;
     right: 0%;
@@ -1634,7 +1555,7 @@
     line-height: 19px;
     color: #000000;
   }
-  #FlagText{
+  #FlagText {
     position: absolute;
     left: 89px;
     right: 0%;
@@ -1646,9 +1567,8 @@
     font-size: 13px;
     line-height: 19px;
     color: #000000;
-
   }
-  #HipHopPlay{
+  #HipHopPlay {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1658,24 +1578,24 @@
     width: 96.67px;
     height: 39px;
     color: white;
-    font-weight: bold; 
+    font-weight: bold;
     left: 200px;
     top: 815px;
-    background: #34A853;
+    background: #34a853;
     border-radius: 7px;
   }
-  #Ranks{
+  #Ranks {
     position: absolute;
     width: 90%;
     height: 504px;
     left: 5%;
     top: 887px;
-    background:rgba(230, 222, 222, 0.637);
+    background: rgba(230, 222, 222, 0.637);
     border: 1px solid rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
     border-radius: 7px;
   }
-  #Ranks-header{
+  #Ranks-header {
     position: absolute;
     width: 135px;
     height: 25px;
@@ -1688,768 +1608,721 @@
     line-height: 25px;
     color: #000000;
   }
-  .Select{
+  .Select {
     border-radius: 0px;
     width: 100%;
-    height: 190% ;
+    height: 190%;
   }
-
-  
- }
+}
 /*Ipad  */
 
-@media only screen and (min-width:768px) and (max-width:1024px){
-  .Select{
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .Select {
     border-radius: 0px;
     width: 100%;
-    height: 190% ;
+    height: 190%;
   }
-  .Numplays{
-  
-      display: flex;
-      flex-direction: row;
-      display: block;
-      justify-content: center;
-      align-items: center;
-      padding: 3px 37px;
-      position: absolute;
-      width: 75%; 
-      height: 28px;
-      left: 0px;
-      top: 289px;
-      background: #FFFFFF;
-      float: right;
-    }
-    #PlaysText{
-     
-      width: 83px;
-      height: 25px;
-      left: 23.67px;
-      top: 0px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 25px;
-      line-height: 25px;
-      color: #050505;
-      flex: none;
-      flex-grow: 0;
-      margin: 0px 11px
-    }
-    #QuizesText{
-      position: static;
-      width: 95px;
-      height: 25px;
-      left: 20px;
-      top: 0px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 25px;
-      line-height: 25px;
-      color: #000000;
-      flex: none;
-      order: 1;
-      flex-grow: 0;
-      margin: 0px 11px;
-    }
-    
-   
-    #Star{
-      position: absolute;
-      left: 60%;
-      right: 8%;
-      top: 3.83%;
-      bottom: 10.5%;
-      width: 35px;
-      display: hidden;
-     
-    }
-    #Quizes{
-     
-      left: 28%;
-      right: 8.33%;
-      top: 12.5%;
-      bottom: 29.17%;
-      width: 40px;
-  
-    }
-    #HipHopText{
-      position: absolute;
-      width: 67px;
-      height: 19px;
-      left: 0px;
-      top: 370px;
-      font-weight: bold;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 19px;
-      color: rgba(34, 40, 95, 0.91);
-      
-    }
-    #Description{
-      position: absolute;
-      width: 104px;
-      height: 25px;
-      left: 15px;
-      top: 384px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 25px;
-      color: #000000;
-  
-    }
-    #DescriptionContainer{
-      position: absolute;
-      width: 80%;
-      height: 95px;
-      left: 15px;
-      top: 428px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 25px;
-      line-height: 20px;
-      color: #000000;
-  
-    }
-    #SampleQuestions{
-      position: absolute;
-      width: 40%;
-      height: 25px;
-      left: 15px;
-      top: 570px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 25px;
-      color: #000000;
-  
-    }
-    .HandImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 5px;
-      top: 60px;
-    }
-    .RecordImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 18px;
-      top: 720px;
-  
-    }
-    .FlagImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 18px;
-      top: 820px;
-  
-    }
-    #Tupac{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 630px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 19px;
-      line-height: 19px;
-      color: #000000;
-      width: 40%;
-      
-    }
-    #Records{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 720px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 19px;
-      line-height: 19px;
-      color: #000000;
-      width: 40%;
-    }
-    #FlagText{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 845px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 19px;
-      line-height: 19px;
-      color: #000000;
-      width: 40%;
-  
-    }
-    #HipHopPlay{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 7px 12px;
-      position: absolute;
-      width: 96.67px;
-      height: 39px;
-      color: white;
-      font-weight: bold; 
-      left: 290px;
-      top: 925px;
-      background: #34A853;
-      border-radius: 7px;
-    }
+  .Numplays {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 37px;
+    position: absolute;
+    width: 75%;
+    height: 28px;
+    left: 0px;
+    top: 289px;
+    background: #ffffff;
+    float: right;
+  }
+  #PlaysText {
+    width: 83px;
+    height: 25px;
+    left: 23.67px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #050505;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 11px;
+  }
+  #QuizesText {
+    position: static;
+    width: 95px;
+    height: 25px;
+    left: 20px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 11px;
+  }
 
-   
-    #Ranks{
-      position: absolute;
-      width: 75%;
-      height: 500px;
-      left: 5%;
-      top: 980px;
-      background:rgba(230, 222, 222, 0.637);
-      border: 1px solid rgba(0, 0, 0, 0.07);
-      box-sizing: border-box;
-      border-radius: 7px;
-    }
-    #Ranks-header{
-      position: absolute;
-      width: 135px;
-      height: 25px;
-      left: 240px;
-      top: 0px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 25px;
-      color: #000000;
-    }
- 
-    
+  #Star {
+    position: absolute;
+    left: 60%;
+    right: 8%;
+    top: 3.83%;
+    bottom: 10.5%;
+    width: 35px;
+    display: hidden;
+  }
+  #Quizes {
+    left: 28%;
+    right: 8.33%;
+    top: 12.5%;
+    bottom: 29.17%;
+    width: 40px;
+  }
+  #HipHopText {
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 0px;
+    top: 370px;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 19px;
+    color: rgba(34, 40, 95, 0.91);
+  }
+  #Description {
+    position: absolute;
+    width: 104px;
+    height: 25px;
+    left: 15px;
+    top: 384px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+  #DescriptionContainer {
+    position: absolute;
+    width: 80%;
+    height: 95px;
+    left: 15px;
+    top: 428px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #SampleQuestions {
+    position: absolute;
+    width: 40%;
+    height: 25px;
+    left: 15px;
+    top: 570px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .HandImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 5px;
+    top: 60px;
+  }
+  .RecordImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 18px;
+    top: 720px;
+  }
+  .FlagImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 18px;
+    top: 820px;
+  }
+  #Tupac {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 630px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    color: #000000;
+    width: 40%;
+  }
+  #Records {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 720px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    color: #000000;
+    width: 40%;
+  }
+  #FlagText {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 845px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    color: #000000;
+    width: 40%;
+  }
+  #HipHopPlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    position: absolute;
+    width: 96.67px;
+    height: 39px;
+    color: white;
+    font-weight: bold;
+    left: 290px;
+    top: 925px;
+    background: #34a853;
+    border-radius: 7px;
+  }
+
+  #Ranks {
+    position: absolute;
+    width: 75%;
+    height: 500px;
+    left: 5%;
+    top: 980px;
+    background: rgba(230, 222, 222, 0.637);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  #Ranks-header {
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    left: 240px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+  }
 }
 /*I-Pad Pro*/
 
-@media only screen and (min-width:1025px) and (max-width:1030px){
-  .Numplays{
-  
-      display: flex;
-      flex-direction: row;
-      display: block;
-      justify-content: center;
-      align-items: center;
-      padding: 3px 37px;
-      position: absolute;
-      width: 75%; 
-      height: 28px;
-      left: 0px;
-      top: 289px;
-      background: #FFFFFF;
-      float: right;
-    }
-    #PlaysText{
-     
-      width: 83px;
-      height: 25px;
-      left: 23.67px;
-      top: 0px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 35px;
-      line-height: 25px;
-      color: #050505;
-      flex: none;
-      flex-grow: 0;
-      margin: 0px 11px
-    }
-    #QuizesText{
-      position: static;
-      width: 95px;
-      height: 25px;
-      left: 20px;
-      top: 0px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 35px;
-      line-height: 25px;
-      color: #000000;
-      flex: none;
-      order: 1;
-      flex-grow: 0;
-      margin: 0px 11px;
-    }
-    
-    #Num{
-      position: absolute;
-      left: 2%;
-      right: 5.33%;
-      top: 10.5%;
-      bottom: 25.17%;
-      width: 28px;
-    }
-    #Star{
-      position: absolute;
-      left: 60%;
-      right: 8%;
-      top: 3.83%;
-      bottom: 10.5%;
-      width: 40px;
-      display: none;  
-    }
-    #Quizes{
-     
-      left: 28%;
-      right: 8.33%;
-      top: 12.5%;
-      bottom: 29.17%;
-      width: 40px;
-  
-    }
-    #HipHopText{
-      position: absolute;
-      width: 67px;
-      height: 19px;
-      left: 0px;
-      top: 370px;
-      font-weight: bold;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 35px;
-      line-height: 19px;
-      color: rgba(34, 40, 95, 0.91);
-      
-    }
-    #Description{
-      position: absolute;
-      width: 104px;
-      height: 25px;
-      left: 15px;
-      top: 380px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 33px;
-      line-height: 25px;
-      color: #000000;
-  
-    }
-    #DescriptionContainer{
-      position: absolute;
-      width: 95%;
-      height: 89px;
-      left: 15px;
-      top: 420px;
-      font-family: Open Sans;
-      font-style: normal;     
-      font-size: 34px;
-      line-height: 35px;
-      color: #000000;
-      
-    
-    }
-    #SampleQuestions{
-      position: absolute;
-      width: 40%;
-      height: 25px;
-      left: 15px;
-      top: 640px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 25px;
-      color: #000000;
-  
-    }
-    .HandImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 5px;
-      top: 78px;
-    }
-    .RecordImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 18px;
-      top: 840px;
-  
-    }
-    .FlagImage{
-      position: absolute;
-      width: 140px;
-      height: 86px;
-      left: 18px;
-      top: 948px;
-  
-    }
-    #Tupac{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 699px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 27px;
-      line-height: 19px;
-      color: #000000;
-      width: 70%;
-      
-    }
-    #Records{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 850px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 27px;
-      line-height: 19px;
-      color: #000000;
-      width: 70%;
-    }
-    #FlagText{
-      position: absolute;
-      left: 155px;
-      right: 0%;
-      top: 940px;
-      bottom: 52.38%;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 27px;
-      line-height: 19px;
-      color: #000000;
-      width: 70%;
-  
-    }
-    #HipHopPlay{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 7px 12px;
-      position: absolute;
-      font-weight: bolder;
-      height: 39px;
-      left: 399px;
-      color: white;
-      font-weight: bold; 
-      top: 1090px;
-      background: #34A853;
-      border-radius: 7px;
-      width: 199px;
-      font-size: 26px;
-    }
- 
-    .Select{
-      position: fixed;
+@media only screen and (min-width: 1025px) and (max-width: 1030px) {
+  .Numplays {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 37px;
+    position: absolute;
+    width: 75%;
+    height: 28px;
+    left: 0px;
+    top: 289px;
+    background: #ffffff;
+    float: right;
+  }
+  #PlaysText {
+    width: 83px;
+    height: 25px;
+    left: 23.67px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 25px;
+    color: #050505;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 11px;
+  }
+  #QuizesText {
+    position: static;
+    width: 95px;
+    height: 25px;
+    left: 20px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 11px;
+  }
+
+  #Num {
+    position: absolute;
+    left: 2%;
+    right: 5.33%;
+    top: 10.5%;
+    bottom: 25.17%;
+    width: 28px;
+  }
+  #Star {
+    position: absolute;
+    left: 60%;
+    right: 8%;
+    top: 3.83%;
+    bottom: 10.5%;
+    width: 40px;
+    display: none;
+  }
+  #Quizes {
+    left: 28%;
+    right: 8.33%;
+    top: 12.5%;
+    bottom: 29.17%;
+    width: 40px;
+  }
+  #HipHopText {
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 0px;
+    top: 370px;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 19px;
+    color: rgba(34, 40, 95, 0.91);
+  }
+  #Description {
+    position: absolute;
+    width: 104px;
+    height: 25px;
+    left: 15px;
+    top: 380px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 25px;
+    color: #000000;
+  }
+  #DescriptionContainer {
+    position: absolute;
+    width: 95%;
+    height: 89px;
+    left: 15px;
+    top: 420px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 35px;
+    color: #000000;
+  }
+  #SampleQuestions {
+    position: absolute;
+    width: 40%;
+    height: 25px;
+    left: 15px;
+    top: 640px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .HandImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 5px;
+    top: 78px;
+  }
+  .RecordImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 18px;
+    top: 840px;
+  }
+  .FlagImage {
+    position: absolute;
+    width: 140px;
+    height: 86px;
+    left: 18px;
+    top: 948px;
+  }
+  #Tupac {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 699px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 19px;
+    color: #000000;
+    width: 70%;
+  }
+  #Records {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 850px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 19px;
+    color: #000000;
+    width: 70%;
+  }
+  #FlagText {
+    position: absolute;
+    left: 155px;
+    right: 0%;
+    top: 940px;
+    bottom: 52.38%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 19px;
+    color: #000000;
+    width: 70%;
+  }
+  #HipHopPlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    position: absolute;
+    font-weight: bolder;
+    height: 39px;
+    left: 399px;
+    color: white;
+    font-weight: bold;
+    top: 1090px;
+    background: #34a853;
+    border-radius: 7px;
+    width: 199px;
+    font-size: 26px;
+  }
+
+  .Select {
+    position: fixed;
     width: 85%;
     height: 30%;
     right: 0.3%;
     top: 0px;
     z-index: 15;
-    }
+  }
 
-    #Ranks{
-      position: absolute;
-      width: 90%;
-      height: 500px;
-      left: 5%;
-      top: 1160px;
-      background:rgba(172, 165, 165, 0.637);
-      border: 1px solid rgba(0, 0, 0, 0.07);
-      box-sizing: border-box;
-      border-radius: 7px;
-      
-    }
-    #Ranks-header{
-      position: absolute;
-      width: 90%;
-      height: 25px;
-      left: 340px;
-      top: 5px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 34px;
-      line-height: 20px;
-      color: #000000;
-    }
+  #Ranks {
+    position: absolute;
+    width: 90%;
+    height: 500px;
+    left: 5%;
+    top: 1160px;
+    background: rgba(172, 165, 165, 0.637);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  #Ranks-header {
+    position: absolute;
+    width: 90%;
+    height: 25px;
+    left: 340px;
+    top: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 20px;
+    color: #000000;
+  }
 
-    #One{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-      
-    }
-    #Two{
-      font-family: Open Sans;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 18px;
-      letter-spacing: 0em;
-      text-align: left;
-      top: 20px;
-    }
-    #Three{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-    }
-    #Four{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-    }
-    #Five{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-    }
-    #Six{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-    }
-    #Seven{
-      position: static;
-      width: 8px;
-      height: 18px;
-      left: 10px;
-      top: 10px;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 18px;
-      color: #000000;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 10px 0px;
-    }
-    #Medal{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 10%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-1{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 15.5%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-2{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 21%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-3{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 27%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-4{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 32%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-5{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 37%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Medal-6{
-      position: absolute;
-      left: 8%;
-      right: 16.67%;
-      top: 43%;
-      bottom: 4.17%;
-      width: 25px;
-      height: 25px;
-    }
-    #Points-1{
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 9%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-2{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 14%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-3{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 20%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-4{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 26%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-5{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 32%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-6{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 37%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
-    #Points-7{
-  
-      position: absolute;
-      left: 90%;
-      right: 4.17%;
-      top: 42.5%;
-      bottom: 8.33%;
-      width: 25px;
-      height: 25px;
-  
-    }
+  #One {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Two {
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 20px;
+  }
+  #Three {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Four {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Five {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Six {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Seven {
+    position: static;
+    width: 8px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  #Medal {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 10%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-1 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 15.5%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-2 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 21%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-3 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 27%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-4 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 32%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-5 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 37%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Medal-6 {
+    position: absolute;
+    left: 8%;
+    right: 16.67%;
+    top: 43%;
+    bottom: 4.17%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-1 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 9%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-2 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 14%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-3 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 20%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-4 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 26%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-5 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 32%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-6 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 37%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
+  #Points-7 {
+    position: absolute;
+    left: 90%;
+    right: 4.17%;
+    top: 42.5%;
+    bottom: 8.33%;
+    width: 25px;
+    height: 25px;
+  }
 }

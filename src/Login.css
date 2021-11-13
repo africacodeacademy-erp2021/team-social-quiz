@@ -42,7 +42,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 36px;
     line-height: 49px;
   }
   .b1_title{
@@ -51,7 +51,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 36px;
     line-height: 49px;
     margin-top: -42px;
   }
@@ -63,7 +63,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 31px;
+    font-size: 36px;
     line-height: 49px;
   }
   .h3_title {
@@ -71,7 +71,7 @@
     margin-left: 35px;
     font-family: Open Sans;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 33px;
   }
   .p_title {
@@ -106,8 +106,8 @@
   
   .btn_google {
     border: 0px;
-    width: 300px;
-    height: 33px;
+    width: 389px;
+    height: 47px;
     text-align: left;
     border-radius: 20px;
     color: black;
@@ -122,8 +122,8 @@
   
   .btn_github {
     border: 0px;
-    width: 300px;
-    height: 33px;
+    width: 389px;
+    height: 47px;
     text-align: left;
     border-radius: 20px;
     color: rgb(20, 81, 173);
@@ -149,7 +149,7 @@
     color: white;
     height: 34px;
     border: 0px;
-    font-size: 15px;
+    font-size: 24px;
     left: 201px;
     right: 22.37%;
     top: 13.73%;
@@ -162,7 +162,7 @@
   .btn_googleinfo {
     height: 34px;
     border: 0px;
-    font-size: 18px;
+    font-size: 24px;
     left: 21.59%;
     right: 22.37%;
     top: 13.73%;
@@ -173,8 +173,8 @@
   
   .btn_facebook {
     border: 0px;
-    width: 300px;
-    height: 33px;
+    width: 389px;
+    height: 47px;
     text-align: left;
     border-radius: 20px;
   
@@ -191,7 +191,7 @@
   .my-facebook-button-class {
     height: 34px;
     border: 0px;
-    font-size: 15px;
+    font-size: 24px;
     left: 21.59%;
     right: 22.37%;
     top: 13.73%;

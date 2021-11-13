@@ -18,7 +18,7 @@
     cursor: pointer;
     border-radius: 4px;
     border:1px;
-    width: 220px;
+    width: 244px;
     text-align: left;
     font-weight: bold; 
     align-items: center;   
@@ -27,6 +27,7 @@
     font-weight: 600;
     line-height: 25px;
    letter-spacing: 0em;
+   font-size:18px;
 
 }
 .btn-modestwo{
@@ -36,7 +37,7 @@
     cursor: pointer;
     border-radius: 4px;
     border:1px;
-    width: 220px;
+    width: 244px;
     text-align: left;
     font-weight: bold; 
     align-items: center;   
@@ -45,6 +46,7 @@
     font-weight: 600;
     line-height: 25px;
    letter-spacing: 0em;
+   font-size:18px;
 
 }
 .btn-modesthree{
@@ -54,7 +56,7 @@
     cursor: pointer;
     border-radius: 4px;
     border:1px;
-    width: 220px;
+    width: 244px;
     text-align: left;
     font-weight: bold; 
     align-items: center;   
@@ -63,6 +65,7 @@
     font-weight: 600;
     line-height: 25px;
    letter-spacing: 0em;
+   font-size:18px;
 
 }
 .btn-modes:hover{
@@ -131,7 +134,8 @@
  align-items: flex-end;
  display:inline;
  text-align: right;
- margin-left: 57px;
+ margin-left: 150px;
+ top:20px;
 
         
 }
@@ -150,7 +154,8 @@
         align-items: flex-end;
         display:inline;
         text-align: right;
-        margin-left: 24px;
+         margin-left: 150px;
+         top:20px;
                
 }
 .button-imggg{
@@ -162,6 +167,8 @@
         display:inline;
         text-align: right;
         margin-left: 60px;
+        margin-left: 150px;
+        top:20px;
                
 }
 
@@ -206,8 +213,8 @@
 }
 
 .blue-btn{
-        width: 95px;  
-        height: 40px;      
+        width: 88px;  
+        height: 34px;      
         color: white;
         font-weight: bold;   
         background-color:  #22285F;
@@ -224,8 +231,8 @@
         background: green;
 }
 .share-btn{
-        width: 95px;  
-        height: 40px;      
+        width: 88px;  
+        height: 34px;     
         color: white;
         font-weight: bold;   
         background-color:  #22285F;

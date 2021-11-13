@@ -1,7 +1,8 @@
 
 .audioIcon{
-    width: 35px;
-    height: 35px;
+    width: 22px;
+    height: 20.9px;
+    top:0px;
    
    
 }
@@ -13,7 +14,8 @@
      
 }
 .btnmute{
-    border-radius: 20px;
+    border-radius: 40px;
     border-style: none; 
-    cursor: pointer;  
+    cursor: pointer; 
+    margin-top: 20px; 
 }
