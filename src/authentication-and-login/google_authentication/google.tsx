@@ -1,5 +1,6 @@
 import GoogleLogin from "react-google-login";
 import * as dotenv from "dotenv";
+import { FaFontAwesome } from "react-icons/fa";
 import "../../App";
 import { useHistory } from "react-router-dom";
 
@@ -22,13 +23,16 @@ export default function Google(props: any) {
     <div>
       <div className="btn_google">
         <GoogleLogin
-          className="btn_googleinfo"
+          
           clientId={Clientid}
-          buttonText={props.buttonName}
+          
           onSuccess={loginsuccess}
           onFailure={loginfailure}
           cookiePolicy={"single_host_origin"}
-        />
+          >
+         
+          <span className="btn_googleinfo"> SignIn with Google</span>
+        </GoogleLogin>
       </div>
     </div>
   );

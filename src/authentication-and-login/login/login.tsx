@@ -32,9 +32,9 @@ function Login() {
           <div className="buttons_container">
             <Google buttonName="SignIn with Google" path="/Category"/>
             <br />
-            <Facebook buttonName="&nbsp;&nbsp;SignIn with Facebook" path="/Category"/>
+            <Facebook buttonName="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Facebook" path="/Category"/>
             <br />
-            <Github buttonName= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Github" path="/Category" />
+            <Github buttonName= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Github" path="/Category" />
           </div>
 
           <br />
