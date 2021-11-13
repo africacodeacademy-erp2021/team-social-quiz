@@ -1,0 +1,226 @@
+.score-board
+{
+position: absolute;
+width: 1360px;
+height: 740px;
+color :white;
+background-color: #22285F;
+background-image: url(blob.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 600px;
+
+
+}
+
+#quiz{
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;;
+}
+
+
+#player{
+position: absolute;
+left: 0px;
+right: 0%;
+bottom: 35.38%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+.mime{
+    margin-left: 550px;
+}
+.quizapp{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#points{
+    margin-left: 100px;
+    font-size: larger;
+    
+}
+#point{
+    margin-left: 1200px;
+}
+#ponit{
+    margin-left: 10px;
+}
+#username{
+    margin-left: 1140px;
+    margin-bottom: 100%;
+}
+.playerName{
+    width: 50%;
+    height: 60px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 1000px;
+}
+.Title{
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;
+    cursor:pointer;
+}
+.Title-2{
+    color:black;
+    font-size: 45px;
+    margin-left: 1px;
+    cursor:pointer;
+}
+.points_icon{
+    margin-bottom: -10px;
+}
+.PlayerAndGameName_section{
+    width: 100%;
+    display: flex;
+}
+.playerName{
+    width: 50%;
+    height: 60px;
+    margin-top: 18px;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 50px;
+}
+.gameName{
+    margin-top: 18px;
+    width: 50%;
+    height: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.08em;
+}
+.gameh3{
+    margin-left: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+.playerName .playerh3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 50px;  
+}
+.bar_Container{
+   display: flex;
+}
+.Title{
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-left: 60px;
+}
+.Title-2{
+    font-size: 45px;
+    margin-left: 1px;
+}
+
+.points_icon{
+    margin-bottom: -10px;
+}
+#renck{
+    /* Position Bar */
+
+position: absolute;
+width: 169px;
+height: 44px;
+left: 710px;
+top: 866px;
+
+background: rgba(60, 67, 126, 0.81);
+border-radius: 9px;
+
+
+/* medal-outline */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 7px;
+top: 6px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 37.5%;
+top: 21.88%;
+bottom: 18.75%;
+
+background: #beb80a;
+
+
+/* 1st */
+
+position: absolute;
+width: 125px;
+height: 30px;
+left: 721px;
+top: 607px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+left: 646px;
+top: 607px;
+color: #3c09f7;
+
+
+}
+.Icons{
+    /* Vector */
+
+position: absolute;
+left: 45%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}
+#twitter{
+position: absolute;
+left: 103%;
+top: 90%;
+
+}
+#whatsapp{
+position: absolute;
+left: 200%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}
+#telegram{
+    position: absolute;
+left: 300%;
+top: 90%;
+bottom: 20%;
+padding-right: 10px;
+}
+
+.goldpoints{
+    left: 120px;
+}

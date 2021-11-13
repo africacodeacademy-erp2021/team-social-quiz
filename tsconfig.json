@@ -22,5 +22,9 @@
   },
   "include": [
     "src"
+  ],
+  "mytypes": [
+    "../node_modules/@types",
+    "../@types"
   ]
 }
