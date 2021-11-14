@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CategoryMedia.css';
 import './page2.css'
 import PopC from "../Images/PopC.jpg";
@@ -15,6 +15,23 @@ import Navbar from '../components/Navbar';
 
 
 function HipHop() {
+  const [quiz,setQuiz]=useState<any[]>([])
+ useEffect(()=>{ 
+ var request = new XMLHttpRequest(); 
+ request.onreadystatechange = function() { 
+ if (request.readyState === 4 && request.status === 200) { 
+ const response=JSON.parse(request.response) 
+ setQuiz(response) 
+ } 
+ }; 
+ request.open('GET', 'http://localhost:4000/api/v1/quizzes', true); 
+ request.send(); 
+ },[]) 
+ 
+ useEffect(()=>{ 
+ console.log(quiz) 
+ },[quiz]) 
+ 
     return (
       <div className="screen">
       <div className="hamburger">
@@ -75,16 +92,13 @@ function HipHop() {
         </div>
         
         <PlayButton />
-        <span id="HipHopText">@quizapp</span>
+        <span id="HipHopText">@quizapp <br/>{quiz && quiz.map(quizzes=><p>{quizzes.title}</p>)}</span>
+        <div></div>
         <div id="Description">
             <h3>Description</h3>
         </div>
         <div id="DescriptionContainer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis habitasse amet,
-                 rutrum mattis ac.
-                Egestas arcu, quis arcu placerat nullam diam. Pellentesque morbi vitae massa,
-                aliquet urna nec elit suspendisse. Fringilla fermentum sed viverra lectus enim.
-                Dis sed ut mauris.</p>
+        {quiz && quiz.map(quizzes=><p>{quizzes.description}</p>)}
 
         </div>
         <div id="SampleQuestions">
