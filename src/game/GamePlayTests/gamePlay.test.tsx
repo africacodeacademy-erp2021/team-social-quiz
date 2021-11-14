@@ -5,19 +5,10 @@ import Timer from '../Game_Components/timer';
 import GameStart from '../Game_Play/game_start';
 import ProgressBar from '../Game_Components/progress_Bar';
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
-import { renderHook, act} from '@testing-library/react-hooks'
+import { renderHook, act} from '@testing-library/react-hooks';
 import { configure, shallow } from "enzyme";
 configure({ adapter: new Adapter() });
 
-
-describe("add Score", () => {
-  it("it adds score by 50", () => {    
-    const { result } = renderHook(GameScoreFunction); 
-     
-    expect(result.current.addScoreOnNext).toBeCalled;
-
-     })
-}) 
  
 //render all used components   
 describe("ProgressBar", () => {
