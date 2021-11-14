@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import Pop from "../Images/Pop.png";
 import astronomy from "../Images/astronomy.png";
 import chemistry from "../Images/chemistry.png";
@@ -14,6 +14,25 @@ function Category() {
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
   const playerName = name.replace('"', "");
+
+  const [categories, setCategories]=useState<any[]>([])
+ 
+  useEffect(()=>{
+    var request = new XMLHttpRequest(); 
+ request.onreadystatechange = function() { 
+ if (request.readyState === 4 && request.status === 200) { 
+ const response=JSON.parse(request.response) 
+ setCategories(response) 
+ } 
+ }; 
+ request.open('GET', 'http://localhost:4000/api/v1/catgeories', true); 
+ request.send(); 
+ },[]) 
+ 
+ useEffect(()=>{ 
+ console.log(categories) 
+ },[categories]) 
+
   return (
     <div className="screen">
       <div className="hamburger">
@@ -21,6 +40,7 @@ function Category() {
       </div>
       <div className="sidebar">
         <br />
+         
      
         <span className="Title">quiz</span>
         <span className="Title-2">app</span>
@@ -188,6 +208,7 @@ function Category() {
         <div id="heading-5">
           <h2>Ice Breakers and Bell Ringers</h2>
         </div>
+        {categories && categories.map(category=><p>{category.text}</p>)} 
       </div>
     </div>
   );
