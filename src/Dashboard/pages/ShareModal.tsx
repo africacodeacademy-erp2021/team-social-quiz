@@ -14,8 +14,9 @@ function cancelHandler(){
 return (
 
     <div className='model'>
-         <p className="title">Share On Social Media PlatForms</p>
+         <button className="close-popUp" onClick={cancelHandler}>x</button>  
 
+         <p className="Social-title">Share On Social Media PlatForms</p>
         
             <FacebookShareButton url= {url} className="fb"
             quote="Let us play">
@@ -34,7 +35,7 @@ return (
         <br/>
         <br/>
         <br/>
-       <button className="exit-btn" onClick={cancelHandler}>Exit</button>   
+     
     </div>
 
 );

@@ -13,6 +13,7 @@ import Category from "../Images/Category.png";
 
 function Navigation() {
   const [sidebar] = useState(false);
+  
   let history = useHistory();
 
   function handleCategory(){
