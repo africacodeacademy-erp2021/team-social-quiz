@@ -43,16 +43,6 @@ describe("Login Page", () => {
   });
 });
 
-
-
-
-test('renders learn react link', () => {
-  render(<PopCulture/>);
-  const linkElement = screen.getByText(/Plays/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
-
   it('check if Authentication popup opens after clicking on Google button', () => {  
     const login = mount(<Google />),
         buttonclick = login.find("button");
