@@ -4,6 +4,7 @@ import { GameContext } from './game_Context';
 import GameMemes from './game_Memes';
 import GamePlay from "./game_Play";
 import Myaudio from "../Game_Components/audio";
+import axios from 'axios';
 
 function QuizStart(props:any){
   const data = JSON.stringify(localStorage.getItem("name"));
@@ -25,7 +26,30 @@ function QuizStart(props:any){
   const [playerName, SetPlayerName] =useState(username);
   const [scoreStatus, SetScoreStatus] = useState(false);
   let   [gameMode] = useState("Signle Mode");
+  //const [QuizArr, SetQuizArr] = useState([]);
+ 
+   //fetch Quiz Data
+   const [QuizData,SetQuizData]= useState<string[]>([]);
+
+   useEffect(()=>{
+   var request = new XMLHttpRequest();
+   request.onreadystatechange = function() {
+   if (request.readyState === 4 && request.status === 200) {
+   const response=JSON.parse(request.response)
+   SetQuizData(response)
+   }
+   };
+   request.open('GET', 'http://localhost:4000/api/v1/questions/quiz', true);
+   request.send();
+   },[])
+
+   useEffect(()=>{
+   console.log(JSON.stringify(QuizData));
   
+   },[QuizData])
+  
+
+
   /**
   * set selected game mode
   * Set selected category 
@@ -33,12 +57,14 @@ function QuizStart(props:any){
   * @param {number} selected_number
   */ 
   useEffect(()=>{ 
-    if(count === 1){
+   if(count === 1){
     gameMode === "Single Mode"  ?  SetShowNext(true) : SetShowNext(false);
     playerRole === 'Host' ? SetShowNext(true): SetShowNext(false);
     SetCount(3);
-    }
-  },[gameMode, playerRole, count]);
+ 
+   }
+  },[gameMode, playerRole, count,/*QuizArr*/]);
+ 
  
     return(
      <div className="body1" key={"bodyone"}> 
@@ -59,3 +85,4 @@ function QuizStart(props:any){
     )
 }
 export default QuizStart;
+
