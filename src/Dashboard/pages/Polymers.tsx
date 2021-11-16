@@ -3,6 +3,7 @@ import ChemistryC2 from "../Images/ChemistryC2.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
 import HistoryC from "../Images/HistoryC.jpg";
+import back from "../Images/backbutton.png";
 import Star from "../Images/Star.png";
 import "./Category.css";
 
@@ -13,6 +14,7 @@ import Plays from "../Images/Plays.png";
 import Vector from "../Images/Vector.png";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Polymers() {
   const players:any = [{
@@ -70,7 +72,11 @@ players.sort((a:any, b:any) => b.score - a.score);
                     alt="Quizes"
                   />
                   <span id="QuizesText">15 Quizes </span>
+                  <Link  to="/Category">
+                  <img className="backButton" src={back} alt="back" width="50px" height="50px" />
+                  </Link>
                 </span>
+                
                 <span>
                   <img className="Playicon" id="Star" src={Star} alt="Star" width="26px" height="26px" />
                   <span id="starText"></span>

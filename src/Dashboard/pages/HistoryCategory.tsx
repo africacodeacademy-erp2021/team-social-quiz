@@ -12,6 +12,8 @@ import Vector from "../Images/Vector.png";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
 import HistoryC2 from "../Images/HistoryC3.jpg";
+import back from "../Images/backbutton.png";
+import { Link } from "react-router-dom";
 
 function HistoryCategory() {
   
@@ -67,6 +69,7 @@ return (
               <img className="Playicon" id="Star" src={Star} alt="Star" width="26px" height="26px" />
               <span id="starText"></span>
             </span>
+            
           </div>
 
           <div className="game-1" >
@@ -78,6 +81,9 @@ return (
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
           <span id="Play-btn"><Playandshare path="/Hiphop"/><Share/></span>
+          <Link  to="/Category">
+                  <img className="backButton" src={back} alt="back" width="50px" height="50px" />
+             </Link>
           
           
         </div>

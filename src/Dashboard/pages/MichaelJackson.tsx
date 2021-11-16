@@ -1,6 +1,7 @@
 import React from 'react'
 import './CategoryMedia.css';
-import './page2.css'
+import './page2.css';
+import back from "../Images/backbutton.png"
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -12,6 +13,7 @@ import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
 import Navbar from '../components/Navbar';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -42,8 +44,12 @@ function MichaelJackson() {
   score: 87,
 },
 ];
-
 players.sort((a:any, b:any) => b.score - a.score);
+
+let history =useHistory();
+function Back(){
+  history.push("/popculture");
+}
     return (
       <div className="screen">
       <div className="hamburger">
@@ -57,12 +63,14 @@ players.sort((a:any, b:any) => b.score - a.score);
 
         <div className="Numplays">
           <span><img id="Num" src={Num} alt="Num"  />
-             <span id="PlaysText"> 100 Plays</span>
+             <span id="PlaysText"> 100 Plays</span>             
            </span>
           <span><img id="Quizes" src={Quizes} alt="Quizes"  /> 
           <span id="QuizesText">Quizes 15</span>
           </span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
+          <img className="backButton" onClick={Back} 
+             src={back} alt="back" width="50px" height="50px" />
          
         </div>
 

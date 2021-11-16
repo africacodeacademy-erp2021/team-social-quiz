@@ -12,6 +12,8 @@ import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
 import Navbar from '../components/Navbar';
+import {useHistory } from 'react-router-dom';
+import back from "../Images/backbutton.png"
 
 
 function OldSchool() {
@@ -42,6 +44,11 @@ function OldSchool() {
 },
 ];
 
+ let history =useHistory();
+function Back(){
+  history.push("/Category");
+}
+
 players.sort((a:any, b:any) => b.score - a.score);
     return (
       <div className="screen">
@@ -61,6 +68,10 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span><img id="Quizes" src={Quizes} alt="Quizes"  /> 
           <span id="QuizesText">Quizes 15</span>
           </span>
+          <img className="backButton" onClick={Back}
+           src={back} alt="back" width="50px" height="50px" />
+          
+            
           <span><img id="Star" src={Star} alt="Star"  /></span>
          
         </div>
@@ -139,7 +150,8 @@ players.sort((a:any, b:any) => b.score - a.score);
         <div id="SampleQuestions">
             <h3>Sample Questions</h3>
             <img  className="HandImage" src={Hand} alt="Hand"/>
-            
+          
+          
             
         </div>
         <span id="Tupac"><p>What band topped the best bands' list in the 90s?</p></span>
