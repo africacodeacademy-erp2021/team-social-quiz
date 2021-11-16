@@ -1,17 +1,20 @@
 import './playgame.css';
 import { GameContext } from './game_Context';
 import Timer from '../Game_Components/timer';
-import EndButton from '../Game_Components/endButton';
 import ProgressBar from '../Game_Components/progress_Bar';
 import {useState, useContext, useEffect} from "react";
 import  GameScoreFunction from '../gameFunctions/gameScoreFunction';
 import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
 import { General_questions } from '../Questions/general-questions';
+import Modal from '../Game_Components/EndButtonModal/EndButtonModal';
+import Backdrop from '../../Dashboard/components/PlayButton/Backdrop';
+
 
 function Game_Play(){
 let {addScoreOnNext} = GameScoreFunction();
 
 const [random, setRandom] = useState(General_questions); 
+const [modalIsOpen, setModalIsOpen] =  useState(false);
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
 const space = " . ";
@@ -86,8 +89,14 @@ const onNextquestion = ()=>{
         SetLastQuestion(true); 
     }         
 }
-    
- return(
+
+function deleteHandler(){ 
+    setModalIsOpen(true);
+}
+function closeModalHandler(){
+     setModalIsOpen(false);
+}
+return(
   <div className="question_display" key={"questions"}>
     <div className="backgroundImg" key={"img"}>
      <div className="progress_bar" key={"bar"}> <h1 className="myprogressBar"><ProgressBar key={"progressBar"}/> </h1> </div>       
@@ -127,11 +136,18 @@ const onNextquestion = ()=>{
                     } 
                     <br/>    
                     {   
-                        showNext ?( <>  
-                        <EndButton key={"end_button"}/>             
+                        showNext ?( <div >
+                           
+                        {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />} 
+                        {modalIsOpen && <Backdrop onCancel={closeModalHandler}/>}
+  
+                        <button className="onend" onClick={deleteHandler}> End </button>   
+                              
                         <button className="onNext" onClick={onNextquestion} key={"next_button"}> Next </button>
-                        </>
+                       
+                        </div>
                         ):( <></>)
+
                     }
          </div>    
     </div>

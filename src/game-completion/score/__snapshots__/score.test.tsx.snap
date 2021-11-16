@@ -23,3 +23,5 @@ exports[`c renders correctly 1`] = `ShallowWrapper {}`;
 exports[`le component renders correctly 1`] = `ShallowWrapper {}`;
 
 exports[`leaderboa component renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`leaderboard component renders correctly 1`] = `ShallowWrapper {}`;

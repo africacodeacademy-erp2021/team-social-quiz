@@ -1,16 +1,20 @@
 import './playgame.css';
-import React, {useContext} from 'react';
-import EndButton from '../Game_Components/endButton';
+import React, {useContext, useState} from 'react';
 import { GameContext } from './game_Context';
 import {CongratsMemes} from '.././memeURL/congratsMemes';
 import {TryAgainMemes} from '.././memeURL/tryAgainMeme';
 import { useHistory } from 'react-router';
-import profile from "../../game-completion/leaderboard/images/profile.png"
+import '../../Dashboard/components/PlayButton/popUp.css';
+import profile from "../../game-completion/leaderboard/images/profile.png";
+import Modal from '../Game_Components/EndButtonModal/EndButtonModal';
+import Backdrop from '../../Dashboard/components/PlayButton/Backdrop';
+
 
 function MyMemes(){
 const {currentQuestion} = useContext(GameContext);
 const {SetGameState} = useContext(GameContext); 
 const {scoreStatus, SetScoreStatus} = useContext(GameContext);
+const [modalIsOpen, setModalIsOpen] =  useState(false);
 const {lastQuestion} =  useContext(GameContext);
 const {playerName} =  useContext(GameContext);
 let {score} = useContext(GameContext);
@@ -19,6 +23,7 @@ let history = useHistory();
 let pointsMessage = "";
 let showImg = "";
 let message = "";
+
 
 /**
 * Set gamestate back to Playgame
@@ -42,9 +47,18 @@ if(scoreStatus === true){
     message = 'Dont worry you can still get it right.';
     pointsMessage ="0 points";
 }
+
+function deleteHandler(){  
+
+setModalIsOpen(true);
+}
+
+function closeModalHandler(){
+
+    setModalIsOpen(false);
+}
     return(
-    
-        <div className='displayMeme_section'> 
+       <div className='displayMeme_section'> 
             <div className="PlayerAndGameName_section">              
                <div className="gameName">
                 <span className="Title">quiz</span><span className="Title-2">app</span>    
@@ -64,10 +78,14 @@ if(scoreStatus === true){
                 {pointsMessage+" "}
                 <img className="points_icon" width="50px" height="50px" alt="score" key={"meme"}
                 src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gold-bars-7-586897.png"/>
-                <br/>{message}<br/>            
-                <EndButton/>              
+                <br/>{message}<br/>  
+                       
+                {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />} 
+                {modalIsOpen && <Backdrop onCancel={closeModalHandler}/>}
+  
+                <button className="onend" onClick={deleteHandler}> End </button>             
                 <button className="onNext" onClick={NextQuestion} > Next </button>
-                <br/>
+                
         </div>
     
     )

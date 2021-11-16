@@ -12,8 +12,8 @@ import Category from "../Images/Category.png";
 
 
 function Navigation() {
-  const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => setSidebar(sidebar);
+  const [sidebar] = useState(false);
+  
   let history = useHistory();
 
   function handleCategory(){
