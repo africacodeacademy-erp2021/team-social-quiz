@@ -24,11 +24,14 @@ import MummiesThree from "./Dashboard/pages/MummiesThree";
 import Category from "./Dashboard/pages/Category";
 import GameStart from "./Dashboard/pages/GameStart";
 import HipHop from "./Dashboard/pages/HipHop";
+import OldSchool from "./Dashboard/pages/OldSchool";
+import MichaelJackson from "./Dashboard/pages/MichaelJackson";
 
 
 import ScoreBoard  from './game-completion/score/score';
 import QuizStart from "./game/Game_Play/game_start";
 import Leaderboards from "./game-completion/leaderboard/leaderboard";
+import Categories from "./Fetchapis/Categories";
 
 
 
@@ -38,7 +41,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route path="/" exact>
-          <Login />
+          <Categories />
         </Route>
         <Route path="/Category">
           <Category />
@@ -71,6 +74,8 @@ function App() {
           <Route path="/hiphop" component={HipHop} />
           <Route path="/gamestart" component={GameStart} />
           <Route path="/game_start" component={QuizStart} />
+          <Route path="/oldschool" component={OldSchool} />
+          <Route path="/michaeljackson" component={MichaelJackson} />
     
           
           <Route path='/leaderboard'>
