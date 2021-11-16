@@ -11,7 +11,7 @@ import { General_questions } from '../Questions/general-questions';
 function Game_Play(){
 let {addScoreOnNext} = GameScoreFunction();
 const [showMessage, SetShowMessage] = useState(false); 
-const [random, setRandom] = useState(General_questions); 
+
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
 const space = " . ";
@@ -34,6 +34,24 @@ let {seconds, setSeconds} = useContext(GameContext);
 *shuffle,splice and questions display randomly
 * @param {boolean} startTime
 */  
+const [quizQuestion, setQuizQuestion]=useState<any[]>([])
+ useEffect(()=>{ 
+ var request = new XMLHttpRequest(); 
+ request.onreadystatechange = function() { 
+ if (request.readyState === 4 && request.status === 200) { 
+ const response=JSON.parse(request.response) 
+ setQuizQuestion(response) 
+ } 
+ }; 
+ request.open('GET', 'http://ec2-13-245-160-50.af-south-1.compute.amazonaws.com/api/v1/questions/quiz?quizId=619374efb0d2a82bc92eb25c', true); 
+ request.send(); 
+ },[]) 
+ 
+ useEffect(()=>{ 
+ console.log(quizQuestion) 
+ },[quizQuestion]) 
+
+ const [random, setRandom] = useState(General_questions); 
 useEffect(()=>{ 
     SetStartTime(true);    
     if(count === 2){
@@ -104,15 +122,16 @@ const onNextquestion = ()=>{
     <div key={"text_Section"}>                    
             <div key={"questions"}>
                 <div className='questions-section' key={"question_text"}>
-                   <p data-testid="display_questions"> 
+                {quizQuestion && quizQuestion.map(todo=> <p data-testid="display_questions"> 
                         <span>{currentQuestion + 1 }                           
                           {space}                           
                          </span>
-                        {random[currentQuestion].questionText} 
-                    </p>                        
+                         {todo.text}
+                    </p>)}                       
                 </div>
             </div>       
                  <div className='answer-section' key={"answer_button"}>
+                 
                     {
                       random[currentQuestion].answerOptions.map((answerOptions) => (      
                       <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
@@ -121,11 +140,7 @@ const onNextquestion = ()=>{
                  </div>    
            <div key={"buttons"}>
                 <br/>
-                    {
-                        showMessage ?(                      
-                        <p className="showMessage" key={"msg"}>Your Answer was Captured </p>
-                        ):( <> </>) 
-                    }
+                  
                     {   
                         timeup ?(                      
                         <p className="showMessage2" key={"msg2"}>Your Time is Up!!</p>
