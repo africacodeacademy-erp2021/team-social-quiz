@@ -36,7 +36,7 @@ function Category() {
 
         <div className="PlayerName"><img className="points_icon" width="51px"height="51px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
-                {playerName}</div>
+                <span>{playerName}</span></div>
               
               
         <div>
@@ -88,7 +88,7 @@ function Category() {
           <div className="img-3">
             <Link to="/historycategory">
               <img src={history} alt="history" width="345px" height="120px"  className="darker-img"/>
-              <div className="History-T">HiSTORY</div>
+              <div className="History-T">HISTORY</div>
             </Link>
           </div>
         </div>
