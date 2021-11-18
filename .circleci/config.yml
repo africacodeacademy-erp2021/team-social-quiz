@@ -34,5 +34,5 @@ jobs:
                command: npm install
             - run:
                 name: run tests
-                command: npm run test --verbose
+                command: npm run test
 
