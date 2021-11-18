@@ -2,6 +2,7 @@
  
   .designcolor {
     color: #61a0d2;
+    font-family: sans-serif;
   }
   
   .all_sections {
@@ -39,7 +40,7 @@
     color: white;
     margin-left: 15px;
     margin-top: -2px;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -48,7 +49,7 @@
   .b1_title{
     color: black;
     margin-left: 0px;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -60,7 +61,7 @@
     color: white;
     margin-left: 35px;
     margin-top: -2px;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -69,7 +70,7 @@
   .h3_title {
     color: white;
     margin-left: 35px;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
@@ -118,6 +119,8 @@
     font-weight: normal;
     font-size: 21px;
     line-height: 33px;
+    margin-left: -30px;
+
   }
   
   .btn_github {
@@ -135,6 +138,7 @@
     font-size: 21px;
     line-height: 33px;
     overflow:hidden;
+    margin-left: -30px;
   }
   
   .mylogo {
@@ -177,7 +181,7 @@
     height: 47px;
     text-align: left;
     border-radius: 20px;
-  
+    margin-left: -30px;
     background-color: #3c5a9a;
   
     font-family: Open Sans;
