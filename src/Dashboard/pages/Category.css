@@ -225,7 +225,7 @@
     font-family: sans-serif;
   }
   ::placeholder {
-    color: white;
+    color: rgba(0, 0, 0, 0.68);
     opacity: 1;
   }
   .Select {
@@ -235,16 +235,31 @@
 
   .search {
     position: absolute;
-    width: 398px;
+    width: 793px;
     height: 51px;
-    left: 320px;
-    margin-top: -80px;
+    left: 36px;
+    margin-top: -152px;
     border-radius: 19px;
     background: rgba(196, 196, 196, 0.37);
-    /* opacity: 0.5; */
     text-align: center;
     font-size: 24px;
   }
+  .SearchIcon{
+    /* margin-left: 66px;
+    margin-top: 18px; */
+
+    position:absolute;
+    bottom:18px;
+    left:80px;
+    width:27px;
+    height: 27px;
+  }
+  .SearchImputContainer{
+    position:relative;
+    padding:0;
+    margin:0;
+  }
+  
   .Numplays {
     display: flex;
     flex-direction: row;
