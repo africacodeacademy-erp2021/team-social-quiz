@@ -224,7 +224,7 @@ span {
 }
 .LeaderboardImage{
   margin-top: 50px;
-  margin-left: -35px;
+  margin-left: 34px;
   width: 28px;
   cursor: pointer;
 }
@@ -233,11 +233,11 @@ span {
   margin-left: -35px;
   width: 25px;
   cursor: pointer;
-  margin-left: -35px;
+  margin-left: 34px;
 }
 .CreateGameImage{
  
-  margin-left: -35px;
+  margin-left: 34px;
   width: 25px;
   cursor: pointer;
   margin-top: 45px;
@@ -247,7 +247,7 @@ span {
   
   width: 25px;
   cursor: pointer;
-  margin-left: -35px;
+  margin-left: 34px;
 }
 .CategoryList{
   font-family: sans-serif;
@@ -256,7 +256,7 @@ span {
   
   font-size: 18px;
   line-height: 25px;
-  margin-left: -58px;
+  margin-left: 0px;
   color: #FFFFFF;
 }
 .CreatGameList{
@@ -265,7 +265,7 @@ span {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  margin-left: -70px;
+  margin-left: 0px;
   color: #FFFFFF;
 
 }
@@ -275,7 +275,7 @@ span {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  margin-left: -49px;
+  margin-left: 20px;
   color: #FFFFFF;
 
 }
@@ -285,7 +285,7 @@ span {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  margin-left: -68px;
+  margin-left: 0px;
   color: #FFFFFF;
   align-items: center;
 
@@ -315,7 +315,7 @@ span {
   width: 60px;
   height: 12px;
   margin-top: 116px;
-  margin-left: -70px;
+  margin-left: 2px;
 }
 
 
