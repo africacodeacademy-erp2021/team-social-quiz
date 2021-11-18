@@ -39,6 +39,7 @@ function Navigation() {
             </Link>
           </div>
           <nav className={sidebar ? "nav-menu" : "nav-menu active"}>
+            
             <ul>
             <span>
               <div className="Categorybar">
