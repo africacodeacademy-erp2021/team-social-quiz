@@ -798,6 +798,7 @@
     bottom: 8.33%;
     width: 15px;
     height: 15px;
+    font-weight: 600;
   }
   #Medal {
     position: absolute;
