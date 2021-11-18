@@ -8,7 +8,8 @@ export default function Google(props: any) {
   let history = useHistory();
 
   const loginsuccess = (response: any) => {
-   localStorage.setItem("name", response.it.Se);
+    console.log(response.vu.IX)
+   localStorage.setItem("name", response.vu.IX);
     history.replace(props.path);
   };
 
