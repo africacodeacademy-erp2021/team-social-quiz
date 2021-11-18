@@ -1,9 +1,9 @@
 import {  Route, Switch, useHistory } from "react-router-dom";
 import profile from "../leaderboard/images/profile.png";
 import ScoreBoard from "../score/score";
-import image from "../leaderboard/images/winer.png";
-import winer2 from "../leaderboard/images/winer2.png";
-import winer3 from "../leaderboard/images/winer3.png";
+import image from "../leaderboard/images/winer.jpg";
+import winer2 from "../leaderboard/images/winer2.jpg";
+import winer3 from "../leaderboard/images/winer3.jpg";
 import winer4 from "../leaderboard/images/win4.png";
 import winer5 from "../leaderboard/images/win5.png";
 import retry from "../leaderboard/images/retry.png";
