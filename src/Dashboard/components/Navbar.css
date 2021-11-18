@@ -219,7 +219,7 @@ span {
 
 .HelpImage{
   margin-top: 1px;
-  margin-left: -35px;
+  margin-left: -10px;
   cursor: pointer;
 }
 .LeaderboardImage{
@@ -250,7 +250,7 @@ span {
   margin-left: -35px;
 }
 .CategoryList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   
@@ -260,7 +260,7 @@ span {
   color: #FFFFFF;
 }
 .CreatGameList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -270,7 +270,7 @@ span {
 
 }
 .HistoryList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -280,7 +280,7 @@ span {
 
 }
 .LeaderboardList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -291,7 +291,7 @@ span {
 
 }
 .HelpList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -311,7 +311,7 @@ span {
   padding: 5.5px 18px;
   position: absolute;
   background: #2836B8;
-  border-radius: 16px;
+  border-radius: 8px;
   width: 60px;
   height: 12px;
   margin-top: 116px;
