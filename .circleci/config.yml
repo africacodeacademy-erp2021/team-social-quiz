@@ -11,6 +11,17 @@ workflows:
            - test
       
 jobs:
+  build:
+    docker:
+     - image: cimg/node:14.13.0
+    steps:
+      - checkout
+      - run:
+          name: install dependencies
+          command: npm install
+      - run:
+          name: run build
+          command: npm run build
   test:
     docker:
      - image: cimg/node:14.13.0
@@ -24,14 +35,4 @@ jobs:
             - run:
                 name: run tests
                 command: npm run test --verbose
-  build:
-    docker:
-     - image: cimg/node:14.13.0
-    steps:
-      - checkout
-      - run:
-          name: install dependencies
-          command: npm install
-      - run:
-          name: run build
-          command: npm run build
+
