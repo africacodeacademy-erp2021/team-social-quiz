@@ -10,7 +10,7 @@ import Google from "./authentication-and-login/google_authentication/google";
 import Login from "./authentication-and-login/login/login";
 
 import {  render, screen } from "@testing-library/react";
-import PopCulture from "./Dashboard/pages/PopCulture";
+
 
 
 configure({ adapter: new Adapter() });
@@ -46,11 +46,6 @@ describe("Login Page", () => {
 
 
 
-test('renders learn react link', () => {
-  render(<PopCulture/>);
-  const linkElement = screen.getByText(/Plays/i);
-  expect(linkElement).toBeInTheDocument();
-});
 
 
   it('check if Authentication popup opens after clicking on Google button', () => {  
