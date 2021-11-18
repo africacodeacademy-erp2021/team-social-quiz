@@ -12,6 +12,7 @@ import Myori from "../Images/oris-two.jpg"
 import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import SearchIcon from "../Images/SearchIcon.svg";
 
 
 function Category() {
@@ -26,23 +27,13 @@ function Category() {
       <div className="sidebar">
         <br />
      
-        {/* <header>
-            {" "}
-            <h1 className="b1_title">
-              {" "}
-              <span className="designcolor">quiz</span>app
-            </h1>{" "}
-          </header> */}
-
         <div className="PlayerName"><img className="points_icon" width="51px"height="51px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
                 <span>{playerName}</span></div>
-              
-              
-        <div>
-        
-           
-          <input className="search" type="text" placeholder="Search Quizzes" />
+     
+        <div className="SearchImputContainer"> 
+          <input className="search" type="text" placeholder="Search Quizzes"/>
+          <img className="SearchIcon" alt="SearchIcon"src={SearchIcon}/>
         </div>
         <br />
         <span id="Most-Popular">Popular Now</span>
