@@ -304,6 +304,17 @@
 .blue-btn:hover{
         background: green;
 }
+.backButton{
+        width: 50px;  
+        height: 50px;           
+        font-family: sans-serif;
+        cursor: pointer;
+        margin-left: 250px;
+        margin-bottom: 0px;  
+}
+#backButton:hover{
+        background: green;
+}
 .share-btn{
         width: 95px;  
         height: 40px;      

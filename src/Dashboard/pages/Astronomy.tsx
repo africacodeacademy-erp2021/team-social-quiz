@@ -13,6 +13,7 @@ import AstronomyC from "../Images/HistoryC3.jpg";
 import Share from "./Share";
 import Navbar from "../components/Navbar";
 
+
 function Astronomy() {
   
   const players:any = [{
@@ -75,6 +76,7 @@ players.sort((a:any, b:any) => b.score - a.score);
                 <span>
                   <img className="Playicon" id="Star" src={Star} alt="Star" width="26px" height="26px" />
                   <span id="starText"></span>
+                  
                 </span>
               </div>
             </div>

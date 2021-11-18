@@ -12,6 +12,8 @@ import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
+import back from "../Images/backbutton.png"
 
 
 function HipHop() {
@@ -62,7 +64,9 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="QuizesText">Quizes 15</span>
           </span>
           <span><img id="Star" src={Star} alt="Star" width="26px" height="26px" /></span>
-         
+          <Link  to="/popculture">
+                  <img className="backButton" src={back} alt="back" width="50px" height="50px" />
+          </Link>
         </div>
 
         <div id="Ranks1">

@@ -30,6 +30,7 @@ export default function Leaderboards(props: any) {
     playerScore: getScore,
   });
   players.sort((a: any, b: any) => b.playerScore - a.playerScore);
+  
   let history = useHistory();
   function Retry() {
     let history = useHistory();

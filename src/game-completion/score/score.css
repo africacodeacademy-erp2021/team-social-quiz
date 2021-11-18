@@ -129,10 +129,15 @@ color: #FFFFFF;
     color: cornflowerblue;
     font-size: 45px;
     margin-left: 60px;
+    margin-left: 60px;
+
 }
 .Title-2{
     font-size: 45px;
     margin-left: 1px;
+    margin-left: 60px;
+    margin-left: 60px;
+
 }
 
 .points_icon{
@@ -220,7 +225,7 @@ bottom: 20%;
 padding-right: 10px;
 }
 #telegram{
-    position: absolute;
+position: absolute;
 left: 300%;
 top: 90%;
 bottom: 20%;

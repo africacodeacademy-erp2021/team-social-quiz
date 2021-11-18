@@ -10,7 +10,7 @@ import Google from "./authentication-and-login/google_authentication/google";
 import Login from "./authentication-and-login/login/login";
 
 import {  render, screen } from "@testing-library/react";
-import PopCulture from "./Dashboard/pages/PopCulture";
+
 
 
 configure({ adapter: new Adapter() });

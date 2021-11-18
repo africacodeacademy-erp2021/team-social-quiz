@@ -5,9 +5,10 @@ import ProgressBar from '../Game_Components/progress_Bar';
 import {useState, useContext, useEffect} from "react";
 import  GameScoreFunction from '../gameFunctions/gameScoreFunction';
 import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
-import { General_questions } from '../Questions/general-questions';
+import {General_questions} from '../Questions/general-questions';
 import Modal from '../Game_Components/EndButtonModal/EndButtonModal';
 import Backdrop from '../../Dashboard/components/PlayButton/Backdrop';
+
 
 
 function Game_Play(){
@@ -122,7 +123,7 @@ return(
             </div>       
                  <div className='answer-section' key={"answer_button"}>
                     {
-                      random[currentQuestion].answerOptions.map((answerOptions) => (      
+                      random[currentQuestion].answerOptions.map((answerOptions:any) => (      
                       <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
                       {answerOptions.answerText}</button> ))                                          
                     }                         
