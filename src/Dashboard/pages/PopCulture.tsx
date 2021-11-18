@@ -83,7 +83,7 @@ players.sort((a:any, b:any) => b.score - a.score);
             <div className="game-1" >
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
-          <span id="Quiz-1">Quiz</span>
+          <span id="Quiz-1">QUIZ</span>
           <span id="Hiphop">American Hip Hop</span>
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
@@ -97,7 +97,7 @@ players.sort((a:any, b:any) => b.score - a.score);
         <div className="game-2" >
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
-          <span id="Quiz-2">Quiz</span>
+          <span id="Quiz-2">QUIZ</span>
           <span id="Jazz">Old school Jazz</span>
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
@@ -109,7 +109,7 @@ players.sort((a:any, b:any) => b.score - a.score);
         <div className="game-3" >
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
-          <span id="Quiz-3">Quiz</span>
+          <span id="Quiz-3">QUIZ</span>
           <span id="Jackson">Michael Jackson</span>
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>

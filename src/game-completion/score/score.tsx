@@ -106,7 +106,7 @@ const click=()=>{
 
 
             </div>
-            <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="30" height ="30"/>
+            <div className ="score"><span id ="ponit"><img src ={image} alt ="gold" width ="51px" height ="51px"/>
             </span> <span>{PlayerScore}</span> 
             </div>
 

@@ -14,8 +14,8 @@
 
 .nav-menu {
   background-color: #22285f;
-  width: 230px;
-  height: 160vh;
+  width: 199px;
+  height: 1041px;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -219,12 +219,12 @@ span {
 
 .HelpImage{
   margin-top: 1px;
-  margin-left: -35px;
+  margin-left: -10px;
   cursor: pointer;
 }
 .LeaderboardImage{
   margin-top: 50px;
-  margin-left: -35px;
+  margin-left: 34px;
   width: 28px;
   cursor: pointer;
 }
@@ -233,11 +233,11 @@ span {
   margin-left: -35px;
   width: 25px;
   cursor: pointer;
-  margin-left: -35px;
+  margin-left: 34px;
 }
 .CreateGameImage{
  
-  margin-left: -35px;
+  margin-left: 34px;
   width: 25px;
   cursor: pointer;
   margin-top: 45px;
@@ -247,54 +247,54 @@ span {
   
   width: 25px;
   cursor: pointer;
-  margin-left: -35px;
+  margin-left: 34px;
 }
 .CategoryList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -58px;
+  margin-left: 0px;
   color: #FFFFFF;
 }
 .CreatGameList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -64px;
+  margin-left: 0px;
   color: #FFFFFF;
 
 }
 .HistoryList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -44px;
+  margin-left: 20px;
   color: #FFFFFF;
 
 }
 .LeaderboardList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
-  margin-left: -60px;
+  margin-left: 0px;
   color: #FFFFFF;
   align-items: center;
 
 }
 .HelpList{
-  font-family: Open Sans;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   margin-left: 5px;
   color: #FFFFFF;
@@ -311,11 +311,11 @@ span {
   padding: 5.5px 18px;
   position: absolute;
   background: #2836B8;
-  border-radius: 16px;
+  border-radius: 8px;
   width: 60px;
   height: 12px;
   margin-top: 116px;
-  margin-left: -70px;
+  margin-left: 2px;
 }
 
 
