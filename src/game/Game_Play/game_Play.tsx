@@ -8,10 +8,12 @@ import  GameScoreFunction from '../gameFunctions/gameScoreFunction';
 import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
 import { General_questions } from '../Questions/general-questions';
 
+
 function Game_Play(){
 let {addScoreOnNext} = GameScoreFunction();
+//const {General_questions} = Questions();
 const [showMessage, SetShowMessage] = useState(false); 
-
+const [random, setRandom] = useState(General_questions); 
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
 const space = " . ";
@@ -28,40 +30,41 @@ const {SetStartTime} = useContext(GameContext);
 const {SetScoreStatus} = useContext(GameContext);
 let {seconds, setSeconds} = useContext(GameContext);
 
+//Get Method
+let [data, setData] = useState<any[]>([]);
+
+const apiGet = () => {
+    fetch('http://localhost:4000/api/v1/questions/quiz?quizId=618bbb915dd870faac47d25c')
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json)
+        setData(json);
+        //let arrOne = Object.entries(json);
+        //console.log(arrOne);
+
+        //console.log(arrOne[0])
+
+ 
+      });
+  };
+
 /**
 * start Timer
 *check selected number of questions
 *shuffle,splice and questions display randomly
 * @param {boolean} startTime
 */  
-const [quizQuestion, setQuizQuestion]=useState<any[]>([])
- useEffect(()=>{ 
- var request = new XMLHttpRequest(); 
- request.onreadystatechange = function() { 
- if (request.readyState === 4 && request.status === 200) { 
- const response=JSON.parse(request.response) 
- setQuizQuestion(response) 
- } 
- }; 
- request.open('GET', 'http://ec2-13-245-160-50.af-south-1.compute.amazonaws.com/api/v1/questions/quiz?quizId=619374efb0d2a82bc92eb25c', true); 
- request.send(); 
- },[]) 
- 
- useEffect(()=>{ 
- console.log(quizQuestion) 
- },[quizQuestion]) 
-
- const [random, setRandom] = useState(General_questions); 
 useEffect(()=>{ 
     SetStartTime(true);    
     if(count === 2){
+    apiGet();
     window.addEventListener("load", function (){      
     Shuffle_questions(General_questions);
     General_questions.splice(10,0);
            let temp = General_questions;
            setRandom(temp);   
            SetCount(4); 
-        })     
+        });     
     }
 
 },[SetStartTime, SetCount,count]);
@@ -122,21 +125,30 @@ const onNextquestion = ()=>{
     <div key={"text_Section"}>                    
             <div key={"questions"}>
                 <div className='questions-section' key={"question_text"}>
-                {quizQuestion && quizQuestion.map(todo=> <p data-testid="display_questions"> 
-                        <span>{currentQuestion + 1 }                           
-                          {space}                           
+                <span>{currentQuestion + 1 }                          
+                         {space}                          
                          </span>
-                         {todo.text}
-                    </p>)}                       
+                         {/*random[currentQuestion].questionText*/}
+                         {/*data[currentQuestion].text*/}                         
+                         {data.map(data => <div>{data.text}</div>)}
+                                                      
+                           
                 </div>
+
             </div>       
                  <div className='answer-section' key={"answer_button"}>
-                 
-                    {
-                      random[currentQuestion].answerOptions.map((answerOptions) => (      
-                      <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
-                      {answerOptions.answerText}</button> ))                                          
-                    }                         
+                 {
+                    /*random[currentQuestion].answerOptions.map((answerOptions) => (      
+                    <button  className='answer-button' key={"myAnswerBtns"+ counterKey++} 
+                    onClick={() => handleAnswerButtonClick(answerOptions.isCorrect)}>
+                    {answerOptions.answerText}</button> )) */ 
+                    
+                    <button  className='answer-button' key={"myAnswerBtns"+ counterKey++}>                        
+                    {/*data[0].text*/}             
+                    </button> 
+                        
+                        
+                    }                                         
                  </div>    
            <div key={"buttons"}>
                 <br/>
@@ -162,4 +174,3 @@ const onNextquestion = ()=>{
  )
 }
 export default Game_Play;
-
