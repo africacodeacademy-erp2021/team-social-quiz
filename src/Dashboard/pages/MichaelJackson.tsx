@@ -139,11 +139,11 @@ function Back(){
             <h3>Description</h3>
         </div>
         <div id="DescriptionContainer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis habitasse amet,
-                 rutrum mattis ac.
-                Egestas arcu, quis arcu placerat nullam diam. Pellentesque morbi vitae massa,
-                aliquet urna nec elit suspendisse. Fringilla fermentum sed viverra lectus enim.
-                Dis sed ut mauris.</p>
+        <p>In this game the player will be asked 10 Michael Jackson related question,
+          how much do you know of one of the greatest dancer and singers of our time,
+          the questions can either be multiple choice questions 4 answers to choose from
+          or it could be a true or false question where they can choose whether an answer is correct 
+          or not. Emjoy aim for the highest score.</p>
 
         </div>
         <div id="SampleQuestions">

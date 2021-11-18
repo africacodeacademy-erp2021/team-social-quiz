@@ -63,7 +63,7 @@ return (
             </span>
             <span>
               <img className="Playicon" id="Quizes" src={Quizes} alt="Quizes" />
-              <span id="QuizesText">15 Quizes </span>
+              <span id="QuizesText">15 Quizzes </span>
             </span>
             <span>
               <img className="Playicon" id="Star" src={Star} alt="Star" width="26px" height="26px" />

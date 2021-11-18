@@ -43,11 +43,6 @@ describe("Login Page", () => {
   });
 });
 
-
-
-
-
-
   it('check if Authentication popup opens after clicking on Google button', () => {  
     const login = mount(<Google />),
         buttonclick = login.find("button");

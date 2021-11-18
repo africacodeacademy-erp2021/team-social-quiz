@@ -12,6 +12,7 @@ import Myori from "../Images/oris-two.jpg"
 import "./Category.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import SearchIcon from "../Images/SearchIcon.svg";
 
 
 function Category() {
@@ -26,23 +27,13 @@ function Category() {
       <div className="sidebar">
         <br />
      
-        <header>
-            {" "}
-            <h1 className="b1_title">
-              {" "}
-              <span className="designcolor">quiz</span>app
-            </h1>{" "}
-          </header>
-
-        <div className="PlayerName"><img className="points_icon" width="30px"height="30px"
+        <div className="PlayerName"><img className="points_icon" width="51px"height="51px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
-                {playerName}</div>
-              
-              
-        <div>
-        
-           
-          <input className="search" type="text" placeholder="Search Quizzes" />
+                <span>{playerName}</span></div>
+     
+        <div className="SearchImputContainer"> 
+          <input className="search" type="text" placeholder="Search Quizzes"/>
+          <img className="SearchIcon" alt="SearchIcon"src={SearchIcon}/>
         </div>
         <br />
         <span id="Most-Popular">Popular Now</span>
@@ -51,7 +42,7 @@ function Category() {
           <Link to="/popculture">
            <img className="PopMobile" src={Pop} alt="Pop" width="1060px" height="300px" />
            
-            <div className="bottom-left-1">Pop Culture</div>
+            <div className="bottom-left-1">POP CULTURE</div>
           </Link>
         </div>
 
@@ -68,7 +59,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Astronomy">Astronomy</div>
+              <div className="Astronomy">ASTRONOMY</div>
             </Link>
           </div>
 
@@ -82,13 +73,13 @@ function Category() {
                 className="darker-img"
                 
               />
-              <div className="Chemistry-T">Chemistry</div>
+              <div className="Chemistry-T">CHEMISTRY</div>
             </Link>
           </div>
           <div className="img-3">
             <Link to="/historycategory">
               <img src={history} alt="history" width="345px" height="120px"  className="darker-img"/>
-              <div className="History-T">History</div>
+              <div className="History-T">HISTORY</div>
             </Link>
           </div>
         </div>
@@ -106,7 +97,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Origins-T">Origins</div>
+              <div className="Origins-T">ORIGINS</div>
             </Link>
           </div>
 
@@ -119,7 +110,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Big-Bang">Big Bang</div>
+              <div className="Big-Bang">BIG BANG</div>
             </Link>
           </div>
 
@@ -132,7 +123,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Planets">Planets</div>
+              <div className="Planets">PLANETS</div>
             </Link>
           </div>
         </div>
@@ -150,7 +141,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Moles">Moles and Bonds</div>
+              <div className="Moles">MOLES AND BONDS</div>
             </Link>
           </div>
 
@@ -163,7 +154,7 @@ function Category() {
                 height="120px"
                 className="darker-img"
               />
-              <div className="Polymers">Polymers</div>
+              <div className="Polymers">POLYMERS</div>
             </Link>
           </div>
 
@@ -177,7 +168,7 @@ function Category() {
                 className="darker-img"
 
               />
-              <div className="Lab">Lab Techniques</div>
+              <div className="Lab">LAB TECHNIQUES</div>
             </Link>
           </div>
         </div>
@@ -190,27 +181,25 @@ function Category() {
           <div className="img-10">
             <Link to="/mummiesone">
               <img src={history} alt="history" width="345px" height="120px"  className="darker-img" />
-              <div className="Mummies">Mummies</div>
+              <div className="Mummies">MUMMIES</div>
             </Link>
           </div>
 
           <div className="img-11">
             <Link to="/mummiestwo">
               <img src={history} alt="history" width="345px" height="120px"  className="darker-img"/>
-              <div className="Mummies-1">Mummies</div>
+              <div className="Mummies-1">MUMMIES</div>
             </Link>
           </div>
 
           <div className="img-12">
             <Link to="/mummiesthree">
               <img src={history} alt="history" width="345px" height="120px" className="darker-img" />
-              <div className="Mummies-2">Mummies</div>
+              <div className="Mummies-2">MUMMIES</div>
             </Link>
           </div>
         </div>
-        <div id="heading-5">
-          <h2>Ice Breakers and Bell Ringers</h2>
-        </div>
+       
       </div>
     </div>
   );
