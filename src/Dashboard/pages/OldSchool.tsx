@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CategoryMedia.css';
 import PopC from "../Images/PopC.jpg";
 import Num from "../Images/Num.png";
@@ -10,13 +10,32 @@ import Hand from "../Images/Hand.png";
 import Flag from "../Images/Flag.png";
 import Record from "../Images/Record.png";
 import PlayButton from '../components/PlayButton/PlayButton';
+import Navbar from '../components/Navbar';
 
 
 function OldSchool() {
+  const [data, setData] =useState <any[]>([])
+ 
+
+  //Get Method
+  useEffect(()=>{ 
+    fetch("http://localhost:4000/api/v1/category?categoryId=6190a506ca0ee2f78708e930")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json[1].description);
+        setData(json[1].description);
+      })
+    },[]) 
+
     return (
-        <div>
+      <div className="screen">
+      <div className="hamburger">
+        <Navbar />
+       
+        </div>
+        <div className="sidebar">
         <div className="Select">
-          <img src={PopC} alt="Pop" width="100%;" height="200px" />
+          <img src={PopC} alt="Pop" />
         </div>
 
         <div className="Numplays">
@@ -27,12 +46,10 @@ function OldSchool() {
           <span id="QuizesText">Quizes 15</span>
           </span>
           <span><img id="Star" src={Star} alt="Star"  /></span>
-          
-          
-          
+         
         </div>
 
-        <div id="Ranks">
+        <div id="Ranks1">
 
          <span id="Ranks-header">Leaderboard</span> 
 
@@ -43,7 +60,7 @@ function OldSchool() {
           <div id="Four">4</div>
           <div id="Five">5</div>
           <div id="Six">6</div>
-          <div id="Eight">7</div>
+          <div id="Seven">7</div>
     </div> 
     
 
@@ -67,22 +84,16 @@ function OldSchool() {
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
      
-          {/* <span id="Line"></span> */} 
         </div>
         
-        {/*<button id="HipHopPlay" onClick={()=> history.push("/gamestart")}>Play</button>*/}
         <PlayButton />
         <span id="HipHopText">@quizapp</span>
+        <div></div>
         <div id="Description">
             <h3>Description</h3>
         </div>
         <div id="DescriptionContainer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis habitasse amet,
-                 rutrum mattis ac.
-                Egestas arcu, quis arcu placerat nullam diam. Pellentesque morbi vitae massa,
-                aliquet urna nec elit suspendisse. Fringilla fermentum sed viverra lectus enim.
-                Dis sed ut mauris.</p>
-
+        <p>{data}</p>
         </div>
         <div id="SampleQuestions">
             <h3>Sample Questions</h3>
@@ -90,16 +101,17 @@ function OldSchool() {
             
             
         </div>
-        <span id="Tupac"><p>Which country Mandoza come from?</p></span>
+        <span id="Tupac"><p>Who killed 2puc?</p></span>
         <div>
         <img  className="RecordImage" src={Record} alt="Hand"/>
         </div>
-        <span id="Records"><p>When did Brenda Fassie die?</p></span>
+        <span id="Records"><p>Which artist has sold the most records?</p></span>
         <div>
         <img  className="FlagImage" src={Flag} alt="Flag"/>
         </div>
-        <span id="FlagText"><p>How old is Lionel Richie?</p></span>
+        <span id="FlagText"><p>Who are these people?</p></span>
             
+        </div>
         </div>
     )
 }

@@ -15,23 +15,20 @@ import Navbar from '../components/Navbar';
 
 
 function HipHop() {
-  const [quiz,setQuiz]=useState<any[]>([])
- useEffect(()=>{ 
- var request = new XMLHttpRequest(); 
- request.onreadystatechange = function() { 
- if (request.readyState === 4 && request.status === 200) { 
- const response=JSON.parse(request.response) 
- setQuiz(response) 
- } 
- }; 
- request.open('GET', 'http://localhost:4000/api/v1/quizzes', true); 
- request.send(); 
- },[]) 
+  const [data, setData] =useState <any[]>([])
  
- useEffect(()=>{ 
- console.log(quiz) 
- },[quiz]) 
- 
+
+
+  //Get Method
+  useEffect(()=>{ 
+    fetch("http://localhost:4000/api/v1/category?categoryId=6190a506ca0ee2f78708e930")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json[0].description);
+        setData(json[0].description);
+      })
+    },[]) 
+
     return (
       <div className="screen">
       <div className="hamburger">
@@ -92,14 +89,13 @@ function HipHop() {
         </div>
         
         <PlayButton />
-        <span id="HipHopText">@quizapp <br/>{quiz && quiz.map(quizzes=><p>{quizzes.title}</p>)}</span>
+        <span id="HipHopText">@quizapp</span>
         <div></div>
         <div id="Description">
             <h3>Description</h3>
         </div>
         <div id="DescriptionContainer">
-        {quiz && quiz.map(quizzes=><p>{quizzes.description}</p>)}
-
+        <p>{data}</p>
         </div>
         <div id="SampleQuestions">
             <h3>Sample Questions</h3>

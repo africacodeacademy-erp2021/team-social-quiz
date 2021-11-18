@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Login from "./authentication-and-login/login/login";
+
 
 import Registration from "./authentication-and-login/registration/registration";
 
@@ -24,14 +24,17 @@ import MummiesThree from "./Dashboard/pages/MummiesThree";
 import Category from "./Dashboard/pages/Category";
 import GameStart from "./Dashboard/pages/GameStart";
 import HipHop from "./Dashboard/pages/HipHop";
-import OldSchool from "./Dashboard/pages/OldSchool";
+
 import MichaelJackson from "./Dashboard/pages/MichaelJackson";
 
 
 import ScoreBoard  from './game-completion/score/score';
 import QuizStart from "./game/Game_Play/game_start";
 import Leaderboards from "./game-completion/leaderboard/leaderboard";
-import Categories from "./Fetchapis/Categories";
+
+import Login from "./authentication-and-login/login/login";
+import OldSchool from "./Dashboard/pages/OldSchool";
+import Categories from "./Fetchapis/Categories"
 
 
 
@@ -59,7 +62,7 @@ function App() {
           
           <Route path="/Help" component={Help} />
           <Route path="/popculture" component={PopCulture}/>
-          <Route path="/astronomy" component={Astronomy} />
+          <Route path="/astronomy" component={Astronomy } />
           <Route path="/chemistry" component={Chemistry} />
           <Route path="/historycategory" component={HistoryCategory} />
           <Route path="/origins" component={Origins} />

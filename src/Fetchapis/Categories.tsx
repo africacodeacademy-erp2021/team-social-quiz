@@ -7,7 +7,7 @@ function Categories() {
 
   //Get Method
   const apiGet = () => {
-    fetch("http://localhost:4000/api/v1/quizzes")
+    fetch("http://localhost:4000/api/v1/category?categoryId=6190a506ca0ee2f78708e930")
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
@@ -15,29 +15,25 @@ function Categories() {
       });
   };
 
-    useEffect(()=>{ 
-    var request = new XMLHttpRequest(); 
-    request.onreadystatechange = function() { 
-    if (request.readyState === 4 && request.status === 200) { 
-    const response=JSON.parse(request.response) 
-    setQuiz(response) 
-    } 
-    }; 
-    request.open('GET', 'http://localhost:4000/api/v1/catgeories', true); 
-    request.send(); 
-    },[]) 
-    
-    useEffect(()=>{ 
-    console.log(quiz) 
-    },[quiz]) 
+  const apiGet2 = () => {
+    fetch("http://localhost:4000/api/v1/category?categoryId=619172290d822d00b4e956bf")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json);
+        setData(json);
+      });
+  };
+
+  
     return (
         <div>
             
-             {quiz && quiz.map(quizzes=>
+             
                 
-                <><button onClick={apiGet}><p id={quizzes.id}>{quizzes.text} </p></button></>
+                <><button onClick={apiGet}>Pop Culture</button></>
+                <button onClick={apiGet2}>History</button>
  
-             )}
+          
              
               {data.map((item) => (
                     <li key={item.id}>

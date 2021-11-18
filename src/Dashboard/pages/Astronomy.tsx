@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
 import Quizes from "../Images/Quizes.png";
@@ -14,7 +14,23 @@ import Share from "./Share";
 import Navbar from "../components/Navbar";
 
 function Astronomy() {
-  
+  const [data, setData] =useState <any[]>([])
+  const [data1, setData1] = useState <any[]>([])
+  const [data2, setData2] = useState <any[]>([])
+
+
+  //Get Method
+  useEffect(()=>{ 
+    fetch("http://localhost:4000/api/v1/category?categoryId=619172560d822d00b4e956c5")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json[0].title);
+        console.log(json[1].title)
+        setData(json[0].title);
+        setData1(json[1].title);
+        setData2(json[2].title);
+
+      })},[])
   const players:any = [{
     name: "Mokokoane",
     score: 21
@@ -83,11 +99,11 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
-          <span id="Hiphop">American Hip Hop</span>
+          <span id="Hiphop">{data}</span>
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
-          <span id="Play-btn"><Playandshare path="/Hiphop"/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/Origins"/><Share/></span>
           
           
         </div>
@@ -97,23 +113,23 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
-          <span id="Jazz">Old school Jazz</span>
+          <span id="Jazz">{data1}</span>
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
           
-          <span id="Play-btn"><Playandshare path="/OldSchool" /><Share/></span>
+          <span id="Play-btn"><Playandshare path="/BigBang" /><Share/></span>
          
         </div>
         <div className="game-3" >
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
-          <span id="Jackson">Michael Jackson</span>
+          <span id="Jackson">{data2}</span>
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare path="/MichaelJackson"/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/Planets"/><Share/></span>
          
           
         </div>

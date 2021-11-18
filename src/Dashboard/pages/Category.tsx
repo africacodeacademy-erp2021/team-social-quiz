@@ -166,21 +166,21 @@ function Category() {
           <div className="img-10">
             <Link to="/mummiesone">
               <img src={history} alt="history" width="345px" height="120px" />
-              <div className="Mummies">Mummies</div>
+              <div className="Mummies">Lesotho History</div>
             </Link>
           </div>
 
           <div className="img-11">
             <Link to="/mummiestwo">z
               <img src={history} alt="history" width="345px" height="120px" />
-              <div className="Mummies-1">Mummies</div>
+              <div className="Mummies-1">Botswana History</div>
             </Link>
           </div>
 
           <div className="img-12">
             <Link to="/mummiesthree">
               <img src={history} alt="history" width="345px" height="120px" />
-              <div className="Mummies-2">Mummies</div>
+              <div className="Mummies-2">American History</div>
             </Link>
           </div>
         </div>

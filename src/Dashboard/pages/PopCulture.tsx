@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PopC from "../Images/PopC.png";
 import HistoryC from "../Images/HistoryC.jpg";
 import Num from "../Images/Num.png";
@@ -15,6 +15,23 @@ import Navbar from "../components/Navbar";
 import "./page2.css";
 
 function PopCulture() {
+  const [data, setData] =useState <any[]>([])
+  const [data1, setData1] = useState <any[]>([])
+  const [data2, setData2] = useState <any[]>([])
+
+
+  //Get Method
+  useEffect(()=>{ 
+    fetch("http://localhost:4000/api/v1/category?categoryId=6190a506ca0ee2f78708e930")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json[0].title);
+        console.log(json[1].title)
+        setData(json[0].title);
+        setData1(json[1].title);
+        setData2(json[2].title);
+
+      })},[])
   const players:any = [{
     name: "Mokokoane",
     score: 21
@@ -56,6 +73,7 @@ players.sort((a:any, b:any) => b.score - a.score);
             <div className="Select">
               <img className="popc" src={PopC} alt="popculture" />
             </div>
+            </div>
             <div className="Frame">
               <div className="Numplays">
                 <span>
@@ -78,11 +96,11 @@ players.sort((a:any, b:any) => b.score - a.score);
               </div>
             </div>
 
-            <div className="game-1" >
+        <div className="game-1" >
           <span id="Hiphop-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-1">@quizapp</span>
           <span id="Quiz-1">Quiz</span>
-          <span id="Hiphop">American Hip Hop</span>
+          <span id="Hiphop">{data}</span>
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
@@ -96,7 +114,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="Jazz-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-2">@quizapp</span>
           <span id="Quiz-2">Quiz</span>
-          <span id="Jazz">Old school Jazz</span>
+          <span id="Jazz">{data1}</span>
           <img  className="Play-2" src={Plays} alt="Play" />
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
@@ -108,7 +126,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <span id="Jackson-img"><img src={HistoryC} alt="history" width="100px" height="100px" /></span>
           <span id="QuizText-3">@quizapp</span>
           <span id="Quiz-3">Quiz</span>
-          <span id="Jackson">Michael Jackson</span>
+          <span id="Jackson">{data2}</span>
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
@@ -171,12 +189,18 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img id="Points-6" src={Points} alt="Points"/>
           <img id="Points-7" src={Points} alt="Points"/>
 
-           
-        </div>
-        </div>
-        </div>
-        </div>
+            <div className="rightbar">
+              <div id="Ranks">
+                <span id="Ranks-header">Category Ranks</span>
+
+          
+  
         
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
   </>
   );
 }
