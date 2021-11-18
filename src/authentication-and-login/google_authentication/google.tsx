@@ -1,7 +1,6 @@
 import GoogleLogin from "react-google-login";
 import * as dotenv from "dotenv";
-import { FaFontAwesome } from "react-icons/fa";
-import "../../App";
+import { FaFontAwesome } from "react-icons/fa";import "../../App";
 import { useHistory } from "react-router-dom";
 
 export default function Google(props: any) {

@@ -15,26 +15,7 @@ import {  render, screen } from "@testing-library/react";
 
 configure({ adapter: new Adapter() });
 
-describe("Facebook Button", () => {
-  it("renders correctly", () => {
-    const wrapper = shallow(<Facebook />);
-    expect(wrapper).toMatchSnapshot();
-  });
-});
 
-describe("Github Button", () => {
-  it("renders correctly", () => {
-    const wrapper = shallow(<Github />);
-    expect(wrapper).toMatchSnapshot();
-  });
-});
-
-describe("Google Button", () => {
-  it("renders correctly", () => {
-    const wrapper = shallow(<Google />);
-    expect(wrapper).toMatchSnapshot();
-  });
-});
 
 describe("Login Page", () => {
   it("renders correctly", () => {
