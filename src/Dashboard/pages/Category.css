@@ -236,11 +236,11 @@
   .search {
     position: absolute;
     width: 398px;
-    height: 57px;
+    height: 51px;
     left: 320px;
-    top: 6px;
+    margin-top: -80px;
     border-radius: 19px;
-    background: #22285f;
+    background: rgba(196, 196, 196, 0.37);
     /* opacity: 0.5; */
     text-align: center;
     font-size: 24px;
@@ -1397,7 +1397,7 @@
 .PlayerName {
   width: 100%;
   height: 60px;
-  margin-top: -50px;
+  margin-top: -20px;
 
   font-size: 36px;
   text-align: right;

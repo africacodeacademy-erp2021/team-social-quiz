@@ -26,13 +26,13 @@ function Category() {
       <div className="sidebar">
         <br />
      
-        <header>
+        {/* <header>
             {" "}
             <h1 className="b1_title">
               {" "}
               <span className="designcolor">quiz</span>app
             </h1>{" "}
-          </header>
+          </header> */}
 
         <div className="PlayerName"><img className="points_icon" width="51px"height="51px"
                 alt="score" src="https://image.flaticon.com/icons/png/512/149/149071.png"/>
