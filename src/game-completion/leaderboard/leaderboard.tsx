@@ -14,6 +14,7 @@ export default function Leaderboards(props: any) {
   const Scorereplace = score.replace('"', "");
   const scoreReplace = Scorereplace.replace('"', "");
   const getScore = parseInt(scoreReplace);
+  const mypic = 'https://images.squarespace-cdn.com/content/v1/5e0f21b80d7a60259e9a7f32/1594725391596-7U4S453AFSL0NP42NFHR/char_2-01.jpg'
 
   const data = JSON.stringify(localStorage.getItem("name"));
   const name = data.replace('"', "");
@@ -171,7 +172,7 @@ export default function Leaderboards(props: any) {
                 width="40px"
                 height="40px"
                 alt="score"
-                src={winer4}
+                src={mypic}
               />
               <span className="username4"> {players[3].name} </span>
               <span className="score4">
