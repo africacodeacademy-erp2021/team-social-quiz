@@ -9,6 +9,7 @@ import GreateGame from "../Images/GreateGame.png";
 import Help from "../Images/Help.png";
 import HistoryIcon from "../Images/HistoryIcon.png";
 import Category from "../Images/Category.png";
+import logo from "../Images/logo.svg";
 
 
 function Navigation() {
@@ -32,6 +33,7 @@ function Navigation() {
   return (
     <>
       <div className="Navigation">
+      
         <IconContext.Provider value={{ color: "#fff" }}>
           <div className="navbar">
             <Link to="#" className="menu-bars">
@@ -42,8 +44,10 @@ function Navigation() {
             
             <ul>
             <span>
+            <img className="logo" src={logo} alt="logo" width="" height="" />
               <div className="Categorybar">
             <ul className="CategoryIcons">
+            
               <img className="CategoryImage" src={Category} onClick={handleCategory} alt="CategoryIcon"/>
               </ul>
               <ul className="CategoryList">
