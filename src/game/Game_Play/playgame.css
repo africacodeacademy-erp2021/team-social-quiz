@@ -175,7 +175,8 @@
 margin-left: 59.17%;
 margin-right: 1.17%;
 margin-top: 3.08%;
-margin-bottom: -9.33%;
+margin-bottom: -3.33%;
+
 
 }
 
@@ -1124,4 +1125,88 @@ progress {
 
 
 
+@media(max-width:2633px){
+
+    .body1{
+        height: 985px;
+    }
+.score_count{
+    text-align: right;
+    align-items: flex-end;
+}
+.audio_time_score-section{
+    max-width: 100%;
+    min-width: 60%;
+    height: 60px;
+    display: flex;
+    text-align: center;    
+}
+.audio-section{
+  width: 33.3%;
+}
+.audio-section .audio{
+    margin-left: -35%;
+    margin-right: 0%;
+    margin-top: 5.10%;
+    margin-bottom:  0%;
+    
+
+}
+.timer-section{
+  width: 33.3%; 
+}
+.timer-section .timer{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 6.10%;
+    margin-bottom:  0%;
+    
+    background: #3C437E;
+    font-size: 16px;
+    
+    border-radius: 50px;
+    border: #3C437E;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    width:100px;
+    height:100px;
+}
+.score-section{
+  
+  width: 33.4%;
+  display: flex;
+}
+.score-section .score_count{
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 23px;
+    align-items: center;
+    text-align: left;
+    width: 33px;
+    height: 23px;
+    left: 37px;
+    margin-top: 10.1%;
+    margin-right: 110px;
+    
+    color: #FFFFFF;
+}
+.score-section .img{
+    
+margin-left: 59.17%;
+
+margin-top: 1.08%;
+margin-bottom: -9.33%;
+height: 90px;
+
+}
+    
+}
 
