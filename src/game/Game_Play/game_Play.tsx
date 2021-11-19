@@ -5,7 +5,7 @@ import ProgressBar from '../Game_Components/progress_Bar';
 import {useState, useContext, useEffect} from "react";
 import  GameScoreFunction from '../gameFunctions/gameScoreFunction';
 import { Shuffle_questions } from '../gameFunctions/randomizeFunction';
-import { General_questions } from '../Questions/general-questions';
+import { American_Hiphop } from '../Questions/hiphop';
 import Modal from '../Game_Components/EndButtonModal/EndButtonModal';
 import Backdrop from '../../Dashboard/components/PlayButton/Backdrop';
 
@@ -13,7 +13,7 @@ import Backdrop from '../../Dashboard/components/PlayButton/Backdrop';
 function Game_Play(){
 let {addScoreOnNext} = GameScoreFunction();
 
-const [random, setRandom] = useState(General_questions); 
+const [random, setRandom] = useState(American_Hiphop); 
 const [modalIsOpen, setModalIsOpen] =  useState(false);
 const [timeup, SetTimeUp] = useState(false);
 let   [count, SetCount] = useState(2);
@@ -41,9 +41,9 @@ useEffect(()=>{
     SetStartTime(true);    
     if(count === 2){
     window.addEventListener("load", function (){      
-    Shuffle_questions(General_questions);
-    General_questions.splice(10,0);
-           let temp = General_questions;
+    Shuffle_questions(American_Hiphop);
+    American_Hiphop.splice(10,0);
+           let temp = American_Hiphop;
            setRandom(temp);   
            SetCount(4); 
         })     
