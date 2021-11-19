@@ -10,6 +10,7 @@ export default function Facebook(props: any) {
   
 
   const responseFacebook = (response: any) => {
+    console.log(response);
     localStorage.setItem("name", response.name);
     history.replace(props.path);
   };
