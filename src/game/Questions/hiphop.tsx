@@ -70,7 +70,7 @@ export const American_Hiphop = [
         ],
     }  ,
     {
-        questionText: 'Which American rapper took his $996,631.90 music video budget and Gave it all away',
+        questionText: 'Which American rapper took his $996,631.90 music video budget and Gave it all away ?',
         answerOptions: [
             { answerText: 'Dr. Dre', isCorrect: false },
             { answerText: 'Lil Wanye', isCorrect: false },
@@ -81,7 +81,7 @@ export const American_Hiphop = [
         ],
     },
     {
-        questionText: 'Who won the most BET Awards 2021',
+        questionText: 'Who won the most BET Awards 2021 ?',
         answerOptions: [
             { answerText: 'Roddy Ricch', isCorrect: false },
             { answerText: 'Drake', isCorrect: false },

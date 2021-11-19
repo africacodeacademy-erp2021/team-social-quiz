@@ -96,8 +96,8 @@ const click=()=>{
            <span>
               <img
               className="points_icon"
-              width="30px"
-              height="30px"
+              width="51px"
+              height="51px"
               alt="score"
               src={profile}
               />
