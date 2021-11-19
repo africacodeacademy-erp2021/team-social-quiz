@@ -120,6 +120,7 @@
     font-size: 21px;
     line-height: 33px;
     margin-left: -36px;
+    cursor: pointer;
 
   }
   
@@ -139,6 +140,7 @@
     line-height: 33px;
     overflow:hidden;
     margin-left: -36px;
+    cursor: pointer;
   }
   
   .mylogo {
@@ -161,6 +163,7 @@
     line-height: 33px;
     float: center;
     text-align: right;
+    cursor: pointer;
   }
   
   .btn_googleinfo {
@@ -173,6 +176,7 @@
     bottom: 21.57%;
     line-height: 33px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .btn_facebook {
@@ -190,6 +194,7 @@
     font-size: 21px;
     line-height: 33px;
     overflow:hidden;
+    cursor: pointer;
   }
   
   .my-facebook-button-class {
@@ -203,6 +208,7 @@
     line-height: 33px;
     background-color: #3c5a9a;
     color: white;
+    cursor: pointer;
   }
   
   .myfacebooklogo {

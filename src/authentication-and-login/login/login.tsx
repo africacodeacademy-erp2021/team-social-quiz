@@ -30,11 +30,11 @@ function Login() {
           <br />
           <br />
           <div className="buttons_container">
-            <Google buttonName="SignIn with Google" path="/Category"/>
+            <Google buttonName="&nbsp;SignIn with Google" path="/category"/>
             <br />
-            <Facebook buttonName="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Facebook" path="/Category"/>
+            <Facebook buttonName="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Facebook" path="/category"/>
             <br />
-            <Github buttonName= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Github" path="/Category" />
+            <Github buttonName= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignIn with Github" path="/category" />
           </div>
 
           <br />

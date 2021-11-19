@@ -42,7 +42,7 @@ function App() {
         <Route path="/" exact>
           <Login />
         </Route>
-        <Route path="/Category">
+        <Route path="/category">
           <Category />
         </Route>
         <Route path="/registration">

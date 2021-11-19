@@ -88,7 +88,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-1" src={Plays} alt="Play"/>
           <img  className="Vector-1" src={Vector} alt="Vector"/>
           <span id="History-1">History</span>
-          <span id="Play-btn"><Playandshare path="/Hiphop"/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/hiphop"/><Share/></span>
           
           
         </div>
@@ -103,7 +103,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Vector-2" src={Vector} alt="Vector"/>
           <span id="History-2">History</span>
           
-          <span id="Play-btn"><Playandshare path="/OldSchool" /><Share/></span>
+          <span id="Play-btn"><Playandshare path="/oldschool" /><Share/></span>
          
         </div>
         <div className="game-3" >
@@ -114,7 +114,7 @@ players.sort((a:any, b:any) => b.score - a.score);
           <img  className="Play-3" src={Plays} alt="Play" />
           <img  className="Vector-3" src={Vector} alt="Vector"/>
           <span id="History-3">History</span>
-          <span id="Play-btn"><Playandshare path="/MichaelJackson"/><Share/></span>
+          <span id="Play-btn"><Playandshare path="/michaeljackson"/><Share/></span>
          
           
         </div>
